@@ -1,0 +1,67 @@
+
+<div class="page-header">
+  <h2>{{'options_tab_ui' | tr}}</h2>
+</div>
+<section class="settings-group">
+  <h3>{{'options_group_miscOptions' | tr}}</h3>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" ng-model="options[&quot;-confirmDeletion&quot;]"/><span>{{'options_confirmDeletion' | tr}}</span>
+    </label>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input id="refresh-on-profile-change" type="checkbox" ng-model="options[&quot;-refreshOnProfileChange&quot;]"/><span>{{'options_refreshOnProfileChange' | tr}}</span>
+    </label>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" ng-model="options[&quot;-showInspectMenu&quot;]"/><span>{{'options_showInspectMenu' | tr}}</span>
+    </label>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" ng-model="options[&quot;-addConditionsToBottom&quot;]"/><span>{{'options_addConditionsToBottom' | tr}}</span>
+    </label>
+  </div>
+</section>
+<section class="settings-group">
+  <h3>{{'options_group_keyboardShortcut' | tr}}</h3>
+  <p>
+    <button type="button" role="button" ng-click="openShortcutConfig()" class="btn btn-default"><span class="glyphicon glyphicon-share-alt"></span> {{'options_menuShortcutConfigure' | tr}}
+    </button> {{'options_menuShortcutHelp' | tr}}
+  </p>
+  <p class="help-block">{{'options_menuShortcutMore' | tr}}</p>
+</section>
+<section class="settings-group">
+  <h3>{{'options_group_switchOptions' | tr}}</h3>
+  <div class="form-group">
+    <label>{{'options_startupProfile' | tr}}</label> 
+    <div omega-profile-select="options | profiles:&quot;all&quot;" ng-model="options[&quot;-startupProfileName&quot;]" default-text="{{'options_startupProfile_none' | tr}}" disp-name="dispNameFilter" style="display: inline-block;" options="options"></div>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" ng-model="options[&quot;-showConditionTypes&quot;]" ng-true-value="1" ng-false-value="0"/><span>{{'options_showConditionTypesAdvanced' | tr}}</span>
+    </label>
+    <p class="help-block">{{'options_showConditionTypesAdvancedHelp' | tr}}</p>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" ng-model="options[&quot;-enableQuickSwitch&quot;]"/><span>{{'options_quickSwitch' | tr}}</span>
+    </label>
+  </div>
+  <div id="quick-switch-settings" ng-show="options[&quot;-enableQuickSwitch&quot;]" ng-controller="QuickSwitchCtrl" class="settings-group">
+    <h4>{{'options_cycledProfiles' | tr}}</h4>
+    <p class="help-block">{{'options_cycledProfilesHelp' | tr}}</p>
+    <div ng-show="options[&quot;-quickSwitchProfiles&quot;].length &lt; 2" class="has-error">
+      <p class="help-block">{{'options_cycledProfilesTooFew' | tr}}</p>
+    </div>
+    <ul ui-sortable="sortableOptions" ng-model="options[&quot;-quickSwitchProfiles&quot;]" class="cycle-profile-container cycle-enabled">
+      <li ng-repeat="name in options[&quot;-quickSwitchProfiles&quot;]"><span omega-profile-inline="profileByName(name)" options="options" disp-name="dispNameFilter"></span></li>
+    </ul>
+    <h4>{{'options_notCycledProfiles' | tr}}</h4>
+    <ul ui-sortable="sortableOptions" ng-model="notCycledProfiles" class="cycle-profile-container">
+      <li ng-repeat="name in notCycledProfiles" class="bg-success"><span omega-profile-inline="profileByName(name)" options="options" disp-name="dispNameFilter"></span></li>
+    </ul>
+  </div>
+</section>

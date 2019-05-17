@@ -1,0 +1,223 @@
+<html>
+<head>
+<title>FireShot Options</title>
+<script src="scripts/3p/jquery-3.3.1.min.js"></script>
+<script src="scripts/fsUtils.js"></script>
+<script src="scripts/fsOptions.js"></script>
+<style>
+body {
+    font-size: 14px;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	background:#f5f5f5;
+	padding: 20px;
+  }
+
+h1 {font-size: 30px; font-weight: normal;}
+
+h2 {font-size: 14px; margin:0}
+
+table {font-size: 14px;}
+
+#tblMain td {
+	padding: 20px 10px 20px 10px;
+	border-top: #dddddd solid 1px;
+	vertical-align:top;
+}
+
+#tblTemplate {margin-left:30px}
+
+#tblTemplate td {
+	padding: 0px 10px 15px 10px;
+	border: none;
+	vertical-align:top;
+	font-size:12px;
+}
+
+#tblHotkeys td {border: none; vertical-align:middle; padding: 0px 10px 15px 10px;}
+
+#logo {vertical-align:middle; margin-right:15px}
+
+
+button {padding: 5px}
+
+.link-button {
+-webkit-box-shadow: none;
+background: transparent none;
+border: none;
+color: rgb(17, 85, 204);
+cursor: pointer;
+font: inherit;
+margin: 0;
+padding: 0 4px;
+}
+
+.comment {font-size:12px; font-style:italic; color:#666; line-height:18px;}
+
+#divTemplateSettings {display:none;}
+
+#container {display:block;}
+
+</style>
+</head>
+<body>
+<div id="container">
+<h1><img id="logo" src="/images/sss_48.png"><span data-i18n="options_label_fireshot_options">options_label_fireshot_options</span></h1>
+<table cellpadding="0" cellspacing="0" border="0" id="tblMain">
+<tr class="native">
+<td>
+<h2><span data-i18n="options_label_capturing">Capturing</span></h2>
+</td>
+<td>
+<p><span data-i18n="options_label_specify_resizing_options">options_label_specify_resizing_options</span></p>
+<button id="btnCapSettings"><span data-i18n="options_button_setup">options_button_setup</span>...</button>
+</td>
+</tr>
+<tr class="native">
+<td>
+<h2><span data-i18n="options_label_editor_options">Editor options</span></h2>
+</td>
+<td>
+<p><span data-i18n="options_label_specify_editor_options">options_label_specify_editor_options</span></p>
+<button id="btnGeneralOptions"><span data-i18n="options_button_setup">options_button_setup</span>...</button>
+</td>
+</tr>
+<tr class="lite">
+<td>
+<h2><span data-i18n="options_label_file_settings">File settings</span></h2>
+</td>
+<td>
+  <p><strong><span data-i18n="options_label_save_image_as">Save Image as:</span></strong></p>
+<p>
+<input type="radio" id="radImagePNG" name="radImageFormat" value="png"><label for="radImagePNG">PNG</label>
+<br>
+<input type="radio" id="radImageJPG" name="radImageFormat" value="jpg"><label for="radImageJPG">JPG</label><br>
+</p>
+<p>&nbsp;</p>
+
+<p><strong><span data-i18n="options_label_customize_saving">Customize process</span>:</strong></p>
+
+<p>
+	<input id="chkDoNotShowSaveAsDialog" type="checkbox">
+    <label for="chkDoNotShowSaveAsDialog"><span data-i18n="options_label_no_saveas_dialog">Do not show "Save as" dialog</span></label>
+</p>
+
+<p>
+	<input id="chkOpenFolder" type="checkbox">
+    <label for="chkOpenFolder"><span data-i18n="options_label_open_folder_after_saving">Show downloaded file in folder after saving</span></label>
+</p>
+
+<p>
+	<input id="chkCloseTab" type="checkbox">
+    <label for="chkCloseTab"><span data-i18n="options_label_close_tab_after_saving">Close tab after saving</span></label>
+</p>
+
+  
+  <p>&nbsp;</p>
+
+<p>
+  <span data-i18n="options_label_default_folder">Default output folder</span>: 
+  <input id="edtDefaultFolder" type="text" size="20"><br>
+  <span data-i18n="options_label_default_folder_hint" id="spnComment" class="comment">A file path relative to the Downloads directory to contain the stored file, possibly containing subdirectories. <br>
+        Absolute paths, empty paths, and paths containing back-references ".." will cause an error.
+  </span>
+</p>
+
+  
+  <p>&nbsp;</p>
+  
+  <button id="btnTemplateSettings" class="link-button" data-i18n="options_link_filename_template_settings">Template settings...</button>
+
+  <div id="divTemplateSettings">
+      <p>
+      	<span data-i18n="options_label_default_filename_template">Default filename template:</span>
+        <input id="edtFilenameTemplate" type="text" size="40">
+      </p>
+      <table id="tblTemplate">
+    <tr>
+        <td><label id="url"> %u - <span data-i18n="options_label_template_url">Page URL</span></label></td>
+        <td>%y - <span data-i18n="options_label_template_year">Year</span></td>
+        <td>%H - <span data-i18n="options_label_template_hour">Hour</span></td>
+    </tr>
+    <tr>
+        <td>%e - <span data-i18n="options_label_template_website">Page website</span></td>
+        <td>%m - <span data-i18n="options_label_template_month">Month</span></td>
+        <td>%M - <span data-i18n="options_label_template_minutes">Minutes</span></td>
+    </tr>
+    <tr>
+        <td>%t - <span data-i18n="options_label_template_title">Page Title</span></td>
+        <td>%d - <span data-i18n="options_label_template_day">Day</span></td>
+        <td>%S - <span data-i18n="options_label_template_seconds">Seconds</span></td>
+    </tr>
+    
+    <tr>
+        <td>
+            <p>%n - <input id="edtTemplateNumber" type="text" size="3" min="0"></p>
+        </td>
+        <td colspan="2"><input id="chkTemplateNumberPad" type="checkbox"><label for="chkTemplateNumberPad"><span data-i18n="options_label_template_pad_1">Pad
+                    number with</span> <input id="edtTemplateNumberPad" type="text" size="3" min="1"> <span data-i18n="options_label_template_pad_2">zeroes</span></label></td>
+    </tr>
+    <tr>
+        <td colspan="3"><span data-i18n="options_label_template_limit_1">Limit filename length to</span> <input id="edtTemplateFilenameMaxLen"
+                type="text" size="3" min="10"> <span data-i18n="options_label_template_limit_2">symbols</span></td>
+    </tr>
+    </table>
+      <p>
+      <button id="btnTemplateSettingsHide" class="link-button" data-i18n="options_link_filename_template_settings_hide">Hide template settings...</button>
+      </p>
+  </div> <!--divTemplateSettings-->
+</td>
+</tr>
+<tr>
+<td>
+<h2><span data-i18n="options_label_hotkey">Hotkey</span></h2>
+</td>
+<td>
+    <button id="btnConfigureHotkeys"><span data-i18n="options_button_setup">options_button_setup</span>...</button>
+
+</td>
+</tr>
+<tr id="trFSAPI">
+    <td>
+        <h2>Fireshot API (<a title="You can embed web page capturing functions into your website" href="https://getfireshot.com/api.php" target="_blank">?</a>)</h2>
+    </td>
+    <td>
+       
+        <div>
+	        <p><input id="chkAPI" type="checkbox"><label for="chkAPI"><span data-i18n="enable_checkbox">enable_checkbox</span></label></p>
+    	</div>
+    
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <h2><span data-i18n="action_micsellaneous">Miscellaneous</span></h2>
+    </td>
+    <td>
+        <div class="native">
+            <p id="trLicensingInfo"><button id="btnLicenseInfo"><span data-i18n="action_enter_license">action_enter_license</span>...</button></p>
+            <p><input id="chkDebug" type="checkbox"><label for="chkDebug">Enable Debug mode</label></p>
+            <p><input id="chkContextMenuIntegration" type="checkbox"><label for="chkContextMenuIntegration"><span data-i18n="options_label_enable_context_menu">Integrate into context menu</span></label></p>
+    	</div>
+        
+        <div class="lite">
+            <p>
+            <span data-i18n="captured_upgrade_link_1">Capture, Annotate, Print and Save better, Edit, Upload, send to E-Mail / OneNote, or Export to another program.</span>
+            </p>
+            <p>
+            <button id="btnAdvancedFunctions"><span data-i18n="action_install_native">Advanced functions</span>...</button>
+            </p>
+    	</div>
+    </td>
+</tr>
+
+</table>
+<br>
+<br>
+<br>
+
+<button id="btnApply"><span data-i18n="options_button_apply">options_button_apply</span></button>
+<button id="btnSave"><span data-i18n="options_button_save_close">options_button_save_close</span></button>
+</div>
+</body>
+</html>

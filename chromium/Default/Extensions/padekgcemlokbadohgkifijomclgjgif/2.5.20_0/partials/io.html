@@ -1,0 +1,69 @@
+
+<div class="page-header">
+  <h2>{{'options_tab_importExport' | tr}}</h2>
+</div>
+<section class="settings-group">
+  <h3>{{'options_group_importExportProfile' | tr}}</h3>
+  <div class="help-block">
+    <div class="text-info"><span class="glyphicon glyphicon-info-sign"></span> {{'options_exportProfileHelp' | tr}}
+    </div>
+  </div>
+  <div ng-show="!(options[&quot;-showConditionTypes&quot;] &gt; 0)" class="checkbox">
+    <label>
+      <input type="checkbox" ng-model="options[&quot;-exportLegacyRuleList&quot;]"/><span>{{'options_exportLegacyRuleList' | tr}}</span>
+    </label>
+    <p omega-html="'options_exportLegacyRuleListHelp' | tr" class="help-block"></p>
+  </div>
+</section>
+<section class="settings-group">
+  <h3>{{'options_group_importExportSettings' | tr}}</h3>
+  <p>
+    <button ng-click="exportOptions()" class="btn btn-default"><span class="glyphicon glyphicon-floppy-save"></span> {{'options_makeBackup' | tr}}
+    </button><span class="help-inline">{{'options_makeBackupHelp' | tr}}</span>
+  </p>
+  <p>
+    <input id="restore-local-file" type="file" omega-upload="restoreLocal($content)" omega-error="restoreLocalError($error)"/>
+    <button ng-click="triggerFileInput()" ladda="restoringLocal" data-spinner-color="#000000" class="btn btn-default"><span class="glyphicon glyphicon-folder-open"></span> {{'options_restoreLocal' | tr}}
+    </button><span class="help-inline">{{'options_restoreLocalHelp' | tr}}</span>
+  </p>
+  <div>
+    <label>{{'options_restoreOnline' | tr}}</label>
+    <div class="input-group width-limit">
+      <input type="url" ng-model="restoreOnlineUrl" placeholder="{{'options_restoreOnlinePlaceholder' | tr}}" class="form-control"/><span class="input-group-btn">
+        <button ng-click="restoreOnline()" ladda="restoringOnline" data-spinner-color="#000000" class="btn btn-default">{{'options_restoreOnlineSubmit' | tr}}</button></span>
+    </div>
+  </div>
+</section>
+<section class="settings-group">
+  <h3>{{'options_group_syncing' | tr}}</h3>
+  <div ng-show="syncOptions == &quot;pristine&quot; || syncOptions == &quot;disabled&quot;">
+    <p omega-html="&quot;options_syncPristineHelp&quot; | tr" class="help-block"></p>
+    <p>
+      <button ng-click="enableOptionsSync()" class="btn btn-default"><span class="glyphicon glyphicon-cloud-upload"></span> {{'options_syncEnable' | tr}}
+      </button>
+    </p>
+  </div>
+  <div ng-show="syncOptions == &quot;sync&quot;">
+    <p class="alert alert-success width-limit"><span class="glyphicon glyphicon-ok"></span> {{"options_syncSyncAlert" | tr}}
+    </p>
+    <p omega-html="&quot;options_syncSyncHelp&quot; | tr" class="help-block"></p>
+    <p>
+      <button ng-click="disableOptionsSync()" class="btn btn-warning"><span class="glyphicon glyphicon-remove-sign"></span> {{'options_syncDisable' | tr}}
+      </button>
+    </p>
+  </div>
+  <div ng-show="syncOptions == &quot;conflict&quot;">
+    <p class="alert alert-info width-limit"><span class="glyphicon glyphicon-info-sign"></span> {{"options_syncConflictAlert" | tr}}
+    </p>
+    <p omega-html="&quot;options_syncConflictHelp&quot; | tr" class="help-block"></p>
+    <p>
+      <button ng-click="enableOptionsSync({force: true})" class="btn btn-danger"><span class="glyphicon glyphicon-cloud-download"></span> {{'options_syncEnableForce' | tr}}
+      </button> 
+      <button ng-click="resetOptionsSync()" class="btn btn-link"><span class="glyphicon glyphicon-erase"></span> {{'options_syncReset' | tr}}
+      </button>
+    </p>
+  </div>
+  <div ng-show="syncOptions == &quot;unsupported&quot;">
+    <p omega-html="&quot;options_syncUnsupportedHelp&quot; | tr" class="help-block"></p>
+  </div>
+</section>

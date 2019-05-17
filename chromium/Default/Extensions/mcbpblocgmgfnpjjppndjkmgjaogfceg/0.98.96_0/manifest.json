@@ -1,0 +1,38 @@
+{
+   "background": {
+      "scripts": [ "scripts/fsXBrowserSupport.js", "scripts/fsUtils.js", "scripts/fsCommands.js", "scripts/fsBackground.js", "scripts/fsSSS.js", "scripts/fsPDF.js", "scripts/fsNativeAPISupport.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/sss_19.png",
+      "default_popup": "fsPopup.html",
+      "default_title": "FireShot - Capture page"
+   },
+   "commands": {
+      "last-used-action": {
+         "description": "__MSG_options_label_last_action_hotkey__",
+         "suggested_key": {
+            "default": "Ctrl+Shift+Y",
+            "mac": "Command+Shift+Y"
+         }
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_application_description__",
+   "icons": {
+      "128": "images/sss_128.png",
+      "16": "images/sss_16.png",
+      "32": "images/sss_32.png",
+      "48": "images/sss_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAmH8//xiE5eulvuIkvGwJ6r/+gxKuHWRhHeBBKgahLtzUAwl2fB+9Dr7YzfgtzwJ/YfntHLc9uTT3Yfa9q5r2R9IUraCeUc6fJLnvUCxvXNbStbHrqmwfWTxtCnpK7zywHmU4JbVjo1xAg/7h5CMI3mQd7c0fqmnnYxcIcqWd/wIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_application_title__",
+   "offline_enabled": true,
+   "optional_permissions": [ "tabs", "\u003Call_urls>", "downloads" ],
+   "options_page": "fsOptions.html",
+   "permissions": [ "activeTab", "contextMenus", "nativeMessaging" ],
+   "short_name": "FireShot",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.98.96",
+   "web_accessible_resources": [ "images/*.gif" ]
+}

@@ -1,0 +1,24 @@
+2019/05/17-09:28:22.996 46a Reusing MANIFEST leveldb/MANIFEST-000001
+2019/05/17-09:28:22.996 46a Recovering log #480
+2019/05/17-09:28:22.997 46a Reusing old log leveldb/000480.log 
+2019/05/17-09:28:36.497 46f Level-0 table #484: started
+2019/05/17-09:28:36.507 46f Level-0 table #484: 55910 bytes OK
+2019/05/17-09:28:36.510 46f Delete type=0 #480
+2019/05/17-09:31:31.378 c9b Level-0 table #486: started
+2019/05/17-09:31:31.388 c9b Level-0 table #486: 21118 bytes OK
+2019/05/17-09:31:31.393 c9b Delete type=0 #483
+2019/05/17-09:36:23.111 1a42 Level-0 table #488: started
+2019/05/17-09:36:23.123 1a42 Level-0 table #488: 51609 bytes OK
+2019/05/17-09:36:23.130 1a42 Delete type=0 #485
+2019/05/17-09:36:23.130 1a43 Compacting 4@0 + 1@1 files
+2019/05/17-09:36:23.157 1a43 Generated table #489@0: 906 keys, 1136842 bytes
+2019/05/17-09:36:23.157 1a43 Compacted 4@0 + 1@1 files => 1136842 bytes
+2019/05/17-09:36:23.161 1a43 compacted to: files[ 0 1 0 0 0 0 0 ]
+2019/05/17-09:36:23.162 1a43 Delete type=2 #481
+2019/05/17-09:36:23.162 1a43 Delete type=2 #486
+2019/05/17-09:36:23.162 1a43 Delete type=2 #488
+2019/05/17-09:36:23.162 1a43 Delete type=2 #484
+2019/05/17-09:36:23.162 1a43 Delete type=2 #479
+2019/05/17-09:43:24.971 2e0c Level-0 table #491: started
+2019/05/17-09:43:24.980 2e0c Level-0 table #491: 22824 bytes OK
+2019/05/17-09:43:24.986 2e0c Delete type=0 #487

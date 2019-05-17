@@ -1,0 +1,140 @@
+{
+   "add_site_to_list": {
+      "message": "Ajouter un site à la liste"
+   },
+   "brightness": {
+      "message": "Luminosité"
+   },
+   "change_browser_theme": {
+      "message": "Modifier le thème du navigateur"
+   },
+   "contrast": {
+      "message": "Contraste"
+   },
+   "custom_browser_theme_off": {
+      "message": "Défaut"
+   },
+   "custom_browser_theme_on": {
+      "message": "Modifié"
+   },
+   "dark": {
+      "message": "Obscur"
+   },
+   "donate": {
+      "message": "Donner"
+   },
+   "engine_dynamic": {
+      "message": "Dynamiq."
+   },
+   "engine_filter": {
+      "message": "Filtre"
+   },
+   "engine_filter_plus": {
+      "message": "Filtre+"
+   },
+   "engine_static": {
+      "message": "Statique"
+   },
+   "extension_description": {
+      "message": "Thème sombre pour chaque site Web. Prenez soin de vos yeux, utilisez Dark Reader pour votre navigation nocturne et quotidienne."
+   },
+   "filter": {
+      "message": "Filtre"
+   },
+   "grayscale": {
+      "message": "Niveaux de gris"
+   },
+   "help": {
+      "message": "Aide"
+   },
+   "invert_listed_only": {
+      "message": "Uniquement inversé"
+   },
+   "light": {
+      "message": "Lumineux"
+   },
+   "loading_please_wait": {
+      "message": "Chargement, veuillez patienter"
+   },
+   "mode": {
+      "message": "Mode"
+   },
+   "more": {
+      "message": "Plus"
+   },
+   "news": {
+      "message": "Nouvelles"
+   },
+   "not_invert_listed": {
+      "message": "Non inversé"
+   },
+   "off": {
+      "message": "Arrêt"
+   },
+   "on": {
+      "message": "Marche"
+   },
+   "only_for": {
+      "message": "Uniquement pour"
+   },
+   "only_for_description": {
+      "message": "Appliquer les paramètres au site actuel uniq."
+   },
+   "open_dev_tools": {
+      "message": "Dévelop."
+   },
+   "page_in_dark_list": {
+      "message": "Ce site est dans la\nliste noire mondiale"
+   },
+   "page_protected": {
+      "message": "Cette page est protégée\npar un navigateur"
+   },
+   "privacy": {
+      "message": "Confid."
+   },
+   "read_more": {
+      "message": "Lire la suite"
+   },
+   "select_font": {
+      "message": "Sélectionnez une police"
+   },
+   "sepia": {
+      "message": "Sépia"
+   },
+   "set_active_hours": {
+      "message": "Définissez les heures d’activité"
+   },
+   "setup_add_site_hotkey": {
+      "message": "Configurer un raccourci pour ajouter un site"
+   },
+   "setup_hotkey_toggle_extension": {
+      "message": "Configuration de l'extension\nTouche de raccourci bascule"
+   },
+   "setup_hotkey_toggle_site": {
+      "message": "Configurer la touche de raccourci\ndu basculement du site actuel"
+   },
+   "site_list": {
+      "message": "Liste de sites"
+   },
+   "store_listing": {
+      "message": "Cette extension de protection oculaire active le mode nuit en créant à la volée des thèmes sombres pour les sites Web. Dark Reader inverse les couleurs vives, ce qui les rend très contrastés et faciles à lire la nuit.\n\nVous pouvez régler la luminosité, le contraste, le filtre sépia, le mode sombre, les paramètres de police et la liste des sites ignorés.\n\nDark Reader n’affiche pas de publicités et n’envoie aucune donnée utilisateur. Il est entièrement open source https://github.com/darkreader/darkreader\n\nAvant de l’installer, désactivez vos extensions similaires. Profitez et regardez!"
+   },
+   "text_stroke": {
+      "message": "Trait du texte"
+   },
+   "theme_generation_mode": {
+      "message": "Mode de génération de thème"
+   },
+   "time_settings": {
+      "message": "Paramètres de temps"
+   },
+   "toggle_current_site": {
+      "message": "Basculer le site actuel"
+   },
+   "toggle_extension": {
+      "message": "l'extension bascule"
+   },
+   "try_experimental_theme_engines": {
+      "message": "Essayez les moteurs de thème **expérimentaux**:\n**Filtre+** préserve la satur. des couleurs, utilise GPU\n**Thème statique** génère un thème rapide simple\n**Dynamique** analyse les couleurs et les images"
+   }
+}

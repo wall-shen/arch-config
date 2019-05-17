@@ -1,0 +1,273 @@
+{
+   "action_about": {
+      "message": "Про"
+   },
+   "action_api": {
+      "message": "FireShot API"
+   },
+   "action_capture_browser": {
+      "message": "Приготуйте вікно браузера та"
+   },
+   "action_capture_entire": {
+      "message": "Приготуйте повну сторінку та "
+   },
+   "action_capture_entire_lite": {
+      "message": "Приготуйте всю сторінку"
+   },
+   "action_capture_selection": {
+      "message": "Приготуйте частину вибраного та"
+   },
+   "action_capture_selection_lite": {
+      "message": "Приготуйте вибір"
+   },
+   "action_capture_tabs": {
+      "message": "Приготувати всі вкладки та"
+   },
+   "action_capture_visible": {
+      "message": "Приготуйте частину того що видно та "
+   },
+   "action_capture_visible_lite": {
+      "message": "Приготуйте що видно"
+   },
+   "action_copy": {
+      "message": "Зкопіювати до буферу обміну"
+   },
+   "action_edit": {
+      "message": "Редагувати"
+   },
+   "action_email": {
+      "message": "Пошта"
+   },
+   "action_enter_license": {
+      "message": "Введіть інформацію щодо ліцензування"
+   },
+   "action_external": {
+      "message": "Відкрити у зовнішньому редакторі"
+   },
+   "action_install_native": {
+      "message": "Спробуйте розширені функції"
+   },
+   "action_license_info": {
+      "message": "Інформація щодо ліцензування"
+   },
+   "action_micsellaneous": {
+      "message": "Різноманітний"
+   },
+   "action_onenote": {
+      "message": "Відправити до OneNote"
+   },
+   "action_open_clipboard": {
+      "message": "Відкрийте з буферу обміну"
+   },
+   "action_open_file": {
+      "message": "Відкрийте файл"
+   },
+   "action_options": {
+      "message": "Опції"
+   },
+   "action_print": {
+      "message": "Друкувати"
+   },
+   "action_register": {
+      "message": "Регістр"
+   },
+   "action_resume": {
+      "message": "Почніть знову редагувати"
+   },
+   "action_save": {
+      "message": "Зберегти"
+   },
+   "action_save_pdf": {
+      "message": "Зберегти в PDF"
+   },
+   "action_save_pdf_single": {
+      "message": "Зберегти як один PDF"
+   },
+   "action_support": {
+      "message": "Служба підтримки"
+   },
+   "action_switch_pro": {
+      "message": "Переключіть на Pro"
+   },
+   "action_switch_pro_tabs": {
+      "message": "Активувати професійні функції щоб продовжити"
+   },
+   "action_upload": {
+      "message": "Завантажити"
+   },
+   "action_view_demo": {
+      "message": "Подивіться демо"
+   },
+   "application_description": {
+      "message": "Візьми повну сторінку скріншотів. Зробіть копію, видаліть та відправте PDF/JPEG/GIF/PNG, завантажте, роздрукуйте та відправте по email."
+   },
+   "application_title": {
+      "message": "Візьми вебсторінку скріншотів повністю - FireShot"
+   },
+   "captured_buy_pro_button": {
+      "message": "Купувати"
+   },
+   "captured_copy_clipboard": {
+      "message": "Зкопіювати у буфер обміну"
+   },
+   "captured_copy_clipboard_learn_button": {
+      "message": "Знати як"
+   },
+   "captured_get_free_button": {
+      "message": "Спробуйте безкоштовно"
+   },
+   "captured_print": {
+      "message": "Друкувати"
+   },
+   "captured_print_button": {
+      "message": "Друкувати"
+   },
+   "captured_recommend_us": {
+      "message": "Рекомендую FireShot"
+   },
+   "captured_save_as_image": {
+      "message": "Зберегти як зображення"
+   },
+   "captured_save_as_image_button": {
+      "message": "Зберегти як зображення"
+   },
+   "captured_save_as_pdf": {
+      "message": "Зберегти у PDF"
+   },
+   "captured_save_panel_title": {
+      "message": "Зберегти скріншот"
+   },
+   "captured_saving_options": {
+      "message": "Налаштувати його"
+   },
+   "captured_setup_hotkeys": {
+      "message": "Налаштування горячих клавіш та файлу"
+   },
+   "captured_upgrade_link_1": {
+      "message": "Приготуйте, аннотація, друкувати та зберегти краще, редагувати, завантажити, відправити по E-Mail/OneNote, або експортувати до інших програм"
+   },
+   "captured_upgrade_link_2": {
+      "message": "Оновити FireShot Prᴏ"
+   },
+   "captured_upgrade_link_3": {
+      "message": "Я використовував іршу версію FireShot Prᴏ"
+   },
+   "captured_upgrade_link_4": {
+      "message": "Чи я могу повернутись?"
+   },
+   "enable_checkbox": {
+      "message": "Включити"
+   },
+   "options_button_apply": {
+      "message": "Використати"
+   },
+   "options_button_save_close": {
+      "message": "Зберегти та закрити"
+   },
+   "options_button_setup": {
+      "message": "Натисніть для налаштування"
+   },
+   "options_label_and": {
+      "message": "І"
+   },
+   "options_label_capturing": {
+      "message": "Притогування"
+   },
+   "options_label_close_tab_after_saving": {
+      "message": "Закрити вкладку після зберігання"
+   },
+   "options_label_customize_saving": {
+      "message": "Налаштування процес зберігання"
+   },
+   "options_label_default_filename_template": {
+      "message": "Шаблонна назва файлу за згодою:"
+   },
+   "options_label_default_folder": {
+      "message": "Папка виходу за погодженням"
+   },
+   "options_label_default_folder_hint": {
+      "message": "Шлях до файлу згідно завантажень для зберігання збереженого файлу, який можливо має ще каталоги. Абсолютні шляхи, порожні шляхи або шляхи що мають звотоні посилання «..» викликає помилку."
+   },
+   "options_label_editor_options": {
+      "message": "Редагування опцій"
+   },
+   "options_label_enable_context_menu": {
+      "message": "Інтегрувати FireShot до контекстного меню"
+   },
+   "options_label_file_settings": {
+      "message": "Налаштування файлу"
+   },
+   "options_label_fireshot_options": {
+      "message": "FireShot опції"
+   },
+   "options_label_hotkey": {
+      "message": "Гарячі клавіши"
+   },
+   "options_label_last_action_hotkey": {
+      "message": "Остання виконана дія"
+   },
+   "options_label_no_saveas_dialog": {
+      "message": "Не показувати \"Зберегти як\" діалог"
+   },
+   "options_label_open_folder_after_saving": {
+      "message": "Показати завантажений файл у папці після зберігання"
+   },
+   "options_label_save_image_as": {
+      "message": "Зберегти зображення як:"
+   },
+   "options_label_specify_editor_options": {
+      "message": "Зазначити параметри редагування та зберігання, найменування файлів, стилів та ін."
+   },
+   "options_label_specify_hotkey": {
+      "message": "Зазначте комбінацію клавіш для включення FireShot:"
+   },
+   "options_label_specify_resizing_options": {
+      "message": "Вказати параметри заміни розміру та звуку"
+   },
+   "options_label_template_day": {
+      "message": "День"
+   },
+   "options_label_template_hour": {
+      "message": "Час"
+   },
+   "options_label_template_limit_1": {
+      "message": "Обмежити довжину назви файлу"
+   },
+   "options_label_template_limit_2": {
+      "message": "Символи"
+   },
+   "options_label_template_minutes": {
+      "message": "Хвилини"
+   },
+   "options_label_template_month": {
+      "message": "Місяць"
+   },
+   "options_label_template_pad_1": {
+      "message": "Номер колодки з"
+   },
+   "options_label_template_pad_2": {
+      "message": "Нуль"
+   },
+   "options_label_template_seconds": {
+      "message": "Секунди"
+   },
+   "options_label_template_title": {
+      "message": "Заголовок сторінки"
+   },
+   "options_label_template_url": {
+      "message": "Сторінка URL"
+   },
+   "options_label_template_website": {
+      "description": "",
+      "message": "Доменне ім'я"
+   },
+   "options_label_template_year": {
+      "message": "Рік"
+   },
+   "options_link_filename_template_settings": {
+      "message": "Показати настройки назви файлу"
+   },
+   "options_link_filename_template_settings_hide": {
+      "message": "Не показувати настройки назви файлу"
+   }
+}

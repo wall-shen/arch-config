@@ -1,0 +1,275 @@
+{
+   "action_about": {
+      "message": "حول..."
+   },
+   "action_api": {
+      "message": "FireShot API"
+   },
+   "action_capture_browser": {
+      "message": "القط نافذة المتصفح ثم"
+   },
+   "action_capture_entire": {
+      "message": "القط صفحة كاملة ثم"
+   },
+   "action_capture_entire_lite": {
+      "message": "القط الصفحة الكاملة"
+   },
+   "action_capture_selection": {
+      "message": "القط منطقة مختارة او عنصر ثم"
+   },
+   "action_capture_selection_lite": {
+      "message": "القط منطقة مختارة"
+   },
+   "action_capture_tabs": {
+      "message": "القبض على جميع علامات التبويب و"
+   },
+   "action_capture_visible": {
+      "message": "القط المنطقة المرئية ثم"
+   },
+   "action_capture_visible_lite": {
+      "message": "القط المنطقة المرئية"
+   },
+   "action_copy": {
+      "message": "نسخ إلى الحافظة"
+   },
+   "action_edit": {
+      "message": "تصحيح"
+   },
+   "action_email": {
+      "message": "البريد الإلكتروني"
+   },
+   "action_enter_license": {
+      "message": "أدخل معلومات الترخيص"
+   },
+   "action_external": {
+      "message": "فتح في محرر خارجي"
+   },
+   "action_install_native": {
+      "message": "جرب الميزات المتقدمة"
+   },
+   "action_license_info": {
+      "message": "معلومات الترخيص ..."
+   },
+   "action_micsellaneous": {
+      "message": "متنوع"
+   },
+   "action_onenote": {
+      "message": "إرسال إلى مذكرة واحدة"
+   },
+   "action_open_clipboard": {
+      "message": "فتح من الذاكرة"
+   },
+   "action_open_file": {
+      "message": "فتح ملف"
+   },
+   "action_options": {
+      "message": "أعدادات"
+   },
+   "action_print": {
+      "message": "طباعة"
+   },
+   "action_register": {
+      "message": "تسجيل"
+   },
+   "action_resume": {
+      "message": "أكمل التعديلات"
+   },
+   "action_save": {
+      "message": "حفظ"
+   },
+   "action_save_pdf": {
+      "message": "حفظ بصيغة PDF"
+   },
+   "action_save_pdf_single": {
+      "message": "حفظ كملف PDF واحد"
+   },
+   "action_support": {
+      "message": "الدعم"
+   },
+   "action_switch_pro": {
+      "message": "التحول إلى برو"
+   },
+   "action_switch_pro_tabs": {
+      "message": "تنشيط ميزات Pro للمتابعة ..."
+   },
+   "action_upload": {
+      "message": "رفع"
+   },
+   "action_view_demo": {
+      "message": "عرض التجريبي"
+   },
+   "application_description": {
+      "message": "خذ لقطات شاشة عن صفحة ويب كاملة. يمكنك التقاطها وتحريرها وحفظها في PDF / JPEG / GIF / PNG أو تحميلها أو طباعتها أو إرسالها إلى OneNote أو الحافظة أو البريد الإلكتروني."
+   },
+   "application_title": {
+      "message": "خذ لقطات شاشة عن صفحة ويب كاملة - FireShot"
+   },
+   "captured_buy_pro_button": {
+      "message": "شراء برو"
+   },
+   "captured_copy_clipboard": {
+      "message": "نسخ إلى الحافظة"
+   },
+   "captured_copy_clipboard_learn_button": {
+      "message": "تعلم كيف..."
+   },
+   "captured_get_free_button": {
+      "message": "جرب مجانا"
+   },
+   "captured_print": {
+      "message": "طباعة"
+   },
+   "captured_print_button": {
+      "message": "طباعة"
+   },
+   "captured_recommend_us": {
+      "message": " أدعم FireShot"
+   },
+   "captured_save_as_image": {
+      "message": "حفظ كصورة"
+   },
+   "captured_save_as_image_button": {
+      "message": "حفظ كصورة"
+   },
+   "captured_save_as_pdf": {
+      "message": "حفظ في PDF"
+   },
+   "captured_save_panel_title": {
+      "message": "حفظ لقطة شاشة"
+   },
+   "captured_saving_options": {
+      "message": "عدله"
+   },
+   "captured_setup_hotkeys": {
+      "message": "إعداد مفاتيح الاختصار وإعدادات الملفات ..."
+   },
+   "captured_upgrade_link_1": {
+      "message": "التقاط ، التعليق ، طباعة وحفظ أفضل ، تحرير ، تحميل ، إرسال إلى البريد الإلكتروني / OneNote ، أو التصدير إلى برنامج آخر."
+   },
+   "captured_upgrade_link_2": {
+      "message": " الترقية إلى FireShot Pro"
+   },
+   "captured_upgrade_link_3": {
+      "message": "كنت أستخدم إصدارًا آخر من FireShot"
+   },
+   "captured_upgrade_link_4": {
+      "message": "هل يمكنني إعادته؟"
+   },
+   "enable_checkbox": {
+      "message": "مكن"
+   },
+   "language": {
+      "message": "ar"
+   },
+   "options_button_apply": {
+      "message": "تطبيق"
+   },
+   "options_button_save_close": {
+      "message": "حفظ وإغلاق"
+   },
+   "options_button_setup": {
+      "message": "انقر للإعداد"
+   },
+   "options_label_and": {
+      "message": "و"
+   },
+   "options_label_capturing": {
+      "message": "يتم الالتقاط"
+   },
+   "options_label_close_tab_after_saving": {
+      "message": "أغلق علامة التبويب بعد الحفظ"
+   },
+   "options_label_customize_saving": {
+      "message": "مجلد الإخراج الافتراضي"
+   },
+   "options_label_default_filename_template": {
+      "message": "نموذج اسم الملف الافتراضي:"
+   },
+   "options_label_default_folder": {
+      "message": "مجلد الإخراج الافتراضي"
+   },
+   "options_label_default_folder_hint": {
+      "message": "المسارات المطلقة والمسارات الفارغة والمسارات التي تحتوي على مراجع خلفية «..» ستسبب خطأ."
+   },
+   "options_label_editor_options": {
+      "message": "خيارات المحرر"
+   },
+   "options_label_enable_context_menu": {
+      "message": "أدخل FireShot مع قائمة الصياق"
+   },
+   "options_label_file_settings": {
+      "message": "إعدادات الملف"
+   },
+   "options_label_fireshot_options": {
+      "message": "خيارات FireShot"
+   },
+   "options_label_hotkey": {
+      "message": "مفاتيح الاختصار"
+   },
+   "options_label_last_action_hotkey": {
+      "message": "آخر إجراء تم استخدامه"
+   },
+   "options_label_no_saveas_dialog": {
+      "message": "لا تعرض مربع حوار \"حفظ باسم\""
+   },
+   "options_label_open_folder_after_saving": {
+      "message": "إظهار الملف الذي تم تنزيله في مجلده بعد الحفظ"
+   },
+   "options_label_save_image_as": {
+      "message": "حفظ الصورة حسب:"
+   },
+   "options_label_specify_editor_options": {
+      "message": "حدد المحرر وحفظ الخيارات ، تفضيلات تسمية الملفات ، الأنماط ، إلخ."
+   },
+   "options_label_specify_hotkey": {
+      "message": " حدد مجموعة المفاتيح لتشغيل FireShot:"
+   },
+   "options_label_specify_resizing_options": {
+      "message": "تحديد خيارات تغيير الحجم والأصوات."
+   },
+   "options_label_template_day": {
+      "message": "يوم"
+   },
+   "options_label_template_hour": {
+      "message": "ساعة"
+   },
+   "options_label_template_limit_1": {
+      "message": "الحد من طول اسم الملف"
+   },
+   "options_label_template_limit_2": {
+      "message": "الشخصيات"
+   },
+   "options_label_template_minutes": {
+      "message": "الدقائق"
+   },
+   "options_label_template_month": {
+      "message": "شهر"
+   },
+   "options_label_template_pad_1": {
+      "message": "رقم لوحة مع"
+   },
+   "options_label_template_pad_2": {
+      "message": "أصفار"
+   },
+   "options_label_template_seconds": {
+      "message": "ثواني"
+   },
+   "options_label_template_title": {
+      "message": "عنوان الصفحة"
+   },
+   "options_label_template_url": {
+      "message": "رابط الصفحة"
+   },
+   "options_label_template_year": {
+      "message": "عام"
+   },
+   "options_link_filename_template_settings": {
+      "message": "عرض إعدادات قالب اسم الملف ..."
+   },
+   "options_link_filename_template_settings_hide": {
+      "message": "إخفاء إعدادات قالب اسم الملف ..."
+   },
+   "translator": {
+      "message": "Alaa Qweider aqweider@gmail.com"
+   }
+}

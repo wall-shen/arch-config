@@ -1,0 +1,272 @@
+{
+   "action_about": {
+      "message": "Σχετικά με..."
+   },
+   "action_api": {
+      "message": "FireShot API"
+   },
+   "action_capture_browser": {
+      "message": "Καταγράψτε το παράθυρο του προγράμματος περιήγησης και"
+   },
+   "action_capture_entire": {
+      "message": "Καταγραφή ολόκληρης της σελίδας και"
+   },
+   "action_capture_entire_lite": {
+      "message": "Καταγράψτε ολόκληρη τη σελίδα"
+   },
+   "action_capture_selection": {
+      "message": "Καταγραφή επιλογής / στοιχείου και"
+   },
+   "action_capture_selection_lite": {
+      "message": "Αποτυπώστε την επιλογή"
+   },
+   "action_capture_tabs": {
+      "message": "Καταγράψτε όλες τις καρτέλες (tabs) και"
+   },
+   "action_capture_visible": {
+      "message": "Καταγραφή του ορατού μέρος της σελίδας και"
+   },
+   "action_capture_visible_lite": {
+      "message": "Καταγράψτε το ορατό μέρος"
+   },
+   "action_copy": {
+      "message": "Αντιγραφή στο πρόχειρο (clipboard)"
+   },
+   "action_edit": {
+      "message": "Επεξεργασία"
+   },
+   "action_email": {
+      "message": "E-Mail"
+   },
+   "action_enter_license": {
+      "message": "Εισαγάγετε πληροφορίες άδειας"
+   },
+   "action_external": {
+      "message": "Ανοίξτε το σε εξωτερικό επεξεργαστή εικόνας"
+   },
+   "action_install_native": {
+      "message": "Δοκιμάστε τις προηγμένες λειτουργίες"
+   },
+   "action_license_info": {
+      "message": "Πληροφορίες αδειοδότησης..."
+   },
+   "action_micsellaneous": {
+      "message": "Διάφορα"
+   },
+   "action_onenote": {
+      "message": "Αποστολή στο OneNote"
+   },
+   "action_open_clipboard": {
+      "message": "Ανοίξτε από το πρόχειρο (clipboard)"
+   },
+   "action_open_file": {
+      "message": "Ανοιγμα αρχείου"
+   },
+   "action_options": {
+      "message": "Επιλογές"
+   },
+   "action_print": {
+      "message": "Εκτύπωση"
+   },
+   "action_register": {
+      "message": "Εγγραφή"
+   },
+   "action_resume": {
+      "message": "Συνεχίστε την επεξεργασία"
+   },
+   "action_save": {
+      "message": "Αποθήκευση"
+   },
+   "action_save_pdf": {
+      "message": "Αποθήκευση ως PDF"
+   },
+   "action_save_pdf_single": {
+      "message": "Αποθηκεύστε ως ενιαίο PDF"
+   },
+   "action_support": {
+      "message": "Υποστήριξη"
+   },
+   "action_switch_pro": {
+      "message": "Μεταβείτε στη Pro έκδοση"
+   },
+   "action_switch_pro_tabs": {
+      "message": "Ενεργοποιήστε τις λειτουργίες Pro για να συνεχίσετε..."
+   },
+   "action_upload": {
+      "message": "Ανέβασμα (Upload)"
+   },
+   "action_view_demo": {
+      "message": "Προβολή επίδειξης"
+   },
+   "application_description": {
+      "message": "Πραγματοποιήστε πλήρη screenshots ιστοσελίδας. Καταγράψτε, επεξεργαστείτε και αποθηκεύστε τα σε μορφή PDF / JPEG / GIF / PNG, μεταφορτώστε, εκτυπώστε, στείλτε στο OneNote, πρόχειρο (clipboard) ή ηλεκτρονικό ταχυδρομείο."
+   },
+   "application_title": {
+      "message": "Πάρτε Screenshots Ιστοσελίδων Εντελώς - FireShot"
+   },
+   "captured_buy_pro_button": {
+      "message": "Αγοράστε την Pro έκδοση"
+   },
+   "captured_copy_clipboard": {
+      "message": "Αντιγραφή στο πρόχειρο (clipboard)"
+   },
+   "captured_copy_clipboard_learn_button": {
+      "message": "Μάθετε πως..."
+   },
+   "captured_get_free_button": {
+      "message": "Δοκιμάστε το δωρεάν"
+   },
+   "captured_print": {
+      "message": "Εκτύπωση"
+   },
+   "captured_print_button": {
+      "message": "Εκτύπωση"
+   },
+   "captured_recommend_us": {
+      "message": "Προτείνετε το FireShot"
+   },
+   "captured_save_as_image": {
+      "message": "Αποθηκεύση ως Εικόνα"
+   },
+   "captured_save_as_image_button": {
+      "message": "Αποθηκεύση ως Εικόνα"
+   },
+   "captured_save_as_pdf": {
+      "message": "Αποθηκεύση ως PDF"
+   },
+   "captured_save_panel_title": {
+      "message": "Αποθήκευση Screenshot"
+   },
+   "captured_saving_options": {
+      "message": "προσαρμόστε το"
+   },
+   "captured_setup_hotkeys": {
+      "message": "Πλήκτρα συντόμευσης και ρυθμίσεις αρχείων..."
+   },
+   "captured_upgrade_link_1": {
+      "message": "Καταγράψτε, σημειώστε, εκτυπώστε και αποθηκεύστε καλύτερα, επεξεργαστείτε, μεταφορτώστε, στείλτε στο E-Mail / OneNote ή εξαγάγετε σε άλλο πρόγραμμα."
+   },
+   "captured_upgrade_link_2": {
+      "message": "Αναβαθμίστε στο FireShot Pro"
+   },
+   "captured_upgrade_link_3": {
+      "message": "Χρησιμοποιούσα άλλη έκδοση του FireShot"
+   },
+   "captured_upgrade_link_4": {
+      "message": "Μπορώ να το πάρω πίσω;"
+   },
+   "enable_checkbox": {
+      "message": "Ενεργοποιήστε"
+   },
+   "options_button_apply": {
+      "message": "Εφαρμογή"
+   },
+   "options_button_save_close": {
+      "message": "Αποθήκευση και κλείσιμο"
+   },
+   "options_button_setup": {
+      "message": "Κάντε κλικ για να ρυθμίσετε"
+   },
+   "options_label_and": {
+      "message": "και"
+   },
+   "options_label_capturing": {
+      "message": "Καταγραφή"
+   },
+   "options_label_close_tab_after_saving": {
+      "message": "Κλείσιμο καρτέλας (tab) μετά την αποθήκευση"
+   },
+   "options_label_customize_saving": {
+      "message": "Προσαρμόστε τη διαδικασία αποθήκευσης"
+   },
+   "options_label_default_filename_template": {
+      "message": "Προεπιλεγμένο πρότυπο ονόματος αρχείου:"
+   },
+   "options_label_default_folder": {
+      "message": "Προεπιλεγμένος φάκελος εξόδου"
+   },
+   "options_label_default_folder_hint": {
+      "message": "Μια διαδρομή αρχείου σχετικά με τον κατάλογο \"Λήψεις\" για να περιέχει το αποθηκευμένο αρχείο, το οποίο ενδεχομένως περιέχει υποκαταλόγους.\nΟι απόλυτες διαδρομές, οι άδειες διαδρομές και οι διαδρομές που περιέχουν αναφορές «..» θα προκαλέσουν σφάλμα."
+   },
+   "options_label_editor_options": {
+      "message": "Επιλογές επεξεργαστή (editor)"
+   },
+   "options_label_enable_context_menu": {
+      "message": "Ενσωματώστε το FireShot στο μενού περιβάλλοντος (context menu)"
+   },
+   "options_label_file_settings": {
+      "message": "Ρυθμίσεις αρχείων"
+   },
+   "options_label_fireshot_options": {
+      "message": "Επιλογές FireShot"
+   },
+   "options_label_hotkey": {
+      "message": "Πλήκτρα συντόμευσης"
+   },
+   "options_label_last_action_hotkey": {
+      "message": "Τελευταία ενέργεια που χρησιμοποιήθηκε"
+   },
+   "options_label_no_saveas_dialog": {
+      "message": "Μην εμφανίζετε το παράθυρο διαλόγου 'Αποθήκευση ως'"
+   },
+   "options_label_open_folder_after_saving": {
+      "message": "Εμφάνιση του αρχείου που έχει ληφθεί στο φάκελο μετά την αποθήκευση"
+   },
+   "options_label_save_image_as": {
+      "message": "Αποθήκευση εικόνας ως:"
+   },
+   "options_label_specify_editor_options": {
+      "message": "Καθορίστε επιλογές επεξεργασίας και αποθήκευσης, προτιμήσεις ονομασίας αρχείων, στυλ κ.λπ."
+   },
+   "options_label_specify_hotkey": {
+      "message": "Καθορίστε το συνδυασμό πλήκτρων για την εκκίνηση του FireShot:"
+   },
+   "options_label_specify_resizing_options": {
+      "message": "Καθορίστε επιλογές αλλαγής μεγέθους και ήχους."
+   },
+   "options_label_template_day": {
+      "message": "Ημέρα"
+   },
+   "options_label_template_hour": {
+      "message": "'Ωρα"
+   },
+   "options_label_template_limit_1": {
+      "message": "Περιορίστε το μήκος αρχείου σε"
+   },
+   "options_label_template_limit_2": {
+      "message": "χαρακτήρες-γράμματα"
+   },
+   "options_label_template_minutes": {
+      "message": "Λεπτά"
+   },
+   "options_label_template_month": {
+      "message": "Μήνας"
+   },
+   "options_label_template_pad_1": {
+      "message": "Επιλέξτε τον αριθμό με"
+   },
+   "options_label_template_pad_2": {
+      "message": "μηδενικά"
+   },
+   "options_label_template_seconds": {
+      "message": "Δευτερόλεπτα"
+   },
+   "options_label_template_title": {
+      "message": "Τίτλος σελίδας"
+   },
+   "options_label_template_url": {
+      "message": "Διεύθυνση Ιστοσελίδας"
+   },
+   "options_label_template_website": {
+      "message": "Ονομα τομέα"
+   },
+   "options_label_template_year": {
+      "message": "Έτος"
+   },
+   "options_link_filename_template_settings": {
+      "message": "Εμφάνιση ρυθμίσεων προτύπου ονόματος αρχείου..."
+   },
+   "options_link_filename_template_settings_hide": {
+      "message": "Απόκρυψη ρυθμίσεων προτύπου ονόματος αρχείου..."
+   }
+}

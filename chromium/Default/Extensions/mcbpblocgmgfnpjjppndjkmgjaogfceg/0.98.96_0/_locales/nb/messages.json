@@ -1,0 +1,272 @@
+{
+   "action_about": {
+      "message": "Om..."
+   },
+   "action_api": {
+      "message": "FireShot API"
+   },
+   "action_capture_browser": {
+      "message": "Ta bilde av nettleser vindu og"
+   },
+   "action_capture_entire": {
+      "message": "Ta bilde av hele siden og"
+   },
+   "action_capture_entire_lite": {
+      "message": "Ta bilde av hele siden"
+   },
+   "action_capture_selection": {
+      "message": "Ta bilde av valgt område / element og"
+   },
+   "action_capture_selection_lite": {
+      "message": "Ta bilde av valgt område"
+   },
+   "action_capture_tabs": {
+      "message": "Lagre alle faner og"
+   },
+   "action_capture_visible": {
+      "message": "Ta bilde av synlig del og"
+   },
+   "action_capture_visible_lite": {
+      "message": "Ta bilde av synlig del"
+   },
+   "action_copy": {
+      "message": "Kopier til utklippstavle"
+   },
+   "action_edit": {
+      "message": "Rediger"
+   },
+   "action_email": {
+      "message": "E-Post"
+   },
+   "action_enter_license": {
+      "message": "Skriv inn lisensinfo"
+   },
+   "action_external": {
+      "message": "Åpne i ekstern behandler"
+   },
+   "action_install_native": {
+      "message": "Prøv avanserte funksjoner"
+   },
+   "action_license_info": {
+      "message": "Lisensinfo..."
+   },
+   "action_micsellaneous": {
+      "message": "Diverse"
+   },
+   "action_onenote": {
+      "message": "Send til OneNote"
+   },
+   "action_open_clipboard": {
+      "message": "Åpne fra utklippstavle"
+   },
+   "action_open_file": {
+      "message": "Åpne fil"
+   },
+   "action_options": {
+      "message": "Innstillinger"
+   },
+   "action_print": {
+      "message": "Skriv ut"
+   },
+   "action_register": {
+      "message": "Registrer"
+   },
+   "action_resume": {
+      "message": "Fortsett redigering"
+   },
+   "action_save": {
+      "message": "Lagre"
+   },
+   "action_save_pdf": {
+      "message": "Lagre som PDF"
+   },
+   "action_save_pdf_single": {
+      "message": "Lagre som enkel PDF"
+   },
+   "action_support": {
+      "message": "Hjelp"
+   },
+   "action_switch_pro": {
+      "message": "Bytt til Pro"
+   },
+   "action_switch_pro_tabs": {
+      "message": "Aktiver Pro funksjoner for å fortsette..."
+   },
+   "action_upload": {
+      "message": "Last Opp"
+   },
+   "action_view_demo": {
+      "message": "Se demo"
+   },
+   "application_description": {
+      "message": "Skjermbilder av HELE websider. Kapre, redigere og lagre som PDF/JPEG/GIF/PNG, print, send til OneNote, utklippliste, email eller opplastning."
+   },
+   "application_title": {
+      "message": "Ta skjermbilder av hele nettsider - FireShot"
+   },
+   "captured_buy_pro_button": {
+      "message": "Kjøp Pro"
+   },
+   "captured_copy_clipboard": {
+      "message": "Kopier til utklippstavle"
+   },
+   "captured_copy_clipboard_learn_button": {
+      "message": "Lær hvordan..."
+   },
+   "captured_get_free_button": {
+      "message": "Prøv det Gratis"
+   },
+   "captured_print": {
+      "message": "Skriv ut"
+   },
+   "captured_print_button": {
+      "message": "Skriv ut"
+   },
+   "captured_recommend_us": {
+      "message": "Anbefal FireShot"
+   },
+   "captured_save_as_image": {
+      "message": "Lagre som Bilde"
+   },
+   "captured_save_as_image_button": {
+      "message": "Lagre som Bilde"
+   },
+   "captured_save_as_pdf": {
+      "message": "Lagre til PDF"
+   },
+   "captured_save_panel_title": {
+      "message": "Lagre Skjermbilde"
+   },
+   "captured_saving_options": {
+      "message": "Tilpass"
+   },
+   "captured_setup_hotkeys": {
+      "message": "Velg hurtigtaster og fil-instillinger..."
+   },
+   "captured_upgrade_link_1": {
+      "message": "Lagre, Annotere, Skriv ut og Lagre bedre, Rediger, Last opp, send til E-Post / OneNote, eller eksporter til annet program."
+   },
+   "captured_upgrade_link_2": {
+      "message": "Oppgrader til FireShot Pro"
+   },
+   "captured_upgrade_link_3": {
+      "message": "Jeg brukte en annen versjon av FireShot"
+   },
+   "captured_upgrade_link_4": {
+      "message": "Kan jeg få det tilbake?"
+   },
+   "enable_checkbox": {
+      "message": "Aktiver"
+   },
+   "options_button_apply": {
+      "message": "Lagre"
+   },
+   "options_button_save_close": {
+      "message": "Lagre og Lukk"
+   },
+   "options_button_setup": {
+      "message": "Trykk for oppsett"
+   },
+   "options_label_and": {
+      "message": "og"
+   },
+   "options_label_capturing": {
+      "message": "Skjermbilde"
+   },
+   "options_label_close_tab_after_saving": {
+      "message": "Lukk fane etter lagring"
+   },
+   "options_label_customize_saving": {
+      "message": "Tilpass Lagring"
+   },
+   "options_label_default_filename_template": {
+      "message": "Standard filnavn mal:"
+   },
+   "options_label_default_folder": {
+      "message": "Standard lagringsfolder"
+   },
+   "options_label_default_folder_hint": {
+      "message": "En filbane relatert til nedlastningsfolderen kan inneholde undermapper. Absolutte filbaner, tomme filbaner og filbaner som refererer til foldere forran nedlastningsfolderen «..» vil generere feil."
+   },
+   "options_label_editor_options": {
+      "message": "Redigeringsvalg"
+   },
+   "options_label_enable_context_menu": {
+      "message": "Integrer FireShot til venstreklikk-meny"
+   },
+   "options_label_file_settings": {
+      "message": "Fil Instillinger"
+   },
+   "options_label_fireshot_options": {
+      "message": "FireShot instillinger"
+   },
+   "options_label_hotkey": {
+      "message": "Hurtigtaster"
+   },
+   "options_label_last_action_hotkey": {
+      "message": "Sist brukte handling"
+   },
+   "options_label_no_saveas_dialog": {
+      "message": "Ikke vis 'Lagre som' dialog"
+   },
+   "options_label_open_folder_after_saving": {
+      "message": "Vis nedlastet fil i mappen etter lagring."
+   },
+   "options_label_save_image_as": {
+      "message": "Lagre Bilde Som:"
+   },
+   "options_label_specify_editor_options": {
+      "message": "Spesifiser redigeringsprogram og lagringsvalg, filnavn instillinger, stiler, etc."
+   },
+   "options_label_specify_hotkey": {
+      "message": "Spesifiser tastekombinasjon for å starte FireShot:"
+   },
+   "options_label_specify_resizing_options": {
+      "message": "Spesifiser størrelsevalg og lyder"
+   },
+   "options_label_template_day": {
+      "message": "Dag"
+   },
+   "options_label_template_hour": {
+      "message": "Time"
+   },
+   "options_label_template_limit_1": {
+      "message": "Begrens filnavnlengde til"
+   },
+   "options_label_template_limit_2": {
+      "message": "Bokstaver"
+   },
+   "options_label_template_minutes": {
+      "message": "Minutter"
+   },
+   "options_label_template_month": {
+      "message": "Måned"
+   },
+   "options_label_template_pad_1": {
+      "message": "Pad nummer med"
+   },
+   "options_label_template_pad_2": {
+      "message": "nuller"
+   },
+   "options_label_template_seconds": {
+      "message": "Sekunder"
+   },
+   "options_label_template_title": {
+      "message": "Side Tittel"
+   },
+   "options_label_template_url": {
+      "message": "Side Addresse"
+   },
+   "options_label_template_website": {
+      "message": "Domenenavn"
+   },
+   "options_label_template_year": {
+      "message": "År"
+   },
+   "options_link_filename_template_settings": {
+      "message": "Vis innstillinger for filnavnmal ..."
+   },
+   "options_link_filename_template_settings_hide": {
+      "message": "Skjul filnavn-malinnstillinger ..."
+   }
+}

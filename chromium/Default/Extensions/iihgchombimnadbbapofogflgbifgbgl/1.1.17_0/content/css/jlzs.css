@@ -1,0 +1,580 @@
+/*样式找时间全面改*/
+//* 图标 */
+i[class^="icon-nchrome"], i[class*=" icon-nchrome"] {
+    font-size: 18.6px !important;
+    border-radius: 18.6px !important;
+    display: inline-block !important;
+    width: 18.6px !important;
+    height: 18.6px !important;
+}
+
+/*公共的样式*/
+.jlzs-container {
+    font: 14px/1.5 arial,STHeiti,'Microsoft YaHei',\5b8b\4f53 !important;
+    color: #000 !important;
+}
+.jlzs-container button, .jlzs-container span {
+    background-image: none;
+}
+.jlzs-container input {
+    outline: none !important;
+}
+.jlzs-container a, .jlzs-container a:hover, .jlzs-container a:link, .jlzs-container a:visited{
+    text-decoration: none !important;
+    cursor: pointer !important;
+}
+.jlzs-close::before, .jlzs-close::before {
+    content: "\00D7" !important;
+}
+a.jlzs-close {
+    color: #A8A8A8 !important;
+    font-size: 16px !important;
+}
+a.jlzs-btn {
+    display: inline-block;
+    text-align: center !important;
+    width: 135px !important;
+    height: 30px !important;
+    line-height: 30px !important;
+    color: #FFF !important;
+    border-radius: 3px !important;
+    border: none 0 !important;
+    cursor: pointer !important;
+    outline: none !important;
+    white-space: nowrap !important;
+}
+a.jlzs-btn-auto {
+    width: auto !important;
+    padding: 0 10px !important;
+}
+a.jlzs-btn-blue {
+    background: #7BCAD6 !important;
+}
+a.jlzs-btn-blue-static {
+    background: #7BCAD6 !important;
+}
+a.jlzs-btn-yellow {
+    background: #CEC449 !important;
+}
+a.jlzs-btn-yellow:hover {
+    background: #bcb133 !important;
+}
+a.jlzs-btn-blue:hover {
+    background: #70A6Af !important;
+}
+
+
+/*popup和notice*/
+.jlzs-notice-box {
+    position: fixed !important;
+    border-radius: 4px !important;
+    background: #FFF !important;
+    z-index: 9999 !important;
+    border: 1px solid #EAEAEB !important;
+}
+.jlzs-pop-box {
+    border-radius: 4px !important;
+    background: #FFF !important;
+    z-index: 9999 !important;
+}
+.jlzs-notice-title, .jlzs-pop-title {
+    height: 20px !important;
+    text-align: right !important;
+    padding: 0 5px !important;
+}
+.jlzs-pop-title {
+    display: flex;
+    background: #f0f0f0 !important;
+    height: 35px !important;
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+}
+.jlzs-pop-title i {
+    width: 20px !important;
+    font-size: 10px !important;
+}
+a.jlzs-pop-text {
+    color: #000 !important;
+}
+.jlzs-pop-title-text {
+    font-size: 14px !important;
+    flex: auto !important;
+    display: flex;
+    align-items: center !important;
+    padding-left: 5px !important;
+}
+.jlzs-pop-title-text::before {
+    background: #FF6547 !important;
+    content: "" !important;
+    display: inline-block;
+    width: 7px !important;
+    height: 7px !important;
+    margin-right: 5px !important;
+    margin-bottom: 2px !important;
+    vertical-align: middle !important;
+}
+.jlzs-notice-content, .jlzs-pop-content {
+    padding: 0 10px 10px !important;
+    color: #4D4D4D !important;
+    line-height: 21px !important;
+    font-size: 14px !important;
+}
+.jlzs-pop-content {
+    padding-top: 10px !important;
+}
+.jlzs-notice-footer, .jlzs-pop-footer {
+    display: flex;
+    justify-content: center !important;
+    padding: 5px 10px 15px !important;
+}
+a.jlzs-pop-close {
+    display: flex;
+    color: #5a5a5a !important;
+}
+/*插件界面*/
+.jlzs-main {
+    display: flex;
+}
+.jlzs-gate {
+    display: flex;
+    position: fixed !important;
+    right: 0 !important;
+    top: 0 !important;
+    z-index: 9999 !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1) !important;
+}
+/*导航*/
+.jlzs-nav-box {
+    width: 45px !important;
+    height: 100% !important;
+    background: #7BCAD6 !important;
+    display: flex;
+    flex-flow: column nowrap !important;
+}
+.jlzs-nav-box a:first-child {
+    height: 30px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    box-sizing: content-box  !important;
+}
+.jlzs-nav-error, .jlzs-nav-error .jlzs-nav-btn {
+    background: #B9B9B9 !important;
+}
+.jlzs-nav-box i[class^=icon-] {
+    width: auto !important;
+    display: flex;
+    justify-content: center !important;
+    font-size: 18.6px !important;
+    border-radius: 18.6px !important;
+    width: 18.6px !important;
+    height: 18.6px !important;
+}
+a.jlzs-nav-small span {
+    font-size: 12px !important;
+}
+a.jlzs-nav-btn {
+    padding: 5px !important;
+    color: #fff !important;
+    text-align: center !important;
+    flex: none !important; 
+    font-size: 12px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+a.jlzs-nav-btn i, a.jlzs-nav-btn span {
+    color: #fff !important;
+}
+a.jlzs-nav-auto {
+    flex: auto !important;
+
+    display: flex;
+    flex-flow: column nowrap !important;
+    justify-content: center !important;
+}
+a.jlzs-nav-large {
+    font-size: 18px !important;
+    line-height: 30px !important;
+    min-height: 150px !important;
+}
+a.jlzs-nav-large span {
+    font-size: 18px !important;
+}
+a.jlzs-nav-large i[class^=icon-] {
+    font-size: 30px !important;
+    width: 30px !important;
+    height: 30px !important;
+    flex: none;
+}
+.jlzs-nav-red {
+    position: relative !important;
+}
+.jlzs-nav-red .jlzs-red-point {
+    position: absolute !important;
+    right: 2px !important;
+    top: 2px !important;
+    background: red !important;
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 4px !important;
+}
+
+/*简历*/
+.jlzs-resume-box {
+    background: #fff !important;
+    width: 350px !important;
+    position: relative !important;
+    display: flex;
+    flex-direction: column !important;
+}
+.jlzs-resume-body {
+    overflow-y: auto !important;
+}
+/*简历header*/
+.jlzs-header-title {
+    height: 40px !important;
+    color: #fff !important;
+    background: #293C3F !important;
+    display: flex;
+    flex: none !important;
+    padding-left: 10px !important;
+}
+.jlzs-header-title i {
+    color: #fff !important;
+}
+.jlzs-header-icon[class^=icon-] {
+    width: 36px !important;
+    display: flex;
+    height: auto !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.jlzs-header-search {
+    flex: auto !important;
+    display: flex;
+    padding: 3px 0px !important;
+}
+.jlzs-header-input {
+    display: flex;
+    flex: auto !important;
+    visibility: hidden;
+    position: relative !important;
+}
+.jlzs-header-input input {
+    flex: auto !important;
+    background: #4F686B !important;
+    border: none !important;
+    border-radius: 4px !important;
+    color: #fff !important;
+    padding: 0 10px !important;
+}
+.jlzs-header-close {
+    position: absolute !important;
+    cursor: pointer !important;
+    right: 1px !important;
+    top: 10px !important;
+}
+.jlzs-header-search-count {
+    position: absolute;
+    right: 32px;
+    top: 8px;
+}
+.jlzs-header-input input::-webkit-input-placeholder {
+    color: #fff !important;
+    font-size: 12px !important;
+}
+/*简历下的每一个模块*/
+.jlzs-module-box {
+    margin-bottom: 0px !important;
+    border-bottom: 1px solid #ebebeb !important;
+}
+.jlzs-module-box.jlzs-open {
+    margin-bottom: 0px !important;
+}
+.jlzs-module-box:last {
+    margin-bottom: 0 !important;
+}
+a.jlzs-module-title, a.jlzs-block-title {
+    height: 46px !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    background: #F5FcFF;
+    border-left: 5px solid #ADD8EA !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+    color: #6C6C6C !important;
+}
+a.jlzs-block-title {
+    justify-content: left !important;
+    background: #F2F2F2 !important;
+    border: none !important;
+}
+a.jlzs-module-title:hover {
+    color: #81BC9D !important;
+}
+.jlzs-module-title i[class^=icon-], .jlzs-block-title i[class^=icon-] {
+    display: none;
+    font-size: 14px !important;
+    align-items: center !important;
+    margin-left: 5px !important;
+
+    border-radius: 18.6px !important;
+    width: 18.6px !important;
+    height: 18.6px !important;
+}
+.jlzs-module-title>i[class^=icon-], .jlzs-block-title>i[class^=icon-] {
+    display: flex;
+}
+.jlzs-module-box.jlzs-open .jlzs-module-title:hover i.icon-nchrome-arrow-up,
+.jlzs-module-block.jlzs-open .jlzs-block-title:hover i.icon-nchrome-arrow-up,
+.jlzs-module-box .jlzs-module-title:hover i.icon-nchrome-arrow-down,
+.jlzs-module-block .jlzs-block-title:hover i.icon-nchrome-arrow-down {
+    display: flex;
+}
+.jlzs-module-box.jlzs-open .jlzs-module-title:hover i.icon-nchrome-arrow-down,
+.jlzs-module-block.jlzs-open .jlzs-block-title:hover i.icon-nchrome-arrow-down  {
+    display: none;
+}
+.jlzs-module-content {
+    font-size: 14px !important;
+    word-wrap:break-word !important;
+}
+.jlzs-module-block-info {
+    border-bottom: 1px solid #ebebeb !important;
+    position: relative !important;
+}
+.jlzs-module-info-box {
+    padding: 10px !important;
+}
+.jlzs-module-info-title {
+    font-size: 14px !important;
+}
+.jlzs-module-info-content {
+    color: #8F8F8F !important;
+    margin-top: 5px !important;
+    font-size: 14px !important;
+}
+.jlzs-module-info-empty {
+    display: flex;
+    justify-content: center !important;
+    color: #CAC9C9 !important;
+}
+/*浮层组件*/
+.jlzs-layer-container {
+    position: absolute !important;
+    top: 0;
+    left: 0 !important;
+    z-index: 10000 !important;
+    overflow: hidden !important;
+}
+.jlzs-layer-container-bg {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 10000 !important;
+    background: #000 !important;
+    width: 100% !important;
+    height: 100% !important;
+    opacity: 0.3 !important;
+}
+.jlzs-layer-container-content {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 10001 !important;
+    width: 100% !important;
+    height: 100% !important;
+    overflow: auto !important;
+    overflow-x: hidden !important;
+}
+/*module里的浮层*/
+.jlzs-module-block-info:hover .jlzs-layer-box {
+    display: block;
+}
+.jlzs-layer-box {
+    display: none;
+}
+.jlzs-layer-back {
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: #000 !important;
+    opacity: 0.7 !important;
+}
+.jlzs-layer-content {
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+/*tip*/
+.jlzs-tip-field {
+    height: 50px;
+    display: flex;
+    align-items: center !important;
+    padding: 0 15px !important;
+    box-shadow: 0px 2px 2px #E8E7E8 !important;
+    margin-bottom: 3px !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+}
+.jlzs-tip-text {
+    padding: 5px 15px !important;
+    position: relative !important;
+}
+.jlzs-tip-text i {
+    position: absolute !important;
+    top: 2px !important;
+    right: 2px !important;
+    color: #E66A6A !important;
+    font-size: 12px !important;
+}
+.jlzs-tip-text-main {
+    font-size: 14px !important;
+    line-height: 21px;
+}
+a.jlzs-tip-close {
+    color: #000 !important;
+}
+a.jlzs-tip-close i[class^=icon-] {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.jlzs-tip-pink {
+    color: #E66A6A !important;
+    background: #F3E1E1 !important;
+}
+.jlzs-tip-yellow {
+    background: #FCFAB3 !important;
+}
+.jlzs-tip-pink .jlzs-warn {
+    color: #E4B04B !important;
+}
+
+.jlzs-container .jlzs-item {
+    display: block;
+    color: #5a5a5a !important;
+    background: #fff !important;
+    padding: 5px 10px !important;
+    box-sizing: border-box !important;
+    border: 1px solid #d4d4d4 !important;
+    border-top: 0px !important;
+}
+.jlzs-container .jlzs-item:first-child {
+    border-top: 1px solid #d4d4d4 !important;
+}
+.jlzs-container .jlzs-item:hover {
+    background: #7BCAD6 !important;
+    color: #fff !important;
+}
+.jlzs-correct-box {
+    padding: 0 40px !important;
+}
+.jlzs-correct-list {
+}
+.jlzs-correct-item {
+    display: flex;
+    align-items: center !important;
+    margin-top: 10px !important;
+}
+.jlzs-correct-item:first-child {
+    margin-top: 0px !important;
+}
+.jlzs-correct-title {
+    margin: 20px 0 !important;
+}
+.jlzs-correct-text {
+    width: 240px !important;
+}
+.jlzs-cut-text {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+.jlzs-correct-input {
+    display: none;
+}
+.jlzs-correct-list {
+    margin-bottom: 20px !important;
+}
+.jlzs-correct-input .jlzs-cpn-control-group {
+    width: 160px !important;
+}
+.jlzs-correct-input .jlzs-cpn-control-group input[type="text"] {
+    width: 148px !important;
+    height: 26px !important;
+    box-sizing: content-box !important;
+}
+.jlzs-correct-type {
+    width: 100px !important;
+    margin-left: 5px !important;
+}
+.jlzs-link-blue {
+    color: #7BCAD6 !important;
+}
+.jlzs-item:hover .jlzs-link-blue {
+    color: #fff !important;
+}
+.jlzs-nav-noLogin .jlzs-nav-key-close i {
+    flex: none !important;
+}
+.jlzs-nav-box.jlzs-nav-noLogin .jlzs-nav-key-close {
+    height: 40px !important;
+}
+
+.jlzs-fixed {
+    position: fixed !important;
+    z-index: 9999 !important;
+}
+.jlzs-header-title, .jlzs-tip-box {
+    z-index: 10000 !important;
+}
+
+.jlzs-version-box {
+    padding: 20px;
+}
+.jlzs-version-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.jlzs-version-title h2 {
+    margin-bottom: 15px;
+}
+.jlzs-version-content {
+    padding: 20px 100px;
+}
+.jlzs-version-content h3 {
+    margin-bottom: 10px;
+}
+.jlzs-version-content div {
+    padding: 0 10px;
+}
+
+.jlzs-attach-more {
+    width: 75px !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+.jlzs-attach-more i[class^=icon-] {
+    width: auto !important;
+    display: flex;
+    justify-content: center !important;
+    font-size: 18.6px !important;
+    border-radius: 18.6px !important;
+    width: 18.6px !important;
+    height: 18.6px !important;
+    margin-bottom: 1px !important;
+}
+.jlzs-attach-more a {
+    text-decoration: none !important;
+}
+.jlzs-attach-fold.jlzs-pop-box {
+    background-color: #fff !important;
+    padding: 5px 10px !important;
+    border: 1px solid #eee !important;
+}

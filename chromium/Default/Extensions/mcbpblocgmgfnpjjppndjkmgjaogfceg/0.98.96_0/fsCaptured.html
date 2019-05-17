@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Captured Successfully</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="scripts/3p/jquery-3.3.1.min.js"></script>
+    <script src="scripts/fsCaptured.js"></script>
+    <script src="scripts/fsUtils.js"></script>
+    <script src="scripts/3p/bootstrap.min.js"></script>
+
+
+    <style>
+            @media (min-width: 1199px) {
+                .fsButton {width: 120px; word-wrap:break-word; white-space: normal}
+            }
+            .hiddenInitially {display:none !important}
+
+            #logo {vertical-align:middle; padding-right: 15px;}
+
+            .starRating {font-size: 2em; cursor: pointer; width:1.2em;}
+            .starHighlighted {color:#ffd026}
+
+            #divRatingContainer {text-align: center}
+
+            .modal {
+                text-align: center;
+                padding: 0!important;
+            }
+
+            .modal:before {
+                content: '';
+                display: inline-block;
+                height: 100%;
+                vertical-align: middle;
+                margin-right: -4px;
+            }
+
+            .modal-dialog {
+                display: inline-block;
+                text-align: left;
+                vertical-align: middle;
+            }
+
+            div.row {padding-top: 10px}
+
+            @media (max-width: 1199px) {
+                .fsButton {width: 100px; word-wrap:break-word; white-space: normal}
+            }
+
+             @media (max-width: 767px) {
+                .fsButton {width: 140px; word-wrap:break-word; white-space: normal}
+            }
+
+            .link1 {display:inline-block; padding-left: 5px; padding-right: 5px}
+
+    </style>
+
+</head>
+
+<body>
+    <!-- Page Content -->
+    <div class="container" style="display:none">
+
+        <!-- Portfolio Item Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">
+                    <img id="logo" src="/images/sss_48.png"><span data-i18n="captured_save_panel_title"></span>
+                </h2>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Portfolio Item Row -->
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-7 col-md-8">
+                <div id="divImgResult" style="overflow-y:scroll;" class="panel panel-default">
+                    <img id="imgResult" style="padding:10px; width:100%; margin:auto; display:block;">
+                </div>
+                <!-- <div class="visible-xs-block" style="text-align: center; margin-bottom: 1.3em;">
+                    <button style="width:40px" id="btnEnlarge" type="button" class="fsButton btn btn-default btn-sm active">
+                        <span class="glyphicon glyphicon-plus"></span></button>
+                </div> -->
+            </div>
+
+            <div class="col-xs-12 col-sm-5 col-md-4">
+                <div id="divPanel" class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><span class="glyphicon glyphicon-save"></span>&nbsp;<span data-i18n="captured_save_panel_title">Save
+                                screenshot</span></h3>
+                    </div>
+                    <div class="panel-body">
+
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-8"><span data-i18n="captured_save_as_image">Save as an image</span></div>
+                            <div class="col-xs-6 col-sm-4 text-right">
+
+                                <div class="fsButton" style="float:right">
+                                    <button id="btnSaveImage" type="button" class="fsButton btn btn-default btn-sm active"><span
+                                            data-i18n="captured_save_as_image_button">Save as Image</span></button>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-8"><span data-i18n="captured_save_as_pdf">Save as PDF</span></div>
+                            <div class="col-xs-6 col-sm-4 text-right">
+                                <div class="fsButton" style="float:right">
+                                    <button id="btnSaveImagePDF" type="button" class="fsButton btn btn-default btn-sm active"><span
+                                            data-i18n="captured_save_as_pdf">Save to PDF</span></button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-8"></div>
+                            <div class="col-xs-6 col-sm-4">
+                                <div style="float:right; text-align: center; width:120px; font-size: 10px;">
+                                    <a style="color:#fff; font-style:italic" id="lnkOptions1" href="#"><span class="glyphicon glyphicon-cog"></span>
+                                        <span data-i18n="captured_saving_options"></span>...</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p>&nbsp;</p>
+
+                       
+                            <div class="row" id="divEmail">
+                                <div class="col-xs-6 col-sm-8"><span>Email</span></div>
+                                <div class="col-xs-6 col-sm-4">
+                                    <div style="float:right">
+                                        <div class="dropdown">
+                                            <button data-toggle="dropdown" type="button" class="fsButton btn btn-default btn-sm active dropdown-toggle"><span>Gmail&nbsp;</span><span
+                                                    class="caret"></span></button>
+                                            <ul id="btnSendEmail" class="dropdown-menu" style="border:rgb(60, 65, 74) solid 1px">
+                                                <li value="png"><a href="#">PNG</a></li>
+                                                <li value="jpg"><a href="#">JPEG</a></li>
+                                                <li value="pdf"><a href="#">PDF</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-6 col-sm-8"><span data-i18n="captured_copy_clipboard">Copy to Clipboard</span></div>
+                                <div class="col-xs-6 col-sm-4">
+                                    <div style="float:right"><button data-toggle="modal" data-target="#modalCopyToClipboard"
+                                            type="button" class="fsButton btn btn-default btn-sm active"><span data-i18n="captured_copy_clipboard_learn_button">Copy</span></button></div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-6 col-sm-8"><span data-i18n="captured_print">Print the screenshot</span></div>
+                                <div class="col-xs-6 col-sm-4">
+                                    <div style="float:right"><button id="btnPrint" type="button" class="fsButton btn btn-default btn-sm active"><span
+                                                data-i18n="captured_print_button">Print</span></button></div>
+                                </div>
+                            </div>
+
+                        <div id="divPromo" class="hiddenInitially">
+
+                            <p>&nbsp;</p>
+
+                            <div class="row">
+                                <div class="col-xs-6 col-sm-8" style="padding-right:25px"><span data-i18n="captured_upgrade_link_1">Capture,
+                                        Annotate, Print and Save better, Edit, Upload, send to E-Mail / OneNote, or
+                                        Export to another program.</span></div>
+                                <div class="col-xs-6 col-sm-4">
+                                    <div style="float:right; line-height:13px">
+                                        <span id="spnAdvancedFeaturesSection">
+                                            <a class="noborder" href="/fsNativeInstall.html" target="_blank"><button
+                                                    type="button" class="fsButton btn btn-success btn-sm active"><span
+                                                        data-i18n="captured_get_free_button">Get it Free</span></button></a>
+                                            <br><br>
+                                        </span>
+                                        <a href="https://getfireshot.com/buy.php?SRC=ce-lite" target="_blank"><button
+                                                type="button" class="fsButton btn btn-info btn-sm active"><span
+                                                    data-i18n="captured_buy_pro_button">Buy Pro</span></button></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="divAlert1" class="alert alert-info alert-dismissible" role="alert" style="display:none;">
+                    <button id="btnCloseAlert1" type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span
+                            class="sr-only">Close</span></button>
+                    <strong>Ooops!</strong> <span data-i18n="captured_upgrade_link_3">I was using another version of
+                        FireShot</span>. <u><a id="lnkInstallAdvanced" href="#" target="_blank"><span data-i18n="captured_upgrade_link_4">Can
+                                I get it back?</span></a></u></div>
+
+                <div id="divAlert2" class="alert alert-info alert-dismissible" role="alert" style="display:none;">
+                        <button id="btnCloseAlert1" type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span
+                                class="sr-only">Close</span></button>
+                        <strong>We're sorry:</strong> the height of this capture will be reduced to 8192 pixels. Unfortunately, this is currently limited by Edge.</div>
+
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+
+        <!-- Modal Copy to Clipboard howto-->
+        <div class="modal fade" id="modalCopyToClipboard" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                                class="sr-only">Close</span></button>
+                        <h4 class="modal-title">How to copy screenshot to clipboard:</h4>
+                    </div>
+                    <div class="modal-body">
+                            <ol style="padding-left:inherit">
+                                <li>Right-click the image</li>
+                                <li>Choose "Copy image" from the popup menu</li>
+                            </ol>
+                        <p>&nbsp;</p>
+                        <p>
+                            <img src="images/copy.gif">
+                        </p>
+
+                        <div id="noflashgoadvanced3" class="hiddenInitially">
+                            <p>&nbsp;</p>
+                            <p>Or <a id="lnkInstallAdvanced4" href="#">extend FireShot</a> - get Advanced Features to
+                                Annotate, Print and Save better, Edit, Upload, send to E-Mail / OneNote, or Export to
+                                another program.</p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Modal Rating-->
+        <!--<div class="modal fade" id="modalSetRating" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-sm modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                                class="sr-only">Close</span></button>
+                        <h4 class="modal-title">How do you find FireShot?</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div id="divRatingContainer">
+                            <div id="divRating"></div>
+                            <div id="divRatingThankYou">
+                                <h5>Thank you for your feedback!</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+
+        <!-- Modal Error Dialog-->
+        <div class="modal fade" id="modalErrorDialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-sm modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                                class="sr-only">Close</span></button>
+                        <h4 id="errorDialogTitle" class="modal-title"></h4>
+                    </div>
+                    <div id="errorDialogMessage" class="modal-body">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <hr>
+
+        <!-- Footer -->
+        
+        <footer style="line-height: 2em">
+            
+            
+            <ul class="list-inline">
+                <li><span>
+                    <span class="glyphicon glyphicon-play" style="margin-right:5px"></span>Get FireShot Lite for:
+                    <a id="lnkChromeStore" target="_blank" class="link1" href="https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg">Chrome</a>
+                    <a id="lnkAmo" target="_blank" class="link1" href="https://addons.mozilla.org/en-US/firefox/addon/fireshot/">Firefox</a>
+                    <a id="lnkMSStore" target="_blank" class="link1" href="https://www.microsoft.com/p/take-webpage-screenshots-entirely-fireshot/9nn7ppwr5f3g">Edge</a>
+                    <a id="lnkOperaStore" target="_blank" class="link1" href="https://addons.opera.com/en/extensions/details/capture-webpage-screenshot-fireshot/">Opera</a>
+                </span>
+                </li>   
+                
+                <li id="upgradeLink" class="hiddenInitially">
+                    <a style="color:#ebebeb" href="https://getfireshot.com?from=ce" target="_blank">
+                        <span class="glyphicon glyphicon-flash" style="margin-right:5px"></span><span data-i18n="captured_upgrade_link_2">Upgrade to FireShot Pro</span>
+                    </a>&nbsp;
+                </li>
+    
+                <li><a style="color:#ebebeb" id="lnkOptions" href="#">
+                    <span class="glyphicon glyphicon-cog" style="margin-right:5px"></span><span data-i18n="captured_setup_hotkeys">Setup hotkeys and file settings...</span></a></li>
+            </ul>
+        
+        
+        </footer>
+
+
+        <div id="divLikeMessage" class="modal-content" style="display:none; position: absolute; right:10px; bottom:10px">
+            <div class="modal-body">
+                    Could you please share with us, whether you like FireShot or not?   
+            </div>
+            <div class="modal-footer" style="padding:5px; text-align: center">
+                <button id="btnLike" type="button" class="btn btn-default active">I like it</button>
+                <button id="btnDislike" type="button" class="btn btn-default active">I don't</button>
+            </div>
+        </div>
+
+        <div id="divSendReview" class="modal-content" style="max-width: 28em; display:none; position: absolute; right:10px; bottom:10px">
+            <div class="modal-body">
+                <p>FireShot development takes a lot of personal time.<br>That time could be spent on family or rest ;) </p>
+                <p>As an appreciation of our efforts, would you be so kind to rate FireShot?</p>
+                <p>This would help people to discover FireShot faster.</p>
+            </div>
+            <div class="modal-footer" style="padding:5px; text-align: center">
+                <button id="btnRate" type="button" class="btn btn-default active">Rate FireShot</button>
+                <button id="btnRateLater" type="button" class="btn btn-default active">Maybe later...</button>
+            </div>
+        </div>
+      
+
+
+    </div>
+    <!-- /.container -->
+
+</body>
+
+</html>

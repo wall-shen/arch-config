@@ -1,0 +1,225 @@
+{
+   "ad_block_statistics": {
+      "message": "广告拦截统计"
+   },
+   "add": {
+      "message": "添加"
+   },
+   "add_domain_button": {
+      "message": "添加域名"
+   },
+   "add_filter_button": {
+      "message": "添加过滤规则"
+   },
+   "add_filters_info": {
+      "message": "点击添加按钮后，扩展将过滤红色区域的内容。"
+   },
+   "add_filters_msg": {
+      "message": "添加过滤规则？"
+   },
+   "add_your_own_filters": {
+      "message": "自定义过滤"
+   },
+   "all_page_statistics": {
+      "message": "累计拦截"
+   },
+   "apply_changes": {
+      "message": "应用"
+   },
+   "back": {
+      "message": "返回"
+   },
+   "block_element": {
+      "message": "屏蔽此元素"
+   },
+   "block_help": {
+      "message": "获取帮助"
+   },
+   "cancel": {
+      "message": "取消"
+   },
+   "clickhide_instructions": {
+      "message": "请点击或右击页面上需要屏蔽的元素"
+   },
+   "current_page_statistics": {
+      "message": "当前网页"
+   },
+   "description": {
+      "message": "清除网页上的所有广告：浮动广告，购物广告，恶意弹窗，跟踪代码，视频广告。让你浏览网页更快更清爽。广告终结者，你唯一需要的广告插件"
+   },
+   "disable_inline": {
+      "message": "屏蔽广告链接"
+   },
+   "disabled_for_site": {
+      "message": "对该网站过滤\u003Cstrong>关闭\u003C/strong>"
+   },
+   "disabled_for_these_domains": {
+      "message": "白名单中的网站将不会被过滤广告"
+   },
+   "disabled_for_video": {
+      "message": "过滤增强脚本\u003Cstrong>关闭\u003C/strong>"
+   },
+   "easy_create_filter": {
+      "message": "手动屏蔽网站广告"
+   },
+   "edit_filters_raw": {
+      "message": "以纯文本编辑"
+   },
+   "enable_only_the": {
+      "message": "请只订阅你需要的过滤规则，开启过多会使浏览器变慢。参考详细\u003Ca>规则订阅建议\u003C/a>"
+   },
+   "enabled_for_site": {
+      "message": "对该网站过滤\u003Cstrong>启用\u003C/strong>"
+   },
+   "enabled_for_video": {
+      "message": "过滤增强脚本\u003Cstrong>启用\u003C/strong>"
+   },
+   "filter_lists": {
+      "message": "规则订阅"
+   },
+   "filter_must_follow_syntax": {
+      "message": "添加自定义过滤规则需要了解相关的\u003Ca>规则语法\u003C/a>"
+   },
+   "filters_acceptableAds2_label": {
+      "message": "允许一些非侵入式广告"
+   },
+   "filters_addSubscriptionAdd_label": {
+      "message": "添加"
+   },
+   "filters_addSubscriptionOther_label": {
+      "message": "添加其他过滤规则订阅组"
+   },
+   "filters_addSubscription_label": {
+      "message": "订阅过滤规则"
+   },
+   "filters_readMore_label": {
+      "message": "深入了解"
+   },
+   "filters_subscription_delete_label": {
+      "message": "删除"
+   },
+   "filters_subscription_enabled_label": {
+      "message": "启用"
+   },
+   "filters_subscription_lastDownload_checksumMismatch": {
+      "message": "失败，检验和不匹配"
+   },
+   "filters_subscription_lastDownload_connectionError": {
+      "message": "失败，下载失败"
+   },
+   "filters_subscription_lastDownload_inProgress": {
+      "message": "正在下载……"
+   },
+   "filters_subscription_lastDownload_invalidData": {
+      "message": "失败，不是有效的过滤规则列表"
+   },
+   "filters_subscription_lastDownload_invalidURL": {
+      "message": "失败，不是有效地址"
+   },
+   "filters_viewList_label": {
+      "message": "查看列表"
+   },
+   "firstRun_changelog": {
+      "message": "查看更新内容"
+   },
+   "firstRun_dataCorruptionWarning": {
+      "message": "总是显示此页？\u003Ca>点击这里！\u003C/a>"
+   },
+   "firstRun_features_heading": {
+      "message": "用了 广告终结者，您可以："
+   },
+   "firstRun_title_install": {
+      "message": "广告终结者 已安装"
+   },
+   "firstRun_title_update": {
+      "message": "广告终结者 已更新"
+   },
+   "general": {
+      "message": "其他设置"
+   },
+   "global_remove_subscription_warning": {
+      "message": "您确定要移除该过滤规则订阅组吗？"
+   },
+   "global_subscription_invalid_location": {
+      "message": "过滤规则列表的位置不是有效的 URL 或有效的文件名。"
+   },
+   "help_and_support": {
+      "message": "帮助与支持"
+   },
+   "help_short": {
+      "message": "帮助与支持"
+   },
+   "last_updated_at": {
+      "message": "最近更新于 $time$ $date$",
+      "placeholders": {
+         "date": {
+            "content": "$2"
+         },
+         "time": {
+            "content": "$1"
+         }
+      }
+   },
+   "last_updated_at_today": {
+      "message": "最近更新于 $time$ 今日",
+      "placeholders": {
+         "time": {
+            "content": "$1"
+         }
+      }
+   },
+   "name": {
+      "message": "广告终结者"
+   },
+   "new_filters_added": {
+      "message": "您已添加过滤规则。 请至\u003Ca id='options_url' target='_blank'>广告终结者选项\u003C/a> 管理过滤规则。"
+   },
+   "options": {
+      "message": "设置选项"
+   },
+   "options_short": {
+      "message": "设置选项"
+   },
+   "out_of_date_lists": {
+      "message": "过滤规则会自动联网更新"
+   },
+   "overlay_hideplaceholders_label": {
+      "message": "隐藏已屏蔽元素的占位符"
+   },
+   "remove_button": {
+      "message": "删除选中规则"
+   },
+   "remove_domain_button": {
+      "message": "删除域名"
+   },
+   "share": {
+      "message": "分享给好友"
+   },
+   "show_block_element_menu": {
+      "message": "右键菜单显示“屏蔽此广告”"
+   },
+   "show_icon": {
+      "message": "在地址栏显示图标"
+   },
+   "show_video_tips_banner": {
+      "message": "启用视频广告过滤"
+   },
+   "stats_title": {
+      "message": "已屏蔽"
+   },
+   "subscriptionSelection_location_label": {
+      "message": "过滤规则链接:"
+   },
+   "subscriptionSelection_subscriptionSelector_label": {
+      "message": "从列表中选择要订阅的过滤规则:"
+   },
+   "subscriptionSelection_title_label": {
+      "message": "过滤规则标题:"
+   },
+   "update_now": {
+      "message": "立即更新"
+   },
+   "whitelisted_domains": {
+      "message": "网站白名单"
+   }
+}

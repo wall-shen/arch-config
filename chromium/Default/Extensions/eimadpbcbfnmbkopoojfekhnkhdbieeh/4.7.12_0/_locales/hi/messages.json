@@ -1,0 +1,140 @@
+{
+   "add_site_to_list": {
+      "message": "सूची में साइट जोड़ें"
+   },
+   "brightness": {
+      "message": "चमक"
+   },
+   "change_browser_theme": {
+      "message": "ब्राउज़र विषय बदलें"
+   },
+   "contrast": {
+      "message": "विरोध"
+   },
+   "custom_browser_theme_off": {
+      "message": "डिफ़ॉल्ट द्वारा"
+   },
+   "custom_browser_theme_on": {
+      "message": "बदला हुआ"
+   },
+   "dark": {
+      "message": "अंधेरा"
+   },
+   "donate": {
+      "message": "दान करना"
+   },
+   "engine_dynamic": {
+      "message": "गतिशील"
+   },
+   "engine_filter": {
+      "message": "फ़िल्टर"
+   },
+   "engine_filter_plus": {
+      "message": "फ़िल्टर+"
+   },
+   "engine_static": {
+      "message": "स्थिर"
+   },
+   "extension_description": {
+      "message": "हर वेबसाइट के लिए डार्क थीम। अपनी आंखों की देखभाल करें, रात और दैनिक ब्राउज़िंग के लिए डार्क रीडर का उपयोग करें।"
+   },
+   "filter": {
+      "message": "फ़िल्टर"
+   },
+   "grayscale": {
+      "message": "ग्रेस्केल"
+   },
+   "help": {
+      "message": "सहायता"
+   },
+   "invert_listed_only": {
+      "message": "इन्वर्टर केवल सूचीबद्ध है"
+   },
+   "light": {
+      "message": "रोशनी"
+   },
+   "loading_please_wait": {
+      "message": "लोड हो रहा है, कृपया प्रतीक्षा करें"
+   },
+   "mode": {
+      "message": "मोड"
+   },
+   "more": {
+      "message": "अधिक"
+   },
+   "news": {
+      "message": "समाचार"
+   },
+   "not_invert_listed": {
+      "message": "सूचीबद्ध उलटा नहीं है"
+   },
+   "off": {
+      "message": "बंद करें"
+   },
+   "on": {
+      "message": "चालू करो"
+   },
+   "only_for": {
+      "message": "केवल के लिए"
+   },
+   "only_for_description": {
+      "message": "केवल मौजूदा वेबसाइट पर सेटिंग्स लागू करें"
+   },
+   "open_dev_tools": {
+      "message": "डेवलपर टूल"
+   },
+   "page_in_dark_list": {
+      "message": "यह साइट वैश्विक\nडार्क लिस्ट में है"
+   },
+   "page_protected": {
+      "message": "यह पृष्ठ ब्राउज़र\nद्वारा संरक्षित है"
+   },
+   "privacy": {
+      "message": "गोपनीयता नीति"
+   },
+   "read_more": {
+      "message": "और पढो"
+   },
+   "select_font": {
+      "message": "एक फ़ॉन्ट का चयन करें"
+   },
+   "sepia": {
+      "message": "गरम"
+   },
+   "set_active_hours": {
+      "message": "गतिविधि का समय बदलें"
+   },
+   "setup_add_site_hotkey": {
+      "message": "साइट जोड़ने के लिए एक हॉटकी सेटअप करें"
+   },
+   "setup_hotkey_toggle_extension": {
+      "message": "सेटअप एक्सटेंशन\nटॉगल हॉटकी"
+   },
+   "setup_hotkey_toggle_site": {
+      "message": "मौजूदा साइट टॉगल हॉटकी\nसेटअप करें"
+   },
+   "site_list": {
+      "message": "साइट सूची"
+   },
+   "store_listing": {
+      "message": "यह आंख-देखभाल विस्तार रात के मोड को वेबसाइटों के लिए अंधेरे विषयों को बनाने में सक्षम बनाता है। डार्क रीडर चमकदार रंगों को इन्हें उच्च विपरीत बना देता है और रात में पढ़ने में आसान होता है।\n\nआप चमक, कंट्रास्ट, सेपिया फ़िल्टर, डार्क मोड, फ़ॉन्ट सेटिंग्स और अनदेखा-सूची समायोजित कर सकते हैं।\n\nडार्क रीडर विज्ञापन नहीं दिखाता है और कहीं भी उपयोगकर्ता का डेटा नहीं भेजता है। यह पूरी तरह से खुला स्रोत है https://github.com/darkreader/darkreader\n\nडार्क रीडर स्थापित करने से पहले इसी तरह की एक्सटेंशन अक्षम करें। देखने का मज़ा लें!"
+   },
+   "text_stroke": {
+      "message": "पाठ स्ट्रोक"
+   },
+   "theme_generation_mode": {
+      "message": "थीम पीढ़ी मोड"
+   },
+   "time_settings": {
+      "message": "समय सैट करना"
+   },
+   "toggle_current_site": {
+      "message": "वर्तमान साइट टॉगल करें"
+   },
+   "toggle_extension": {
+      "message": "एक्सटेंशन टॉगल करें"
+   },
+   "try_experimental_theme_engines": {
+      "message": "**प्रयोगात्मक** थीम इंजन आज़माएं:\n**फ़िल्टर+** रंग संतृप्ति को संरक्षित करता है, जीपीयू का उपयोग करता है\n**स्टेटिक थीम** एक साधारण तेज़ विषय उत्पन्न करता है\n**गतिशील विषय** रंग और छवियों का विश्लेषण करता है"
+   }
+}

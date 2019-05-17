@@ -1,0 +1,262 @@
+{
+   "checksum": "52facd1a3e32249c7c8ed8a201f978c1",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13164123284000000",
+            "id": "5",
+            "name": "Git教程 - 廖雪峰的官方网站",
+            "sync_transaction_version": "88",
+            "type": "url",
+            "url": "https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000"
+         }, {
+            "children": [ {
+               "date_added": "13164190125000000",
+               "id": "22",
+               "name": "【深度学习】人脸识别、视频中找人的实现 - CSDN博客",
+               "sync_transaction_version": "17",
+               "type": "url",
+               "url": "http://blog.csdn.net/chengcheng1394/article/details/77817194"
+            }, {
+               "date_added": "13164190266000000",
+               "id": "23",
+               "name": "OpenCV+python 人脸识别 - CSDN博客",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://blog.csdn.net/wangyaninglm/article/details/51731989?locationNum=1&fps=1"
+            }, {
+               "date_added": "13164384689000000",
+               "id": "24",
+               "name": "图像特征提取三大法宝：HOG特征，LBP特征，Haar特征 | 数盟社区",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://dataunion.org/20584.html"
+            }, {
+               "date_added": "13164435100000000",
+               "id": "25",
+               "name": "利用Python、openCV打造自己的人脸识别AI系统 - CSDN博客",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://blog.csdn.net/weixin_37554177/article/details/72884682"
+            }, {
+               "date_added": "13164788831000000",
+               "id": "26",
+               "name": "基于深度学习的人脸识别技术综述",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "https://zhuanlan.zhihu.com/p/24816781"
+            }, {
+               "date_added": "13164860421000000",
+               "id": "27",
+               "name": "机器学习原来这么有趣！第四章：用深度学习识别人脸",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "https://zhuanlan.zhihu.com/p/24567586"
+            }, {
+               "date_added": "13165507574000000",
+               "id": "28",
+               "name": "PyTorch使用OpenFace模块的nn4.small2.v1.t7模型进行人脸识别 - pytorch中文网",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "https://www.ptorch.com/news/88.html"
+            }, {
+               "date_added": "13165057751000000",
+               "id": "29",
+               "name": "PyTorch预训练 - CSDN博客",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://blog.csdn.net/amds123/article/details/70144935"
+            }, {
+               "date_added": "13164901665000000",
+               "id": "30",
+               "name": "face_recognition/api.py at master · ageitgey/face_recognition",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "https://github.com/ageitgey/face_recognition/blob/master/face_recognition/api.py"
+            } ],
+            "date_added": "13201778168056462",
+            "date_modified": "13201778168056462",
+            "id": "6",
+            "name": "人脸识别",
+            "sync_transaction_version": "1",
+            "type": "folder"
+         }, {
+            "date_added": "13196845672651391",
+            "id": "7",
+            "name": "/home/wall/ 的索引",
+            "sync_transaction_version": "88",
+            "type": "url",
+            "url": "file:///home/wall/"
+         }, {
+            "date_added": "13175536421913337",
+            "id": "8",
+            "name": "GitHub - jaagr/polybar: A fast and easy-to-use status bar",
+            "sync_transaction_version": "123",
+            "type": "url",
+            "url": "https://github.com/jaagr/polybar#getting-started"
+         }, {
+            "date_added": "13188108375697204",
+            "id": "9",
+            "meta_info": {
+               "last_visited_desktop": "13202530109803916"
+            },
+            "name": "网易云",
+            "sync_transaction_version": "165",
+            "type": "url",
+            "url": "https://music.163.com/#/my/m/music/playlist?id=2001808740"
+         }, {
+            "date_added": "13191941359917086",
+            "id": "10",
+            "name": "Learn Emacs in 21 Days- 21天学会Emacs，从入门到懵逼_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili",
+            "sync_transaction_version": "146",
+            "type": "url",
+            "url": "https://www.bilibili.com/video/av12050822/?p=1"
+         }, {
+            "children": [ {
+               "date_added": "13197814230399506",
+               "id": "17",
+               "name": "索引 · 笔试面试知识整理",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "https://hit-alibaba.github.io/interview/basic/db/DB-Index.html?q="
+            }, {
+               "date_added": "13197395850082873",
+               "id": "18",
+               "name": "【carson_ho】博客 - CSDN",
+               "sync_transaction_version": "88",
+               "type": "url",
+               "url": "https://me.csdn.net/carson_ho"
+            }, {
+               "date_added": "13197394903791635",
+               "id": "19",
+               "name": "C++ STL - MoreWindows Blog（格物穷理，以求自由！） - MoreWindows - CSDN博客",
+               "sync_transaction_version": "18",
+               "type": "url",
+               "url": "https://blog.csdn.net/MoreWindows/column/info/stl-morewindows"
+            }, {
+               "date_added": "13196757572008342",
+               "id": "20",
+               "name": "CS-Notes/docs at master · CyC2018/CS-Notes · GitHub",
+               "sync_transaction_version": "15",
+               "type": "url",
+               "url": "https://github.com/CyC2018/CS-Notes/tree/master/docs"
+            }, {
+               "date_added": "13197908560259198",
+               "id": "21",
+               "name": "常见面试题整理--数据库篇（每位开发者必备） - 知乎",
+               "sync_transaction_version": "88",
+               "type": "url",
+               "url": "https://zhuanlan.zhihu.com/p/23713529"
+            } ],
+            "date_added": "13201778168058323",
+            "date_modified": "13202385589606797",
+            "id": "11",
+            "name": "面试总结",
+            "sync_transaction_version": "1",
+            "type": "folder"
+         }, {
+            "date_added": "13197213330060505",
+            "id": "12",
+            "name": "多年未更新的Gentoo升级指南",
+            "sync_transaction_version": "88",
+            "type": "url",
+            "url": "https://www.douban.com/note/618726632/"
+         }, {
+            "date_added": "13197805288130956",
+            "id": "13",
+            "name": "redis-3.0-annotated/ae.c at unstable · huangz1990/redis-3.0-annotated",
+            "sync_transaction_version": "124",
+            "type": "url",
+            "url": "https://github.com/huangz1990/redis-3.0-annotated/blob/unstable/src/ae.c"
+         }, {
+            "date_added": "13197814524981893",
+            "id": "14",
+            "name": "探索算法面试题汇总 - 力扣 (LeetCode)",
+            "sync_transaction_version": "88",
+            "type": "url",
+            "url": "https://leetcode-cn.com/explore/interview/card/top-interview-quesitons-in-2018/"
+         }, {
+            "date_added": "13198658701873507",
+            "id": "15",
+            "name": "Gentoo - Wiki · Tanky Woo",
+            "sync_transaction_version": "145",
+            "type": "url",
+            "url": "https://wiki.tankywoo.com/linux/gentoo.html"
+         }, {
+            "date_added": "13199257929040717",
+            "id": "16",
+            "name": "【magic_world_wow的博客】一个小白的成长 - CSDN博客",
+            "sync_transaction_version": "88",
+            "type": "url",
+            "url": "https://blog.csdn.net/magic_world_wow/article/list/1?"
+         }, {
+            "date_added": "13201790456451699",
+            "id": "33",
+            "meta_info": {
+               "last_visited_desktop": "13202530534359677"
+            },
+            "name": "i3wm-config/config at master · levinit/i3wm-config",
+            "sync_transaction_version": "166",
+            "type": "url",
+            "url": "https://github.com/levinit/i3wm-config/blob/master/i3/config"
+         }, {
+            "date_added": "13201928689693677",
+            "id": "35",
+            "name": "命令行快速进阶（七）通过byobu使用多个命令终端 - Image Processing for Computer Graphics and Vision - CSDN博客",
+            "sync_transaction_version": "88",
+            "type": "url",
+            "url": "https://blog.csdn.net/lqhbupt/article/details/7786153"
+         }, {
+            "date_added": "13201929591191203",
+            "id": "36",
+            "name": "编辑文章-CSDN博客",
+            "sync_transaction_version": "88",
+            "type": "url",
+            "url": "https://mp.csdn.net/postedit/90049838"
+         }, {
+            "date_added": "13202387155254568",
+            "id": "38",
+            "meta_info": {
+               "last_visited_desktop": "13202468113910133"
+            },
+            "name": "Privoxy (简体中文) - ArchWiki",
+            "sync_transaction_version": "157",
+            "type": "url",
+            "url": "https://wiki.archlinux.org/index.php/Privoxy_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)"
+         }, {
+            "date_added": "13202452706297848",
+            "id": "40",
+            "meta_info": {
+               "last_visited_desktop": "13202528726197041"
+            },
+            "name": "▶ Blooming Villain",
+            "sync_transaction_version": "164",
+            "type": "url",
+            "url": "https://music.163.com/#/playlist?id=2001808740"
+         } ],
+         "date_added": "13201777908820420",
+         "date_modified": "13202452706297848",
+         "id": "1",
+         "name": "书签栏",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13201777908820423",
+         "date_modified": "13201790456451699",
+         "id": "2",
+         "name": "其他书签",
+         "type": "folder"
+      },
+      "sync_transaction_version": "166",
+      "synced": {
+         "children": [  ],
+         "date_added": "13201777908820423",
+         "date_modified": "0",
+         "id": "3",
+         "name": "移动设备书签",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

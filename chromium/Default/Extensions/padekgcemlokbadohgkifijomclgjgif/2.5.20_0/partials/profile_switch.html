@@ -1,0 +1,153 @@
+
+<div ng-controller="SwitchProfileCtrl">
+  <section ng-show="conditionHelp.show" ng-init="expandedSection = {id: 0}" class="condition-help-section settings-group">
+    <h3>{{'options_group_conditionHelp' | tr}}
+      <button type="button" ng-click="conditionHelp.show = false" class="close close-condition-help"><span aria-hidden="true">×</span><span class="sr-only">{{'dialog_close' | tr}}</span></button>
+    </h3>
+    <div ng-repeat="group in (showConditionTypes == 0 ? basicConditionTypes : advancedConditionTypes)" class="condition-help">
+      <h4 ng-show="!!('condition_group_' + group.group | tr)"><a ng-click="expandedSection.id = $index" role="button"><span ng-class="{'glyphicon-chevron-down': expandedSection.id == $index, 'glyphicon-chevron-right': expandedSection.id != $index}" class="glyphicon"></span> {{'condition_group_' + group.group | tr}}</a></h4>
+      <dl ng-show="expandedSection.id == $index">
+        <dt ng-repeat-start="type in group.types">{{'condition_' + type | tr}}</dt>
+        <dd ng-repeat-end="ng-repeat-end">
+          <div ng-bind-html="&quot;condition_help_&quot; + type | tr"></div>
+          <div ng-if="isUrlConditionType[type]" class="text-danger"><span class="glyphicon glyphicon-alert"></span> <span ng-bind-html="&quot;condition_alert_fullUrlLimitation&quot; | tr"></span>
+          </div>
+        </dd>
+      </dl>
+    </div>
+  </section>
+  <section class="settings-group">
+    <h3>{{'options_group_switchRules' | tr}} 
+      <button ng-click="toggleSource()" ng-class="editSource ? &quot;btn-primary active&quot; : &quot;btn-default&quot;" class="btn"><span class="glyphicon glyphicon-edit"></span> {{'options_profileEditSource' | tr}}
+      </button> <a ng-show="editSource" target="_blank" title="{{&quot;options_profileEditSourceHelp&quot; | tr}}" href="{{&quot;options_profileEditSourceHelpUrl&quot; | tr}}" class="btn btn-link btn-sm clear-padding toggle-condition-help"><span class="glyphicon glyphicon-question-sign"></span></a>
+    </h3>
+    <div ng-show="source.error" class="alert alert-danger width-limit"><span class="glyphicon glyphicon-remove"></span> {{source.error.message}}
+    </div>
+    <div ng-show="!!hasUrlConditions" class="alert alert-danger"><span class="glyphicon glyphicon-alert"></span> <span ng-bind-html="&quot;condition_alert_fullUrlLimitation&quot; | tr"></span>
+    </div>
+    <div ng-show="editSource" class="rules-source">
+      <textarea ng-model="source.code" rows="20" ng-change="source.touched = true; $root.optionsDirty = true" class="monospace form-control width-limit"></textarea>
+    </div>
+    <div ng-if="loadRules" ng-show="!editSource" class="table-responsive switch-rules-wrapper">
+      <table class="switch-rules table table-bordered table-condensed width-limit-xl">
+        <thead>
+          <tr>
+            <th style="white-space: nowrap">{{'options_sort' | tr}}</th>
+            <th class="condition-type-th">{{'options_conditionType' | tr}} 
+              <button title="{{&quot;options_showConditionTypeHelp&quot; | tr}}" ng-click="conditionHelp.show = !conditionHelp.show" class="btn btn-link btn-sm clear-padding toggle-condition-help"><span class="glyphicon glyphicon-question-sign"></span></button>
+            </th>
+            <th>{{'options_conditionDetails' | tr}}</th>
+            <th>{{'options_resultProfile' | tr}}</th>
+            <th>{{'options_conditionActions' | tr}}</th>
+            <th ng-if="showNotes">{{'options_ruleNote' | tr}}</th>
+          </tr>
+        </thead>
+        <tbody ui-sortable="sortableOptions" ng-model="profile.rules">
+          <tr ng-repeat="rule in profile.rules" class="switch-rule-row">
+            <td class="sort-bar"><span class="glyphicon glyphicon-sort"></span></td>
+            <td ng-class="{&quot;has-icon&quot;: isUrlConditionType[rule.condition.conditionType]}">
+              <select ng-model="rule.condition.conditionType" ng-options="type.type as (&quot;condition_&quot; + type.type | tr) group by (type.group | tr) for type in conditionTypes" class="form-control"></select><a ng-href="{{&quot;condition_alert_fullUrlLimitationLink&quot; | tr}}" target="_blank" ng-if="isUrlConditionType[rule.condition.conditionType]" class="icon-wrapper"><span class="glyphicon glyphicon-alert text-danger"></span></a>
+            </td>
+            <td ng-switch="rule.condition.conditionType" ng-class="{&quot;has-warning&quot;: conditionHasWarning(rule.condition)}"><span ng-switch-when="FalseCondition"><span ng-show="!!rule.condition.pattern">
+                  <input ng-model="rule.condition.pattern" disabled="disabled" title="{{'condition_details_FalseCondition' | tr}}" class="form-control"/></span><span ng-show="!rule.condition.pattern">{{'condition_details_FalseCondition' | tr}}</span></span><span ng-switch-when="HostLevelsCondition" class="host-levels-details">
+                <input type="number" min="1" max="99" ng-model="rule.condition.minValue" required="required" class="form-control"/> <span>{{'options_hostLevelsBetween' | tr}}</span> 
+                <input type="number" max="99" min="1" ng-model="rule.condition.maxValue" required="required" class="form-control"/></span><span ng-switch-when="IpCondition">
+                <input type="text" ng-model="rule.condition" required="required" omega-ip2str="omega-ip2str" placeholder="127.0.0.1/8" ui-validate="{pattern: &quot;validateIpCondition(rule.condition, $value)&quot;}" class="form-control"/></span><span ng-switch-when="TimeCondition" class="host-levels-details">
+                <input type="number" min="0" max="23" ng-model="rule.condition.startHour" required="required" class="form-control"/> <span>{{'options_hourBetween' | tr}}</span> 
+                <input type="number" min="0" max="23" ng-model="rule.condition.endHour" required="required" class="form-control"/></span><span ng-switch-when="WeekdayCondition" class="host-levels-details">
+                <label ng-repeat="selected in getWeekdayList(rule.condition) track by $index" class="checkbox-inline">
+                  <input type="checkbox" ng-model="selected" ng-change="updateDay(rule.condition, $index, selected)"/>{{&quot;options_weekDayShort_&quot; + $index | tr}} 
+                </label></span>
+              <input ng-model="rule.condition.pattern" ng-switch-default="ng-switch-default" required="required" ui-validate="{pattern: &quot;validateCondition(rule.condition, $value)&quot;}" class="form-control"/>
+            </td>
+            <td class="switch-rule-row-target">
+              <div omega-profile-select="options | profiles:profile" ng-model="rule.profileName" disp-name="dispNameFilter" options="options" ng-class="{disabled: rule.condition.conditionType == &quot;NeverCondition&quot;}"></div>
+            </td>
+            <td>
+              <button title="{{'options_deleteRule' | tr}}" ng-click="removeRule($index)" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-trash"></span></button> 
+              <button title="{{'options_cloneRule' | tr}}" ng-click="cloneRule($index)" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-duplicate"></span></button>
+              <button title="{{'options_ruleNote' | tr}}" ng-if="!showNotes" ng-click="addNote($index)" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-comment"></span></button>
+            </td>
+            <td ng-if="showNotes">
+              <input ng-model="rule.note" class="form-control"/>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td style="border-right: none;"></td>
+            <td style="border-left: none;" colspan="4" ng-attr-colspan="{{showNotes ? 5 : 4}}">
+              <button ng-click="addRule()" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-plus"></span> <span>{{'options_addCondition' | tr}}</span>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+        <tbody ng-if="attached" class="switch-attached">
+          <tr>
+            <td style="border-right: none;"><span class="glyphicon {{profileIcons[&quot;RuleListProfile&quot;]}}"></span></td>
+            <td style="border-left: none;"><span class="checkbox">
+                <label>
+                  <input type="checkbox" ng-model="attachedOptions.enabled"/>{{'options_switchAttachedProfileInCondition' | tr}}
+                </label></span></td>
+            <td><span ng-show="!!attachedOptions.enabled">{{'options_switchAttachedProfileInConditionDetails' | tr}}</span><span ng-show="!attachedOptions.enabled">{{'options_switchAttachedProfileInConditionDisabled' | tr}}</span></td>
+            <td>
+              <div omega-profile-select="options | profiles:profile" ng-model="attached.matchProfileName" disp-name="dispNameFilter" options="options" ng-class="{disabled: !attachedOptions.enabled}"></div>
+            </td>
+            <td>
+              <button title="{{'options_deleteAttached' | tr}}" ng-click="removeAttached()" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-trash"></span></button>
+            </td>
+            <td ng-if="showNotes"></td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr class="switch-default-row">
+            <td></td>
+            <td colspan="2">{{'options_switchDefaultProfile' | tr}}</td>
+            <td>
+              <div omega-profile-select="options | profiles:profile" ng-model="attachedOptions.defaultProfileName" disp-name="dispNameFilter" options="options"></div>
+            </td>
+            <td>
+              <button title="{{'options_resetRules_help' | tr}}" ng-click="resetRules()" class="btn btn-info btn-sm"><span class="glyphicon glyphicon-chevron-up"></span></button>
+            </td>
+            <td ng-if="showNotes"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section ng-if="!attached" class="settings-group">
+    <h3>{{'options_group_attachProfile' | tr}}</h3>
+    <p class="help-block">{{'options_attachProfileHelp' | tr}}</p>
+    <button ng-click="attachNew()" class="btn btn-default"><span class="glyphicon glyphicon-plus"></span> {{'options_attachProfile' | tr}}
+    </button>
+  </section>
+  <section ng-if="attached" class="settings-group">
+    <h3>{{'options_group_ruleListConfig' | tr}}</h3>
+    <form>
+      <div class="form-group">
+        <label>{{'options_ruleListFormat' | tr}}</label>
+        <div ng-repeat="format in ruleListFormats" class="radio inline-form-control no-min-width">
+          <label>
+            <input type="radio" name="formatInput" value="{{format}}" ng-model="attached.format"/>{{'ruleListFormat_' + format | tr}}
+          </label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>{{'options_group_ruleListUrl' | tr}}</label>
+        <div input-group-clear="input-group-clear" type="url" model="attached.sourceUrl" style="vertical-align: middle" class="width-limit inline-form-control"></div>
+      </div>
+      <p class="help-block">{{'options_ruleListUrlHelp' | tr}}</p>
+    </form>
+    <p>
+      <button ng-disabled="!attached.sourceUrl" ng-click="updateProfile(attached.name)" ladda="updatingProfile[attached.name]" data-spinner-color="#000000" ng-class="attached.sourceUrl &amp;&amp; !attached.lastUpdate ? &quot;btn-primary&quot; : &quot;btn-default&quot;" class="btn btn-default"><span class="glyphicon glyphicon-download-alt"></span> {{'options_downloadProfileNow' | tr}}</button>
+    </p>
+  </section>
+  <section ng-if="attached" class="settings-group">
+    <h3>{{'options_group_ruleListText' | tr}}</h3>
+    <p ng-show="attached.sourceUrl &amp;&amp; attached.lastUpdate" class="alert alert-success width-limit">{{'options_ruleListLastUpdate' | tr:[(attached.lastUpdate | date:'medium')]}}</p>
+    <p ng-show="attached.sourceUrl &amp;&amp; !attached.lastUpdate" class="alert alert-danger width-limit">{{'options_ruleListObsolete' | tr}}</p>
+    <p ng-show="attachedRuleListError" class="alert alert-danger width-limit"><span class="glyphicon glyphicon-remove"></span> {{attachedRuleListError.message}}
+    </p>
+    <textarea id="attached-rulelist" rows="20" ng-model="attached.ruleList" ng-disabled="!!attached.sourceUrl" class="monospace form-control width-limit"></textarea>
+  </section>
+</div>

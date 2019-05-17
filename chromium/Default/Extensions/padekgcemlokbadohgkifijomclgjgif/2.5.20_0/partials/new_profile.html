@@ -1,0 +1,54 @@
+
+<form ng-submit="newProfile.$valid &amp;&amp; $close(profile)" name="newProfile">
+  <div class="modal-header">
+    <button type="button" ng-click="$dismiss()" class="close"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+    <h4 class="modal-title">{{'options_modalHeader_newProfile' | tr}}</h4>
+  </div>
+  <div class="modal-body">
+    <div ng-class="{&quot;has-error&quot;: !newProfile.profileNewName.$valid}" class="form-group">
+      <label for="profile-new-name">{{'options_newProfileName' | tr}}</label>
+      <input id="profile-new-name" type="text" name="profileNewName" required="required" ng-model="profile.name" ui-validate="validateProfileName" autofocus="autofocus" class="form-control"/>
+      <div ng-show="newProfile.profileNewName.$error.required" class="help-block">{{'options_profileNameEmpty' | tr}}</div>
+      <div ng-show="newProfile.profileNewName.$error.reserved" class="help-block">{{'options_profileNameReserved' | tr}}</div>
+      <div ng-show="!newProfile.profileNewName.$error.reserved &amp;&amp; newProfile.profileNewName.$error.conflict" class="help-block">{{'options_profileNameConflict' | tr}}</div>
+      <div ng-show="newProfile.profileNewName.$valid &amp;&amp; profile.name &amp;&amp; isProfileNameHidden(profile.name)" class="help-block">
+        <div class="text-info"><span class="glyphicon glyphicon-info-sign"></span> {{'options_profileNameHidden' | tr}}
+        </div>
+      </div>
+    </div>
+    <label>{{'options_profileType' | tr}}</label>
+    <div class="radio">
+      <label>
+        <input type="radio" name="profile-new-type" value="FixedProfile" ng-model="profile.profileType" ng-init="profile.profileType = &quot;FixedProfile&quot;"/><span class="profile-type"><span ng-class="profileIcons[&quot;FixedProfile&quot;]" class="glyphicon"></span> <span>{{'options_profileTypeFixedProfile' | tr}}</span></span>
+        <div class="help-block">{{'options_profileDescFixedProfile' | tr}}</div>
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="profile-new-type" value="SwitchProfile" ng-model="profile.profileType"/><span class="profile-type"><span ng-class="profileIcons[&quot;SwitchProfile&quot;]" class="glyphicon"></span> <span>{{'options_profileTypeSwitchProfile' | tr}}</span></span>
+        <div class="help-block">{{'options_profileDescSwitchProfile' | tr}}</div>
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="profile-new-type" value="PacProfile" ng-model="profile.profileType" ng-disabled="pacProfilesUnsupported"/><span class="profile-type"><span ng-class="profileIcons[&quot;PacProfile&quot;]" class="glyphicon"></span> <span>{{'options_profileTypePacProfile' | tr}}</span></span>
+        <div class="help-block">{{'options_profileDescPacProfile' | tr}}</div>
+        <div ng-show="!pacProfilesUnsupported" class="help-block">{{'options_profileDescMorePacProfile' | tr}}</div>
+        <div ng-show="pacProfilesUnsupported" class="has-error">
+          <div class="help-block"><span class="glyphicon glyphicon-warning-sign"></span> {{'options_pac_profile_unsupported_moz' | tr}}
+          </div>
+        </div>
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="profile-new-type" value="VirtualProfile" ng-model="profile.profileType"/><span class="profile-type"><span ng-class="profileIcons[&quot;VirtualProfile&quot;]" class="glyphicon virtual-profile-icon"></span> <span>{{'options_profileTypeVirtualProfile' | tr}}</span></span>
+        <div class="help-block">{{'options_profileDescVirtualProfile' | tr}}</div>
+      </label>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button type="button" ng-click="$dismiss()" class="btn btn-default">{{'dialog_cancel' | tr}}</button>
+    <button type="submit" ng-disabled="!newProfile.$valid" class="btn btn-primary">{{'options_createProfile' | tr}}</button>
+  </div>
+</form>

@@ -1,0 +1,24 @@
+
+<form ng-submit="renameProfile.$valid &amp;&amp; $close(newName)" name="renameProfile">
+  <div class="modal-header">
+    <button type="button" ng-click="$dismiss()" class="close"><span aria-hidden="true">×</span><span class="sr-only">{{'dialog_close' | tr}}</span></button>
+    <h4 class="modal-title">{{'options_modalHeader_renameProfile' | tr}}</h4>
+  </div>
+  <div class="modal-body">
+    <div ng-class="{&quot;has-error&quot;: !renameProfile.profileNewName.$valid}" class="form-group">
+      <label for="profile-new-name">{{'options_renameProfileName' | tr}}</label>
+      <input id="profile-new-name" type="text" name="profileNewName" required="required" ng-model="newName" ui-validate="validateProfileName" ng-init="newName = fromName" class="form-control"/>
+      <div ng-show="renameProfile.profileNewName.$error.required" class="help-block">{{'options_profileNameEmpty' | tr}}</div>
+      <div ng-show="renameProfile.profileNewName.$error.reserved" class="help-block">{{'options_profileNameReserved' | tr}}</div>
+      <div ng-show="!renameProfile.profileNewName.$error.reserved &amp;&amp; renameProfile.profileNewName.$error.conflict" class="help-block">{{'options_profileNameConflict' | tr}}</div>
+      <div ng-show="renameProfile.profileNewName.$valid &amp;&amp; newName &amp;&amp; isProfileNameHidden(newName)" class="help-block">
+        <div class="text-info"><span class="glyphicon glyphicon-info-sign"></span> {{'options_profileNameHidden' | tr}}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button type="button" ng-click="$dismiss()" class="btn btn-default">{{'dialog_cancel' | tr}}</button>
+    <button type="submit" ng-disabled="!renameProfile.$valid" class="btn btn-primary">{{'options_renameProfile' | tr}}</button>
+  </div>
+</form>

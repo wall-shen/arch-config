@@ -1,0 +1,1249 @@
+{
+   "about_app_description": {
+      "message": "一個代理設定工具"
+   },
+   "about_copyright": {
+      "message": "版權所有 2012-2017 \u003Ca href='https://github.com/FelisCatus/SwitchyOmega/blob/master/AUTHORS'>The SwitchyOmega Authors\u003C/a>. 保留所有權利。"
+   },
+   "about_credits": {
+      "message": "SwitchyOmega 的誕生離不開 \u003Ca href='https://github.com/FelisCatus/SwitchyOmega'>SwitchyOmega\u003C/a> 開源項目和其他\u003Ca href='https://github.com/FelisCatus/SwitchyOmega/blob/master/AUTHORS'>開源軟體\u003C/a>。"
+   },
+   "about_disclaimer_networkService": {
+      "message": "SwitchyOmega 不提供代理伺服器、VPN等網路服務。"
+   },
+   "about_disclaimer_privacy": {
+      "message": "SwitchyOmega 不會跟蹤您的上網記錄，不在頁面中插入廣告。請參見我們的\u003Ca href='https://github.com/FelisCatus/SwitchyOmega/wiki/Privacy#%E4%B8%AD%E6%96%87'>隱私政策\u003C/a>。"
+   },
+   "about_experimental_warning_moz": {
+      "message": "Mozilla Firefox 瀏覽器支持目前仍處於早期實驗階段！如果您遇到任何問題，請使用下方的按鈕進行回報。"
+   },
+   "about_help": {
+      "message": "如有其他問題或者需要說明，請參考\u003Ca href='https://github.com/FelisCatus/SwitchyOmega/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98'>常見問題\u003C/a>。"
+   },
+   "about_license": {
+      "message": "SwitchyOmega 是\u003Ca href='https://www.gnu.org/philosophy/free-sw.zh-tw.html'>自由軟體\u003C/a>，使用\u003Ca href='https://www.gnu.org/licenses/gpl.html'>GNU General Public License\u003C/a> 版本 3 及以上授權。"
+   },
+   "about_title": {
+      "message": "關於"
+   },
+   "about_version": {
+      "message": "版本 $VERSION$",
+      "placeholders": {
+         "VERSION": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "appNameShort": {
+      "message": "SwitchyOmega"
+   },
+   "browserAction_attachedPrefix": {
+      "message": "(清單) "
+   },
+   "browserAction_defaultRuleDetails": {
+      "message": "(預設)"
+   },
+   "browserAction_directResult": {
+      "message": "直接連線"
+   },
+   "browserAction_profileDetails_DirectProfile": {
+      "message": "(不使用任何代理)"
+   },
+   "browserAction_profileDetails_PacProfile": {
+      "message": "(PAC 指令碼)"
+   },
+   "browserAction_profileDetails_RuleListProfile": {
+      "message": "(依據規則清單切換)"
+   },
+   "browserAction_profileDetails_SwitchProfile": {
+      "message": "(依據條件切換)"
+   },
+   "browserAction_profileDetails_SystemProfile": {
+      "message": "(由其他擴充功能或系統環境控制)"
+   },
+   "browserAction_tempRulePrefix": {
+      "message": "(臨時) "
+   },
+   "browserAction_titleDownloadFail": {
+      "message": "警告：更新PAC檔案或規則清單失敗。"
+   },
+   "browserAction_titleExternalProxy": {
+      "message": "注意：其他應用正在控制目前代理設定。"
+   },
+   "browserAction_titleInspect": {
+      "message": "[檢查] $URL$",
+      "placeholders": {
+         "URL": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "browserAction_titleNewerOptions": {
+      "message": "錯誤：需要新版本的SwitchyOmega才能載入目前選項。"
+   },
+   "browserAction_titleNormal": {
+      "message": "SwitchyOmega:: $PROFILE$",
+      "placeholders": {
+         "PROFILE": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "browserAction_titleOptionError": {
+      "message": "錯誤：選項檔案已經損壞，點選此處重設選項。"
+   },
+   "browserAction_titleWithResult": {
+      "message": "SwitchyOmega:: $PROFILE$\n$DETAILS$",
+      "placeholders": {
+         "DETAILS": {
+            "content": "$3"
+         },
+         "PROFILE": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         },
+         "_unused_2": {
+            "content": "$2"
+         }
+      }
+   },
+   "condition_FalseCondition": {
+      "message": "(停用)"
+   },
+   "condition_HostLevelsCondition": {
+      "message": "域名層數"
+   },
+   "condition_HostRegexCondition": {
+      "message": "域名正則"
+   },
+   "condition_HostWildcardCondition": {
+      "message": "域名萬用字元"
+   },
+   "condition_IpCondition": {
+      "message": "IP 位址常值"
+   },
+   "condition_KeywordCondition": {
+      "message": "關鍵字"
+   },
+   "condition_TimeCondition": {
+      "message": "目前時間"
+   },
+   "condition_UrlRegexCondition": {
+      "message": "網址正則"
+   },
+   "condition_UrlWildcardCondition": {
+      "message": "網址萬用字元"
+   },
+   "condition_WeekdayCondition": {
+      "message": "每週幾"
+   },
+   "condition_alert_fullUrlLimitation": {
+      "message": "Chrome 52 起，\u003Ccode>https://\u003C/code>協議下的完整網址無法正常比對。\u003Ca href='https://github.com/FelisCatus/SwitchyOmega/wiki/Chromium-%E5%AE%8C%E6%95%B4%E7%BD%91%E5%9D%80%E9%99%90%E5%88%B6'>更多信息...\u003C/a>"
+   },
+   "condition_alert_fullUrlLimitationLink": {
+      "message": "https://github.com/FelisCatus/SwitchyOmega/wiki/Chromium-%E5%AE%8C%E6%95%B4%E7%BD%91%E5%9D%80%E9%99%90%E5%88%B6"
+   },
+   "condition_details_FalseCondition": {
+      "message": "(比對請求時無視此條規則)"
+   },
+   "condition_group_default": {
+      "message": ""
+   },
+   "condition_group_host": {
+      "message": "域名"
+   },
+   "condition_group_special": {
+      "message": "特殊"
+   },
+   "condition_group_url": {
+      "message": "網址"
+   },
+   "condition_help_FalseCondition": {
+      "message": "設定規則類型為\u003Ccode>(停用)\u003C/code>可以臨時停用某個條件。停用的條件在比對時視為不存在。\u003Cbr>條件被停用後，仍然儲存有之前的資料（例如萬用字元或正則），因此當需要時，可以把條件類型改回之前的類型，以方便地重新啟用條件。"
+   },
+   "condition_help_HostLevelsCondition": {
+      "message": "如果域名層數在設定的範圍內則比對，否則不比對。\u003Cbr>域名層數是指 \u003Cb>域名共有幾段（以點分隔）\u003C/b>.\u003Cbr>例如: \u003Ccode>www.example.com\u003C/code> 的域名層數為 3，而 \u003Ccode>internal\u003C/code> 的域名層數為 1."
+   },
+   "condition_help_HostRegexCondition": {
+      "message": "類似域名萬用字元，但使用\u003Ca href='https://www.google.com/search?q=%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F'>正規表示式\u003C/a>.\u003Cbr>正規表示式很難編寫，且可讀性差。\u003Cbr>因此，一般情況建議使用萬用字元。當其他任何條件都不能滿足要求時，才使用正規表示式。"
+   },
+   "condition_help_HostWildcardCondition": {
+      "message": "依據域名（主機名稱）比對請求。\u003Cbr>\u003Cb>星號 \u003Ccode>*\u003C/code>\u003C/b> 比對零個或者多個字元。\u003Cbr>\u003Cb>問號 \u003Ccode>?\u003C/code>\u003C/b> 比對任意一個字元。\u003Cbr>\u003Cbr>請注意以 \u003Ccode>*.\u003C/code> 開頭的規則有特別處理，會同時比對子域名和自身。\u003Cbr>例如: \u003Ccode>*.example.com\u003C/code> 能比對 www.example.com ，\u003Cb>而且也能比對 example.com 。\u003C/b>\u003Cbr>如果\u003Cb>只需要比對子域名\u003C/b>，請使用\u003Cb>兩個\u003C/b>星號開頭，如 \u003Ccode>**.example.com\u003C/code>。"
+   },
+   "condition_help_IpCondition": {
+      "message": "當且僅當主機是\u003Cb>字面的\u003C/b> IP 位址，且位址處於某個子網內時比對。子網使用 \u003Ca href='http://www.ibm.com/support/knowledgecenter/zh/SS2MBL_9.0.2/PCAAdmin/PCA/Cfg/CIDRFormat_47.html'>CIDR 格式\u003C/a>表示。\u003Cbr>例如，規則 \u003Ccode>127.0.0.1/16\u003C/code> 會比對所有類似\u003Ccode>127.0.*.*\u003C/code> 的位址。\u003Cbr>因此位址 \u003Ccode>127.0.0.1\u003C/code> 比對而位址 \u003Ccode>127.1.0.0\u003C/code> 不比對。主機名稱，例如 \u003Ccode>localhost\u003C/code> 不會被此類規則比對，因為它們\u003Cb>不是\u003C/b> IP 位址常值。"
+   },
+   "condition_help_KeywordCondition": {
+      "message": "關鍵字條件的具體比對規則是：網址協議為HTTP且網址中包含該關鍵字。\u003Cbr>類似於 \u003Ccode>http://*\u003Cb>關鍵字\u003C/b>*\u003C/code>, 其中 \u003Cb>關鍵字\u003C/b> 是設定好的關鍵字。\u003Cbr>如果某防火牆依據網址中是否包含關鍵字來遮蔽網址，那麼可以使用關鍵字條件來通過代理訪問這樣的請求，以達到繞過防火牆的目的。"
+   },
+   "condition_help_TimeCondition": {
+      "message": "如果目前本地時間在某個範圍內則比對。此範圍由\u003Cb>開始小時\u003C/b>和\u003Cb>結束小時\u003C/b>確定，包含開始的那個小時以及結束的那個小時。\u003Cbr>本地時間、開始小時和結束小時均按照\u003Cb>24小時制\u003C/b>計算（從\u003Cb>0到23\u003C/b>）。\u003Cbr>此條件大約在請求發出的瞬間，才計算是否比對。"
+   },
+   "condition_help_UrlRegexCondition": {
+      "message": "使用功能強大的\u003Ca href='https://www.google.com/search?q=%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F'>正規表示式\u003C/a>來比對網址。\u003Cbr>但正規表示式很難編寫，且可讀性差。\u003Cbr>因此，一般情況建議使用萬用字元。當其他任何條件都不能滿足要求時，才使用正規表示式。"
+   },
+   "condition_help_UrlWildcardCondition": {
+      "message": "依據萬用字元規則比對網址。\u003Cbr>關於萬用字元表示式，請參考上方的域名萬用字元一節的說明。\u003Cbr>請注意網址萬用字元沒有任何特殊處理，不會特殊處理子域名等。\u003Cbr>所以 \u003Ccode>*://*.example.com/*\u003C/code> 能比對 http://www.example.com/ 但是 \u003Cb>不比對\u003C/b> http://example.com/."
+   },
+   "condition_help_WeekdayCondition": {
+      "message": "只在每週的某幾天才比對。可以在條件詳情中勾選\u003Cb>星期幾有效\u003C/b>。依據當地時區來計算現在是星期幾，然後再檢視當天是否選中。\u003Cbr>假設在請求傳送時是星期X：如果星期X被勾選，則比對所有請求。否則不比對任何請求。\u003Cbr>除了日期以外，在比對過程中不會參考請求的網址或任何其他資訊。"
+   },
+   "contextMenu_enableQuickSwitch": {
+      "message": "啟用快速切換"
+   },
+   "contextMenu_inspectElement": {
+      "message": "檢查此[元素]使用的代理"
+   },
+   "contextMenu_inspectFrame": {
+      "message": "檢查此[框架頁面]使用的代理"
+   },
+   "contextMenu_inspectLink": {
+      "message": "檢查此[連結目標]將會使用的代理"
+   },
+   "contextMenu_inspectPage": {
+      "message": "檢查此頁面使用的代理"
+   },
+   "dialog_cancel": {
+      "message": "取消"
+   },
+   "dialog_close": {
+      "message": "關閉"
+   },
+   "dialog_ok": {
+      "message": "確定"
+   },
+   "dialog_save": {
+      "message": "儲存變更"
+   },
+   "inputClear_clear": {
+      "message": "清除"
+   },
+   "inputClear_restore": {
+      "message": "還原"
+   },
+   "manifest_app_description": {
+      "message": "輕鬆快捷地管理和切換多個代理設定。"
+   },
+   "manifest_app_name": {
+      "message": "Proxy SwitchyOmega"
+   },
+   "manifest_icon_default_title": {
+      "message": "正在載入……"
+   },
+   "options_addCondition": {
+      "message": "加入條件"
+   },
+   "options_addConditionsToBottom": {
+      "message": "把以彈出式選單建立的規則加入到清單末尾。"
+   },
+   "options_apply": {
+      "message": "套用選項"
+   },
+   "options_applyOptionsConfirm": {
+      "message": "是否儲存並套用現在的選項？"
+   },
+   "options_applyOptionsRequired": {
+      "message": "必須儲存目前選項才能繼續操作。"
+   },
+   "options_attachProfile": {
+      "message": "加入規則清單"
+   },
+   "options_attachProfileHelp": {
+      "message": "可以加入規則清單，以便引用他人線上釋出的一組規則。"
+   },
+   "options_bypassListHelp": {
+      "message": "不經過代理連線的主機清單: (每行一個主機)"
+   },
+   "options_bypassListHelpLinkText": {
+      "message": "(可使用萬用字元等比對規則…)"
+   },
+   "options_cloneRule": {
+      "message": "複製"
+   },
+   "options_conditionActions": {
+      "message": "操作"
+   },
+   "options_conditionDetails": {
+      "message": "條件設定"
+   },
+   "options_conditionType": {
+      "message": "條件類型"
+   },
+   "options_confirmDeletion": {
+      "message": "刪除切換條件時需要確認。"
+   },
+   "options_conflicts_higherPriority": {
+      "message": "如果 SwitchyOmega 的優先級較高，那麼您可以在彈出式選單中選擇 $SYSTEMPROFILE$ 來把控制權還給其他應用或系統設定。",
+      "placeholders": {
+         "SYSTEMPROFILE": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_conflicts_introduction": {
+      "message": "有時其他應用也會試圖控制代理設定，從而導致衝突。請注意，去廣告等其他擴充功能也可能利用了代理設定來實現功能。此類衝突是由瀏覽器的工作原理引起的，所以無法避免。"
+   },
+   "options_conflicts_lowerPriority": {
+      "message": "如果 SwitchyOmega 圖示上顯示這樣的紅色徽章，表示另一個應用優先級較高，因此SwitchyOmega 無法控制代理設定。請嘗試卸載 SwitchyOmega 再重新安裝，這樣可能可以提高 SwitchyOmega 的優先級。如果重裝後您仍然看到衝突，那麼請考慮移除那個導致衝突的應用。"
+   },
+   "options_createProfile": {
+      "message": "建立"
+   },
+   "options_cycledProfiles": {
+      "message": "循環切換以下情景模式:"
+   },
+   "options_cycledProfilesHelp": {
+      "message": "點選圖示或按下快速鍵時，依次迴圈切換到以下情景模式。"
+   },
+   "options_cycledProfilesTooFew": {
+      "message": "必須至少選擇2個情景模式才能進行切換。請從下方框中拖動情景模式到此框。"
+   },
+   "options_deleteAttached": {
+      "message": "移除規則清單"
+   },
+   "options_deleteAttachedConfirm": {
+      "message": "真的要移除目前情景模式的線上規則清單嗎？"
+   },
+   "options_deleteProfile": {
+      "message": "刪除"
+   },
+   "options_deleteProfileConfirm": {
+      "message": "真的要刪除這個情景模式嗎？"
+   },
+   "options_deleteRule": {
+      "message": "刪除"
+   },
+   "options_deleteRuleConfirm": {
+      "message": "真的要刪除這個規則嗎?"
+   },
+   "options_discard": {
+      "message": "還原變更"
+   },
+   "options_downloadInterval": {
+      "message": "更新間隔"
+   },
+   "options_downloadInterval_1440": {
+      "message": "每天一次"
+   },
+   "options_downloadInterval_15": {
+      "message": "15分鐘"
+   },
+   "options_downloadInterval_180": {
+      "message": "3小時"
+   },
+   "options_downloadInterval_360": {
+      "message": "6小時"
+   },
+   "options_downloadInterval_60": {
+      "message": "1小時"
+   },
+   "options_downloadInterval_720": {
+      "message": "12小時"
+   },
+   "options_downloadInterval_never": {
+      "message": "從不更新"
+   },
+   "options_downloadOptions": {
+      "message": "下載選項"
+   },
+   "options_downloadOptionsHelp": {
+      "message": "設定規則清單和PAC指令碼的更新間隔。"
+   },
+   "options_downloadProfileNow": {
+      "message": "立即更新情景模式"
+   },
+   "options_experimental_badge": {
+      "message": "測試版"
+   },
+   "options_exportLegacyRuleList": {
+      "message": "匯出規則清單時使用 Proxy Switchy!/SwitchyPlus/SwitchySharp 相容格式。"
+   },
+   "options_exportLegacyRuleListHelp": {
+      "message": "如果您需要釋出規則清單給那些軟體的使用者，請啟用此選項。\u003Cbr>建議您提醒訂閱者升級到 SwitchyOmega 以享受新版功能。"
+   },
+   "options_exportPacFile": {
+      "message": "匯出PAC檔案"
+   },
+   "options_exportPacFileHelp": {
+      "message": "匯出PAC（代理自動設定）檔案,以便在其它瀏覽器使用。"
+   },
+   "options_exportProfileHelp": {
+      "message": "如需匯出情景模式，請使用情景模式設定頁面右上角的工具欄。"
+   },
+   "options_formInvalid": {
+      "message": "請更正這個頁面中的錯誤。"
+   },
+   "options_group_attachProfile": {
+      "message": "匯入線上規則清單"
+   },
+   "options_group_bypassList": {
+      "message": "不代理的位址清單"
+   },
+   "options_group_conditionHelp": {
+      "message": "條件類型說明"
+   },
+   "options_group_conflicts": {
+      "message": "衝突"
+   },
+   "options_group_importExportProfile": {
+      "message": "情景模式"
+   },
+   "options_group_importExportSettings": {
+      "message": "選項"
+   },
+   "options_group_keyboardShortcut": {
+      "message": "鍵盤快速鍵"
+   },
+   "options_group_miscOptions": {
+      "message": "其他設定"
+   },
+   "options_group_networkRequests": {
+      "message": "網路請求"
+   },
+   "options_group_pacScript": {
+      "message": "PAC 指令碼"
+   },
+   "options_group_pacUrl": {
+      "message": "PAC 網址"
+   },
+   "options_group_proxyChanges": {
+      "message": "代理設定變化"
+   },
+   "options_group_proxyServers": {
+      "message": "代理伺服器"
+   },
+   "options_group_ruleListConfig": {
+      "message": "規則清單設定"
+   },
+   "options_group_ruleListResult": {
+      "message": "規則清單結果情景模式"
+   },
+   "options_group_ruleListText": {
+      "message": "規則清單正文"
+   },
+   "options_group_ruleListUrl": {
+      "message": "規則清單網址"
+   },
+   "options_group_switchOptions": {
+      "message": "切換選項"
+   },
+   "options_group_switchRules": {
+      "message": "切換規則"
+   },
+   "options_group_syncing": {
+      "message": "選項同步 (測試中)"
+   },
+   "options_group_virtualProfile": {
+      "message": "虛情景模式"
+   },
+   "options_group_virtualProfileReplace": {
+      "message": "遷移到虛情景模式"
+   },
+   "options_guideDone": {
+      "message": "完成"
+   },
+   "options_guideNext": {
+      "message": "下一步"
+   },
+   "options_guideSkip": {
+      "message": "跳過教學"
+   },
+   "options_guide_addMoreProfilesStep": {
+      "message": "如果您需要更多的情景模式，可以隨時在這裡建立\u003Cb>代理、切換和其他情景模式\u003C/b>。\u003Cbr>教學到此結束，您可以繼續自訂設定。"
+   },
+   "options_guide_applySwitchProfileStep": {
+      "message": "當您設定完畢後，別忘記\u003Cb>在彈出選單中啟用自動切換情景模式\u003C/b>。\u003Cbr/>圖示將會顯示標籤頁切換的\u003Cb>最終結果\u003C/b>情景。\u003Cbr/> \u003Cb>懸停在圖示上\u003C/b>則會顯示切換相關的詳細說明。"
+   },
+   "options_guide_autoSwitchProfileStep": {
+      "message": "您可以通過強大的\u003Cb>自動切換模式\u003C/b>在多個代理間切換自如。\u003Cbr>不過，在這個簡單的教學中無法詳盡介紹所有功能。\u003Cbr>想要使用此功能時，可以開啟這裡的設定介面，來瞭解如何使用自動切換功能。"
+   },
+   "options_guide_conditionProfileStep": {
+      "message": "對於\u003Cb>任何比對該條件的請求\u003C/b>，SwitchyOmega 會使用這個情景模式。\u003Cbr>如果選擇了\u003Cb>\"[直接連線]\"情景模式\u003C/b>，則比對的請求不使用任何代理。"
+   },
+   "options_guide_conditionStep": {
+      "message": "SwitchyOmega 可以依據\u003Cb>切換條件\u003C/b>對不同的網路請求使用不同的情景模式。\u003Cbr>例如\u003Cb>域名萬用字元\u003C/b>條件可以對某個域名下的所有網址使用特定的情景模式。"
+   },
+   "options_guide_conditionTypeStep": {
+      "message": "您可以使用各種條件類型來比對域名或者整個網址。\u003Cbr> 點選問號按鈕來檢視條件類型的說明。"
+   },
+   "options_guide_fixedProfileStep": {
+      "message": "\u003Cb>代理情景\u003C/b>包含了伺服器位址、埠等代理的資訊。\u003Cbr>在 SwitchyOmega 中，情景模式是代理設定的基本單元。\u003Cbr>預設設定中已經建立了一個代理情景模式作為樣例。試著開啟它吧。"
+   },
+   "options_guide_fixedServersStep": {
+      "message": "在這裡，您可以填寫所需的代理伺服器位址和埠。\u003Cbr>SwitchyOmega\u003Cb>軟體本身不提供任何內建代理伺服器\u003C/b>。\u003Cbr>如果您不清楚應該填寫什麼，最好諮詢下您的網路提供者，或者參考代理軟體的設定說明。"
+   },
+   "options_guide_switchDefaultStep": {
+      "message": "如果請求不比對任何條件，則使用預設情景模式。\u003Cbr>條件的比對順序總是按此頁面\u003Cb>從上到下\u003C/b>。\u003Cbr>您可以拖動排序圖示來變更條件的順序。"
+   },
+   "options_hostLevelsBetween": {
+      "message": "≤ 主機層數 ≤"
+   },
+   "options_hourBetween": {
+      "message": "≤ 目前小時 ≤"
+   },
+   "options_importDownloadError": {
+      "message": "下載備份檔案時出錯！"
+   },
+   "options_importFormatError": {
+      "message": "備份檔案格式錯誤！"
+   },
+   "options_importSuccess": {
+      "message": "匯入選項成功。"
+   },
+   "options_makeBackup": {
+      "message": "輸出備份檔案"
+   },
+   "options_makeBackupHelp": {
+      "message": "匯出一份包括情景模式和其他所有選項的備份檔案。"
+   },
+   "options_menuShortcutConfigure": {
+      "message": "變更快速鍵"
+   },
+   "options_menuShortcutHelp": {
+      "message": "按下快速鍵即可開啟彈出選單來切換情景模式。(預設快速鍵: Alt+Shift+O)."
+   },
+   "options_menuShortcutMore": {
+      "message": "彈出選單中的選單項也可以用鍵盤進行選擇。在彈出選單中按下? (問號鍵，或/斜槓鍵) 檢視說明。"
+   },
+   "options_modalHeader_applyOptions": {
+      "message": "套用選項"
+   },
+   "options_modalHeader_cannotDeleteProfile": {
+      "message": "情景模式無法刪除"
+   },
+   "options_modalHeader_deleteAttached": {
+      "message": "移除規則清單"
+   },
+   "options_modalHeader_deleteProfile": {
+      "message": "刪除情景模式"
+   },
+   "options_modalHeader_deleteRule": {
+      "message": "刪除規則"
+   },
+   "options_modalHeader_newProfile": {
+      "message": "新建情景模式"
+   },
+   "options_modalHeader_proxyAuth": {
+      "message": "代理認證"
+   },
+   "options_modalHeader_renameProfile": {
+      "message": "重新命名"
+   },
+   "options_modalHeader_replaceProfile": {
+      "message": "取代情景模式"
+   },
+   "options_modalHeader_resetOptions": {
+      "message": "重設選項"
+   },
+   "options_modalHeader_resetRules": {
+      "message": "重設全部規則"
+   },
+   "options_modalHeader_welcome": {
+      "message": "歡迎使用 SwitchyOmega"
+   },
+   "options_modifyReferringProfiles": {
+      "message": "修改以上所有情景模式並移除對此情景模式的引用後，方可刪除此情景模式。"
+   },
+   "options_monitorWebRequests": {
+      "message": "在圖示上顯示目前頁面中由於網路原因而未載入的資源數量。"
+   },
+   "options_monitorWebRequestsHelp": {
+      "message": "啟用此選項後，如有資源載入失敗，則圖示上會顯示數字提示。\u003Cbr>此時，您可以通過彈出選單一次設定這些資源使用的情景模式，操作十分便捷。"
+   },
+   "options_navHeader_actions": {
+      "message": "操作"
+   },
+   "options_navHeader_profiles": {
+      "message": "情景模式"
+   },
+   "options_navHeader_setting": {
+      "message": "設定"
+   },
+   "options_newProfile": {
+      "message": "新增情景模式…"
+   },
+   "options_newProfileName": {
+      "message": "情景模式名稱"
+   },
+   "options_notCycledProfiles": {
+      "message": "不迴圈切換的情景模式 (拖動到上面的框中啟用切換)"
+   },
+   "options_optionsNotSaved": {
+      "message": "目前設定還未儲存。如果您繼續此操作，則剛才的所有修改都會遺失！"
+   },
+   "options_pacScriptLastUpdate": {
+      "message": "PAC 指令碼最後更新時間：$TIME$",
+      "placeholders": {
+         "TIME": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_pacScriptObsolete": {
+      "message": "修改網址後尚未下載更新，因此指令碼已經過時。請使用上方的更新按鈕進行下載。"
+   },
+   "options_pacUrlFile": {
+      "message": "如果您使用本地PAC檔案，則該情景模式只能單獨使用，無法作為自動切換的結果。這是因為瀏覽器不允許讀取本地檔案。"
+   },
+   "options_pacUrlFileDisabled": {
+      "message": "此情景模式已被引用，所以不能使用本地PAC檔案。如果您真的需要使用本地檔案，請另外新建一個PAC情景模式。"
+   },
+   "options_pacUrlHelp": {
+      "message": "應用將從此網址下載PAC指令碼。如果網址留空，則直接使用下方的指令碼內容。"
+   },
+   "options_pac_profile_unsupported_moz": {
+      "message": "由於技術限制，PAC 情景模式無法在 Mozilla Firefox 上工作！"
+   },
+   "options_profileDescFixedProfile": {
+      "message": "經過代理伺服器訪問網站。"
+   },
+   "options_profileDescMorePacProfile": {
+      "message": "如果您沒有任何PAC指令碼，也沒有指令碼的網址，則不必使用此情景模式。不瞭解PAC的使用者不建議自行嘗試編寫指令碼。"
+   },
+   "options_profileDescPacProfile": {
+      "message": "依據線上或本地的PAC指令碼選擇代理。"
+   },
+   "options_profileDescRuleListProfile": {
+      "message": "使用他人釋出的線上規則清單來切換情景模式。"
+   },
+   "options_profileDescSwitchProfile": {
+      "message": "依據多種條件，如域名或網址等自動選擇情景模式。您也可以匯入線上釋出的切換規則（如 AutoProxy 清單）以簡化設定。"
+   },
+   "options_profileDescVirtualProfile": {
+      "message": "虛擬情景模式可以作為某個其他情景模式使用，並可以依據需要變更目標。一般用在自動切換中，這樣就可以一次性變更多個條件對應的代理。"
+   },
+   "options_profileDownloadError": {
+      "message": "下載情景模式資料時出錯！"
+   },
+   "options_profileDownloadError_ContentTypeRejectedError": {
+      "message": "下載的資料不符合格式！建議您在瀏覽器中打開情景模式網址並檢查其內容。"
+   },
+   "options_profileDownloadError_HttpError": {
+      "message": "更新時發生網路錯誤 (HTTP $STATUS$).",
+      "placeholders": {
+         "STATUS": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_profileDownloadError_HttpNotFoundError": {
+      "message": "在遠端伺服器上找不到情景模式網址對應的檔案。請檢查網址。"
+   },
+   "options_profileDownloadError_HttpServerError": {
+      "message": "更新時遠端伺服器發生錯誤 ($STATUS$)。",
+      "placeholders": {
+         "STATUS": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_profileDownloadError_NetworkError": {
+      "message": "更新時發生網路錯誤。"
+   },
+   "options_profileDownloadSuccess": {
+      "message": "情景模式已經更新成功。"
+   },
+   "options_profileEditSource": {
+      "message": "編輯原始碼"
+   },
+   "options_profileEditSourceHelp": {
+      "message": "顯示原始碼格式相關的說明"
+   },
+   "options_profileEditSourceHelpUrl": {
+      "message": "https://github.com/FelisCatus/SwitchyOmega/wiki/SwitchyOmega-conditions-format#result-profile"
+   },
+   "options_profileExportPac": {
+      "message": "匯出PAC"
+   },
+   "options_profileExportRuleList": {
+      "message": "釋出規則清單"
+   },
+   "options_profileExportRuleListHelp": {
+      "message": "將切換規則匯出為文字格式以便釋出。"
+   },
+   "options_profileNameConflict": {
+      "message": "已經存在相同名稱的情景模式。"
+   },
+   "options_profileNameEmpty": {
+      "message": "情景模式名稱不能為空。"
+   },
+   "options_profileNameHidden": {
+      "message": "以下劃線開頭的情景模式不會在彈出選單中顯示，但仍可被用作切換的結果等。"
+   },
+   "options_profileNameReserved": {
+      "message": "以雙下劃線開頭的名稱為系統保留，禁止使用。"
+   },
+   "options_profileNotFound": {
+      "message": "情景模式 $PROFILE$ 不存在！選項可能已經損壞。",
+      "placeholders": {
+         "PROFILE": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_profileReferredBy": {
+      "message": "這個情景模式仍然被以下情景模式使用，所以無法刪除。"
+   },
+   "options_profileSyncDisabled": {
+      "message": "此情景模式已經停用同步。"
+   },
+   "options_profileSyncDisabled_quotaPerItem": {
+      "message": "此情景模式使用儲存空間過多，因此無法進行同步。"
+   },
+   "options_profileTabPrefix": {
+      "message": "情景模式： "
+   },
+   "options_profileType": {
+      "message": "請選擇情景模式的類型:"
+   },
+   "options_profileTypeFixedProfile": {
+      "message": "代理伺服器"
+   },
+   "options_profileTypePacProfile": {
+      "message": "PAC情景模式"
+   },
+   "options_profileTypeRuleListProfile": {
+      "message": "規則清單"
+   },
+   "options_profileTypeSwitchProfile": {
+      "message": "自動切換模式"
+   },
+   "options_profileTypeVirtualProfile": {
+      "message": "虛擬情景模式"
+   },
+   "options_profileUnsupported": {
+      "message": "不支援的情景模式類型： $TYPE$!",
+      "placeholders": {
+         "TYPE": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_profileUnsupportedHelp": {
+      "message": "選項檔案已經損壞，或者目前版本過低無法處理選項。"
+   },
+   "options_protocol_direct": {
+      "message": "直接連線"
+   },
+   "options_protocol_useDefault": {
+      "message": "(同預設)"
+   },
+   "options_proxyAuthHidePassword": {
+      "message": "隱藏密碼"
+   },
+   "options_proxyAuthNone": {
+      "message": "(無密碼)"
+   },
+   "options_proxyAuthPassword": {
+      "message": "密碼"
+   },
+   "options_proxyAuthShowPassword": {
+      "message": "顯示密碼"
+   },
+   "options_proxyAuthUsername": {
+      "message": "使用者名稱"
+   },
+   "options_proxy_auth": {
+      "message": "代理認證"
+   },
+   "options_proxy_authAllWarningPac": {
+      "message": "警告: 使用者名稱和密碼將會提供給 PAC 指令碼返回的任何伺服器，有時目標伺服器會出乎您的預料。"
+   },
+   "options_proxy_authAllWarningPacScript": {
+      "message": "在提供使用者名稱和密碼時，請先確保您可以信任以下輸入的 PAC 指令碼。"
+   },
+   "options_proxy_authAllWarningPacUrl": {
+      "message": "在提供使用者名稱和密碼時，請先確保您可以信任以上網址提供的 PAC 指令碼。"
+   },
+   "options_proxy_authNotSupported": {
+      "message": "您的瀏覽器不支持 $PROTOCOLDISP$ 代理認證！如有問題請聯繫您的瀏覽器支持，請勿反饋此問題給 SwitchyOmega.",
+      "placeholders": {
+         "PROTOCOLDISP": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_proxy_authReferencedWarning": {
+      "message": "此外，在其他情景模式（如自動切換）中使用此情景時，可能會導致使用者名稱和密碼被傳送至其他情景模式中設定的伺服器。"
+   },
+   "options_proxy_expand": {
+      "message": "顯示進階設定"
+   },
+   "options_proxy_port": {
+      "message": "連接埠"
+   },
+   "options_proxy_protocol": {
+      "message": "代理協議"
+   },
+   "options_proxy_scheme": {
+      "message": "網址協議"
+   },
+   "options_proxy_server": {
+      "message": "代理伺服器"
+   },
+   "options_proxy_single": {
+      "message": "對於所有代理使用相同伺服器。"
+   },
+   "options_quickSwitch": {
+      "message": "快速切換"
+   },
+   "options_refreshOnProfileChange": {
+      "message": "當變更情景模式時重新整理目前分頁。"
+   },
+   "options_renameProfile": {
+      "message": "變更名稱"
+   },
+   "options_renameProfileName": {
+      "message": "新的名稱"
+   },
+   "options_replaceProfile": {
+      "message": "取代"
+   },
+   "options_replaceProfileConfirm": {
+      "message": "您確定要使用 $ToProfile 來代替 $FromProfile$ 嗎?",
+      "placeholders": {
+         "FromProfile": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_replaceProfileHelp": {
+      "message": "如果繼續操作，則和 $FromProfile$ 有關的切換規則將改為使用 $ToProfile$ 來代替。此外，啟動情景模式、快速切換等設定也會做相應調整。但請注意，此操作不影響這兩個情景模式本身。",
+      "placeholders": {
+         "FromProfile": {
+            "content": "$1"
+         },
+         "ToProfile": {
+            "content": "$2"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_replaceProfileSuccess": {
+      "message": "變更選項成功。"
+   },
+   "options_reset": {
+      "message": "重設選項"
+   },
+   "options_resetOptionsConfirm": {
+      "message": "真的確定要重設選項嗎？如果繼續，現有的所有情景模式和選項將會遺失！"
+   },
+   "options_resetRules": {
+      "message": "重設規則"
+   },
+   "options_resetRulesConfirm": {
+      "message": "真的要設定所有規則對應的情景模式為以下情景模式嗎？"
+   },
+   "options_resetRules_help": {
+      "message": "批量設定所有規則的情景模式"
+   },
+   "options_resetSuccess": {
+      "message": "選項已經重設。"
+   },
+   "options_restoreLocal": {
+      "message": "從備份檔案還原"
+   },
+   "options_restoreLocalHelp": {
+      "message": "匯入本地的備份檔案以還原所有選項。"
+   },
+   "options_restoreOnline": {
+      "message": "線上還原"
+   },
+   "options_restoreOnlinePlaceholder": {
+      "message": "備份檔案位址 (如：http://example.com/switchy.bak)"
+   },
+   "options_restoreOnlineSubmit": {
+      "message": "還原"
+   },
+   "options_resultProfile": {
+      "message": "情景模式"
+   },
+   "options_resultProfileForSelectedDomains": {
+      "message": "對所有選中域名使用此情景模式："
+   },
+   "options_revertProxyChanges": {
+      "message": "還原其他擴充功能對代理的變更。"
+   },
+   "options_ruleListDefaultProfile": {
+      "message": "不比對則使用情景模式"
+   },
+   "options_ruleListFormat": {
+      "message": "規則清單格式"
+   },
+   "options_ruleListLastUpdate": {
+      "message": "規則清單最後更新時間：$TIME$",
+      "placeholders": {
+         "TIME": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_ruleListLineCount": {
+      "message": "共計$COUNT$行規則",
+      "placeholders": {
+         "COUNT": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_ruleListMatchProfile": {
+      "message": "比對則使用情景模式"
+   },
+   "options_ruleListObsolete": {
+      "message": "修改網址後尚未下載更新，因此規則清單已經過時。請使用上方的更新按鈕進行下載。"
+   },
+   "options_ruleListUrlHelp": {
+      "message": "應用將從此網址下載規則清單。如果網址留空，則以下文字會被直接處理後作為規則清單使用。"
+   },
+   "options_ruleNote": {
+      "message": "備註"
+   },
+   "options_saveSuccess": {
+      "message": "儲存選項成功。"
+   },
+   "options_scheme_default": {
+      "message": "(預設)"
+   },
+   "options_showConditionTypeHelp": {
+      "message": "顯示說明"
+   },
+   "options_showConditionTypesAdvanced": {
+      "message": "顯示進階切換條件"
+   },
+   "options_showConditionTypesAdvancedHelp": {
+      "message": "解鎖一些新種類的、功能強大的但難以掌握的切換條件。對於大多數情況來說，基本條件類型應該就足夠，因此不推薦該選項。"
+   },
+   "options_showExternalProfile": {
+      "message": "在彈出式選單中顯示選單項目，以匯入其他應用提供的代理設定。"
+   },
+   "options_showExternalProfileHelp": {
+      "message": "選擇了 $SYSTEMPROFILE$ 的情況下，您可以在彈出式選單中選擇 $EXTERNALPROFILE$ 來匯入其他應用提供的代理設定。匯入的設定將會成為一個新的情景模式，其名稱由您決定。請注意匯入的情景模式只是當時的一個快照，匯入後不會隨著原來的應用更新。",
+      "placeholders": {
+         "EXTERNALPROFILE": {
+            "content": "$2"
+         },
+         "SYSTEMPROFILE": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_showInspectMenu": {
+      "message": "右鍵選單中，可檢查網頁元素所使用的代理。"
+   },
+   "options_sort": {
+      "message": "排序"
+   },
+   "options_startupProfile": {
+      "message": "初始情景模式"
+   },
+   "options_startupProfile_none": {
+      "message": "(目前情景模式)"
+   },
+   "options_switchAttachedProfileInCondition": {
+      "message": "規則清單規則"
+   },
+   "options_switchAttachedProfileInConditionDetails": {
+      "message": "(按照規則清單比對請求)"
+   },
+   "options_switchAttachedProfileInConditionDisabled": {
+      "message": "(規則清單已停用！)"
+   },
+   "options_switchDefaultProfile": {
+      "message": "預設情景模式"
+   },
+   "options_syncConflictAlert": {
+      "message": "您已經通過其他裝置上傳了一份選項用於同步。"
+   },
+   "options_syncConflictHelp": {
+      "message": "您可以將雲端的選項下載到此裝置使用。\u003Cbr>一旦選擇下載，\u003Cb>此裝置上的設定和情景模式將會被覆蓋\u003C/b>。"
+   },
+   "options_syncDisable": {
+      "message": "停用同步"
+   },
+   "options_syncEnable": {
+      "message": "啟用同步"
+   },
+   "options_syncEnableForce": {
+      "message": "下載雲端版本"
+   },
+   "options_syncPristineHelp": {
+      "message": "您可以將設定和情景模式同步到所有使用Chrome瀏覽器的桌面裝置。"
+   },
+   "options_syncReset": {
+      "message": "刪除雲端版本"
+   },
+   "options_syncSyncAlert": {
+      "message": "您的設定將會自動與其他裝置進行同步。"
+   },
+   "options_syncSyncHelp": {
+      "message": "請注意：您需要在所有裝置上（包括此裝置）的Chrome瀏覽器中登入，這樣同步的選項才能正常使用。\u003Cbr>可以在其他裝置上檢視此頁面，來檢查同步是否生效。"
+   },
+   "options_syncUnsupportedHelp": {
+      "message": "選項同步暫不支援您的平臺或瀏覽器。目前只支援桌面版Chrome的瀏覽器的同步，請諒解。"
+   },
+   "options_tab_general": {
+      "message": "通用"
+   },
+   "options_tab_importExport": {
+      "message": "匯入/匯出"
+   },
+   "options_tab_ui": {
+      "message": "介面"
+   },
+   "options_title": {
+      "message": "SwitchyOmega 選項"
+   },
+   "options_virtualProfileReplace": {
+      "message": "取代目標情景模式"
+   },
+   "options_virtualProfileReplaceHelp": {
+      "message": "通過此功能可以變更現有的選項，使用此虛情景模式來取代 $PROFILE$ 。此功能會把所有和 $PROFILE$ 相關的切換規則改為使用此虛情景模式。這樣一來，就可以通過此虛情景模式來控制那些切換條件對應的結果。",
+      "placeholders": {
+         "PROFILE": {
+            "content": "$2"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_virtualProfileTarget": {
+      "message": "目標"
+   },
+   "options_virtualProfileTargetHelp": {
+      "message": "當使用此情景模式時，相當於使用了以下情景模式："
+   },
+   "options_weekDayShort_0": {
+      "message": "日"
+   },
+   "options_weekDayShort_1": {
+      "message": "一"
+   },
+   "options_weekDayShort_2": {
+      "message": "二"
+   },
+   "options_weekDayShort_3": {
+      "message": "三"
+   },
+   "options_weekDayShort_4": {
+      "message": "四"
+   },
+   "options_weekDayShort_5": {
+      "message": "五"
+   },
+   "options_weekDayShort_6": {
+      "message": "六"
+   },
+   "options_welcomeNormal": {
+      "message": "您已經成功安裝了 SwitchyOmega ，一個強大的代理切換工具。"
+   },
+   "options_welcomeNormalGuide": {
+      "message": "您可以通過選項頁面設定需要使用的代理伺服器，下面我們就來試試看吧。"
+   },
+   "options_welcomeUpgrade": {
+      "message": "您已經成功升級到 SwitchyOmega. 別擔心，所有設定都已經升級成功，可以繼續使用。"
+   },
+   "options_welcomeUpgradeGuide": {
+      "message": "現在我們來熟悉一下新的選項頁面。"
+   },
+   "popup_addCondition": {
+      "message": "加入條件"
+   },
+   "popup_addConditionTo": {
+      "message": "加入條件到情景模式"
+   },
+   "popup_configureMonitorWebRequests": {
+      "message": "設定網路偵測選項"
+   },
+   "popup_errorLog": {
+      "message": "儲存錯誤記錄"
+   },
+   "popup_externalProfile": {
+      "message": "(外部情景模式)"
+   },
+   "popup_externalProfileName": {
+      "message": "儲存名稱"
+   },
+   "popup_issueTemplate": {
+      "message": "\n\n\n\u003C!-- ↑請在此行上方填寫問題/建議詳情，可用中文↑ -->\nSwitchyOmega $projectVersion$\n$userAgent$",
+      "placeholders": {
+         "_unused_0": {
+            "content": "$0"
+         },
+         "projectVersion": {
+            "content": "$1"
+         },
+         "userAgent": {
+            "content": "$2"
+         }
+      }
+   },
+   "popup_proxyNotControllableDetails": {
+      "message": "如果不解決以上問題，則無法使用SwitchyOmega切換代理。"
+   },
+   "popup_proxyNotControllableDetails_upgrade": {
+      "message": "兩個不同版本的 SwitchyOmega （如穩定版和測試版）不能共存。請停用其中之一。"
+   },
+   "popup_proxyNotControllableManage": {
+      "message": "管理擴充功能"
+   },
+   "popup_proxyNotControllable_app": {
+      "message": "其他應用正在控制代理設定。請停用或者解除安裝發生衝突的應用。"
+   },
+   "popup_proxyNotControllable_disabled": {
+      "message": "在其他程式或擴充功能的要求下，SwitchyOmega 已經停用代理設定。"
+   },
+   "popup_proxyNotControllable_policy": {
+      "message": "代理設定被本地策略強制指定，無法修改。請聯繫系統管理員。"
+   },
+   "popup_proxyNotControllable_unknown": {
+      "message": "無法設定代理設定。請檢查系統和瀏覽器設定。"
+   },
+   "popup_proxyNotControllable_upgrade": {
+      "message": "代理設定現在由新版本的 SwitchyOmega 控制。"
+   },
+   "popup_reportIssues": {
+      "message": "回報問題"
+   },
+   "popup_requestErrorAddCondition": {
+      "message": "您可以檢視以下域名，並依據實際情況確定是否對其使用代理。"
+   },
+   "popup_requestErrorCannotAddCondition": {
+      "message": "在使用自動切換情景時，才可以將這些資源新增為切換條件。"
+   },
+   "popup_requestErrorCount": {
+      "message": "$COUNT$個資源未載入",
+      "placeholders": {
+         "COUNT": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "popup_requestErrorHeading": {
+      "message": "載入失敗的資源清單"
+   },
+   "popup_requestErrorWarning": {
+      "message": "由於網路原因，此頁面部分資源載入失敗。這些問題可能是由您的網路、代理伺服器或網站本身引起的。"
+   },
+   "popup_requestErrorWarningHelp": {
+      "message": "這些問題並非由 SwitchyOmega 自身導致，它只不過偵測並報告了錯誤而已。"
+   },
+   "popup_showOptions": {
+      "message": "選項"
+   },
+   "popup_title": {
+      "message": "SwitchyOmega 彈出選單"
+   },
+   "profile_direct": {
+      "message": "[直接連線]"
+   },
+   "profile_system": {
+      "message": "[系統代理]"
+   },
+   "ruleListFormat_AutoProxy": {
+      "message": "AutoProxy"
+   },
+   "ruleListFormat_Switchy": {
+      "message": "Switchy"
+   },
+   "ruleList_error_invalidRule": {
+      "message": "語法錯誤：非法規則。行號 $LNO$: $SOURCE$",
+      "placeholders": {
+         "LNO": {
+            "content": "$1"
+         },
+         "SOURCE": {
+            "content": "$2"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "ruleList_error_missingResultProfile": {
+      "message": "語法錯誤：缺少結果情景模式名稱。 行號 $LNO$: $SOURCE$",
+      "placeholders": {
+         "LNO": {
+            "content": "$1"
+         },
+         "SOURCE": {
+            "content": "$2"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "ruleList_error_noDefaultRule": {
+      "message": "語法錯誤：缺少比對全部請求的預設規則。應在最後新增'*'規則和預設情景模式。"
+   },
+   "ruleList_error_resultNotEnabled": {
+      "message": "語法錯誤：缺少 '@with result' 指令！"
+   },
+   "ruleList_error_unknownProfile": {
+      "message": "未找到此情景模式: $PROFILE$",
+      "placeholders": {
+         "PROFILE": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "ruleList_usageUrl": {
+      "message": "https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage"
+   },
+   "upgrade_profile_auto": {
+      "message": "自動切換"
+   }
+}

@@ -1,0 +1,36 @@
+
+<div ng-controller="PacProfileCtrl">
+  <p ng-show="pacProfilesUnsupported" class="alert alert-danger width-limit"><span class="glyphicon glyphicon-remove"></span> {{'options_pac_profile_unsupported_moz' | tr}}
+  </p>
+  <section class="settings-group">
+    <h3>{{'options_group_pacUrl' | tr}}</h3>
+    <div input-group-clear="input-group-clear" type="text" model="profile.pacUrl" ng-pattern="referenced ? urlRegex : urlWithFile" controller="pacUrlCtrl.ctrl" class="width-limit"></div>
+    <p class="help-block">{{'options_pacUrlHelp' | tr}}</p>
+    <div ng-show="pacUrlIsFile &amp;&amp; !referenced" class="has-warning">
+      <p class="help-block"><span class="glyphicon glyphicon-warning-sign"></span> {{'options_pacUrlFile' | tr}}</p>
+    </div>
+    <div ng-show="isFileUrl(pacUrlCtrl.ctrl.$viewValue) &amp;&amp; referenced" class="has-error">
+      <p class="help-block"><span class="glyphicon glyphicon-remove-sign"></span> {{'options_pacUrlFile' | tr}}</p>
+      <p class="help-block">{{'options_pacUrlFileDisabled' | tr}}</p>
+    </div>
+    <p ng-show="profile.pacUrl &amp;&amp; !pacUrlIsFile">
+      <button ng-click="updateProfile(profile.name)" ladda="updatingProfile[profile.name]" data-spinner-color="#000000" ng-class="profile.pacUrl &amp;&amp; !profile.lastUpdate ? &quot;btn-primary&quot; : &quot;btn-default&quot;" class="btn"><span class="glyphicon glyphicon-download-alt"></span> {{'options_downloadProfileNow' | tr}}</button>
+    </p>
+  </section>
+  <section class="settings-group">
+    <h3>{{'options_group_pacScript' | tr}} 
+      <button ng-class="profile.auth[&quot;all&quot;] ? &quot;btn-success&quot; : &quot;btn-default&quot;" type="button" role="button" ng-click="editProxyAuth()" title="{{&quot;options_proxy_auth&quot; | tr}}" class="btn btn-xs proxy-auth-toggle"><span class="glyphicon glyphicon-lock"></span></button>
+    </h3>
+    <div ng-show="profile.auth[&quot;all&quot;]" class="alert alert-warning width-limit">
+      <p>{{'options_proxy_authAllWarningPac' | tr}}</p>
+      <p ng-show="!!profile.pacUrl">{{'options_proxy_authAllWarningPacUrl' | tr}}</p>
+      <p ng-show="!profile.pacUrl">{{'options_proxy_authAllWarningPacScript' | tr}}</p>
+      <p ng-show="!!referenced"><span class="glyphicon glyphicon-warning-sign"></span> {{'options_proxy_authReferencedWarning' | tr}}</p>
+    </div>
+    <div ng-hide="pacUrlIsFile">
+      <p ng-show="profile.pacUrl &amp;&amp; profile.lastUpdate" class="alert alert-success width-limit">{{'options_pacScriptLastUpdate' | tr:[(profile.lastUpdate | date:'medium')]}}</p>
+      <p ng-show="profile.pacUrl &amp;&amp; !profile.lastUpdate" class="alert alert-danger width-limit">{{'options_pacScriptObsolete' | tr}}</p>
+      <textarea ng-model="profile.pacScript" rows="20" ng-disabled="pacUrlCtrl.ctrl.$invalid || !!profile.pacUrl" class="monospace form-control width-limit"></textarea>
+    </div>
+  </section>
+</div>

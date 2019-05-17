@@ -1,0 +1,31 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background/index.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "icon/icon19.png",
+         "38": "icon/icon38.png"
+      },
+      "default_title": "牛客简历助手"
+   },
+   "content_scripts": [ {
+      "js": [ "content/index.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "description": "简历一次填写，N网闪填，适配市面80%以上招聘网站，节省70%以上的简历重复填写时间。",
+   "icons": {
+      "128": "icon/icon128.png",
+      "16": "icon/icon16.png",
+      "48": "icon/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkWz8gtXRkh9tLeBt1uKvuYW0n6STlr0MtDi54D74TJrxG/XjFxeBqQ0aLfz/o23nBjGESs3hWe5pSSE0HDDMrDk9ze80toVxW3xxCcSVBGQ+iqzPdrhJdxq/5u/NJppRW6GVMeSQg0fGOpPspUH3DjFdZL5mQ3DDGIIQn3BR3mg7PKiTDqrZRSh3vK3QKoM+h/fuV9PQFvA7XYVE6xLCdopUHXI1A0tr5er7GvJSnaSTwfiTsxH8R0KEkXRdMUxokJpeYjhT2MBedqR0TIwa/il40sXWlBTmyCc3JOT1S80hVdzYl5ios1YoINO1D+SQImMnwaQ8D9qEgrZLArHVZwIDAQAB",
+   "manifest_version": 2,
+   "name": "牛客简历助手",
+   "permissions": [ "alarms", "cookies", "storage", "notifications", "activeTab", "tabs", "alarms", "http://*/*", "https://*/*" ],
+   "short_name": "简历助手",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.17",
+   "web_accessible_resources": [ "content/*", "icon/*" ]
+}

@@ -1,0 +1,34 @@
+
+<div ng-controller="RuleListProfileCtrl">
+  <section class="settings-group">
+    <h3>{{'options_group_ruleListConfig' | tr}}</h3>
+    <div class="form-group">
+      <label>{{'options_ruleListMatchProfile' | tr}}</label> 
+      <div omega-profile-select="options | profiles:profile" ng-model="profile.matchProfileName" disp-name="dispNameFilter" options="options" style="display: inline-block;"></div>
+    </div>
+    <div class="form-group">
+      <label>{{'options_ruleListDefaultProfile' | tr}}</label> 
+      <div omega-profile-select="options | profiles:profile" ng-model="profile.defaultProfileName" disp-name="dispNameFilter" options="options" style="display: inline-block;"></div>
+    </div>
+    <form class="form-group">
+      <label>{{'options_ruleListFormat' | tr}}</label>
+      <div ng-repeat="format in ruleListFormats" class="radio inline-form-control no-min-width">
+        <label>
+          <input type="radio" name="formatInput" value="{{format}}" ng-model="profile.format"/>{{'ruleListFormat_' + format | tr}}
+        </label>
+      </div>
+    </form>
+  </section>
+  <section class="settings-group">
+    <h3>{{'options_group_ruleListUrl' | tr}}</h3>
+    <div input-group-clear="input-group-clear" type="url" model="profile.sourceUrl" ng-if="profile" class="width-limit"></div>
+    <p class="help-block">{{'options_ruleListUrlHelp' | tr}}</p>
+  </section>
+  <section class="settings-group">
+    <h3>{{'options_group_ruleListText' | tr}}</h3>
+    <p>
+      <button ng-disabled="!profile.sourceUrl" ng-click="updateProfile(profile.name)" ladda="updatingProfile[profile.name]" data-spinner-color="#000000" class="btn btn-default"><span class="glyphicon glyphicon-download-alt"></span> {{'options_downloadProfileNow' | tr}}</button>
+    </p>
+    <textarea ng-model="profile.ruleList" rows="20" ng-disabled="!!profile.sourceUrl" class="monospace form-control width-limit"></textarea>
+  </section>
+</div>

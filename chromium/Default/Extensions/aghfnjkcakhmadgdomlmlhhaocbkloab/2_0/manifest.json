@@ -1,0 +1,28 @@
+{
+   "description": "Just Black: when you're feeling extra moody",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqxThvdYeWk6kwfNo+/HoqQSkL6iBx48w28vEPXHdhJo8OHMxS7D+1W1nhUsv4hOnb1CM2TlP/Nh9G+1Z32R9r6RmVxD1Anq9ZTZpK7VHVUxExGR4X9+TYHKWk8VGAjSBmutvayf0i0gCEkh7Pdc68ex4M0ypKGFWxBzxqw2uQ/4BLMVB/9KZJwXOC5LcaBNgq2Q74J3Dd3a90OzFXh+vC9zIyDueu3/K4F6u5bXgsgviAGIrUm7YbGhLDMxuW81zvYMlLtkA4XDDnhgk88s0G/5OwoMEyU6YdMq9R795NHsI0bPUMOOgUsPT5cytKRcQMegMassBe9EB+ktTl9CloQIDAQAB",
+   "manifest_version": 2,
+   "name": "Just Black",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 255, 255, 255 ],
+         "frame": [ 0, 0, 0 ],
+         "ntp_background": [ 0, 0, 0 ],
+         "ntp_text": [ 125, 134, 142 ],
+         "tab_background_text": [ 255, 255, 255 ],
+         "tab_background_text_inactive": [ 255, 255, 255 ],
+         "tab_background_text_incognito": [ 255, 255, 255 ],
+         "tab_background_text_incognito_inactive": [ 255, 255, 255 ],
+         "tab_text": [ 255, 255, 255 ],
+         "toolbar": [ 45, 45, 45 ]
+      },
+      "tints": {
+         "buttons": [ 0.2, 0.2, 0.9 ],
+         "frame_inactive": [ -1, -1, -1 ],
+         "frame_incognito": [ -1, -1, -1 ],
+         "frame_incognito_inactive": [ -1, -1, -1 ]
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2"
+}

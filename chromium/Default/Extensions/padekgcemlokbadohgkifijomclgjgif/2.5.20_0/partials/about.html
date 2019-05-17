@@ -1,0 +1,39 @@
+
+<div class="page-header">
+  <h2>{{'about_title' | tr}}</h2>
+</div>
+<section ng-show="isExperimental" class="omega-experimental">
+  <p class="alert alert-warning"><span class="glyphicon glyphicon-warning-sign"></span> <span>{{'about_experimental_warning_moz' | tr}}</span>
+  </p>
+</section>
+<section>
+  <div style="margin: 1em 0" class="media">
+    <div class="media-left"><img src="img/icons/omega-action-32.png" class="media-object"/></div>
+    <div class="media-body">
+      <h4 class="media-heading">{{'appNameShort' | tr}}</h4>
+      <p>{{'about_app_description' | tr}}</p>
+    </div>
+  </div>
+</section>
+<section>
+  <p>
+    <button ng-click="reportIssue()" class="btn btn-info"><span class="glyphicon glyphicon-comment"></span> {{'popup_reportIssues' | tr}}
+    </button> 
+    <button ng-click="downloadLog()" class="btn btn-default"><span class="glyphicon glyphicon-download"></span> {{'popup_errorLog' | tr}}
+    </button> 
+    <button ng-click="showResetOptionsModal()" class="btn btn-danger"><span class="glyphicon glyphicon-alert"></span> {{'options_reset' | tr}}
+    </button>
+  </p>
+</section>
+<section>
+  <p>{{'about_version' | tr:[version]}}</p>
+  <p class="text-warning"><span class="glyphicon glyphicon-info-sign"></span> <span ng-bind-html="&quot;about_disclaimer_networkService&quot; | tr"></span>
+  </p>
+  <p class="text-success"><span class="glyphicon glyphicon-eye-close"></span> <span ng-bind-html="&quot;about_disclaimer_privacy&quot; | tr"></span>
+  </p>
+  <p class="text-info"><span class="glyphicon glyphicon-question-sign"></span> <span ng-bind-html="&quot;about_help&quot; | tr"></span>
+  </p>
+</section>
+<section style="margin-top: 7em">
+  <p>{{'appNameShort' | tr}}<br/><span ng-bind-html="&quot;about_copyright&quot; | tr"></span><br/><span ng-bind-html="&quot;about_license&quot; | tr"></span><br/><span ng-bind-html="&quot;about_credits&quot; | tr"></span></p>
+</section>

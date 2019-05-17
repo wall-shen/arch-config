@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Dark Reader CSS editor</title>
+    <meta name="theme-color" content="#0B2228" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="shortcut icon" href="../assets/images/darkreader-icon-256x256.png" />
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="../assets/images/darkreader-type.svg" alt="Dark Reader"/>
+        <h1 id="title">CSS Editor</h1>
+    </header>
+    <h3 id="sub-title">All websites</h3>
+    <textarea id="editor" placeholder="* {
+    background-color: #234 !important;
+    color: #cba !important;
+}"></textarea>
+    <div id="buttons">
+        <button class="button">
+            <span class="button__wrapper">Reset</span>
+        </button>
+        <button class="button">
+            <span class="button__wrapper">Apply</span>
+        </button>
+    </div>
+</body>
+
+</html>

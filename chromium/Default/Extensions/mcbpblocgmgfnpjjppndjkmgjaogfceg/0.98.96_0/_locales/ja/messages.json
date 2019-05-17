@@ -1,0 +1,366 @@
+{
+   "action_about": {
+      "description": "Popup menu command, opens window about FireShot",
+      "message": "FireShotについて"
+   },
+   "action_api": {
+      "description": "Popup menu command, opens web page in a new tab with some info about FireShot API",
+      "message": "ForeShot API"
+   },
+   "action_capture_browser": {
+      "description": "First part of the command in the popup menu: Capture browser window and (Edit, Save, Print, etc)",
+      "message": "ブラウザ ウィンドウをキャプチャ >"
+   },
+   "action_capture_entire": {
+      "description": "First part of the command in the popup menu: Capture entire page and (Edit, Save, Print, etc)",
+      "message": "ページ全体をキャプチャ >"
+   },
+   "action_capture_entire_lite": {
+      "description": "",
+      "message": "ページ全体をキャプチャ"
+   },
+   "action_capture_selection": {
+      "description": "First part of the command in the popup menu: Capture selection/element and (Edit, Save, Print, etc)",
+      "message": "選択範囲 / 要素をキャプチャ >"
+   },
+   "action_capture_selection_lite": {
+      "description": "",
+      "message": "選択範囲をキャプチャ"
+   },
+   "action_capture_tabs": {
+      "description": "First part of the command in the popup menu: Capture all tabs and (Edit, Save to PDF)",
+      "message": "すべてのタブをキャプチャ >"
+   },
+   "action_capture_visible": {
+      "description": "First part of the command in the popup menu: Capture visible part and (Edit, Save, Print, etc)",
+      "message": "表示部分をキャプチャ >"
+   },
+   "action_capture_visible_lite": {
+      "description": "",
+      "message": "表示部分をキャプチャ"
+   },
+   "action_copy": {
+      "description": "Popup menu command, captures web page and places it into clipboard as bitmap",
+      "message": "クリップボードにコピー"
+   },
+   "action_edit": {
+      "description": "Popup menu command, captures web page and opens editor",
+      "message": "編集"
+   },
+   "action_email": {
+      "description": "Popup menu command, captures web page and sends it via email",
+      "message": "メール"
+   },
+   "action_enter_license": {
+      "description": "Popup menu command, opens dialog to enter the licensing information",
+      "message": "ライセンス情報を入力"
+   },
+   "action_external": {
+      "description": "Popup menu command, captures web page and opens it in a third-party editor",
+      "message": "外部エディターで開く"
+   },
+   "action_install_native": {
+      "description": "",
+      "message": "高度な機能をゲット"
+   },
+   "action_license_info": {
+      "description": "Popup menu command, opens licensing info if FireShot is Pro",
+      "message": "ライセンス認証中..."
+   },
+   "action_micsellaneous": {
+      "description": "",
+      "message": "その他"
+   },
+   "action_onenote": {
+      "description": "Popup menu command, captures web page and opens it in MS OneNote",
+      "message": "OneNoteに送信"
+   },
+   "action_open_clipboard": {
+      "description": "Popup menu command, opens editor and captures the image from clipboard",
+      "message": "クリップボードから開く"
+   },
+   "action_open_file": {
+      "description": "Popup menu command, loading file into FireShot",
+      "message": "ファイルを開く"
+   },
+   "action_options": {
+      "description": "Popup menu command, opens options page",
+      "message": "オプション"
+   },
+   "action_print": {
+      "description": "Popup menu command, captures web page and sends it to printer",
+      "message": "印刷"
+   },
+   "action_register": {
+      "description": "Popup menu command, registering the Pro version",
+      "message": "登録"
+   },
+   "action_resume": {
+      "description": "Popup menu command, opening editor and previous capture",
+      "message": "編集を再開"
+   },
+   "action_save": {
+      "description": "Popup menu command, captures web page and saves it to disk as image file",
+      "message": "保存"
+   },
+   "action_save_pdf": {
+      "description": "Popup menu command, captures web page and saves it as PDF",
+      "message": "PDFとして保存"
+   },
+   "action_save_pdf_single": {
+      "description": "Popup menu command, captures all tabls and saves them as single PDF",
+      "message": "単一のPDFとして保存"
+   },
+   "action_support": {
+      "description": "Popup menu command, opens web page in a new tab with the support forum",
+      "message": "サポート"
+   },
+   "action_switch_pro": {
+      "description": "Popup menu command, switches FireShot into Pro mode",
+      "message": "Proに切り替え"
+   },
+   "action_switch_pro_tabs": {
+      "description": "Popup menu command, switches FireShot to Pro mode",
+      "message": "Proの機能を有効にして続行します..."
+   },
+   "action_upload": {
+      "description": "Popup menu command, captures web page and uploads it to image hosting engine",
+      "message": "アップロード"
+   },
+   "action_view_demo": {
+      "description": "Popup menu command, opens web page in a new tab with a Flash demo",
+      "message": "デモを視聴"
+   },
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "ウェブページ全体をスクリーンショット撮影。PDF/JPEG/GIF/PNGでキャプチャ、編集、保存やアップロード、印刷、そしてOneNote、クリップボード、メールに送信できます。"
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "ウェブページ全体をスクリーンショット - FireShot"
+   },
+   "captured_buy_pro_button": {
+      "description": "Button title to buy FireShot Pro",
+      "message": "Proを購入"
+   },
+   "captured_copy_clipboard": {
+      "description": "",
+      "message": "クリップボードにコピー"
+   },
+   "captured_copy_clipboard_learn_button": {
+      "description": "",
+      "message": "使い方を学ぶ..."
+   },
+   "captured_get_free_button": {
+      "description": "Button title to install the Advanced features for free",
+      "message": "無料で試す"
+   },
+   "captured_print": {
+      "description": "",
+      "message": "印刷"
+   },
+   "captured_print_button": {
+      "description": "",
+      "message": "印刷"
+   },
+   "captured_recommend_us": {
+      "description": "",
+      "message": "FireShotを勧める"
+   },
+   "captured_save_as_image": {
+      "description": "",
+      "message": "画像として保存"
+   },
+   "captured_save_as_image_button": {
+      "description": "",
+      "message": "画像として保存"
+   },
+   "captured_save_as_pdf": {
+      "description": "",
+      "message": "PDFとして保存"
+   },
+   "captured_save_panel_title": {
+      "description": "",
+      "message": "スクリーンショットを保存"
+   },
+   "captured_saving_options": {
+      "description": "Button title to enter options to customize the saving process",
+      "message": "カスタマイズする"
+   },
+   "captured_setup_hotkeys": {
+      "description": "",
+      "message": "ショートカットとファイルの設定"
+   },
+   "captured_upgrade_link_1": {
+      "description": "",
+      "message": "高度なキャプチャ、注釈、印刷、保存、編集、アップロード、メール/OneNoteや他のソフトウェアへの送信が可能です。"
+   },
+   "captured_upgrade_link_2": {
+      "description": "",
+      "message": "FireShot Proにアップグレード"
+   },
+   "captured_upgrade_link_3": {
+      "description": "",
+      "message": "FireShotの別バージョンを以前使っていました。"
+   },
+   "captured_upgrade_link_4": {
+      "description": "",
+      "message": "もう一度入手できますか？"
+   },
+   "enable_checkbox": {
+      "description": "Enable checkbox",
+      "message": "有効にする"
+   },
+   "options_button_apply": {
+      "description": "Options page, button caption, applies settings",
+      "message": "適用"
+   },
+   "options_button_save_close": {
+      "description": "Options page, button caption, stores settings and closes dialog",
+      "message": "適用して閉じる"
+   },
+   "options_button_setup": {
+      "description": "Options page, button caption, opens additional dialog",
+      "message": "クリックして設定"
+   },
+   "options_label_and": {
+      "description": "",
+      "message": "プラス"
+   },
+   "options_label_capturing": {
+      "description": "Options page, label of the Capturing section",
+      "message": "キャプチャ"
+   },
+   "options_label_close_tab_after_saving": {
+      "description": "Checkbox to close results page after the saving is done",
+      "message": "保存後にタブを閉じる"
+   },
+   "options_label_customize_saving": {
+      "description": "Title in the dialog for the group of elements to customize saving process",
+      "message": "保存方法をカスタマイズ"
+   },
+   "options_label_default_filename_template": {
+      "description": "",
+      "message": "デフォルト ファイル名："
+   },
+   "options_label_default_folder": {
+      "description": "Title to the input box for the default folder to save captures to",
+      "message": "デフォルト出力フォルダ"
+   },
+   "options_label_default_folder_hint": {
+      "description": "Hint for the default folder input field",
+      "message": "保存されたファイルを含むダウンロード ディレクトリへの相対的なファイル パスにサブディレクトリが含まれている可能性があります。\n絶対パス、空のパス、後方参照 «..» を含むパスによりエラーが発生します。"
+   },
+   "options_label_editor_options": {
+      "description": "Options page, label of the Editor options section",
+      "message": "編集オプション"
+   },
+   "options_label_enable_context_menu": {
+      "description": "This button launches the hotkey configuration dialog",
+      "message": "コンテキスト メニューにFireShotを統合"
+   },
+   "options_label_file_settings": {
+      "description": "",
+      "message": "ファイル設定"
+   },
+   "options_label_fireshot_options": {
+      "description": "Options page, main header of the dialog",
+      "message": "FireShotオプション"
+   },
+   "options_label_hotkey": {
+      "description": "Options page, label of the Hotkey section",
+      "message": "ショートカット"
+   },
+   "options_label_last_action_hotkey": {
+      "description": "",
+      "message": "最後に使用したアクション"
+   },
+   "options_label_no_saveas_dialog": {
+      "description": "Checkbox to save without prompt",
+      "message": "「名前を付けて保存」ダイアログを非表示にする"
+   },
+   "options_label_open_folder_after_saving": {
+      "description": "Checkbox to automatically open the target folder after saving is complete",
+      "message": "保存後にダウンロードしたファイルを表示する"
+   },
+   "options_label_save_image_as": {
+      "description": "",
+      "message": "名前を付けて画像を保存："
+   },
+   "options_label_specify_editor_options": {
+      "description": "Options page, label",
+      "message": "エディター、保存オプション、ファイル名の設定、スタイルなどを設定します。"
+   },
+   "options_label_specify_hotkey": {
+      "description": "Options page, label",
+      "message": "FireShotを起動するショートカットを設定します。"
+   },
+   "options_label_specify_resizing_options": {
+      "description": "Options page, label",
+      "message": "リサイズ オプションとサウンドを設定します。"
+   },
+   "options_label_template_day": {
+      "description": "",
+      "message": "日"
+   },
+   "options_label_template_hour": {
+      "description": "",
+      "message": "時"
+   },
+   "options_label_template_limit_1": {
+      "description": "",
+      "message": "ファイル名の上限"
+   },
+   "options_label_template_limit_2": {
+      "description": "",
+      "message": "文字"
+   },
+   "options_label_template_minutes": {
+      "description": "",
+      "message": "分"
+   },
+   "options_label_template_month": {
+      "description": "",
+      "message": "月"
+   },
+   "options_label_template_pad_1": {
+      "description": "",
+      "message": "表示形式"
+   },
+   "options_label_template_pad_2": {
+      "description": "",
+      "message": "桁"
+   },
+   "options_label_template_seconds": {
+      "description": "",
+      "message": "秒"
+   },
+   "options_label_template_title": {
+      "description": "",
+      "message": "ページのタイトル"
+   },
+   "options_label_template_url": {
+      "description": "",
+      "message": "ページのURL"
+   },
+   "options_label_template_website": {
+      "description": "",
+      "message": "ドメイン名"
+   },
+   "options_label_template_year": {
+      "description": "",
+      "message": "年"
+   },
+   "options_link_filename_template_settings": {
+      "description": "",
+      "message": "ファイル名のテンプレートを表示"
+   },
+   "options_link_filename_template_settings_hide": {
+      "description": "",
+      "message": "ファイル名のテンプレートを非表示"
+   },
+   "void": {
+      "description": "this is a void entry",
+      "message": ""
+   }
+}

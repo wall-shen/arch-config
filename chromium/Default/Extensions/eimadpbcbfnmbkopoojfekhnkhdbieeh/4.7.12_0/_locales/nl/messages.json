@@ -1,0 +1,140 @@
+{
+   "add_site_to_list": {
+      "message": "Site aan lijst toevoegen"
+   },
+   "brightness": {
+      "message": "Helderheid"
+   },
+   "change_browser_theme": {
+      "message": "Browser thema veranderen"
+   },
+   "contrast": {
+      "message": "Contrast"
+   },
+   "custom_browser_theme_off": {
+      "message": "Standaard"
+   },
+   "custom_browser_theme_on": {
+      "message": "Aangepast"
+   },
+   "dark": {
+      "message": "Donker"
+   },
+   "donate": {
+      "message": "Doneren"
+   },
+   "engine_dynamic": {
+      "message": "Dynam."
+   },
+   "engine_filter": {
+      "message": "Filter"
+   },
+   "engine_filter_plus": {
+      "message": "Filter+"
+   },
+   "engine_static": {
+      "message": "Statisch"
+   },
+   "extension_description": {
+      "message": "Donkere modus voor elke website. Zorg goed voor je ogen, gebruik donkere modus voor gebruik in de nacht of zelfs overdag."
+   },
+   "filter": {
+      "message": "Filter"
+   },
+   "grayscale": {
+      "message": "Grijstinten"
+   },
+   "help": {
+      "message": "Hulp"
+   },
+   "invert_listed_only": {
+      "message": "Alleen omgek. lijst"
+   },
+   "light": {
+      "message": "Licht"
+   },
+   "loading_please_wait": {
+      "message": "Laden, even geduld alstublieft."
+   },
+   "mode": {
+      "message": "Modus"
+   },
+   "more": {
+      "message": "Meer"
+   },
+   "news": {
+      "message": "Nieuws"
+   },
+   "not_invert_listed": {
+      "message": "Niet omgek. lijst"
+   },
+   "off": {
+      "message": "Uit"
+   },
+   "on": {
+      "message": "Aan"
+   },
+   "only_for": {
+      "message": "Alleen voor"
+   },
+   "only_for_description": {
+      "message": "Instelling voor alleen deze site opslaan"
+   },
+   "open_dev_tools": {
+      "message": "Tools"
+   },
+   "page_in_dark_list": {
+      "message": "Deze site staat op\nde globale lijst"
+   },
+   "page_protected": {
+      "message": "Deze pagina is beschermd\ndoor de browser"
+   },
+   "privacy": {
+      "message": "Privacy"
+   },
+   "read_more": {
+      "message": "Lees meer"
+   },
+   "select_font": {
+      "message": "Selecteer een lettertype"
+   },
+   "sepia": {
+      "message": "Sepia"
+   },
+   "set_active_hours": {
+      "message": "Actieve uren instellen"
+   },
+   "setup_add_site_hotkey": {
+      "message": "Sneltoets instellen om site aan lijst toe te vogen"
+   },
+   "setup_hotkey_toggle_extension": {
+      "message": "Sneltoets instellen\nextensie in of uit schakelen"
+   },
+   "setup_hotkey_toggle_site": {
+      "message": "Sneltoets schakelen\nhuidige site instellen"
+   },
+   "site_list": {
+      "message": "Site lijst"
+   },
+   "store_listing": {
+      "message": "Deze oog zorg extensie heeft een nachtstand mogelijkheid waarbij het maken van donkere themas zeer gemakkelijk is. Donkere modus keert lichte kleuren om, zo heb je een makkelijk te lezen hoog contrast.\n\nJe kunt de helderheid, het contrast, een sepia filter, donkere modus, lettertype en een lijst van te negeren websites geheel instellen naar wens.\n\nDark Reader laat nooit advertenties zien en gebruikt nooit je data. Deze extensie is volledig open-source op https://github.com/darkreader/darkreader\n\nVoor de installatie is het aangeraden soortgelijke extensies eerst uit te schakelen. Veel kijkplezier!"
+   },
+   "text_stroke": {
+      "message": "Tekst omlijning"
+   },
+   "theme_generation_mode": {
+      "message": "Thema generatie modus"
+   },
+   "time_settings": {
+      "message": "Tijd instellingen"
+   },
+   "toggle_current_site": {
+      "message": "Modus voor huidige site omschakelen"
+   },
+   "toggle_extension": {
+      "message": "Ext. in of uit schakelen"
+   },
+   "try_experimental_theme_engines": {
+      "message": "Probeer **experimentele** themas\n**Filter+** behoudt saturatie kleuren, videokaart benodigd\n**Statisch thema** Genereert snel een simpel thema\n**Dynamisch thema** analyseerd kleuren en foto's"
+   }
+}

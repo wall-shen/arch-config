@@ -1,0 +1,23 @@
+
+<div class="page-header">
+  <div class="profile-actions">
+    <button ng-show="exportRuleList" ng-click="exportRuleList(profile.name)" title="{{'options_profileExportRuleListHelp' | tr}}" ng-class="exportRuleListOptions.warning ? 'btn-warning' : 'btn-default'" class="btn"><span class="glyphicon glyphicon-list"></span> {{'options_profileExportRuleList' | tr}}
+    </button> 
+    <button ng-show="scriptable" ng-click="exportScript(profile.name)" title="{{'options_exportPacFileHelp' | tr}}" class="btn btn-default"><span class="glyphicon glyphicon-download"></span> {{'options_profileExportPac' | tr}}
+    </button> 
+    <button ng-click="renameProfile(profile.name)" class="btn btn-default"><span class="glyphicon glyphicon-edit"></span> {{'options_renameProfile' | tr}}
+    </button> 
+    <button ng-click="deleteProfile(profile.name)" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> {{'options_deleteProfile' | tr}}
+    </button>
+  </div><span class="profile-color-editor">
+    <div ng-if="profile.profileType == &quot;VirtualProfile&quot;" ng-style="{'background-color': getProfileColor()}" class="profile-color-editor-fake"></div>
+    <x-spectrum-colorpicker ng-model="profile.color" options="spectrumOptions" ng-if="profile.profileType != &quot;VirtualProfile&quot;"></x-spectrum-colorpicker></span>
+  <h2 class="profile-name">{{'options_profileTabPrefix' | tr}}{{profile.name}}</h2>
+</div>
+<section ng-show="profile.syncOptions == &quot;disabled&quot;" class="settings-group">
+  <p ng-show="!profile.syncError" class="alert alert-info width-limit"><span class="glyphicon glyphicon-info-sign"></span> {{'Syncing is disabled for this profile.'}}
+  </p>
+  <p ng-show="!!profile.syncError" class="alert alert-danger width-limit"><span class="glyphicon glyphicon-remove"></span> {{('options_profileSyncDisabled_' + profile.syncError.reason) | tr}}
+  </p>
+</section>
+<div ng-include="profileTemplate"></div>

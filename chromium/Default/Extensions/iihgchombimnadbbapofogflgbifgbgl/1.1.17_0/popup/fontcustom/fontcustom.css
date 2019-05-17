@@ -1,0 +1,213 @@
+/*
+  Icon Font: fontcustom
+*/
+
+@font-face {
+  font-family: "fontcustom";
+  src: url("./fontcustom.eot");
+  src: url("./fontcustom.eot?#iefix") format("embedded-opentype"),
+       url("./fontcustom.woff") format("woff"),
+       url("./fontcustom.ttf") format("truetype"),
+       url("./fontcustom.svg#fontcustom") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "fontcustom";
+    src: url("./fontcustom.svg#fontcustom") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.icon-nchrome-100:before,
+.icon-nchrome-account:before,
+.icon-nchrome-achievement:before,
+.icon-nchrome-add:before,
+.icon-nchrome-arrow-close:before,
+.icon-nchrome-arrow-down:before,
+.icon-nchrome-arrow-left:before,
+.icon-nchrome-arrow-right:before,
+.icon-nchrome-arrow-up:before,
+.icon-nchrome-award:before,
+.icon-nchrome-click:before,
+.icon-nchrome-close:before,
+.icon-nchrome-code:before,
+.icon-nchrome-coin:before,
+.icon-nchrome-collect:before,
+.icon-nchrome-collect-full:before,
+.icon-nchrome-comment:before,
+.icon-nchrome-comment-full:before,
+.icon-nchrome-comments:before,
+.icon-nchrome-computer:before,
+.icon-nchrome-course:before,
+.icon-nchrome-custom:before,
+.icon-nchrome-doubt:before,
+.icon-nchrome-duration:before,
+.icon-nchrome-edu:before,
+.icon-nchrome-edu-line:before,
+.icon-nchrome-email:before,
+.icon-nchrome-exam:before,
+.icon-nchrome-exit:before,
+.icon-nchrome-fans:before,
+.icon-nchrome-finger-click:before,
+.icon-nchrome-fire:before,
+.icon-nchrome-flag:before,
+.icon-nchrome-forbid:before,
+.icon-nchrome-forbid-o:before,
+.icon-nchrome-hand:before,
+.icon-nchrome-heart:before,
+.icon-nchrome-home:before,
+.icon-nchrome-image:before,
+.icon-nchrome-image-break:before,
+.icon-nchrome-job:before,
+.icon-nchrome-lang:before,
+.icon-nchrome-lightbulb:before,
+.icon-nchrome-link:before,
+.icon-nchrome-location:before,
+.icon-nchrome-lock:before,
+.icon-nchrome-look:before,
+.icon-nchrome-menu:before,
+.icon-nchrome-more:before,
+.icon-nchrome-none:before,
+.icon-nchrome-note:before,
+.icon-nchrome-notice:before,
+.icon-nchrome-paper:before,
+.icon-nchrome-pen:before,
+.icon-nchrome-plan:before,
+.icon-nchrome-post:before,
+.icon-nchrome-post-collect:before,
+.icon-nchrome-project:before,
+.icon-nchrome-qq:before,
+.icon-nchrome-record:before,
+.icon-nchrome-refresh:before,
+.icon-nchrome-renren:before,
+.icon-nchrome-right:before,
+.icon-nchrome-search:before,
+.icon-nchrome-send:before,
+.icon-nchrome-setting:before,
+.icon-nchrome-share:before,
+.icon-nchrome-signal:before,
+.icon-nchrome-skill:before,
+.icon-nchrome-square:before,
+.icon-nchrome-statistics:before,
+.icon-nchrome-sun:before,
+.icon-nchrome-target:before,
+.icon-nchrome-text:before,
+.icon-nchrome-thumb:before,
+.icon-nchrome-thumb-full:before,
+.icon-nchrome-top:before,
+.icon-nchrome-transform:before,
+.icon-nchrome-update:before,
+.icon-nchrome-upload:before,
+.icon-nchrome-user:before,
+.icon-nchrome-user-full:before,
+.icon-nchrome-v:before,
+.icon-nchrome-want:before,
+.icon-nchrome-wechat:before,
+.icon-nchrome-weibo:before,
+.icon-nchrome-wrong:before {
+  display: inline-block;
+  font-family: "fontcustom";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.icon-nchrome-100:before { content: "\f103"; }
+.icon-nchrome-account:before { content: "\f104"; }
+.icon-nchrome-achievement:before { content: "\f105"; }
+.icon-nchrome-add:before { content: "\f106"; }
+.icon-nchrome-arrow-close:before { content: "\f107"; }
+.icon-nchrome-arrow-down:before { content: "\f108"; }
+.icon-nchrome-arrow-left:before { content: "\f109"; }
+.icon-nchrome-arrow-right:before { content: "\f10a"; }
+.icon-nchrome-arrow-up:before { content: "\f10b"; }
+.icon-nchrome-award:before { content: "\f148"; }
+.icon-nchrome-click:before { content: "\f143"; }
+.icon-nchrome-close:before { content: "\f144"; }
+.icon-nchrome-code:before { content: "\f10c"; }
+.icon-nchrome-coin:before { content: "\f10d"; }
+.icon-nchrome-collect:before { content: "\f10e"; }
+.icon-nchrome-collect-full:before { content: "\f10f"; }
+.icon-nchrome-comment:before { content: "\f110"; }
+.icon-nchrome-comment-full:before { content: "\f149"; }
+.icon-nchrome-comments:before { content: "\f111"; }
+.icon-nchrome-computer:before { content: "\f112"; }
+.icon-nchrome-course:before { content: "\f113"; }
+.icon-nchrome-custom:before { content: "\f14a"; }
+.icon-nchrome-doubt:before { content: "\f145"; }
+.icon-nchrome-duration:before { content: "\f114"; }
+.icon-nchrome-edu:before { content: "\f115"; }
+.icon-nchrome-edu-line:before { content: "\f153"; }
+.icon-nchrome-email:before { content: "\f116"; }
+.icon-nchrome-exam:before { content: "\f117"; }
+.icon-nchrome-exit:before { content: "\f155"; }
+.icon-nchrome-fans:before { content: "\f118"; }
+.icon-nchrome-finger-click:before { content: "\f14b"; }
+.icon-nchrome-fire:before { content: "\f119"; }
+.icon-nchrome-flag:before { content: "\f11a"; }
+.icon-nchrome-forbid:before { content: "\f11b"; }
+.icon-nchrome-forbid-o:before { content: "\f11c"; }
+.icon-nchrome-hand:before { content: "\f156"; }
+.icon-nchrome-heart:before { content: "\f11d"; }
+.icon-nchrome-home:before { content: "\f11e"; }
+.icon-nchrome-image:before { content: "\f11f"; }
+.icon-nchrome-image-break:before { content: "\f120"; }
+.icon-nchrome-job:before { content: "\f14c"; }
+.icon-nchrome-lang:before { content: "\f154"; }
+.icon-nchrome-lightbulb:before { content: "\f146"; }
+.icon-nchrome-link:before { content: "\f121"; }
+.icon-nchrome-location:before { content: "\f122"; }
+.icon-nchrome-lock:before { content: "\f123"; }
+.icon-nchrome-look:before { content: "\f124"; }
+.icon-nchrome-menu:before { content: "\f157"; }
+.icon-nchrome-more:before { content: "\f125"; }
+.icon-nchrome-none:before { content: "\f126"; }
+.icon-nchrome-note:before { content: "\f14d"; }
+.icon-nchrome-notice:before { content: "\f127"; }
+.icon-nchrome-paper:before { content: "\f14e"; }
+.icon-nchrome-pen:before { content: "\f14f"; }
+.icon-nchrome-plan:before { content: "\f128"; }
+.icon-nchrome-post:before { content: "\f129"; }
+.icon-nchrome-post-collect:before { content: "\f12a"; }
+.icon-nchrome-project:before { content: "\f150"; }
+.icon-nchrome-qq:before { content: "\f12b"; }
+.icon-nchrome-record:before { content: "\f12c"; }
+.icon-nchrome-refresh:before { content: "\f12d"; }
+.icon-nchrome-renren:before { content: "\f12e"; }
+.icon-nchrome-right:before { content: "\f12f"; }
+.icon-nchrome-search:before { content: "\f130"; }
+.icon-nchrome-send:before { content: "\f131"; }
+.icon-nchrome-setting:before { content: "\f132"; }
+.icon-nchrome-share:before { content: "\f133"; }
+.icon-nchrome-signal:before { content: "\f134"; }
+.icon-nchrome-skill:before { content: "\f151"; }
+.icon-nchrome-square:before { content: "\f147"; }
+.icon-nchrome-statistics:before { content: "\f135"; }
+.icon-nchrome-sun:before { content: "\f136"; }
+.icon-nchrome-target:before { content: "\f137"; }
+.icon-nchrome-text:before { content: "\f138"; }
+.icon-nchrome-thumb:before { content: "\f139"; }
+.icon-nchrome-thumb-full:before { content: "\f13a"; }
+.icon-nchrome-top:before { content: "\f13b"; }
+.icon-nchrome-transform:before { content: "\f102"; }
+.icon-nchrome-update:before { content: "\f158"; }
+.icon-nchrome-upload:before { content: "\f13c"; }
+.icon-nchrome-user:before { content: "\f13d"; }
+.icon-nchrome-user-full:before { content: "\f13e"; }
+.icon-nchrome-v:before { content: "\f13f"; }
+.icon-nchrome-want:before { content: "\f152"; }
+.icon-nchrome-wechat:before { content: "\f140"; }
+.icon-nchrome-weibo:before { content: "\f141"; }
+.icon-nchrome-wrong:before { content: "\f142"; }

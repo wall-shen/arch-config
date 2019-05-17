@@ -1,0 +1,362 @@
+{
+   "action_about": {
+      "description": "Popup menu command, opens window about FireShot",
+      "message": "À propos du programme..."
+   },
+   "action_api": {
+      "description": "Popup menu command, opens web page in a new tab with some info about FireShot API",
+      "message": "FireShot API"
+   },
+   "action_capture_browser": {
+      "description": "First part of the command in the popup menu: Capture browser window and (Edit, Save, Print, etc)",
+      "message": "Capturer la fenêtre du navigateur et"
+   },
+   "action_capture_entire": {
+      "description": "First part of the command in the popup menu: Capture entire page and (Edit, Save, Print, etc)",
+      "message": "Capturer la page entière et"
+   },
+   "action_capture_entire_lite": {
+      "description": "",
+      "message": "Capturer la page entière"
+   },
+   "action_capture_selection": {
+      "description": "First part of the command in the popup menu: Capture selection and (Edit, Save, Print, etc)",
+      "message": "Capturer l'élément / la zone sélectionnée et"
+   },
+   "action_capture_selection_lite": {
+      "description": "",
+      "message": "Capturer la zone sélectionnée"
+   },
+   "action_capture_tabs": {
+      "description": "",
+      "message": "Capturez tous les onglets et"
+   },
+   "action_capture_visible": {
+      "description": "First part of the command in the popup menu: Capture visible part and (Edit, Save, Print, etc)",
+      "message": "Capturer la partie visible et"
+   },
+   "action_capture_visible_lite": {
+      "description": "",
+      "message": "Capturer la partie visible"
+   },
+   "action_copy": {
+      "description": "Popup menu command, captures web page and places it into clipboard as bitmap",
+      "message": "Copier dans le presse-papiers"
+   },
+   "action_edit": {
+      "description": "Popup menu command, captures web page and opens editor",
+      "message": "Éditer"
+   },
+   "action_email": {
+      "description": "Popup menu command, captures web page and sends it via email",
+      "message": "Envoyer par courriel"
+   },
+   "action_enter_license": {
+      "description": "Popup menu command, opens dialog to enter the licensing information",
+      "message": "Entrer la clé de licence"
+   },
+   "action_external": {
+      "description": "Popup menu command, captures web page and opens it in a third-party editor",
+      "message": "Ouvrir avec un logiciel externe"
+   },
+   "action_install_native": {
+      "description": "",
+      "message": "Installer des fonctions avancées"
+   },
+   "action_license_info": {
+      "description": "Popup menu command, opens licensing info if FireShot is Pro",
+      "message": "Informations sur la licence..."
+   },
+   "action_micsellaneous": {
+      "description": "",
+      "message": "Divers"
+   },
+   "action_onenote": {
+      "description": "Popup menu command, captures web page and opens it in MS OneNote",
+      "message": "Envoyer à OneNote"
+   },
+   "action_open_clipboard": {
+      "description": "Popup menu command, opens editor and captures the image from clipboard",
+      "message": "Ouvrir depuis le presse-papiers"
+   },
+   "action_open_file": {
+      "description": "Popup menu command, loading file into FireShot",
+      "message": "Ouvrir le fichier"
+   },
+   "action_options": {
+      "description": "Popup menu command, opens options page",
+      "message": "Préférences"
+   },
+   "action_print": {
+      "description": "Popup menu command, captures web page and sends it to printer",
+      "message": "Imprimer"
+   },
+   "action_register": {
+      "description": "Popup menu command, registering the Pro version",
+      "message": "S'enregistrer"
+   },
+   "action_resume": {
+      "description": "Popup menu command, opening editor and previous capture",
+      "message": "Reprendre la modification"
+   },
+   "action_save": {
+      "description": "Popup menu command, captures web page and saves it to disk as image file",
+      "message": "Enregistrer"
+   },
+   "action_save_pdf": {
+      "description": "Popup menu command, captures web page and saves it as PDF",
+      "message": "Enregistrer au PDF"
+   },
+   "action_save_pdf_single": {
+      "description": "",
+      "message": "Enregistrer sous PDF unique"
+   },
+   "action_support": {
+      "description": "Popup menu command, opens web page in a new tab with the support forum",
+      "message": "Assistance"
+   },
+   "action_switch_pro": {
+      "description": "Popup menu command, switches FireShot into Pro mode",
+      "message": "Passez à la version Pro"
+   },
+   "action_switch_pro_tabs": {
+      "description": "",
+      "message": "Activer fonctionnalités Pro de procéder ..."
+   },
+   "action_upload": {
+      "description": "Popup menu command, captures web page and uploads it to image hosting engine",
+      "message": "Mettre en ligne"
+   },
+   "action_view_demo": {
+      "description": "Popup menu command, opens web page in a new tab with a Flash demo",
+      "message": "Voir la démo"
+   },
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Capturez modifier et enregistrer au format PDF/JPEG/GIF/PNG/BMP, telechargement,impression,envoi de Photoshop, presse-papiers, email"
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Page Captures d'écran Web - Fireshot"
+   },
+   "captured_buy_pro_button": {
+      "description": "",
+      "message": "Acheter Pro"
+   },
+   "captured_copy_clipboard": {
+      "description": "",
+      "message": "Copier vers le presse-papiers"
+   },
+   "captured_copy_clipboard_learn_button": {
+      "description": "",
+      "message": "Apprenez comment"
+   },
+   "captured_get_free_button": {
+      "description": "",
+      "message": "Gratuit"
+   },
+   "captured_print": {
+      "description": "",
+      "message": "Imprimer"
+   },
+   "captured_print_button": {
+      "description": "",
+      "message": "Imprimer"
+   },
+   "captured_recommend_us": {
+      "description": "",
+      "message": "Recommander FireShot"
+   },
+   "captured_save_as_image": {
+      "description": "",
+      "message": "Enregistrer"
+   },
+   "captured_save_as_image_button": {
+      "description": "",
+      "message": "En tant qu'image"
+   },
+   "captured_save_as_pdf": {
+      "description": "",
+      "message": "Enregistrer en PDF"
+   },
+   "captured_save_panel_title": {
+      "description": "",
+      "message": "Enregistrer écran"
+   },
+   "captured_saving_options": {
+      "description": "Button title to enter options to customize the saving process",
+      "message": "personnaliser"
+   },
+   "captured_setup_hotkeys": {
+      "description": "",
+      "message": "Raccourcis de configuration et les paramètres du fichier ..."
+   },
+   "captured_upgrade_link_1": {
+      "description": "",
+      "message": "Capture, annoter, imprimer et sauvegarder mieux, Modifier, chargement, envoyer à E-Mail / OneNote, ou d'exportation vers un autre programme."
+   },
+   "captured_upgrade_link_2": {
+      "description": "",
+      "message": "Mise à jour de FireShot Pro"
+   },
+   "captured_upgrade_link_3": {
+      "description": "",
+      "message": "J'ai été en utilisant une autre version de FireShot"
+   },
+   "captured_upgrade_link_4": {
+      "description": "",
+      "message": "Puis-je le récupérer?"
+   },
+   "enable_checkbox": {
+      "description": "Enable checkbox",
+      "message": "Activer"
+   },
+   "options_button_apply": {
+      "description": "Options page, button caption, applies settings",
+      "message": "Appliquer"
+   },
+   "options_button_save_close": {
+      "description": "Options page, button caption, stores settings and closes dialog",
+      "message": "Enregistrer et fermer"
+   },
+   "options_button_setup": {
+      "description": "Options page, button caption, opens additional dialog",
+      "message": "Cliquez pour configuration"
+   },
+   "options_label_and": {
+      "description": "",
+      "message": "et"
+   },
+   "options_label_capturing": {
+      "description": "Options page, label of the Capturing section",
+      "message": "Capturer"
+   },
+   "options_label_close_tab_after_saving": {
+      "description": "Checkbox to close results page after the saving is done",
+      "message": "Fermer l'onglet après l'enregistrement"
+   },
+   "options_label_customize_saving": {
+      "description": "Title in the dialog for the group of elements to customize saving process",
+      "message": "Personnaliser le processus d'enregistrement"
+   },
+   "options_label_default_filename_template": {
+      "description": "",
+      "message": "Modèle de nom de fichier par défaut:"
+   },
+   "options_label_default_folder": {
+      "description": "Title to the input box for the default folder to save captures to",
+      "message": "Dossier de sortie par défaut"
+   },
+   "options_label_editor_options": {
+      "description": "Options page, label of the Editor options section",
+      "message": "Options de l'éditeur"
+   },
+   "options_label_enable_context_menu": {
+      "description": "This button launches the hotkey configuration dialog",
+      "message": "Intégration menu contextuel"
+   },
+   "options_label_file_settings": {
+      "description": "",
+      "message": "Paramètres du fichier"
+   },
+   "options_label_fireshot_options": {
+      "description": "Options page, main header of the dialog",
+      "message": "FireShot préférences"
+   },
+   "options_label_hotkey": {
+      "description": "Options page, label of the Hotkey section",
+      "message": "Hotkey"
+   },
+   "options_label_last_action_hotkey": {
+      "description": "",
+      "message": "Les dernières mesures"
+   },
+   "options_label_no_saveas_dialog": {
+      "description": "Checkbox to save without prompt",
+      "message": "Ne pas afficher la boîte de dialogue 'Enregistrer sous'"
+   },
+   "options_label_open_folder_after_saving": {
+      "description": "Checkbox to automatically open the target folder after saving is complete",
+      "message": "Afficher le fichier téléchargé dans son dossier après l'enregistrement"
+   },
+   "options_label_save_image_as": {
+      "description": "",
+      "message": "Enregistrer l'image sous"
+   },
+   "options_label_specify_editor_options": {
+      "description": "Options page, label",
+      "message": "Spécifiez éditeur et les économies options, fichier de préférences de nommage, styles, etc."
+   },
+   "options_label_specify_hotkey": {
+      "description": "Options page, label",
+      "message": "Spécifiez la combinaison de touches pour lancer FireShot:"
+   },
+   "options_label_specify_resizing_options": {
+      "description": "Options page, label",
+      "message": "Spécifiez les options de redimensionnement et de sons."
+   },
+   "options_label_template_day": {
+      "description": "",
+      "message": "Jour"
+   },
+   "options_label_template_hour": {
+      "description": "",
+      "message": "Heure"
+   },
+   "options_label_template_limit_1": {
+      "description": "",
+      "message": "longueur limite de nom de fichier"
+   },
+   "options_label_template_limit_2": {
+      "description": "",
+      "message": "symboles"
+   },
+   "options_label_template_minutes": {
+      "description": "",
+      "message": "Minutes"
+   },
+   "options_label_template_month": {
+      "description": "",
+      "message": "Mois"
+   },
+   "options_label_template_pad_1": {
+      "description": "",
+      "message": "Numéro de pad avec"
+   },
+   "options_label_template_pad_2": {
+      "description": "",
+      "message": "zéros"
+   },
+   "options_label_template_seconds": {
+      "description": "",
+      "message": "Secondes"
+   },
+   "options_label_template_title": {
+      "description": "",
+      "message": "Titre de la page"
+   },
+   "options_label_template_url": {
+      "description": "",
+      "message": "URL de la page"
+   },
+   "options_label_template_website": {
+      "description": "",
+      "message": "Nom de domaine"
+   },
+   "options_label_template_year": {
+      "description": "",
+      "message": "Année"
+   },
+   "options_link_filename_template_settings": {
+      "description": "",
+      "message": "Afficher les paramètres du modèle de nom de fichier ..."
+   },
+   "options_link_filename_template_settings_hide": {
+      "description": "",
+      "message": "Masquer les paramètres du modèle de nom de fichier ..."
+   },
+   "void": {
+      "description": "this is a void entry",
+      "message": ""
+   }
+}

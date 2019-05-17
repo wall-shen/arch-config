@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>牛客闪填助手</title>
+    <style type="text/css">
+      body {
+        margin: 0px;
+        font-size: 14px;
+      }
+      a, a:hover, a:link, a:visited{
+        text-decoration: none !important;
+        cursor: pointer !important;
+      }
+
+      .container {
+        width: 297px;
+      }
+      #top {
+        padding: 17px;
+        padding-top: 15px;
+      }
+      #top img {
+        width: 85px;
+      }
+      #title {
+        margin-bottom: 15px;
+      }
+      #title h2 {
+        font-size: 14px;
+        margin: 0px;
+      }
+      #bottom a {
+        display: flex;
+        width: 100%;
+        height: 40px;
+        align-items: center;
+        background: #f7f7f7;
+        padding-left: 42px;
+        color: #797979;
+      }
+      #bottom {
+        border-top: 1px solid #B1B1B1;
+      }
+      #bottom a:hover {
+        background: #D8EFEE;
+        color: #75A7A6;
+      }
+      .position-img-10 {
+        position: relative;
+        left: 10px;
+      }
+      .position-img-1 {
+        position: relative;
+        left: 1px;
+      }
+      .position-img-8 {
+        position: relative;
+        left: 8px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="top" class="flex-col">
+        <div id="title"><h2>当前页面本助手可能无用武之地，你可以去这些地方使用：</h2></div>
+        <div>
+          <a href="javascript:void(0);"><img src="https://uploadfiles.nowcoder.com/images/20180720/9859373_1532022857301_1B3EDAD2F59646586776E9525EA8027A" alt="腾讯"></a>
+          <a href="javascript:void(0);"><img class="position-img-10" src="https://uploadfiles.nowcoder.com/images/20180720/9859373_1532022887841_6520C55C4E47BAE5AAE9D695A940D00C" alt="京东"></a>
+
+          <a href="javascript:void(0);"><img src="https://uploadfiles.nowcoder.com/images/20180720/9859373_1532022918880_7B718597722C79F3A591ED1F2658019B" alt="美团"></a>
+
+          <a href="javascript:void(0);"><img class="position-img-1" src="https://uploadfiles.nowcoder.com/images/20180720/9859373_1532022947273_8329B40B853DCBE7409FBD4AFE2158D1" alt="网易"></a>
+
+          <a href="javascript:void(0);"><img class="position-img-8" src="https://uploadfiles.nowcoder.com/images/20180720/9859373_1532022972592_6B6B8BBE824A30CC95D65EF84A04969C" alt="滴滴"></a>
+
+        </div>
+      </div>
+      <div id="bottom">
+        <a href="https://www.nowcoder.com/recommend"><i class="icon-arrow-top"></i>更多招聘信息</a>
+        <a href="https://www.nowcoder.com/quick-fill/show-edit"><i class="icon-arrow-top"></i>查看我的闪填信息</a>
+        <a href="javascript:void(0);"><i class="icon-arrow-top"></i>我仍想打开插件试试</a>
+      </div>
+    </div>
+  </body>
+  <script>
+    var oScript = document.create('script');
+    oScript.setAttribute('src', chrome.extension.getURL('popup/index.js'));
+    document.body.append(oScript);
+  </script>
+</html>

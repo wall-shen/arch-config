@@ -1,0 +1,6 @@
+2019/05/17-09:28:22.739 3b8 Reusing MANIFEST Session Storage/MANIFEST-000001
+2019/05/17-09:28:22.740 3b8 Recovering log #161
+2019/05/17-09:28:22.741 3b8 Reusing old log Session Storage/000161.log 
+2019/05/17-09:31:26.713 c9a Level-0 table #165: started
+2019/05/17-09:31:26.719 c9a Level-0 table #165: 18765 bytes OK
+2019/05/17-09:31:26.724 c9a Delete type=0 #161

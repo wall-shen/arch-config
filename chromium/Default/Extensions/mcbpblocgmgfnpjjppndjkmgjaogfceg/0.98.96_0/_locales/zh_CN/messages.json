@@ -1,0 +1,362 @@
+{
+   "action_about": {
+      "description": "Popup menu command, opens window about FireShot",
+      "message": "关于..."
+   },
+   "action_api": {
+      "description": "Popup menu command, opens web page in a new tab with some info about FireShot API",
+      "message": "FireShot API"
+   },
+   "action_capture_browser": {
+      "description": "First part of the command in the popup menu: Capture browser window and (Edit, Save, Print, etc)",
+      "message": "截取浏览器窗口并且"
+   },
+   "action_capture_entire": {
+      "description": "First part of the command in the popup menu: Capture entire page and (Edit, Save, Print, etc)",
+      "message": "截取整个页面并且"
+   },
+   "action_capture_entire_lite": {
+      "description": "",
+      "message": "捕捉整个页面"
+   },
+   "action_capture_selection": {
+      "description": "First part of the command in the popup menu: Capture selection and (Edit, Save, Print, etc)",
+      "message": "截取选定区域并且"
+   },
+   "action_capture_selection_lite": {
+      "description": "",
+      "message": "捕捉选定区域"
+   },
+   "action_capture_tabs": {
+      "description": "",
+      "message": "捕获所有选项卡和"
+   },
+   "action_capture_visible": {
+      "description": "First part of the command in the popup menu: Capture visible part and (Edit, Save, Print, etc)",
+      "message": "截取可见区域并且"
+   },
+   "action_capture_visible_lite": {
+      "description": "",
+      "message": "捕捉可见部分"
+   },
+   "action_copy": {
+      "description": "Popup menu command, captures web page and places it into clipboard as bitmap",
+      "message": "复制到剪贴板"
+   },
+   "action_edit": {
+      "description": "Popup menu command, captures web page and opens editor",
+      "message": "编辑"
+   },
+   "action_email": {
+      "description": "Popup menu command, captures web page and sends it via email",
+      "message": "使用电子邮件发送"
+   },
+   "action_enter_license": {
+      "description": "Popup menu command, opens dialog to enter the licensing information",
+      "message": "输入许可证密钥"
+   },
+   "action_external": {
+      "description": "Popup menu command, captures web page and opens it in a third-party editor",
+      "message": "在外部编辑器中打开"
+   },
+   "action_install_native": {
+      "description": "",
+      "message": "安装先进的功能"
+   },
+   "action_license_info": {
+      "description": "Popup menu command, opens licensing info if FireShot is Pro",
+      "message": "许可信息..."
+   },
+   "action_micsellaneous": {
+      "description": "",
+      "message": "杂项"
+   },
+   "action_onenote": {
+      "description": "Popup menu command, captures web page and opens it in MS OneNote",
+      "message": "发送到OneNote"
+   },
+   "action_open_clipboard": {
+      "description": "Popup menu command, opens editor and captures the image from clipboard",
+      "message": "从剪贴板打开"
+   },
+   "action_open_file": {
+      "description": "Popup menu command, loading file into FireShot",
+      "message": "打开文件"
+   },
+   "action_options": {
+      "description": "Popup menu command, opens options page",
+      "message": "选项"
+   },
+   "action_print": {
+      "description": "Popup menu command, captures web page and sends it to printer",
+      "message": "打印"
+   },
+   "action_register": {
+      "description": "Popup menu command, registering the Pro version",
+      "message": "注册"
+   },
+   "action_resume": {
+      "description": "Popup menu command, opening editor and previous capture",
+      "message": "继续编辑"
+   },
+   "action_save": {
+      "description": "Popup menu command, captures web page and saves it to disk as image file",
+      "message": "保存"
+   },
+   "action_save_pdf": {
+      "description": "Popup menu command, captures web page and saves it as PDF",
+      "message": "另存为PDF"
+   },
+   "action_save_pdf_single": {
+      "description": "",
+      "message": "保存为单一的PDF"
+   },
+   "action_support": {
+      "description": "Popup menu command, opens web page in a new tab with the support forum",
+      "message": "支持"
+   },
+   "action_switch_pro": {
+      "description": "Popup menu command, switches FireShot into Pro mode",
+      "message": "升级到专业版"
+   },
+   "action_switch_pro_tabs": {
+      "description": "",
+      "message": "激活Pro的功能进行..."
+   },
+   "action_upload": {
+      "description": "Popup menu command, captures web page and uploads it to image hosting engine",
+      "message": "上传"
+   },
+   "action_view_demo": {
+      "description": "Popup menu command, opens web page in a new tab with a Flash demo",
+      "message": "观看演示"
+   },
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "捕捉网页截图，编辑并将它们保存为PDF，JPEG，GIF，PNG或BMP；上传，打印，在Photoshop中打开，复制到剪贴板或电子邮件"
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "捕捉网页截图 - FireShot的"
+   },
+   "captured_buy_pro_button": {
+      "description": "",
+      "message": "购买 Pro"
+   },
+   "captured_copy_clipboard": {
+      "description": "",
+      "message": "复制到剪贴板"
+   },
+   "captured_copy_clipboard_learn_button": {
+      "description": "",
+      "message": "学习如何..."
+   },
+   "captured_get_free_button": {
+      "description": "",
+      "message": "免费获取"
+   },
+   "captured_print": {
+      "description": "",
+      "message": "打印"
+   },
+   "captured_print_button": {
+      "description": "",
+      "message": "打印"
+   },
+   "captured_recommend_us": {
+      "description": "",
+      "message": "推荐FireShot"
+   },
+   "captured_save_as_image": {
+      "description": "",
+      "message": "另存为图片"
+   },
+   "captured_save_as_image_button": {
+      "description": "",
+      "message": "另存为图片"
+   },
+   "captured_save_as_pdf": {
+      "description": "",
+      "message": "保存为PDF"
+   },
+   "captured_save_panel_title": {
+      "description": "",
+      "message": "保存截图"
+   },
+   "captured_saving_options": {
+      "description": "Button title to enter options to customize the saving process",
+      "message": "定制"
+   },
+   "captured_setup_hotkeys": {
+      "description": "",
+      "message": "设置热键和文件设置..."
+   },
+   "captured_upgrade_link_1": {
+      "description": "",
+      "message": "捕获，批注，打印和保存较好，编辑，上传，发送到电子邮件/ OneNote中，或导出到另一个程序。"
+   },
+   "captured_upgrade_link_2": {
+      "description": "",
+      "message": "升级为FireShot Pro"
+   },
+   "captured_upgrade_link_3": {
+      "description": "",
+      "message": "我已经使用了另一个版本的FireShot"
+   },
+   "captured_upgrade_link_4": {
+      "description": "",
+      "message": "我能找回它吗？"
+   },
+   "enable_checkbox": {
+      "description": "Enable checkbox",
+      "message": "启用"
+   },
+   "options_button_apply": {
+      "description": "Options page, button caption, applies settings",
+      "message": "应用"
+   },
+   "options_button_save_close": {
+      "description": "Options page, button caption, stores settings and closes dialog",
+      "message": "保存并关闭"
+   },
+   "options_button_setup": {
+      "description": "Options page, button caption, opens additional dialog",
+      "message": "点击安装"
+   },
+   "options_label_and": {
+      "description": "",
+      "message": "并"
+   },
+   "options_label_capturing": {
+      "description": "Options page, label of the Capturing section",
+      "message": "捕获"
+   },
+   "options_label_close_tab_after_saving": {
+      "description": "Checkbox to close results page after the saving is done",
+      "message": "保存后关闭选项卡"
+   },
+   "options_label_customize_saving": {
+      "description": "Title in the dialog for the group of elements to customize saving process",
+      "message": "自定义保存过程"
+   },
+   "options_label_default_filename_template": {
+      "description": "",
+      "message": "默认文件名模板"
+   },
+   "options_label_default_folder": {
+      "description": "Title to the input box for the default folder to save captures to",
+      "message": "默认输出文件夹"
+   },
+   "options_label_editor_options": {
+      "description": "Options page, label of the Editor options section",
+      "message": "编辑选项"
+   },
+   "options_label_enable_context_menu": {
+      "description": "This button launches the hotkey configuration dialog",
+      "message": "上下文菜单集成"
+   },
+   "options_label_file_settings": {
+      "description": "",
+      "message": "文件设置"
+   },
+   "options_label_fireshot_options": {
+      "description": "Options page, main header of the dialog",
+      "message": "FireShot的选项"
+   },
+   "options_label_hotkey": {
+      "description": "Options page, label of the Hotkey section",
+      "message": "热键"
+   },
+   "options_label_last_action_hotkey": {
+      "description": "",
+      "message": "重复最近的抓取"
+   },
+   "options_label_no_saveas_dialog": {
+      "description": "Checkbox to save without prompt",
+      "message": "不显示“另存为”对话框"
+   },
+   "options_label_open_folder_after_saving": {
+      "description": "Checkbox to automatically open the target folder after saving is complete",
+      "message": "保存后在其文件夹中显示下载的文件"
+   },
+   "options_label_save_image_as": {
+      "description": "",
+      "message": "图像另存为"
+   },
+   "options_label_specify_editor_options": {
+      "description": "Options page, label",
+      "message": "指定编辑和节能选项，文件命名的喜好，风格等"
+   },
+   "options_label_specify_hotkey": {
+      "description": "Options page, label",
+      "message": "指定的组合键来启动FireShot的："
+   },
+   "options_label_specify_resizing_options": {
+      "description": "Options page, label",
+      "message": "指定尺寸调整选项和声音。"
+   },
+   "options_label_template_day": {
+      "description": "",
+      "message": "日"
+   },
+   "options_label_template_hour": {
+      "description": "",
+      "message": "小时"
+   },
+   "options_label_template_limit_1": {
+      "description": "",
+      "message": "文件名长度限制"
+   },
+   "options_label_template_limit_2": {
+      "description": "",
+      "message": "字符"
+   },
+   "options_label_template_minutes": {
+      "description": "",
+      "message": "分"
+   },
+   "options_label_template_month": {
+      "description": "",
+      "message": "月"
+   },
+   "options_label_template_pad_1": {
+      "description": "",
+      "message": "将数字用0补充到"
+   },
+   "options_label_template_pad_2": {
+      "description": "",
+      "message": "位"
+   },
+   "options_label_template_seconds": {
+      "description": "",
+      "message": "秒"
+   },
+   "options_label_template_title": {
+      "description": "",
+      "message": "页面标题"
+   },
+   "options_label_template_url": {
+      "description": "",
+      "message": "页面URL"
+   },
+   "options_label_template_website": {
+      "description": "",
+      "message": "域名"
+   },
+   "options_label_template_year": {
+      "description": "",
+      "message": "年"
+   },
+   "options_link_filename_template_settings": {
+      "description": "",
+      "message": "显示文件名模板设置..."
+   },
+   "options_link_filename_template_settings_hide": {
+      "description": "",
+      "message": "隐藏文件名模板设置..."
+   },
+   "void": {
+      "description": "this is a void entry",
+      "message": ""
+   }
+}

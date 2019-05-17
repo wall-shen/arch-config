@@ -1,0 +1,92 @@
+body {
+    width: 290px;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    padding: 5px 3px;
+    font-family: arial, sans-serif;
+	-webkit-user-select: none;
+  }
+  .disabled {
+    color: #bbbbbb;
+    cursor: default;
+  }
+  ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  li{
+    padding: 0 5px 0 23px;
+    margin: 0;
+    list-style: none;
+    line-height: 25px;
+    text-align: left;
+    border: 1px #ffffff solid;
+    height: 22px;
+    clear: both;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  li:hover {
+    border-radius: 3px 3px;
+        background: -webkit-gradient(linear, left top, left bottom,
+                color-stop(0, #fff),  color-stop(0.4, hsl(214, 66%, 96%)), color-stop(0.41, hsl(212, 47%, 94%)));
+        border: solid 1px #c5cdd3;
+  }
+
+  .disabled:hover {
+    border: 1px #ffffff solid;
+    background: #ffffff;
+  }
+
+  .left {
+    float: left;
+    overflow: hidden;
+  }
+  .left img {
+    position: absolute;
+    margin-top: 4px;
+    left: 8px;
+
+  }
+  .right {
+    color: #a1a192;
+    float: right;
+  }
+
+  .separator {
+    border-top: 1px solid #dddddd;
+    height: 0px;
+    margin: 3px 2px;
+  }
+
+  .messagetext {
+    text-align: left; 
+    margin:20px;
+    font-size: 14px
+  }
+
+  .submenu {
+    display:none; 
+    position:absolute; 
+    top:0; 
+    padding:2px; 
+    background:#fff; 
+    border-radius: 5px 5px; 
+    border:1px #b2b2b2 solid
+  }
+
+  a {
+    color: #08c;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #005580;
+    text-decoration: underline;
+  }
+
+  a:hover, a:active {
+    outline: 0;
+  }

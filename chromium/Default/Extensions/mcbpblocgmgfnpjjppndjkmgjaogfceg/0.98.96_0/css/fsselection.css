@@ -1,0 +1,74 @@
+.fs-as-b1 
+{
+    background: url('data:image/gif;base64,R0lGODlhAQAGAKEAAP///wAAADY2Nv///yH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQACgD/ACwAAAAAAQAGAAACAxQuUgAh+QQBCgADACwAAAAAAQAGAAACA5SAUgAh+QQBCgADACwAAAAAAQAGAAACA5SBBQAh+QQBCgADACwAAAAAAQAGAAACA4QOUAAh+QQBCgADACwAAAAAAQAGAAACAwSEUAAh+QQBCgADACwAAAAAAQAGAAACA4SFBQA7') repeat-y left top;
+}
+
+.fs-as-b2 
+{
+    background: url('data:image/gif;base64,R0lGODlhBgABAKEAAP///wAAADY2Nv///yH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQACgD/ACwAAAAABgABAAACAxQuUgAh+QQBCgADACwAAAAABgABAAACA5SAUgAh+QQBCgADACwAAAAABgABAAACA5SBBQAh+QQBCgADACwAAAAABgABAAACA4QOUAAh+QQBCgADACwAAAAABgABAAACAwSEUAAh+QQBCgADACwAAAAABgABAAACA4SFBQA7') repeat-x left top;
+}
+
+.fs-as-b3 
+{
+    background: url('data:image/gif;base64,R0lGODlhAQAGAKEAAP///wAAADY2Nv///yH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQACgD/ACwAAAAAAQAGAAACAxQuUgAh+QQBCgADACwAAAAAAQAGAAACA5SAUgAh+QQBCgADACwAAAAAAQAGAAACA5SBBQAh+QQBCgADACwAAAAAAQAGAAACA4QOUAAh+QQBCgADACwAAAAAAQAGAAACAwSEUAAh+QQBCgADACwAAAAAAQAGAAACA4SFBQA7') repeat-y right top;
+}
+
+.fs-as-b4 
+{
+    background: url('data:image/gif;base64,R0lGODlhBgABAKEAAP///wAAADY2Nv///yH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQACgD/ACwAAAAABgABAAACAxQuUgAh+QQBCgADACwAAAAABgABAAACA5SAUgAh+QQBCgADACwAAAAABgABAAACA5SBBQAh+QQBCgADACwAAAAABgABAAACA4QOUAAh+QQBCgADACwAAAAABgABAAACAwSEUAAh+QQBCgADACwAAAAABgABAAACA4SFBQA7') repeat-x left bottom;
+}
+
+.fs-as-b1, .fs-as-b2,
+.fs-as-b3, .fs-as-b4 
+{
+	opacity: 0.5;
+	position: absolute;
+	cursor: crosshair;
+}
+
+.fs-info-div 
+{
+	font-family: Tahoma;
+	font-size:14px;
+	color: #fff;
+	left: 5px;
+	top: 5px;
+	width:auto;
+	height:auto;
+	padding: 3px;
+	background: #000;
+	opacity: 0.8;
+	position:absolute;
+	border:#333 solid 1px;
+	cursor: crosshair;
+}
+
+.fs-holder-div
+{
+	position: absolute;
+	left : 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	z-index: 2147483640;
+	cursor: crosshair;
+}
+
+.fs-wrapper-div
+{
+	position: absolute;
+	left : 0px;
+	top: 0px;
+	opacity: 0;
+	cursor: crosshair;
+	z-index:2147483641;
+}
+
+.fs-outer
+{
+	position: absolute;
+	background: #000;
+	opacity: 0.3;
+	z-index: 2147483640;
+	cursor: crosshair;
+}

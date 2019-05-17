@@ -1,0 +1,140 @@
+{
+   "add_site_to_list": {
+      "message": "Agregar sitio a la lista"
+   },
+   "brightness": {
+      "message": "Brillo"
+   },
+   "change_browser_theme": {
+      "message": "Cambiar el tema del navegador"
+   },
+   "contrast": {
+      "message": "Contraste"
+   },
+   "custom_browser_theme_off": {
+      "message": "Por defecto"
+   },
+   "custom_browser_theme_on": {
+      "message": "Personalizado"
+   },
+   "dark": {
+      "message": "Oscuro"
+   },
+   "donate": {
+      "message": "Donar"
+   },
+   "engine_dynamic": {
+      "message": "Dinámico"
+   },
+   "engine_filter": {
+      "message": "Filtro"
+   },
+   "engine_filter_plus": {
+      "message": "Filtro+"
+   },
+   "engine_static": {
+      "message": "Estático"
+   },
+   "extension_description": {
+      "message": "Tema oscuro para todos los sitios. Cuide sus ojos, utilice Dark Reader para navegar durante el día y la noche."
+   },
+   "filter": {
+      "message": "Filtro"
+   },
+   "grayscale": {
+      "message": "Escala de grises"
+   },
+   "help": {
+      "message": "Ayuda"
+   },
+   "invert_listed_only": {
+      "message": "Invertir sólo listados"
+   },
+   "light": {
+      "message": "Claro"
+   },
+   "loading_please_wait": {
+      "message": "Cargando, espere por favor"
+   },
+   "mode": {
+      "message": "Modo"
+   },
+   "more": {
+      "message": "Más"
+   },
+   "news": {
+      "message": "Avisos"
+   },
+   "not_invert_listed": {
+      "message": "No invertir listados"
+   },
+   "off": {
+      "message": "No"
+   },
+   "on": {
+      "message": "Sí"
+   },
+   "only_for": {
+      "message": "Sólo para"
+   },
+   "only_for_description": {
+      "message": "Aplicar configuración sólo al sitio actual"
+   },
+   "open_dev_tools": {
+      "message": "Herramientas"
+   },
+   "page_in_dark_list": {
+      "message": "Este sitio está en la\nlista global Dark List"
+   },
+   "page_protected": {
+      "message": "Esta página está protegida\npor el navegador"
+   },
+   "privacy": {
+      "message": "Privacidad"
+   },
+   "read_more": {
+      "message": "Lea más"
+   },
+   "select_font": {
+      "message": "Seleccione una fuente"
+   },
+   "sepia": {
+      "message": "Sepia"
+   },
+   "set_active_hours": {
+      "message": "Establece horas activas"
+   },
+   "setup_add_site_hotkey": {
+      "message": "Configurar tecla de atajo para agregar un sitio"
+   },
+   "setup_hotkey_toggle_extension": {
+      "message": "Configurar extensión\nTecla de atajo"
+   },
+   "setup_hotkey_toggle_site": {
+      "message": "Configurar sitio actual\ntecla de alternancia"
+   },
+   "site_list": {
+      "message": "Lista de sitios"
+   },
+   "store_listing": {
+      "message": "Esta extensión que cuida los ojos habilita el modo nocturno, creando temas oscuros para sitios de internet en el momento. Dark Reader invierte los colores brillantes, haciéndolos contrastantes y fáciles de leer a la noche.\n\nPuede ajustar brillo, contraste, filtro sepia, modo oscuro, configuración de fuentes y lista de ignorados\n\nDark Reader no muestra publicidad y no envía la información del usuario a ningún lado. Es totalmente de código abierto https://github.com/darkreader/darkreader\n\nAntes de instalarlo, desactive extensiones similares. Disfrute mirando!"
+   },
+   "text_stroke": {
+      "message": "Trazo del texto"
+   },
+   "theme_generation_mode": {
+      "message": "Modo de generación del tema"
+   },
+   "time_settings": {
+      "message": "Ajustes de hora"
+   },
+   "toggle_current_site": {
+      "message": "Alternar sitio actual"
+   },
+   "toggle_extension": {
+      "message": "Alternar extensión"
+   },
+   "try_experimental_theme_engines": {
+      "message": "Pruebe motores de temas **experimentales**:\n**Filtro+** preserva la saturación de colores, usa GPU\n**Tema Estático** genera un tema simple y rápido\n**Tema Dinámico** analiza colores e imágenes"
+   }
+}

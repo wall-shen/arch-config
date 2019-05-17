@@ -1,0 +1,269 @@
+{
+   "action_about": {
+      "message": "관련"
+   },
+   "action_api": {
+      "message": "FireShot API"
+   },
+   "action_capture_browser": {
+      "message": "캡춰 (브라우져 창) 후"
+   },
+   "action_capture_entire": {
+      "message": "캡춰 (전체 웹 스크롤) 후"
+   },
+   "action_capture_entire_lite": {
+      "message": "캡춰 (전체 웹 스크롤)"
+   },
+   "action_capture_selection": {
+      "message": "캡춰 (영역 지정) 후"
+   },
+   "action_capture_selection_lite": {
+      "message": "캡춰 (영역 지정)"
+   },
+   "action_capture_tabs": {
+      "message": "캡춰 - 모든 탭  후"
+   },
+   "action_capture_visible": {
+      "message": "캡춰 (현재 화면) 후"
+   },
+   "action_capture_visible_lite": {
+      "message": "캡춰 (현재 화면)"
+   },
+   "action_copy": {
+      "message": "클립보드로 복사"
+   },
+   "action_edit": {
+      "message": "편집"
+   },
+   "action_email": {
+      "message": "E-Mail"
+   },
+   "action_enter_license": {
+      "message": "라이선스 입력"
+   },
+   "action_external": {
+      "message": "열기 - 외부 편집기"
+   },
+   "action_install_native": {
+      "message": "체험하기"
+   },
+   "action_license_info": {
+      "message": "제품키 정보"
+   },
+   "action_micsellaneous": {
+      "message": "기타 사항"
+   },
+   "action_onenote": {
+      "message": "보내기 - OneNote"
+   },
+   "action_open_clipboard": {
+      "message": "열기 (클립보드에서)"
+   },
+   "action_open_file": {
+      "message": "열기"
+   },
+   "action_options": {
+      "message": "옵션"
+   },
+   "action_print": {
+      "message": "인쇄"
+   },
+   "action_register": {
+      "message": "제품 등록"
+   },
+   "action_resume": {
+      "message": "재시작"
+   },
+   "action_save": {
+      "message": "저장"
+   },
+   "action_save_pdf": {
+      "message": "저장 (PDF)"
+   },
+   "action_save_pdf_single": {
+      "message": "저장 - PDF 싱글"
+   },
+   "action_support": {
+      "message": "제품 지원 (Support)"
+   },
+   "action_switch_pro": {
+      "message": "Pro 버젼 전환하기 (FireShot Pro)"
+   },
+   "action_switch_pro_tabs": {
+      "message": "활성화 하기 (FireShot Pro)"
+   },
+   "action_upload": {
+      "message": "업로드"
+   },
+   "action_view_demo": {
+      "message": "데모 보기 (Demo)"
+   },
+   "application_description": {
+      "message": "캡춰 (전체 웹) 편집 및 저장 (PDF/JPEG/GIF/PNG) 업로드, 인쇄 보내기 OneNote, 클립보드 혹은 E-mail."
+   },
+   "application_title": {
+      "message": "캡춰 (전체 웹 스크롤) - FireShot"
+   },
+   "captured_buy_pro_button": {
+      "message": "Pro 버전 구입"
+   },
+   "captured_copy_clipboard": {
+      "message": "클립보드로 복사"
+   },
+   "captured_copy_clipboard_learn_button": {
+      "message": "도움"
+   },
+   "captured_get_free_button": {
+      "message": "무료 버전으로 계속하기"
+   },
+   "captured_print": {
+      "message": "인쇄"
+   },
+   "captured_print_button": {
+      "message": "인쇄"
+   },
+   "captured_recommend_us": {
+      "message": "FireShot 추천하기"
+   },
+   "captured_save_as_image": {
+      "message": "저장 - 이미지"
+   },
+   "captured_save_as_image_button": {
+      "message": "저장 - 이미지"
+   },
+   "captured_save_as_pdf": {
+      "message": "저장 - PDF"
+   },
+   "captured_save_panel_title": {
+      "message": "스크린샷 저장"
+   },
+   "captured_saving_options": {
+      "message": "사용자 설정"
+   },
+   "captured_setup_hotkeys": {
+      "message": "기존 단축키와 화일 설정"
+   },
+   "captured_upgrade_link_1": {
+      "message": "화면 캡춰, 주석달기, 인쇄, 저장, 편집, 업로드, 보내기 (E-Mail / OneNote / 외부 편집기)"
+   },
+   "captured_upgrade_link_2": {
+      "message": "업그레이드 FireShot Pro"
+   },
+   "captured_upgrade_link_3": {
+      "message": "FireShot 제품을 보유하고 있는 경우"
+   },
+   "captured_upgrade_link_4": {
+      "message": "되돌릴 수 있는가요?"
+   },
+   "enable_checkbox": {
+      "message": "가능"
+   },
+   "options_button_apply": {
+      "message": "적용"
+   },
+   "options_button_save_close": {
+      "message": "저장 후 닫기"
+   },
+   "options_button_setup": {
+      "message": "클릭 (설정)"
+   },
+   "options_label_and": {
+      "message": "후"
+   },
+   "options_label_capturing": {
+      "message": "화면 캡춰"
+   },
+   "options_label_close_tab_after_saving": {
+      "message": "저장 후 탭 닫기"
+   },
+   "options_label_customize_saving": {
+      "message": "저장 설정"
+   },
+   "options_label_default_filename_template": {
+      "message": "기본 화일명 형식"
+   },
+   "options_label_default_folder": {
+      "message": "기본 저장 폴더"
+   },
+   "options_label_default_folder_hint": {
+      "message": "지정한 디렉토리에 화일, 혹은 서브폴더가 존재합니다.\n경로가 지정되지 않거나 정확하지 않은 폴더명은 에러를 유발합니다."
+   },
+   "options_label_editor_options": {
+      "message": "편집 옵션"
+   },
+   "options_label_enable_context_menu": {
+      "message": "FireShot을 메뉴에 추가하기"
+   },
+   "options_label_file_settings": {
+      "message": "화일 세팅"
+   },
+   "options_label_fireshot_options": {
+      "message": "FireShot 옵션"
+   },
+   "options_label_hotkey": {
+      "message": "단축키"
+   },
+   "options_label_last_action_hotkey": {
+      "message": "다시 하기"
+   },
+   "options_label_no_saveas_dialog": {
+      "message": "'Save as' 숨기기"
+   },
+   "options_label_open_folder_after_saving": {
+      "message": "저장 후 폴더 보기"
+   },
+   "options_label_save_image_as": {
+      "message": "저장 (다른 이름으로)"
+   },
+   "options_label_specify_editor_options": {
+      "message": "편집 및 저장 옵션, 화일이름, 타잎 등"
+   },
+   "options_label_specify_hotkey": {
+      "message": "단축키 지정"
+   },
+   "options_label_specify_resizing_options": {
+      "message": "리사이즈 및 소리 지정"
+   },
+   "options_label_template_day": {
+      "message": "일"
+   },
+   "options_label_template_hour": {
+      "message": "시"
+   },
+   "options_label_template_limit_1": {
+      "message": "화일명 길이 제한"
+   },
+   "options_label_template_limit_2": {
+      "message": "글자"
+   },
+   "options_label_template_minutes": {
+      "message": "분"
+   },
+   "options_label_template_month": {
+      "message": "월"
+   },
+   "options_label_template_pad_1": {
+      "message": "패드 넘버"
+   },
+   "options_label_template_pad_2": {
+      "message": "자릿수"
+   },
+   "options_label_template_seconds": {
+      "message": "초"
+   },
+   "options_label_template_title": {
+      "message": "웹페이지 제목"
+   },
+   "options_label_template_url": {
+      "message": "웹페이지 주소"
+   },
+   "options_label_template_year": {
+      "message": "년도"
+   },
+   "options_link_filename_template_settings": {
+      "message": "화일명 설정 보기"
+   },
+   "options_link_filename_template_settings_hide": {
+      "message": "화일명 설정 감추기"
+   }
+}

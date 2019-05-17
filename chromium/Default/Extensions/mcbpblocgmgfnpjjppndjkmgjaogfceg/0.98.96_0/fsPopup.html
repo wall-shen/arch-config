@@ -1,0 +1,298 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <script src="scripts/fsUtils.js"></script>
+  <script src="scripts/fsCommands.js"></script>
+  <script src="scripts/fsPopup.js"></script>
+  <title></title>
+
+  <link rel="stylesheet" href="css/fspopup.css" type="text/css" />
+
+
+</head>
+
+<body style="overflow:visible; display:none">
+  <div id="mnuMain">
+    <div>
+      <div id="mnuFeaturesUnavailable">
+        <div>
+          <h2>Welcome to FireShot!</h2>
+          <div class="messagetext">
+            <p>FireShot works for any webpage, but with some exceptions, which are regulated by the browser's security
+              policy.</p>
+            <p>Fortunately, only a few page types are protected from script execution: blank, extension, and
+              startup pages.</p>
+            <p>You can try out any other web page, for example <a id="lnkTryAnotherPage" href="#" rel="command">this
+                page</a>.</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="mnuEnableFileSupport">
+        <div>
+          <h2>Action required</h2>
+          <div class="messagetext">
+            <p>FireShot needs your approval to capture this resource. Please <a id="lnkExtensionSettings" href="#" rel="command">go to the options</a> and check the <b>Allow access for file URLs</b> box.</p>
+            <p>HINT: see <a id="lnkAllowFileAccess" href="#" rel="command">this short manual</a> how to enable this option.</p>
+          </div>
+        </div>
+      </div>
+      
+      <ul>
+        <li id="mnuQuickLaunch">
+          <div class="left"><img src="images/quicklaunch.png"><span id="spnLastAction">And:</span></div>
+          <div class="right"><span id="spnShortcut">Ctrl+Shift+Z</span></div>
+        </li>
+      </ul>
+    </div>
+    <div id="sepMain1" class="separator"></div>
+    <div id="divCaptureTools">
+      <ul>
+        <li id="mnuCaptureEntire">
+          <div class="left">
+            <img src="images/capture_mode_full.png">
+            <span data-i18n="action_capture_entire">_Capture entire page and</span> ...</div>
+          <div class="right">
+            <img src="images/arrow.png">
+          </div>
+        </li>
+        <li id="mnuCaptureVisible">
+          <div class="left">
+            <img src="images/capture_mode_visible.png">
+            <span data-i18n="action_capture_visible">_Capture visible part and</span> ...</div>
+          <div class="right">
+            <img src="images/arrow.png">
+          </div>
+        </li>
+        <li id="mnuCaptureSelection">
+          <div class="left">
+            <img src="images/capture_mode_selected.png">
+            <span data-i18n="action_capture_selection">_Capture selection and</span> ...</div>
+          <div class="right">
+            <img src="images/arrow.png">
+          </div>
+        </li>
+        <li id="mnuCaptureBrowser">
+          <div class="left">
+            <img src="images/capture_mode_browser.png">
+            <span data-i18n="action_capture_browser">_Capture browser window and</span> ...</div>
+          <div class="right">
+            <img src="images/arrow.png">
+          </div>
+        </li>
+        <li id="mnuCaptureTabs">
+          <div class="left">
+            <img src="images/capture_mode_tabs.png">
+            <span data-i18n="action_capture_tabs">_Capture all tabs and</span> ...</div>
+          <div class="right">
+            <img src="images/arrow.png">
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div id="divCaptureToolsLite">
+      <ul>
+        <li id="mnuCaptureEntireLite">
+          <div class="left">
+            <img src="images/capture_mode_full.png">
+            <span data-i18n="action_capture_entire_lite">_Capture entire page</span>
+          </div>
+          <div class="right">
+            <span id="spnShortcutEntire"></span>
+          </div>
+        </li>
+        <li id="mnuCaptureVisibleLite">
+          <div class="left">
+            <img src="images/capture_mode_visible.png">
+            <span data-i18n="action_capture_visible_lite">_Capture visible part</span>
+          </div>
+          <div class="right">
+            <span id="spnShortcutVisible"></span>
+          </div>
+        </li>
+        <li id="mnuCaptureSelectionLite">
+          <div class="left">
+            <img src="images/capture_mode_selected.png">
+            <span data-i18n="action_capture_selection_lite">_Capture selection</span>
+          </div>
+          <div class="right">
+            <span id="spnShortcutSelection"></span>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div id="sepMain2" class="separator"></div>
+    <div>
+      <ul>
+        <li id="mnuResume">
+          <div class="left">
+            <span data-i18n="action_resume">_Resume editing</span> ...</div>
+        </li>
+        <li id="mnuOpenFile">
+          <div class="left">
+            <span data-i18n="action_open_file">_Open file</span> ...</div>
+        </li>
+        <li id="mnuOpenClipboard">
+          <div class="left">
+            <span data-i18n="action_open_clipboard">_Open from clipboard</span> ...</div>
+        </li>
+      </ul>
+    </div>
+    <div id="sepEditor" class="separator"></div>
+
+    <div>
+      <ul>
+        <li id="mnuPreferencesLite">
+          <div class="left">
+            <img src="images/options.png">
+            <span data-i18n="action_options">_Options</span> ...</div>
+        </li>
+        <li id="mnuMiscellaneousFolder">
+          <div class="left">
+            <span data-i18n="action_micsellaneous">Miscellaneous</span> ...</div>
+          <div class="right">
+            <img src="images/arrow.png">
+          </div>
+        </li>
+        <div id="sepAdvanced" class="separator"></div>
+        <li id="mnuUpgrade" title="Switch your FireShot to powerful Pro edition">
+          <div class="left">
+            <img src="images/rocket.png">
+            <span data-i18n="action_switch_pro">_Switch to Pro</span>!</div>
+        </li>
+        <li id="mnuFireShotNative">
+          <div class="left">
+            <img src="images/plus.png">
+            <span data-i18n="action_install_native">Advanced functions</span> ...</div>
+        </li>
+        <li id="mnuRegister">
+          <div class="left">
+            <span data-i18n="action_register">_Register</span> ...</div>
+        </li>
+        <li id="mnuLicenseInfo">
+          <div class="left">
+            <span data-i18n="action_license_info">_License Info</span>
+          </div>
+        </li>
+        <!-- <li id="mnuCapPreferences"><div class="left">Capture options...</li>-->
+      </ul>
+    </div>
+  </div>
+
+  <div id="mnuTools" style="display:none; position:absolute; top:0; padding:2px; background:#fff; 
+border-radius: 5px 5px; border:1px #b2b2b2 solid">
+    <div>
+      <ul rel="mnuTools">
+        <li id="mnuTabsUpgrade">
+          <div class="left">
+            <img src="images/rocket.png">
+            <span data-i18n="action_switch_pro_tabs">_Activate Pro features</span>
+          </div>
+        </li>
+        <li id="mnuSaveSinglePDF" value="Save as single PDF">
+          <div class="left">
+            <img src="images/bullet.png">
+            <span data-i18n="action_save_pdf_single">_Save as single PDF</span>
+          </div>
+        </li>
+        <li id="mnuEdit" value="Edit">
+          <div class="left">
+            <img src="images/bullet.png">
+            <span data-i18n="action_edit">_Edit</span>
+          </div>
+        </li>
+        <li id="mnuSave" value="Save">
+          <div class="left">
+            <img src="images/bullet.png">
+            <span data-i18n="action_save">_Save</span>
+          </div>
+        </li>
+        <li id="mnuSavePDF" value="Save as PDF">
+          <div class="left">
+            <img src="images/bullet.png">
+            <span data-i18n="action_save_pdf">_Save as PDF</span>
+          </div>
+        </li>
+        <li id="mnuSendOneNote" value="Send to OneNote">
+          <div class="left">
+            <img src="images/bullet.png">
+            <span data-i18n="action_onenote">Send to One_Note</span>
+          </div>
+        </li>
+        <li id="mnuUpload" value="Upload">
+          <div class="left">
+            <img src="images/bullet.png">
+            <span data-i18n="action_upload">_Upload</span>
+          </div>
+        </li>
+        <li id="mnuPrint" value="Print">
+          <div class="left">
+            <img src="images/bullet.png">
+            <span data-i18n="action_print">_Print</span>
+          </div>
+        </li>
+        <li id="mnuClipboard" value="Copy to Clipboard">
+          <div class="left">
+            <img src="images/bullet.png">
+            <span data-i18n="action_copy">_Copy to Clipboard</span>
+          </div>
+        </li>
+        <li id="mnuEmail" value="E-Mail">
+          <div class="left">
+            <img src="images/bullet.png">
+            <span data-i18n="action_email">_E-Mail</span>
+          </div>
+        </li>
+        <li id="mnuExtEdit" value="Open in External Editor">
+          <div class="left">
+            <img src="images/bullet.png">
+            <span data-i18n="action_external">_Open in External Editor</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="mnuMiscellaneous" style="display:none; position:absolute; top:0; padding:2px; background:#fff;
+border-radius: 5px 5px; border:1px #b2b2b2 solid">
+    <div>
+      <ul rel="mnuMiscellaneous">
+        <li id="mnuPreferences">
+          <div class="left">
+            <img src="images/options.png">
+            <span data-i18n="action_options">_Options</span> ...</div>
+        </li>
+        <div id="sepSupport1" class="separator"></div>
+        <li id="mnuEnterLicense">
+          <div class="left">
+            <span data-i18n="action_enter_license">_Enter license info</span> ...</div>
+        </li>
+        <li id="mnuViewDemo">
+          <div class="left">
+            <span data-i18n="action_view_demo">_View demo</span>
+          </div>
+        </li>
+        <li id="mnuSupport">
+          <div class="left">
+            <span data-i18n="action_support">_Support</span>
+          </div>
+        </li>
+        <!--   <li id="mnuAPI"><div class="left"><span data-i18n="action_api">_FireShot API</span></div></li> -->
+        <div id="sepSupport2" class="separator"></div>
+        <li id="mnuAbout">
+          <div class="left">
+            <span data-i18n="action_about">_About...</span>
+          </div>
+        </li>
+
+
+      </ul>
+    </div>
+  </div>
+
+</body>
+
+</html>

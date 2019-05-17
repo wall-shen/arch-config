@@ -1,0 +1,140 @@
+{
+   "add_site_to_list": {
+      "message": "將網站添加到列表"
+   },
+   "brightness": {
+      "message": "亮度"
+   },
+   "change_browser_theme": {
+      "message": "更改瀏覽器主題"
+   },
+   "contrast": {
+      "message": "對比度"
+   },
+   "custom_browser_theme_off": {
+      "message": "默認"
+   },
+   "custom_browser_theme_on": {
+      "message": "自定義"
+   },
+   "dark": {
+      "message": "黑暗"
+   },
+   "donate": {
+      "message": "捐贈"
+   },
+   "engine_dynamic": {
+      "message": "動態"
+   },
+   "engine_filter": {
+      "message": "過濾"
+   },
+   "engine_filter_plus": {
+      "message": "過濾+"
+   },
+   "engine_static": {
+      "message": "靜態"
+   },
+   "extension_description": {
+      "message": "黑色主題，適用於任何網站。關愛眼睛，就使用Dark Reader進行夜間和日間瀏覽。"
+   },
+   "filter": {
+      "message": "濾鏡"
+   },
+   "grayscale": {
+      "message": "灰度"
+   },
+   "help": {
+      "message": "說明"
+   },
+   "invert_listed_only": {
+      "message": "反色列表"
+   },
+   "light": {
+      "message": "明亮"
+   },
+   "loading_please_wait": {
+      "message": "加載中，請稍候"
+   },
+   "mode": {
+      "message": "模式"
+   },
+   "more": {
+      "message": "更多"
+   },
+   "news": {
+      "message": "新聞"
+   },
+   "not_invert_listed": {
+      "message": "不反色列表"
+   },
+   "off": {
+      "message": "關閉"
+   },
+   "on": {
+      "message": "開啟"
+   },
+   "only_for": {
+      "message": "僅適用於"
+   },
+   "only_for_description": {
+      "message": "僅將設置應用於當前網站"
+   },
+   "open_dev_tools": {
+      "message": "開發者工具"
+   },
+   "page_in_dark_list": {
+      "message": "此網站位於全局\n黑暗列表中"
+   },
+   "page_protected": {
+      "message": "此頁面受\n瀏覽器保護"
+   },
+   "privacy": {
+      "message": "隱私政策"
+   },
+   "read_more": {
+      "message": "閱讀更多"
+   },
+   "select_font": {
+      "message": "選擇字體"
+   },
+   "sepia": {
+      "message": "棕褐色濾鏡"
+   },
+   "set_active_hours": {
+      "message": "設定使用時間"
+   },
+   "setup_add_site_hotkey": {
+      "message": "設置添加網站的快捷鍵"
+   },
+   "setup_hotkey_toggle_extension": {
+      "message": "設置擴展的\n開關快捷鍵"
+   },
+   "setup_hotkey_toggle_site": {
+      "message": "設置當前網站的\n切換快捷鍵"
+   },
+   "site_list": {
+      "message": "網站列表"
+   },
+   "store_listing": {
+      "message": "這是一個護眼擴展程序，通過實時生成黑色主題，為每一個網站啟用夜間模式。 Dark Reader反轉明亮的顏色，使其網頁內容具有高對比度並且易於在夜間閱讀。\n\n您可以調整亮度，對比度，應用棕褐色濾鏡，黑暗模式，設置字體和忽略的網站列表。\n\nDark Reader無廣告，也不會在任何地方發送用戶的數據。它完全開源 https://github.com/darkreader/darkreader\n\n安裝前請禁用類似的擴展。衝浪愉快！"
+   },
+   "text_stroke": {
+      "message": "文字描邊"
+   },
+   "theme_generation_mode": {
+      "message": "主題生成模式"
+   },
+   "time_settings": {
+      "message": "時間設置"
+   },
+   "toggle_current_site": {
+      "message": "切換當前網站"
+   },
+   "toggle_extension": {
+      "message": "開關擴展"
+   },
+   "try_experimental_theme_engines": {
+      "message": "試用 **實驗** 主題引擎：\n**濾鏡+** 保留顏色飽和度，將會使用GPU\n**靜態主題** 生成一個簡單快速的主題\n**動態主題** 分析顏色和圖像"
+   }
+}

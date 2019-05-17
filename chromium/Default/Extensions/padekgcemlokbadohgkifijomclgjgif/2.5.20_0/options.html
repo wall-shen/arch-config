@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" ng-controller="MasterCtrl" ng-csp>
+  <head>
+    <meta charset="utf-8">
+    <title ng-bind="'options_title' | tr">SwitchyOmega Options</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/spectrum/spectrum.css">
+    <link rel="stylesheet" href="lib/ladda/ladda-themeless.min.css">
+    <link rel="stylesheet" href="lib/shepherd.js/shepherd-theme-arrows.css">
+    <link rel="stylesheet" href="css/options.css">
+  </head>
+  <body style="display: none;" ng-style="{display: options ? &quot;block&quot; : &quot;none&quot;}">
+    <div class="container-fluid">
+      <header class="col-lg-2 col-sm-3 side-nav">
+        <h1><a ui-sref="about" title="{{&quot;about_title&quot; | tr}}">{{'appNameShort' | tr}}</a><sup ng-show="isExperimental" class="om-experimental text-danger">{{'options_experimental_badge' | tr}}</sup></h1>
+        <nav class="nav nav-pills nav-stacked">
+          <li class="nav-header">{{'options_navHeader_setting' | tr}}</li>
+          <li ui-sref-active="active"><a ui-sref="ui"><span class="glyphicon glyphicon-wrench"></span> {{'options_tab_ui' | tr}}</a></li>
+          <li ui-sref-active="active"><a ui-sref="general"><span class="glyphicon glyphicon-cog"></span> {{'options_tab_general' | tr}}</a></li>
+          <li ui-sref-active="active"><a ui-sref="io"><span class="glyphicon glyphicon-floppy-save"></span> {{'options_tab_importExport' | tr}}</a></li>
+          <li class="divider"></li>
+          <li class="nav-header">{{'options_navHeader_profiles' | tr}}</li>
+          <li ng-repeat="profile in options | profiles:&quot;sorted&quot;" ui-sref-active="active" data-profile-type="{{profile.profileType}}" class="nav-profile"><a ui-sref="profile({name: profile.name})"><span omega-profile-inline="profile" options="options"></span></a></li>
+          <li class="nav-new-profile"><a role="button" ng-click="newProfile()"><span class="glyphicon glyphicon-plus"></span> <span>{{'options_newProfile' | tr}}</span></a></li>
+          <li class="divider"></li>
+          <li class="nav-header">Actions</li>
+          <li><a role="button" ng-click="applyOptions()" ng-class="{&quot;btn-success&quot;: optionsDirty}" class="btn-default btn align-initial"><span class="glyphicon glyphicon-ok-circle"></span> {{'options_apply' | tr}}</a></li>
+          <li ng-class="{disabled: !optionsDirty}"><a role="button" ng-click="revertOptions()" class="text-danger"><span class="glyphicon glyphicon-remove-circle"></span> {{'options_discard' | tr}}</a></li>
+        </nav>
+      </header>
+      <main ui-view class="col-lg-10 col-sm-9 col-lg-offset-2 col-sm-offset-3 angular-animate"></main>
+    </div>
+    <div ng-show="alertShown" class="alert-top-wrapper">
+      <div alert type="workaround" close="hideAlert()" class="{{alertClassForType(alert.type)}}"><span class="glyphicon {{alertIcons[alert.type]}}"></span> {{alert.i18n ? (alert.i18n | tr) : alert.message}}
+      </div>
+    </div>
+    <script src="js/omega_debug.js"></script>
+    <script src="js/log_error.js"></script>
+    <script src="lib/script.js/script.min.js"></script>
+    <script src="js/options.js"></script>
+  </body>
+</html>

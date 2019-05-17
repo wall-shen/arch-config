@@ -1,0 +1,366 @@
+{
+   "action_about": {
+      "description": "Popup menu command, opens window about FireShot",
+      "message": "О программе..."
+   },
+   "action_api": {
+      "description": "",
+      "message": "Автоматизация FireShot"
+   },
+   "action_capture_browser": {
+      "description": "",
+      "message": "Захватить Окно браузера и"
+   },
+   "action_capture_entire": {
+      "description": "",
+      "message": "Захватить Всю страницу и"
+   },
+   "action_capture_entire_lite": {
+      "description": "",
+      "message": "Захватить Всю страницу"
+   },
+   "action_capture_selection": {
+      "description": "",
+      "message": "Захватить Элемент / Регион и"
+   },
+   "action_capture_selection_lite": {
+      "description": "",
+      "message": "Захватить Регион"
+   },
+   "action_capture_tabs": {
+      "description": "",
+      "message": "Захватить все вкладки и"
+   },
+   "action_capture_visible": {
+      "description": "",
+      "message": "Захватить Видимую область и"
+   },
+   "action_capture_visible_lite": {
+      "description": "",
+      "message": "Захватить Видимую область"
+   },
+   "action_copy": {
+      "description": "",
+      "message": "Поместить в Буфер обмена"
+   },
+   "action_edit": {
+      "description": "",
+      "message": "Редактировать"
+   },
+   "action_email": {
+      "description": "",
+      "message": "Отправить по E-Mail"
+   },
+   "action_enter_license": {
+      "description": "",
+      "message": "Ввести лицензионную информацию"
+   },
+   "action_external": {
+      "description": "",
+      "message": "Открыть в другой программе"
+   },
+   "action_install_native": {
+      "description": "",
+      "message": "Попробовать FireShot Pro"
+   },
+   "action_license_info": {
+      "description": "Popup menu command, opens licensing info if FireShot is Pro",
+      "message": "Лицензионная информация..."
+   },
+   "action_micsellaneous": {
+      "description": "",
+      "message": "Разное"
+   },
+   "action_onenote": {
+      "description": "",
+      "message": "Отправить в OneNote"
+   },
+   "action_open_clipboard": {
+      "description": "",
+      "message": "Открыть из Буфера Обмена"
+   },
+   "action_open_file": {
+      "description": "",
+      "message": "Открыть файл"
+   },
+   "action_options": {
+      "description": "",
+      "message": "Настройки"
+   },
+   "action_print": {
+      "description": "",
+      "message": "Распечатать"
+   },
+   "action_register": {
+      "description": "",
+      "message": "Зарегистрировать"
+   },
+   "action_resume": {
+      "description": "",
+      "message": "Продолжить редактирование"
+   },
+   "action_save": {
+      "description": "",
+      "message": "Сохранить"
+   },
+   "action_save_pdf": {
+      "description": "",
+      "message": "Сохранить в PDF"
+   },
+   "action_save_pdf_single": {
+      "description": "",
+      "message": "Сохранить в один документ PDF"
+   },
+   "action_support": {
+      "description": "",
+      "message": "Поддержка"
+   },
+   "action_switch_pro": {
+      "description": "",
+      "message": "Переключиться в режим Pro"
+   },
+   "action_switch_pro_tabs": {
+      "description": "",
+      "message": "Активировать режим Pro для продолжения ..."
+   },
+   "action_upload": {
+      "description": "",
+      "message": "Опубликовать в Интернет"
+   },
+   "action_view_demo": {
+      "description": "",
+      "message": "Посмотреть демо"
+   },
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Делайте скриншоты, редактируйте их и сохраняйте в PDF/JPEG/GIF/PNG/BMP; печатайте, отправляйте в Clipboard, Photoshop или по e-mail"
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "FireShot - скриншоты страниц и аннотации"
+   },
+   "captured_buy_pro_button": {
+      "description": "",
+      "message": "Купить Pro"
+   },
+   "captured_copy_clipboard": {
+      "description": "",
+      "message": "Копировать"
+   },
+   "captured_copy_clipboard_learn_button": {
+      "description": "",
+      "message": "Узнать как..."
+   },
+   "captured_get_free_button": {
+      "description": "",
+      "message": "Попробовать"
+   },
+   "captured_print": {
+      "description": "",
+      "message": "Распечатать"
+   },
+   "captured_print_button": {
+      "description": "",
+      "message": "Распечатать"
+   },
+   "captured_recommend_us": {
+      "description": "",
+      "message": "Порекомендовать FireShot"
+   },
+   "captured_save_as_image": {
+      "description": "",
+      "message": "Сохранить как изображение"
+   },
+   "captured_save_as_image_button": {
+      "description": "",
+      "message": "Сохранить"
+   },
+   "captured_save_as_pdf": {
+      "description": "",
+      "message": "Сохранить в PDF"
+   },
+   "captured_save_panel_title": {
+      "description": "",
+      "message": "Сохранить Скриншот"
+   },
+   "captured_saving_options": {
+      "description": "Button title to enter options to customize the saving process",
+      "message": "настройки сохранения"
+   },
+   "captured_setup_hotkeys": {
+      "description": "",
+      "message": "Настройка горячих клавиш и шаблона имени файла..."
+   },
+   "captured_upgrade_link_1": {
+      "description": "",
+      "message": "Улучшенный захват, Аннотации и графический Редактор, Печать и Сохранение, Выкладывание в Сеть, отправка по E-Mail и в OneNote, экспорт в другие редакторы."
+   },
+   "captured_upgrade_link_2": {
+      "description": "",
+      "message": "Обновить до FireShot Pro"
+   },
+   "captured_upgrade_link_3": {
+      "description": "",
+      "message": "Кажется, я использовал другую версию FireShot"
+   },
+   "captured_upgrade_link_4": {
+      "description": "",
+      "message": "Как вернуть её назад?"
+   },
+   "enable_checkbox": {
+      "description": "Enable checkbox",
+      "message": "Включить"
+   },
+   "options_button_apply": {
+      "description": "",
+      "message": "Применить"
+   },
+   "options_button_save_close": {
+      "description": "",
+      "message": "Сохранить и закрыть"
+   },
+   "options_button_setup": {
+      "description": "",
+      "message": "Настроить"
+   },
+   "options_label_and": {
+      "description": "",
+      "message": "и"
+   },
+   "options_label_capturing": {
+      "description": "",
+      "message": "Захват"
+   },
+   "options_label_close_tab_after_saving": {
+      "description": "Checkbox to close results page after the saving is done",
+      "message": "Закрывать вкладку после сохранения"
+   },
+   "options_label_customize_saving": {
+      "description": "Title in the dialog for the group of elements to customize saving process",
+      "message": "Дополнительные опции при сохранении"
+   },
+   "options_label_default_filename_template": {
+      "description": "",
+      "message": "Шаблон имени файла:"
+   },
+   "options_label_default_folder": {
+      "description": "Title to the input box for the default folder to save captures to",
+      "message": "Папка сохранения по умолчанию"
+   },
+   "options_label_default_folder_hint": {
+      "description": "Hint for the default folder input field",
+      "message": "Относительный путь в папке 'Загрузки', в который будет предлагаться сохранение по умолчанию.\nМожет содержать вложенные папки. Абсолютные пути, пустые пути и пути, содержащие обратные ссылки «..», будут игнорироваться."
+   },
+   "options_label_editor_options": {
+      "description": "",
+      "message": "Настройки Редактора"
+   },
+   "options_label_enable_context_menu": {
+      "description": "This button launches the hotkey configuration dialog",
+      "message": "Интегрироваться в контекстное меню"
+   },
+   "options_label_file_settings": {
+      "description": "",
+      "message": "Настройки имени файла"
+   },
+   "options_label_fireshot_options": {
+      "description": "",
+      "message": "Настройки FireShot"
+   },
+   "options_label_hotkey": {
+      "description": "",
+      "message": "Горячая клавиша"
+   },
+   "options_label_last_action_hotkey": {
+      "description": "",
+      "message": "Последнее действие"
+   },
+   "options_label_no_saveas_dialog": {
+      "description": "Checkbox to save without prompt",
+      "message": "Не показывать диалог сохранения"
+   },
+   "options_label_open_folder_after_saving": {
+      "description": "Checkbox to automatically open the target folder after saving is complete",
+      "message": "Открывать файл в папке после сохранения"
+   },
+   "options_label_save_image_as": {
+      "description": "",
+      "message": "Сохранять изображение как:"
+   },
+   "options_label_specify_editor_options": {
+      "description": "",
+      "message": "Настройки редактора и опций сохранения, именования файлов, стилей и прочие настройки"
+   },
+   "options_label_specify_hotkey": {
+      "description": "",
+      "message": "Горячая клавиша запуска FireShot:"
+   },
+   "options_label_specify_resizing_options": {
+      "description": "",
+      "message": "Настройки ресайзинга по умолчанию, звука"
+   },
+   "options_label_template_day": {
+      "description": "",
+      "message": "День"
+   },
+   "options_label_template_hour": {
+      "description": "",
+      "message": "Час"
+   },
+   "options_label_template_limit_1": {
+      "description": "",
+      "message": "Ограничить длину имени файла до"
+   },
+   "options_label_template_limit_2": {
+      "description": "",
+      "message": "символов"
+   },
+   "options_label_template_minutes": {
+      "description": "",
+      "message": "Минуты"
+   },
+   "options_label_template_month": {
+      "description": "",
+      "message": "Месяц"
+   },
+   "options_label_template_pad_1": {
+      "description": "",
+      "message": "Выравнивать число"
+   },
+   "options_label_template_pad_2": {
+      "description": "",
+      "message": "нулями"
+   },
+   "options_label_template_seconds": {
+      "description": "",
+      "message": "Секунды"
+   },
+   "options_label_template_title": {
+      "description": "",
+      "message": "Заголовок Страницы"
+   },
+   "options_label_template_url": {
+      "description": "",
+      "message": "URL Страницы"
+   },
+   "options_label_template_website": {
+      "description": "",
+      "message": "Доменное имя"
+   },
+   "options_label_template_year": {
+      "description": "",
+      "message": "Год"
+   },
+   "options_link_filename_template_settings": {
+      "description": "",
+      "message": "Показать настройки шаблона имени файла..."
+   },
+   "options_link_filename_template_settings_hide": {
+      "description": "",
+      "message": "Спрятать настройки шаблона..."
+   },
+   "void": {
+      "description": "this is a void entry",
+      "message": ""
+   }
+}

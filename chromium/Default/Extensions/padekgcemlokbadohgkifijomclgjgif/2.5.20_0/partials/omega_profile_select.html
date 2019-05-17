@@ -1,0 +1,9 @@
+
+<div dropdown="dropdown" on-toggle="toggled(open)" class="btn-group omega-profile-select">
+  <button dropdown-toggle="dropdown-toggle" type="button" aria-expanded="false" role="listbox" aria-haspopup="true" class="btn btn-default dropdown-toggle"><span omega-profile-icon="selectedProfile" options="options" icon="selectedProfile ? undefined : &quot;glyphicon-time&quot;"></span> <span ng-show="!!profileName">{{getName(selectedProfile)}}</span><span ng-show="!profileName">{{defaultText}}</span> <span class="caret"></span>
+  </button>
+  <ul role="listbox" class="dropdown-menu">
+    <li role="option" ng-if="!!defaultText" ng-class="{active: profileName == &quot;&quot;}"><a ng-click="setProfileName(&quot;&quot;)"><span class="glyphicon glyphicon-time"></span> {{defaultText}}</a></li>
+    <li role="option" ng-repeat="profile in dispProfiles" ng-class="{active: profileName == profile.name}"><a ng-click="setProfileName(profile.name)"><span omega-profile-icon="profile" options="options"></span> {{getName(profile)}}</a></li>
+  </ul>
+</div>

@@ -1,0 +1,273 @@
+{
+   "action_about": {
+      "message": "Over..."
+   },
+   "action_api": {
+      "message": "FireShot API"
+   },
+   "action_capture_browser": {
+      "message": "Maak afbeelding van browser venster en"
+   },
+   "action_capture_entire": {
+      "message": "Maak afbeelding van gehele pagina en"
+   },
+   "action_capture_entire_lite": {
+      "message": "Maak afbeelding van gehele pagina"
+   },
+   "action_capture_selection": {
+      "message": "Maak afbeelding van selectie / element en"
+   },
+   "action_capture_selection_lite": {
+      "message": "Maak afbeelding van selectie"
+   },
+   "action_capture_tabs": {
+      "message": "Maak afbeelding van alle tabs en"
+   },
+   "action_capture_visible": {
+      "message": "Maak afbeelding van zichtbare gedeelte en"
+   },
+   "action_capture_visible_lite": {
+      "message": "Maak afbeelding van zichtbare gedeelte"
+   },
+   "action_copy": {
+      "message": "Kopieer naar klembord"
+   },
+   "action_edit": {
+      "message": "Bewerken"
+   },
+   "action_email": {
+      "message": "E-mail"
+   },
+   "action_enter_license": {
+      "message": "Voer licentiegegevens in"
+   },
+   "action_external": {
+      "message": "Openen in externe editor"
+   },
+   "action_install_native": {
+      "message": "Probeer geavanceerde mogelijkheden"
+   },
+   "action_license_info": {
+      "message": "Licentiegegevens..."
+   },
+   "action_micsellaneous": {
+      "message": "Diversen"
+   },
+   "action_onenote": {
+      "message": "Stuur naar OneNote"
+   },
+   "action_open_clipboard": {
+      "message": "Open vanuit klembord"
+   },
+   "action_open_file": {
+      "message": "Bestand openen"
+   },
+   "action_options": {
+      "message": "Instellingen"
+   },
+   "action_print": {
+      "message": "Afdrukken"
+   },
+   "action_register": {
+      "message": "Registreer"
+   },
+   "action_resume": {
+      "message": "Ga door met bewerken"
+   },
+   "action_save": {
+      "message": "Opslaan"
+   },
+   "action_save_pdf": {
+      "message": "Opslaan als PDF"
+   },
+   "action_save_pdf_single": {
+      "message": "Sla op als enkele PDF"
+   },
+   "action_support": {
+      "message": "Ondersteuning"
+   },
+   "action_switch_pro": {
+      "message": "Kies voor Pro"
+   },
+   "action_switch_pro_tabs": {
+      "message": "Activeer Pro mogelijkheden om door te gaan..."
+   },
+   "action_upload": {
+      "message": "Upload"
+   },
+   "action_view_demo": {
+      "message": "Bekijk demo"
+   },
+   "application_description": {
+      "message": "Maak VOLLEDIGE webpagina schermafbeeldingen. Maak, bewerk en sla ze op in PDF/JPEG/GIF/PNG formaat, upload, druk af, stuur naar OneNote, klembord of email."
+   },
+   "application_title": {
+      "message": "Maak Volledige Webpagina Schermafbeeldingen - FireShot"
+   },
+   "captured_buy_pro_button": {
+      "message": "Koop Pro"
+   },
+   "captured_copy_clipboard": {
+      "message": "Kopieer naar klembord"
+   },
+   "captured_copy_clipboard_learn_button": {
+      "message": "Leer hoe..."
+   },
+   "captured_get_free_button": {
+      "message": "Probeer Gratis"
+   },
+   "captured_print": {
+      "message": "Afdrukken"
+   },
+   "captured_print_button": {
+      "message": "Afdrukken"
+   },
+   "captured_recommend_us": {
+      "message": "Beveel FireShot aan"
+   },
+   "captured_save_as_image": {
+      "message": "Opslaan als Afbeelding"
+   },
+   "captured_save_as_image_button": {
+      "message": "Opslaan als Afbeelding"
+   },
+   "captured_save_as_pdf": {
+      "message": "Opslaan als PDF"
+   },
+   "captured_save_panel_title": {
+      "message": "Schermafbeelding Opslaan"
+   },
+   "captured_saving_options": {
+      "message": "pas het aan"
+   },
+   "captured_setup_hotkeys": {
+      "message": "Snelkoppeling- en bestandsinstellingen..."
+   },
+   "captured_upgrade_link_1": {
+      "message": "Maak, Annoteer, Druk af en Sla beter op, Bewerk, stuur naar E-mail / OneNote of Exporteer naar een ander programma."
+   },
+   "captured_upgrade_link_2": {
+      "message": "Upgrade naar FireShot Pro"
+   },
+   "captured_upgrade_link_3": {
+      "message": "Ik gebruikte een andere versie van FireShot"
+   },
+   "captured_upgrade_link_4": {
+      "message": "Kan ik het terugkrijgen?"
+   },
+   "enable_checkbox": {
+      "message": "Schakel In"
+   },
+   "options_button_apply": {
+      "message": "Toepassen"
+   },
+   "options_button_save_close": {
+      "message": "Opslaan en sluiten"
+   },
+   "options_button_setup": {
+      "message": "Klik voor installatie"
+   },
+   "options_label_and": {
+      "message": "en"
+   },
+   "options_label_capturing": {
+      "message": "Afbeeldingen maken"
+   },
+   "options_label_close_tab_after_saving": {
+      "message": "Sluit tab na opslaan"
+   },
+   "options_label_customize_saving": {
+      "message": "Pas het opslaan-proces aan"
+   },
+   "options_label_default_filename_template": {
+      "message": "Standaard bestandsnaam sjabloon:"
+   },
+   "options_label_default_folder": {
+      "message": "Standaard uitvoermap"
+   },
+   "options_label_default_folder_hint": {
+      "message": "Een relatief bestandspad t.o.v. de Downloads map om bestanden in op te slaan, kan submappen bevatten.\nAbsolute paden, lege paden en paden met een terugkoppeling \"..\" geven een fout."
+   },
+   "options_label_editor_options": {
+      "message": "Editor instellingen"
+   },
+   "options_label_enable_context_menu": {
+      "message": "Integreer FireShot in contextmenu"
+   },
+   "options_label_file_settings": {
+      "message": "Bestandsinstellingen"
+   },
+   "options_label_fireshot_options": {
+      "message": "FireShot instellingen"
+   },
+   "options_label_hotkey": {
+      "message": "Snelkoppelingen"
+   },
+   "options_label_last_action_hotkey": {
+      "message": "Laatst gebruikte actie"
+   },
+   "options_label_no_saveas_dialog": {
+      "message": "Verberg het \"Opslaan als\" venster"
+   },
+   "options_label_open_folder_after_saving": {
+      "message": "Toon gedownload bestand in map na opslaan"
+   },
+   "options_label_save_image_as": {
+      "message": "Afbeelding Opslaan Als:"
+   },
+   "options_label_specify_editor_options": {
+      "message": "Kies editor- en opslag-instellingen, bestandsnaam voorkeuren, stylen, etc."
+   },
+   "options_label_specify_hotkey": {
+      "message": "Kies de toetscombinatie om FireShot te openen:"
+   },
+   "options_label_specify_resizing_options": {
+      "message": "Kies formaat instellingen en geluiden."
+   },
+   "options_label_template_day": {
+      "message": "Dag"
+   },
+   "options_label_template_hour": {
+      "message": "Uur"
+   },
+   "options_label_template_limit_1": {
+      "message": "Beperk lengte bestandsnaam tot"
+   },
+   "options_label_template_limit_2": {
+      "message": "karakters"
+   },
+   "options_label_template_minutes": {
+      "message": "Minuten"
+   },
+   "options_label_template_month": {
+      "message": "Maand"
+   },
+   "options_label_template_pad_1": {
+      "message": "Vul getal aan met"
+   },
+   "options_label_template_pad_2": {
+      "message": "nullen"
+   },
+   "options_label_template_seconds": {
+      "message": "Seconden"
+   },
+   "options_label_template_title": {
+      "message": "Pagina Titel"
+   },
+   "options_label_template_url": {
+      "message": "Pagina URL"
+   },
+   "options_label_template_website": {
+      "description": "",
+      "message": "Domeinnaam"
+   },
+   "options_label_template_year": {
+      "message": "Jaar"
+   },
+   "options_link_filename_template_settings": {
+      "message": "Toon bestandsnaam-instellingen..."
+   },
+   "options_link_filename_template_settings_hide": {
+      "message": "Verberg bestandsnaam-instellingen..."
+   }
+}

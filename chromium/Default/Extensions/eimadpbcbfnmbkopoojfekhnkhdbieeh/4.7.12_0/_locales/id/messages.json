@@ -1,0 +1,140 @@
+{
+   "add_site_to_list": {
+      "message": "Tambahkan situs dalam daftar"
+   },
+   "brightness": {
+      "message": "Kecerahan"
+   },
+   "change_browser_theme": {
+      "message": "Ubah tema browser"
+   },
+   "contrast": {
+      "message": "Kontras"
+   },
+   "custom_browser_theme_off": {
+      "message": "Tema Awal"
+   },
+   "custom_browser_theme_on": {
+      "message": "Tema Ubahan"
+   },
+   "dark": {
+      "message": "Malam"
+   },
+   "donate": {
+      "message": "Donasi"
+   },
+   "engine_dynamic": {
+      "message": "Dinamis"
+   },
+   "engine_filter": {
+      "message": "Filter"
+   },
+   "engine_filter_plus": {
+      "message": "Filter+"
+   },
+   "engine_static": {
+      "message": "Statis"
+   },
+   "extension_description": {
+      "message": "Mode Malam untuk semua website. Jaga kesehatan mata and dengan menggunakan Dark Reader untuk aktivitas anda berselancar di dunia maya."
+   },
+   "filter": {
+      "message": "Filter"
+   },
+   "grayscale": {
+      "message": "Abu-abu"
+   },
+   "help": {
+      "message": "Bantuan"
+   },
+   "invert_listed_only": {
+      "message": "Pengecualian hanya"
+   },
+   "light": {
+      "message": "Siang"
+   },
+   "loading_please_wait": {
+      "message": "Sedang Memuat, harap menunggu"
+   },
+   "mode": {
+      "message": "Mode"
+   },
+   "more": {
+      "message": "Lanjutan"
+   },
+   "news": {
+      "message": "Berita"
+   },
+   "not_invert_listed": {
+      "message": "Batalkan didaftarkan"
+   },
+   "off": {
+      "message": "Off"
+   },
+   "on": {
+      "message": "On"
+   },
+   "only_for": {
+      "message": "Hanya Untuk"
+   },
+   "only_for_description": {
+      "message": "Terapkan setelan hanya untuk site yang terbuka"
+   },
+   "open_dev_tools": {
+      "message": "Peralatan"
+   },
+   "page_in_dark_list": {
+      "message": "Situs ini berada dalam daftar\nMode Malam"
+   },
+   "page_protected": {
+      "message": "Halaman ini dilindungi\noleh browser"
+   },
+   "privacy": {
+      "message": "Privasi"
+   },
+   "read_more": {
+      "message": "Bacaan Lanjutan"
+   },
+   "select_font": {
+      "message": "Pilih Font"
+   },
+   "sepia": {
+      "message": "Sepia"
+   },
+   "set_active_hours": {
+      "message": "Ubah waktu aktivitas"
+   },
+   "setup_add_site_hotkey": {
+      "message": "Setelan Pintasan untuk menambahkan situs"
+   },
+   "setup_hotkey_toggle_extension": {
+      "message": "Setelan ekstensi\nSaklar Pintasan"
+   },
+   "setup_hotkey_toggle_site": {
+      "message": "Setelan situs yang terbuka\nSaklar Pintasan"
+   },
+   "site_list": {
+      "message": "Daftar Situs"
+   },
+   "store_listing": {
+      "message": "Ekstensi ini memberikan \"Mode Malam\" bagi setiap website secara langsung. Dark Reader bekerja dengan membalik warna cerah dengan warna kontras sehingga nyaman di mata.\n\nAnda bisa mengatur kecerahan, kontras warna, Filter Sepia, Modem Malam, setelan font dan membuat daftar atas situs yg dikecualikan dari daftar mode malam.\n\nDark Reader tidak beriklan dan mengumpulkan data penggunan ke manapun. Aplikasi in sepenuhnya open-source https://github.com/darkreader/darkreader\n\nSebelum instalasi, disable terlebih dahulu ekstensi serupa. Selamat Berselancar!"
+   },
+   "text_stroke": {
+      "message": "Tebal Text"
+   },
+   "theme_generation_mode": {
+      "message": "Mode penghasil tema"
+   },
+   "time_settings": {
+      "message": "Pengaturan waktu"
+   },
+   "toggle_current_site": {
+      "message": "Saklar situs yang terbuka"
+   },
+   "toggle_extension": {
+      "message": "Saklar ekstensi"
+   },
+   "try_experimental_theme_engines": {
+      "message": "Uji Coba tema engines **Eksperimental** :\n**Filter+** jaga saturasi warna, mengggunakan GPU\n**Tema Statis** hasilkan tema cepat & sederhana\n**Tema Dinamis** analisa warna dan gambar"
+   }
+}

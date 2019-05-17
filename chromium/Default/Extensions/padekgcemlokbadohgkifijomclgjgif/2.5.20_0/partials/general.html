@@ -1,0 +1,35 @@
+
+<div class="page-header">
+  <h2>{{'options_tab_general' | tr}}</h2>
+</div>
+<section class="settings-group">
+  <h3>{{'options_group_networkRequests' | tr}}</h3>
+  <div class="checkbox">
+    <label>
+      <input id="revert-proxy-changes" type="checkbox" ng-model="options[&quot;-monitorWebRequests&quot;]"/><span>{{'options_monitorWebRequests' | tr}}</span>
+    </label>
+    <p omega-html="'options_monitorWebRequestsHelp' | tr" class="help-block"></p>
+  </div>
+</section>
+<section class="settings-group width-limit">
+  <h3>{{'options_downloadOptions' | tr}}</h3>
+  <p class="help-block">{{'options_downloadOptionsHelp' | tr}}</p>
+  <div class="form-group">
+    <label for="download-interval">{{'options_downloadInterval' | tr}}</label>
+    <select id="download-interval" ng-model="options[&quot;-downloadInterval&quot;]" ng-options="interval as (downloadIntervalI18n(interval) | tr) for interval in downloadIntervals" class="form-control inline-form-control"></select>
+  </div>
+</section>
+<section class="settings-group width-limit">
+  <h3>{{'options_group_conflicts' | tr}}</h3>
+  <p>{{'options_conflicts_introduction' | tr}}</p>
+  <p class="help-text text-danger"><span style="padding: 1px 4px; background: #da4f49; color: #fff; box-shadow: #ccc 1px 1px 1px 1px;">=</span> {{'options_conflicts_lowerPriority' | tr}}
+  </p>
+  <p class="help-text text-info"><span class="glyphicon glyphicon-info-sign"></span> <span omega-html="'options_conflicts_higherPriority' | tr:[$profile('systemProfile')]"></span>
+  </p>
+  <div class="checkbox">
+    <label>
+      <input id="revert-proxy-changes" type="checkbox" ng-model="options[&quot;-showExternalProfile&quot;]"/><span>{{'options_showExternalProfile' | tr}}</span>
+    </label>
+  </div>
+  <p omega-html="'options_showExternalProfileHelp' | tr:[$profile('systemProfile'), $profile('externalProfile')]" class="help-block"></p>
+</section>

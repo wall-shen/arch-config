@@ -1,0 +1,1252 @@
+{
+   "about_app_description": {
+      "message": "ابزار پیکربندی پراکسی"
+   },
+   "about_copyright": {
+      "message": "کپی رایت 2012-2017 \u003Ca href='https://github.com/FelisCatus/SwitchyOmega/blob/master/AUTHORS'>نویسندگان The SwitchyOmega \u003C/a>. کلیه حقوق محفوظ است، ترجمه شده به فارسی توسط گودرز جعفری."
+   },
+   "about_credits": {
+      "message": "SwitchyOmega is made possible by the \u003Ca href='https://github.com/FelisCatus/SwitchyOmega'>SwitchyOmega\u003C/a> open source project and other \u003Ca href='https://github.com/FelisCatus/SwitchyOmega/blob/master/AUTHORS'>open source software\u003C/a>."
+   },
+   "about_disclaimer_networkService": {
+      "message": "SwitchyOmega does not provide proxies, VPNs, or other network services."
+   },
+   "about_disclaimer_privacy": {
+      "message": "SwitchyOmega does not track you or insert ads into webpages. Please see our \u003Ca href='https://github.com/FelisCatus/SwitchyOmega/wiki/Privacy#english'>privacy policy\u003C/a>."
+   },
+   "about_experimental_warning_moz": {
+      "message": "Mozilla Firefox support is highly experimental! If you encounter issues, please report using the buttons below."
+   },
+   "about_help": {
+      "message": "Other questions? Need help with using SwitchyOmega? Please see our \u003Ca href='https://github.com/FelisCatus/SwitchyOmega/wiki/FAQ'>FAQ\u003C/a>."
+   },
+   "about_license": {
+      "message": "SwitchyOmega is \u003Ca href='https://www.gnu.org/philosophy/free-sw.en.html'>free software\u003C/a> licensed under \u003Ca href='https://www.gnu.org/licenses/gpl.html'>GNU General Public License\u003C/a> Version 3 or later."
+   },
+   "about_title": {
+      "message": "درباره"
+   },
+   "about_version": {
+      "message": "نسخه $VERSION$",
+      "placeholders": {
+         "VERSION": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "appNameShort": {
+      "message": "SwitchyOmega"
+   },
+   "browserAction_attachedPrefix": {
+      "message": "(RL) "
+   },
+   "browserAction_defaultRuleDetails": {
+      "message": "(پیش فرض)"
+   },
+   "browserAction_directResult": {
+      "message": "مستقیم"
+   },
+   "browserAction_profileDetails_DirectProfile": {
+      "message": "(عدم استفاده از هرگونه پروکسی)"
+   },
+   "browserAction_profileDetails_PacProfile": {
+      "message": "( اسکریپت PAC )"
+   },
+   "browserAction_profileDetails_RuleListProfile": {
+      "message": "(جابه جایی بر اساس لیست قوانین)"
+   },
+   "browserAction_profileDetails_SwitchProfile": {
+      "message": "(جابه جایی بر اساس شروط)"
+   },
+   "browserAction_profileDetails_SystemProfile": {
+      "message": "( کنترل شده توسط دیگر افزونه ها یا محیط )"
+   },
+   "browserAction_tempRulePrefix": {
+      "message": "(موقت) "
+   },
+   "browserAction_titleDownloadFail": {
+      "message": "اخطار: شکست در دانلود اسکریپت PAC و/یا لیست های قوانین ."
+   },
+   "browserAction_titleExternalProxy": {
+      "message": "نکته : تنظیمات پروکسی هم اکنون توسط دیگر برنامه (ها) مدیریت میشود ."
+   },
+   "browserAction_titleInspect": {
+      "message": "[بررسی] $URL$",
+      "placeholders": {
+         "URL": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "browserAction_titleNewerOptions": {
+      "message": "خطا : یک ورژن جدید تر از SwitchOmega  برای اجرای تنظیمات دخیره شده نیازمند است ."
+   },
+   "browserAction_titleNormal": {
+      "message": "SwitchyOmega :: $PROFILE$",
+      "placeholders": {
+         "PROFILE": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "browserAction_titleOptionError": {
+      "message": "خطا : تنظیمات دخیره شده خراب شده اند .برای ریست کردن تنظیمات کلیک کنید ."
+   },
+   "browserAction_titleWithResult": {
+      "message": "SwitchyOmega ::  $PROFILE$\n $DETAILS$",
+      "placeholders": {
+         "DETAILS": {
+            "content": "$3"
+         },
+         "PROFILE": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         },
+         "_unused_2": {
+            "content": "$2"
+         }
+      }
+   },
+   "condition_FalseCondition": {
+      "message": "(غیرفعال)"
+   },
+   "condition_HostLevelsCondition": {
+      "message": "سطح های میزبان"
+   },
+   "condition_HostRegexCondition": {
+      "message": "عبارت منظم میزبان"
+   },
+   "condition_HostWildcardCondition": {
+      "message": "Wildcard میزبان"
+   },
+   "condition_IpCondition": {
+      "message": "مجموعه IP Literals"
+   },
+   "condition_KeywordCondition": {
+      "message": "کلمات کلیدی"
+   },
+   "condition_TimeCondition": {
+      "message": "زمان فعلی"
+   },
+   "condition_UrlRegexCondition": {
+      "message": "عبارت منظم ادرس"
+   },
+   "condition_UrlWildcardCondition": {
+      "message": "فرانویسه ادرس (URL)"
+   },
+   "condition_WeekdayCondition": {
+      "message": "روز هفته"
+   },
+   "condition_alert_fullUrlLimitation": {
+      "message": "Full URL matching is no longer possible for \u003Ccode>https://\u003C/code> URLs as of Chrome 52. \u003Ca href='https://github.com/FelisCatus/SwitchyOmega/wiki/Chromium-Full-URL-Limitation'>Learn more...\u003C/a>"
+   },
+   "condition_alert_fullUrlLimitationLink": {
+      "message": "https://github.com/FelisCatus/SwitchyOmega/wiki/Chromium-Full-URL-Limitation"
+   },
+   "condition_details_FalseCondition": {
+      "message": "(درحین بررسی این شرط در نظر گرفته نمیشود)"
+   },
+   "condition_group_default": {
+      "message": ""
+   },
+   "condition_group_host": {
+      "message": "میزبان"
+   },
+   "condition_group_special": {
+      "message": "ویژه"
+   },
+   "condition_group_url": {
+      "message": "ادرس"
+   },
+   "condition_help_FalseCondition": {
+      "message": "شما میتوانید یک شرط را با قرار دادن نوع آن به  \u003Ccode>(غیرفعال)\u003C/code> غیرفعال کنید . یک شرط غیرفعال طوری عمل میکند که انگار وجود ندارد .\u003Cbr> از این قابلیت برای غیرفعال کردن موقت شرط استفاده نمایید .\u003Cbr> شروط غیرفعال تمامی تنظیمات خود را حفظ میکنند و در صورت نیاز میتوانید با برگردان نوع آن به حالت قبلی آن را فعال کنید ."
+   },
+   "condition_help_HostLevelsCondition": {
+      "message": "تنها درصورتی درخواست را انطباق میدهد که سطح میزبان در محدوده ی داده شده باشد .\u003Cbr> به \u003Cb> تعداد بخش های جدا شده توسط نقطه ( دات )\u003C/b> سطح میزبان ، هاست ( دامنه ) داده شده میگویند . \u003Cbr> به طور مثال \u003Ccode>www.example.com\u003C/code>  دارای سطح میزابن سه میباشد ، در حالی که \u003Ccode>داخل\u003C/code> سطح میزبان یک را دارد."
+   },
+   "condition_help_HostRegexCondition": {
+      "message": "همانند شرط فرانویسه ی میزبان،اما با کمک \u003Ca href='https://www.google.com/search?q=عبارت+منظم'>عبارت منظم\u003C/a>.\u003Cbr> میزبان ها ( اسامی دامنه ها ) را انتخاب و تطابق میدهد . نوشتن یا حتی خواندن عبارات منظم میتواند سخت باشد.\u003Cbr> پیشنهاد میشود که از فرانویسه استفاده کنید و فقط در مواقعی که به هیچ روشی نمیشود عبارتی رو یافت از عبارات منظم استفاده کنید ."
+   },
+   "condition_help_HostWildcardCondition": {
+      "message": "انتخاب و تطبیق میزبان ها ( نام دامین ) به کمک فرا نویسه . \u003Cbr>\u003Cb> ستاره \u003Ccode>*\u003C/code>\u003C/b> صفر کارکتر یا بیشتر را تطابق میدهد .\u003Cbr>\u003Cb> علامت سوال \u003Ccode>?\u003C/code>\u003C/b> فقط یک کارکتر را انتخاب و تطابق میدهد ..\u003Cbr>\u003Cbr>توجه داشته باشید که قوانینی که با \u003Ccode>*\u003C/code>شروع میشوند به صورت ویژه تنها در شروط فرانویسه ایه میزبان کاربرد دارند .\u003Cbr> به طور مثال: \u003Ccode>*.example.com\u003C/code>  این ادرس ها را تشخیص میدهد. \u003Cb> www.example.com و example.com .\u003C/b>\u003Cbr برای انتخاب زیر دامنه ها \u003Cb>کافیست\u003C/b> ، از \u003Cb>دو\u003C/b> ستاره استفاده نمایید . \u003Ccode>**.example.com\u003C/code>."
+   },
+   "condition_help_IpCondition": {
+      "message": "Matches the request if and only if the host is a \u003Cb>literal\u003C/b> IP address and in the subnet as specified by \u003Ca href='https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation'>CIDR notation\u003C/a>.\u003Cbr>For example, given the rule \u003Ccode>127.0.0.1/16\u003C/code>, it matches all IP addresses like \u003Ccode>127.0.*.*\u003C/code>.\u003Cbr>So \u003Ccode>127.0.0.1\u003C/code> matches while \u003Ccode>127.1.0.0\u003C/code> does not. Host names like \u003Ccode>localhost\u003C/code> will never match because they are \u003Cb>not\u003C/b> IP literals."
+   },
+   "condition_help_KeywordCondition": {
+      "message": "شرط کلمات کلیدی درصورتی انتخاب انجام میدهد که پروتکل مورد استفاده HTTP باشد ، و الگو (pattern) یک خرده-رشته ی ادرس باشد .\u003Cbr> همانند الگوی فرانویسه ی ادرس کار میکند که در اینجا \u003Ccode>http://*\u003Cb>pattern\u003C/b>*\u003C/code> قسمت  \u003Cb>pattern\u003C/b> الگوی کلمه ی کلیدی میباشد . \u003Cbr> شرط کلمات کلیدی زمانی مفید هستند که قصد دارید از یک فایروالی که کلمات خاصی را که در ادرس بلاک میکند بگذرید . اینگونه میتوانید اینگونه ادرس های خاص را پیدا کرده و با پروکسی از ان ها عبور کرده."
+   },
+   "condition_help_TimeCondition": {
+      "message": "Matches if the current local time is in the range defined by \u003Cb>starting hour\u003C/b> and \u003Cb>ending hour\u003C/b>, both inclusive.\u003Cbr>Local time, starting hour and ending hour are all calculated in \u003Cb>24-hour\u003C/b> format (from \u003Cb>0 to 23\u003C/b>). \u003Cbr>The calculation happens roughly at the moment when the request is sent."
+   },
+   "condition_help_UrlRegexCondition": {
+      "message": "ادرس ها  را ابزار قدرتمند \u003Ca href='https://www.google.com/search?q=عبارت+منظم'>عبارت منظم\u003C/a> تشخیص و انتطباق میدهد .\u003Cbr> پیشنهاد میشود که از فرانویسه استفاده کنید و فقط در مواقعی که به هیچ روشی نمیشود عبارتی رو یافت از عبارات منظم استفاده کنید ."
+   },
+   "condition_help_UrlWildcardCondition": {
+      "message": "ادرس های درخواست داده شده را به کمک فرانویسه بررسی و مطابقت میدهد .\u003Cbr> برای اشنایی با فرانویسه به بخش فرانویسه ی میزبان مراجعه کنید .\u003Cbr> توجه داشته باشید که فرانویسه ی آدرس به صورت ویژه ای برخورد نمیشوند ( تشخیص جادویی زیردامنه همانند هاست وجود ندارد ) \u003Cbr> بنابراین دستور \u003Ccode>*://*.example.com/*\u003C/code> ادرس http://www.example.com/ را تشخیص میدهد اما  این ادرس http://example.com را\u003Cb>تشخیص نمیدهد .\u003C/b>."
+   },
+   "condition_help_WeekdayCondition": {
+      "message": "Matches if the \u003Cb>current day of week\u003C/b> is selected in condition details. Day is calculated according to local timezone.\u003Cbr>The request and its URL don't matter to this condition. The result is solely based on the day of the week when the request is sent."
+   },
+   "contextMenu_enableQuickSwitch": {
+      "message": "فعال سازی تغییر سرعتی"
+   },
+   "contextMenu_inspectElement": {
+      "message": "بررسی پروکسی مورد استفاده برای این المان"
+   },
+   "contextMenu_inspectFrame": {
+      "message": "بررسی پروکسی مورد استفاده برای این فریم"
+   },
+   "contextMenu_inspectLink": {
+      "message": "بررسی پروکسی مورد استفاده اگر لینک باز شود"
+   },
+   "contextMenu_inspectPage": {
+      "message": "بررسی پروکسی مورد استفاده برای این صفحه"
+   },
+   "dialog_cancel": {
+      "message": "کنسل"
+   },
+   "dialog_close": {
+      "message": "بستن"
+   },
+   "dialog_ok": {
+      "message": "اکی"
+   },
+   "dialog_save": {
+      "message": "ذخیره تغییرات"
+   },
+   "inputClear_clear": {
+      "message": "پاک"
+   },
+   "inputClear_restore": {
+      "message": "بازگرداندن"
+   },
+   "manifest_app_description": {
+      "message": "به راحتی و با سرعت بین پروکسی های خود جابه‌جا شوید و آنها را مدیریت کنید."
+   },
+   "manifest_app_name": {
+      "message": "پروکسی SwitchyOmega"
+   },
+   "manifest_icon_default_title": {
+      "message": "درحال بارگذاری…"
+   },
+   "options_addCondition": {
+      "message": "افزودن شرط"
+   },
+   "options_addConditionsToBottom": {
+      "message": "Put new conditions added using the popup to the bottom of the list."
+   },
+   "options_apply": {
+      "message": "ذخیره ی تغییرات"
+   },
+   "options_applyOptionsConfirm": {
+      "message": "آیا میخواهید تنظیمات خود را ذخیره و اعمال کنید ؟"
+   },
+   "options_applyOptionsRequired": {
+      "message": "قبل از ادامه دادن تنظمات خود را ثبت کنید."
+   },
+   "options_attachProfile": {
+      "message": "افزوردن لیست قوانین"
+   },
+   "options_attachProfileHelp": {
+      "message": "شما میتوانید با افزودن لیست قوانین از مجموعه های آنلاین شروطی که توسط دیگران منتشر شده استفاده نمایید ."
+   },
+   "options_bypassListHelp": {
+      "message": "سرورهایی که نمیخواهید برای آن ها از پروکسی استفاده کنید : ( هرکدام در یک خط . )"
+   },
+   "options_bypassListHelpLinkText": {
+      "message": "( فرانویسه و بیشتر فراهم است .... )"
+   },
+   "options_cloneRule": {
+      "message": "کپی"
+   },
+   "options_conditionActions": {
+      "message": "عملیات ها"
+   },
+   "options_conditionDetails": {
+      "message": "جزییات شرط"
+   },
+   "options_conditionType": {
+      "message": "نوع شرط"
+   },
+   "options_confirmDeletion": {
+      "message": "تصدیق در زمان حذف شروط."
+   },
+   "options_conflicts_higherPriority": {
+      "message": "If SwitchyOmega has higher priority, you can give the control back to other apps or system settings by selecting $SYSTEMPROFILE$ in the popup menu.",
+      "placeholders": {
+         "SYSTEMPROFILE": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_conflicts_introduction": {
+      "message": "Sometimes, other apps will also try to control the proxy settings, resulting in conflicts. Note that ad blockers and other extensions may also use proxy settings under the hood. Such conflicts cannot be avoided due to how the browser works."
+   },
+   "options_conflicts_lowerPriority": {
+      "message": "A red badge like this on the SwitchyOmega icon indicates that another app has higher priority so SwitchyOmega cannot control the settings. Please try to uninstall SwitchyOmega and reinstall, which should raise SwitchyOmega's priority. If you still see conflicts after reinstallation, please consider removing the other app causing the conflict."
+   },
+   "options_createProfile": {
+      "message": "ساختن"
+   },
+   "options_cycledProfiles": {
+      "message": "پروفایل های چرخشی"
+   },
+   "options_cycledProfilesHelp": {
+      "message": "وقتی بر روی آیکون کلید میکنید ( یا از میانبرهای بالا ) استفاده میکنید  ،پروفایل های زیر به ترتیب اجرا میشوند ."
+   },
+   "options_cycledProfilesTooFew": {
+      "message": "شما باید حداقل دو پروفایل را انتخاب کنید برای فعال کردن این وظیفه ! میتوانید از جعبه ی زیر آن را به اینجا بکشید ."
+   },
+   "options_deleteAttached": {
+      "message": "حذف لیست قوانین"
+   },
+   "options_deleteAttachedConfirm": {
+      "message": "آیا از حذف نمودن لیست قوانین از پروفایل فعلی مطمئن هستید ؟"
+   },
+   "options_deleteProfile": {
+      "message": "پاک کردن"
+   },
+   "options_deleteProfileConfirm": {
+      "message": "آیا از حذف نمودن پروفایل های زیرمطمئن هستید ؟"
+   },
+   "options_deleteRule": {
+      "message": "پاک کردن"
+   },
+   "options_deleteRuleConfirm": {
+      "message": "واقعا قصد حذف نمودن قانون را دارید ؟"
+   },
+   "options_discard": {
+      "message": "بیخیال تغییرات"
+   },
+   "options_downloadInterval": {
+      "message": "فاصله ی دانلود"
+   },
+   "options_downloadInterval_1440": {
+      "message": "هر روز"
+   },
+   "options_downloadInterval_15": {
+      "message": "15 دقیقه"
+   },
+   "options_downloadInterval_180": {
+      "message": "3 ساعت"
+   },
+   "options_downloadInterval_360": {
+      "message": "6 ساعت"
+   },
+   "options_downloadInterval_60": {
+      "message": "1 ساعت"
+   },
+   "options_downloadInterval_720": {
+      "message": "12 ساعت"
+   },
+   "options_downloadInterval_never": {
+      "message": "هرگز"
+   },
+   "options_downloadOptions": {
+      "message": "دانلود تنظیمات"
+   },
+   "options_downloadOptionsHelp": {
+      "message": "تناوب بروزرسانی لیست قوانین آنلاین و اسکریپت های PAC را تنظیم کنید ."
+   },
+   "options_downloadProfileNow": {
+      "message": "هم اکنون پروفایل را دانلود کنید"
+   },
+   "options_experimental_badge": {
+      "message": "α"
+   },
+   "options_exportLegacyRuleList": {
+      "message": "لیست قوانین را به فرمت سازگار با  \"Proxy Switchy!/SwitchyPlus/SwitchySharp\" در زمان ممکن خروجی بگیر ."
+   },
+   "options_exportLegacyRuleListHelp": {
+      "message": "این گزینه را تنها درصورتی که میخواهید لیست قوانین را برای کاربران اون پروژه ها انتشار دهید فعال کنید . \u003Cbr>لطفا به کاربران خود پیشنهاد بروزرسانی به SwitchyOmega را برای بهره بری بهتر پیشنهاد دهید ."
+   },
+   "options_exportPacFile": {
+      "message": "خروجی به صورت فایل PAC"
+   },
+   "options_exportPacFileHelp": {
+      "message": "خروجی گرفتن پروفایل کنونی به صورت فایل PAC ، برای استفاده در دیگر مرورگرها ."
+   },
+   "options_exportProfileHelp": {
+      "message": "برای خروجی گرفتن از یک پروفایل ، از عملگر سمت راست بالای صفحه ی پروفایل ها استفاده نمایید ."
+   },
+   "options_formInvalid": {
+      "message": "لطفا خطاهای موجود در صفحه را تصحیح کنید."
+   },
+   "options_group_attachProfile": {
+      "message": "واردکردن لیست های قوانین آنلاین"
+   },
+   "options_group_bypassList": {
+      "message": "لیست استثنا"
+   },
+   "options_group_conditionHelp": {
+      "message": "درباره ی انوع شروط"
+   },
+   "options_group_conflicts": {
+      "message": "Conflicts"
+   },
+   "options_group_importExportProfile": {
+      "message": "پروفایل"
+   },
+   "options_group_importExportSettings": {
+      "message": "تنظیمات"
+   },
+   "options_group_keyboardShortcut": {
+      "message": "میانبرهای کیبرد"
+   },
+   "options_group_miscOptions": {
+      "message": "دیگر تنظیمات"
+   },
+   "options_group_networkRequests": {
+      "message": "درخواست های شبکه"
+   },
+   "options_group_pacScript": {
+      "message": "اسکریپت PAC"
+   },
+   "options_group_pacUrl": {
+      "message": "آدرس PAC"
+   },
+   "options_group_proxyChanges": {
+      "message": "تغییر پروکسی"
+   },
+   "options_group_proxyServers": {
+      "message": "سرور های پروکسی"
+   },
+   "options_group_ruleListConfig": {
+      "message": "تنظیمات لیست قوانین"
+   },
+   "options_group_ruleListResult": {
+      "message": "نتایج پروفایل های لیست قوانین"
+   },
+   "options_group_ruleListText": {
+      "message": "متن لیست قوانین"
+   },
+   "options_group_ruleListUrl": {
+      "message": "آدرس لیست قوانین"
+   },
+   "options_group_switchOptions": {
+      "message": "تنظیم جابه جایی"
+   },
+   "options_group_switchRules": {
+      "message": "قوانین سوییچ"
+   },
+   "options_group_syncing": {
+      "message": "همگام سازی ( ازمایشی )"
+   },
+   "options_group_virtualProfile": {
+      "message": "پرووفایل مجازی"
+   },
+   "options_group_virtualProfileReplace": {
+      "message": "مهاجرت به پروفایل مجازی"
+   },
+   "options_guideDone": {
+      "message": "تمام"
+   },
+   "options_guideNext": {
+      "message": "بعدی"
+   },
+   "options_guideSkip": {
+      "message": "بیخیال آموزش"
+   },
+   "options_guide_addMoreProfilesStep": {
+      "message": "به پروفایل بیشتری نیازمندید ؟ شما همیشه میتوانید \u003Cb> پروکسی ، سوییچ و یا پروفایل های دیگری \u003C/b> \u003Cbr> را برای نیاز های پروکسی خود اضافه نمایید . \u003Cbr> از پروکسی زدن لذت ببرید !"
+   },
+   "options_guide_applySwitchProfileStep": {
+      "message": "وقتی انجام تنظیمات پروفایل متغییر(سوییچ) به پایان رسید ، فراموش نکنید که \u003Cb> در منونی بالاپر(popup) آن را فعال کنید.\u003C/b>\u003Cbr/> آیکون به شما \u003Cb>نتیجه ی نهایی \u003C/b> پروفایل اعمال شده در تب جاری را نشان میدهد \u003Cbr/> \u003Cb>شناور ماندن\u003C/b> بر روی آیکون توضیحات اجمالی به شما نشان خواهد داد ."
+   },
+   "options_guide_autoSwitchProfileStep": {
+      "message": "شما میتوانید با استفاده از قدرت\u003Cb> پروفایل متغیر\u003C/b> به صورت خودکار ، پروکسی های  SwitchyOmega  را عوض کنید .\u003Cbr>با اینجال ، قاابلیت های این پروفایل در این راهنمایی کوتاه قابل بیان نمیباشد . \u003Cbr> شما میتوانید بعدا برای فعال کردن قدرت های این پروفایل آن را باز کنید ."
+   },
+   "options_guide_conditionProfileStep": {
+      "message": "SwitchyOmega پروفایل انتخاب شده را بر روی\u003Cb> هرگونه درخواستی که با شروط منطبق باشد اعمال میکند .\u003C/b> \u003Cbr> \u003Cb>پروفایل خاص \"[مستقیم]\"\u003C/b>  باعث میشود تا درخواست بدون هیچ پروکسی ای ارسال شود ."
+   },
+   "options_guide_conditionStep": {
+      "message": "SwitchyOmega میتوانید پروفایل های متفاوتی را بر اساس \u003Cb>شروط \u003C/b>تقاضا کند .\u003Cbr>برای مثال ، شرط \u003Cb>فرانویسه ی میزبان \u003C/b> به شما این قابلیت را میدهد که پروفایلی برای تمامی آدرس های یک دامنه تعیین کنید ."
+   },
+   "options_guide_conditionTypeStep": {
+      "message": "شما میتوانید نوع های گوناگونی از شرط ها را برای انتخاب و انطباق میزبان یا آدرس URL استفاده کنید .\u003Cbr> بر روی علامت سوال کنید کنید تا راهنمای نوع ها باز شود."
+   },
+   "options_guide_fixedProfileStep": {
+      "message": "یک \u003Cb> پروفایل پروکسی  \u003C/b>شامل تنظیماتی حاوی IP سرور&amp; پورت پروکسی میشود .\u003Cbr>پروفایل ها پایه ای ترین واحدهای تنظیمات در SwitchyOmega میباشند .\u003Cbr> ما یک پروفایل آزمایشی برای شما درست کردیم . امتحانش کنید ."
+   },
+   "options_guide_fixedServersStep": {
+      "message": "شما میتوانید سرور پروکسی و پورت آن را هرجور دوست دارید در اینجا وارد کنید.\u003Cbr>SwitchyOmega \u003Cb> دارای سرور های پروکسی نمیباشد .\u003C/b> \u003Cbr>در صورت عدم اطلاع از چگونگی پر کردن این مقادیر ،  لطفا با فراهم کننده ی شبکه تماس گرفته یا راهنمای نرم افزار پروکسی را مطالعه فرمایید ."
+   },
+   "options_guide_switchDefaultStep": {
+      "message": "اگر هیچ گونه شرطی منطبق بر درخواست نباشد ، پروفایل \"پیش فرض\" استفاده خواهد شد .\u003Cbr> شروط همیشه از\u003Cb> بالا به پایین\u003C/b> در نظر گرفته میشوند .\u003Cbr> شما میتوان نظم آن را با گرفتن آیکون نظم (sort) عوض کنید ."
+   },
+   "options_hostLevelsBetween": {
+      "message": "≤ سطوح میزبان ≤"
+   },
+   "options_hourBetween": {
+      "message": "≤ ساعت کنونی ≤"
+   },
+   "options_importDownloadError": {
+      "message": "خطا در حین دانلود فایل پشتیبان !"
+   },
+   "options_importFormatError": {
+      "message": "فایل پشتیبان غیرمعتبر !"
+   },
+   "options_importSuccess": {
+      "message": "تنظیمات با موفقیت فراگیری شدند ."
+   },
+   "options_makeBackup": {
+      "message": "گرفتن پشتیبان"
+   },
+   "options_makeBackupHelp": {
+      "message": "گرفتن پشتیبان کامل از تنظیمات ( شامل پروفایل ها و تمامی تنظیمات )."
+   },
+   "options_menuShortcutConfigure": {
+      "message": "تنظیم میانبر ها"
+   },
+   "options_menuShortcutHelp": {
+      "message": "کلید میانبر برای باز کردن منوی popup . ( پیش فرض  Alt+Shift+O )."
+   },
+   "options_menuShortcutMore": {
+      "message": "با استفاده از دکمه های کیبرد میتوانید به موارد داخل منوی بالاپر (popup) دسترسی داشته باشید . با فشاردادن ؟ ( یا /) میتوانید بیشتر یاد بگیرید ."
+   },
+   "options_modalHeader_applyOptions": {
+      "message": "ثبت تنظیمات"
+   },
+   "options_modalHeader_cannotDeleteProfile": {
+      "message": "عدم موفقیت در حذف پروفایل"
+   },
+   "options_modalHeader_deleteAttached": {
+      "message": "حذف لیست قوانین"
+   },
+   "options_modalHeader_deleteProfile": {
+      "message": "حذف پروفایل"
+   },
+   "options_modalHeader_deleteRule": {
+      "message": "حذف قانون"
+   },
+   "options_modalHeader_newProfile": {
+      "message": "پروفایل جدید"
+   },
+   "options_modalHeader_proxyAuth": {
+      "message": "تصدیق پروکسی"
+   },
+   "options_modalHeader_renameProfile": {
+      "message": "تغییرنام پروفایل"
+   },
+   "options_modalHeader_replaceProfile": {
+      "message": "جایگزینی پروفایل"
+   },
+   "options_modalHeader_resetOptions": {
+      "message": "ریست کردن تنظیمات"
+   },
+   "options_modalHeader_resetRules": {
+      "message": "ریست کردن قوانین"
+   },
+   "options_modalHeader_welcome": {
+      "message": "به SwitchyOmega خوش آمدید"
+   },
+   "options_modifyReferringProfiles": {
+      "message": "قبل از حذف شما باید این پروفایل ها را تغییر دهید و از صدا زدن این پروفایل جلوگیری کنید ."
+   },
+   "options_monitorWebRequests": {
+      "message": "نمایش میزان درخواست های  ناموفق منابع وب در تب کنونی."
+   },
+   "options_monitorWebRequestsHelp": {
+      "message": "یک نشان زرد بر روی آیکون قرارخواهد گرفت اگر در لود شدن منبعی مشکل پیش بیاید ,\u003Cbr> و شما میتوانید به راحتی پروفایل این گونه منابع را در منوی بالاپر(popup) تنظیم کنید ."
+   },
+   "options_navHeader_actions": {
+      "message": "اکشن ها"
+   },
+   "options_navHeader_profiles": {
+      "message": "پروفایل ها"
+   },
+   "options_navHeader_setting": {
+      "message": "تنظیمات"
+   },
+   "options_newProfile": {
+      "message": "پروفایل جدید .…"
+   },
+   "options_newProfileName": {
+      "message": "اسم پروفایل"
+   },
+   "options_notCycledProfiles": {
+      "message": "پروفایل های غیرچرخشی"
+   },
+   "options_optionsNotSaved": {
+      "message": "تغییرات شما بر روی تنظیمات ذخیره نشده است و درصورت ادامه از بین خواهند رفت !"
+   },
+   "options_pacScriptLastUpdate": {
+      "message": "دانلود اسکریپت PAC در تاریخ $TIME$:",
+      "placeholders": {
+         "TIME": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_pacScriptObsolete": {
+      "message": "اسکریپ PAC به دلیل تغییر آدرس منسوخ میباشد . دکمه ی دانلود بالا را برای بروز رسانی فشاردهید ."
+   },
+   "options_pacUrlFile": {
+      "message": "پروفایل های PAC به همراه فایل : آدرس ها تنها میتوانند مستقیما اعمال شوند . به دلیل محدودیت مرورگر فایل های محلی دسترسی قابل دسترسی نمیباشند که سبب میشود که نتوان از آن ها به عنوان نتایج پروفایل استفاده کرد."
+   },
+   "options_pacUrlFileDisabled": {
+      "message": "از اینرو ، شما نمیتوانید از فایل های PAC محلی استفاده نمایید . شما میتوانید یک پروفایل PAC جدید بسازید اگر واقعا نیاز هست ."
+   },
+   "options_pacUrlHelp": {
+      "message": "اسکریپ PAC از این آدرس بروزرسانی میشود . درصورت خالی بودن ، اسکریپت زیر به صورت مستقیم استفاده میشود ."
+   },
+   "options_pac_profile_unsupported_moz": {
+      "message": "PAC Profiles WILL NOT work in Mozilla Firefox due to technical limitations!"
+   },
+   "options_profileDescFixedProfile": {
+      "message": "تونل ترافیک از طریق پروکسی سرور ها."
+   },
+   "options_profileDescMorePacProfile": {
+      "message": "شما در صورتی که یک اسکریپت PAC یا آدرس مرجوعه به آن را دارید نیازمند این میشوید .درصورت عدم آشنایی با PAC تلاش برای ساخت یک نمونه نکنید ."
+   },
+   "options_profileDescPacProfile": {
+      "message": "انتخاب پروکسی ها از طریق اسکریپ PAC آنلاین/محلی ."
+   },
+   "options_profileDescRuleListProfile": {
+      "message": "استفاده ی مجدد از مجموعه ی قوانین آنلاین منتشر شده توسط دیگران ."
+   },
+   "options_profileDescSwitchProfile": {
+      "message": "اعمال پروفایل های مختلف به صورت خودکار بر روی شروط گوناگون از جمله دامنه یا الگو ها .\n شما میتوانید از قوانین منتظر شده ی آنلاین برای جا به جایی راحتر بین پروفایل نیز استفاده کنید ( جایگزین مود AutoSwitch + لیست قوانین .)"
+   },
+   "options_profileDescVirtualProfile": {
+      "message": "یک پروفایل مجازی همانند هرگونه پروفایل دیگر در حین تقاضا عمل میکند . با SwitchProfile خوب عمل میکند ، که این امکان را به شما میدهد که نتایج چندین شرط را با یک کلیک تغییر دهید."
+   },
+   "options_profileDownloadError": {
+      "message": "خطا در حین دانلود داده ی پروفایل !"
+   },
+   "options_profileDownloadError_ContentTypeRejectedError": {
+      "message": "The downloaded data is invalid! You may open the Profile URL in your browser to inspect it."
+   },
+   "options_profileDownloadError_HttpError": {
+      "message": "An HTTP error ($STATUS$) occurred when updating.",
+      "placeholders": {
+         "STATUS": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_profileDownloadError_HttpNotFoundError": {
+      "message": "The Profile URL was not found on the server. Please double-check."
+   },
+   "options_profileDownloadError_HttpServerError": {
+      "message": "The remote server responded with error ($STATUS$) when updating.",
+      "placeholders": {
+         "STATUS": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_profileDownloadError_NetworkError": {
+      "message": "هنگام به‌روز رسانی خطای در شبکه اینترنت رخ داد."
+   },
+   "options_profileDownloadSuccess": {
+      "message": "پروفایل با موفقیت بروزسانی شد ."
+   },
+   "options_profileEditSource": {
+      "message": "ویرایش سورس کد"
+   },
+   "options_profileEditSourceHelp": {
+      "message": "نمایش کمک درباره ی فرمت سورس کد"
+   },
+   "options_profileEditSourceHelpUrl": {
+      "message": "https://github.com/FelisCatus/SwitchyOmega/wiki/SwitchyOmega-conditions-format#result-profile"
+   },
+   "options_profileExportPac": {
+      "message": "خروج PAC"
+   },
+   "options_profileExportRuleList": {
+      "message": "انتشار لیست قوانین"
+   },
+   "options_profileExportRuleListHelp": {
+      "message": "قوانین تغییر را به صورت تکست برای انتشار خروجی بگیر ."
+   },
+   "options_profileNameConflict": {
+      "message": "یک پروفایل با این نام وجود دارد."
+   },
+   "options_profileNameEmpty": {
+      "message": "اسم پروفایل نمیتواند خالی باشد."
+   },
+   "options_profileNameHidden": {
+      "message": "پروفایل هایی که نامشان با دو زیر خط \"_\" شروع میشوند در منوی بالاپر مخفی میباشند . هرجند ، در مکان هایی مانند نتایج پروفایل متغیر ، قابل استفاده اند."
+   },
+   "options_profileNameReserved": {
+      "message": "نام های پروفایل که با دو\"_\"(خط زیر) شروع میشوند رزرو میباشند."
+   },
+   "options_profileNotFound": {
+      "message": "پروفایل $PROFILE$ وجود ندارد ! تنظیمات ممکن است خراب شده باشند .",
+      "placeholders": {
+         "PROFILE": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_profileReferredBy": {
+      "message": "این پروفایل قابل حذف نمیباشد چونکه توسط این پروفایل ها صدا میشود :"
+   },
+   "options_profileSyncDisabled": {
+      "message": "همگام سازی برای این پروفایل غیرفعال میباشد ."
+   },
+   "options_profileSyncDisabled_quotaPerItem": {
+      "message": "همگام سازی برای این پروفایل به دلیل استفاده ی زیاد از فضای حافظه غیرفعال شده است ."
+   },
+   "options_profileTabPrefix": {
+      "message": "پروفایل :: "
+   },
+   "options_profileType": {
+      "message": "لطفا نوع پروفایل را انتخاب نمایید :"
+   },
+   "options_profileTypeFixedProfile": {
+      "message": "پروفایل پروکسی"
+   },
+   "options_profileTypePacProfile": {
+      "message": "پرفایل PAC"
+   },
+   "options_profileTypeRuleListProfile": {
+      "message": "پروفایل لیست پروفایل"
+   },
+   "options_profileTypeSwitchProfile": {
+      "message": "پروفایل متغیر"
+   },
+   "options_profileTypeVirtualProfile": {
+      "message": "پروفایل مجازی"
+   },
+   "options_profileUnsupported": {
+      "message": "نوع $TYPE$! برای پروفایل پشتیبانی نمیشود!",
+      "placeholders": {
+         "TYPE": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_profileUnsupportedHelp": {
+      "message": "این گزینه ممکن است خراب شده باشد ، یا از یک ورژن جدیدی از برنامه باشد ."
+   },
+   "options_protocol_direct": {
+      "message": "مستقیم"
+   },
+   "options_protocol_useDefault": {
+      "message": "(استفاده از پیش فرض)"
+   },
+   "options_proxyAuthHidePassword": {
+      "message": "Hide password"
+   },
+   "options_proxyAuthNone": {
+      "message": "بدون تصدیق"
+   },
+   "options_proxyAuthPassword": {
+      "message": "رمز عبور"
+   },
+   "options_proxyAuthShowPassword": {
+      "message": "Show password"
+   },
+   "options_proxyAuthUsername": {
+      "message": "نام کاربری"
+   },
+   "options_proxy_auth": {
+      "message": "تصدیق"
+   },
+   "options_proxy_authAllWarningPac": {
+      "message": "اخطار : نام کاربری / رمز عبور ممکن است برای سرور های غیرمنتظره توسط اسکریپت PAC بازگشتی فرستاده شود ."
+   },
+   "options_proxy_authAllWarningPacScript": {
+      "message": "قبل از ارسال هرگونه اطلاعات حساس ،لطفا از اعتبار اسکریپ فراهم شده در پایین اطمینان حاصل فرمایید ."
+   },
+   "options_proxy_authAllWarningPacUrl": {
+      "message": "قبل از ارسال هرگونه اطلاعات حساس ، لطفا از اعتبار اسکریپ فراهم شده در ادرس بالا اطمینان حاصل فرمایید ."
+   },
+   "options_proxy_authNotSupported": {
+      "message": "Your browser DOES NOT support $PROTOCOLDISP$ proxy authentication! Please do not report this issue to SwitchyOmega. Contact the support for your browser instead.",
+      "placeholders": {
+         "PROTOCOLDISP": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_proxy_authReferencedWarning": {
+      "message": "در ضمن ، استفاده از این پروفایل در دیگر پروفایل ها ( به طور مثال : پروفایل متغیر ) ممکن است باعث ارسال نام کاربری / رمز به سرور های تعیین شده در دیگر پروفایل ها شود."
+   },
+   "options_proxy_expand": {
+      "message": "نمایش پیشرفته"
+   },
+   "options_proxy_port": {
+      "message": "پورت"
+   },
+   "options_proxy_protocol": {
+      "message": "پروتکل"
+   },
+   "options_proxy_scheme": {
+      "message": "طرح"
+   },
+   "options_proxy_server": {
+      "message": "سرور"
+   },
+   "options_proxy_single": {
+      "message": "استفاده از پروکسی بالا برای همه ی پروتکل ها."
+   },
+   "options_quickSwitch": {
+      "message": "جا به جایی سریع"
+   },
+   "options_refreshOnProfileChange": {
+      "message": "رفرش کردن تب کنونی در هنگام تغییر پروفایل."
+   },
+   "options_renameProfile": {
+      "message": "تغییر نام"
+   },
+   "options_renameProfileName": {
+      "message": "اسم جدید پروفایل"
+   },
+   "options_replaceProfile": {
+      "message": "جایگزینی پروفایل"
+   },
+   "options_replaceProfileConfirm": {
+      "message": "آیا قصد جایگزینی $FromProfile$ را با $ToProfile$ دارید ؟",
+      "placeholders": {
+         "FromProfile": {
+            "content": "$1"
+         },
+         "ToProfile": {
+            "content": "$2"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_replaceProfileHelp": {
+      "message": "در صورت ادامه ، تمامی قوانین مربوط به $FromProfile$ بروز رسانی میشوند تا عضو $ToProfile$ شوند . دیگر تنظیمات ، همانند پروفایل آغازین و تغییر سریع به صورت مناسب تغییر میکنند . هرچند ، این دو پروفایل تغییر یا حذف نمیشوند .",
+      "placeholders": {
+         "FromProfile": {
+            "content": "$1"
+         },
+         "ToProfile": {
+            "content": "$2"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_replaceProfileSuccess": {
+      "message": "تنظیمات بروزرسانی شد."
+   },
+   "options_reset": {
+      "message": "ریست کردن تنظیمات"
+   },
+   "options_resetOptionsConfirm": {
+      "message": "آیا از ریست کردن تنظیمات اطمینان دارید ؟ تمامی پروفایل ها و تنظیمات از بین خواهند رفت !"
+   },
+   "options_resetRules": {
+      "message": "ریست کردن قوانین"
+   },
+   "options_resetRulesConfirm": {
+      "message": "آیا از تغییر دادن نتایج پروفایل تمامی قوانین به پروفایل زیر مطمئن هستید ؟"
+   },
+   "options_resetRules_help": {
+      "message": "تنظیم پورفایل برای تمام کاربران"
+   },
+   "options_resetSuccess": {
+      "message": "تنظیمات ریست شد ."
+   },
+   "options_restoreLocal": {
+      "message": "برگرداندن از فایل"
+   },
+   "options_restoreLocalHelp": {
+      "message": "برگرداندن تنظیمات SwitchyOmega  از یک فایل محلی."
+   },
+   "options_restoreOnline": {
+      "message": "بازگرداندن از فایل آنلاین"
+   },
+   "options_restoreOnlinePlaceholder": {
+      "message": "تنظیمات آدرس فایل ( به طور مثال 'http://example.com/switchy.bak' )"
+   },
+   "options_restoreOnlineSubmit": {
+      "message": "بازگرداندن"
+   },
+   "options_resultProfile": {
+      "message": "پروفایل"
+   },
+   "options_resultProfileForSelectedDomains": {
+      "message": "از این پروفایل برای تمامی دامنه های منتخب استفاده کن"
+   },
+   "options_revertProxyChanges": {
+      "message": "بازگرداندن تغییرات پروکسی انجام شده توسط دیگر برنامه ها."
+   },
+   "options_ruleListDefaultProfile": {
+      "message": "پروفایل پیش فرض"
+   },
+   "options_ruleListFormat": {
+      "message": "فرمت لیست قوانین"
+   },
+   "options_ruleListLastUpdate": {
+      "message": "تاریخ دانلود لیست قوانین  $TIME$:",
+      "placeholders": {
+         "TIME": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_ruleListLineCount": {
+      "message": "قوانین : $COUNT$ خط",
+      "placeholders": {
+         "COUNT": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_ruleListMatchProfile": {
+      "message": "انطباق پروفایل"
+   },
+   "options_ruleListObsolete": {
+      "message": "لیست قوانین به دلیل تغییر آدرس منسوخ میباشد . دکمه ی دانلود بالا را برای بروز رسانی فشاردهید ."
+   },
+   "options_ruleListUrlHelp": {
+      "message": "لیست قوانین از این آدرس به روز رسانی میشود ، در صورت خالی بودن ، متن بعدی پردازش میشود."
+   },
+   "options_ruleNote": {
+      "message": "Note"
+   },
+   "options_saveSuccess": {
+      "message": "تنظیمات ذخیره شد ."
+   },
+   "options_scheme_default": {
+      "message": "(پیش فرض)"
+   },
+   "options_showConditionTypeHelp": {
+      "message": "نمایش کمک"
+   },
+   "options_showConditionTypesAdvanced": {
+      "message": "نمایش حالت های پیشرفته ی شروط"
+   },
+   "options_showConditionTypesAdvancedHelp": {
+      "message": "نوع های جدید پیشرفته اما پیچیده تر از شرط ها را فعال کنید .برای بیشتر حالات نوع های عادی کافی میباشد ، این گزینه پیشنهاد نمیشود ."
+   },
+   "options_showExternalProfile": {
+      "message": "Show popup menu item to import proxy settings from other apps."
+   },
+   "options_showExternalProfileHelp": {
+      "message": "When $SYSTEMPROFILE$ is selected, you can import the effective proxy settings from other apps by selecting $EXTERNALPROFILE$ on the popup menu. The settings will be imported as a profile using the name you provide. Please note that the imported profile is a snapshot and will not reflect any changes from the source app thereafter.",
+      "placeholders": {
+         "EXTERNALPROFILE": {
+            "content": "$2"
+         },
+         "SYSTEMPROFILE": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_showInspectMenu": {
+      "message": "مجوز برای بررسی پروکسی مورد استفاده برای یک المان صفحه در منوی زمنیه (context menu)."
+   },
+   "options_sort": {
+      "message": "ترتیب"
+   },
+   "options_startupProfile": {
+      "message": "پروفایل شروع برنامه"
+   },
+   "options_startupProfile_none": {
+      "message": "(پروفایل کنونی)"
+   },
+   "options_switchAttachedProfileInCondition": {
+      "message": "قوانین لیست قوانین"
+   },
+   "options_switchAttachedProfileInConditionDetails": {
+      "message": "( هرگونه درخواست منطبق بر لیست پایین )"
+   },
+   "options_switchAttachedProfileInConditionDisabled": {
+      "message": "( قوانین لیست قوانین غیرفعالند )"
+   },
+   "options_switchDefaultProfile": {
+      "message": "پیش فرض"
+   },
+   "options_syncConflictAlert": {
+      "message": "شما یک کپی از تنظیمات خود را در یک دستگاه دیگر با استفاده از همگام سازی فراهم ساختید ."
+   },
+   "options_syncConflictHelp": {
+      "message": "شما میتوانید کپی موجود در دیگر دستگاه خود را در اینجا دانلود کنید .\u003Cbr>هرچند این عمل باعث میشود \u003Cb> تنظیمات این دستگاه پاک و تنظیمات آن یکی پروفایل مورد استفاده قرار گیرد \u003C/b>."
+   },
+   "options_syncDisable": {
+      "message": "غیرفعال کردن همگام سازی"
+   },
+   "options_syncEnable": {
+      "message": "فعال سازی همگام سازی"
+   },
+   "options_syncEnableForce": {
+      "message": "دانلود از همگام سازی"
+   },
+   "options_syncPristineHelp": {
+      "message": "شما اکنون میتوانید به صورت خودکار تمامی تنظیمات و پروفایل های خود را بین تمامی دستگاه های خانگی که از مرورگر کروم استفاده میکنند همگام سازی کنید ."
+   },
+   "options_syncReset": {
+      "message": "پاک کردن کپی ریموت"
+   },
+   "options_syncSyncAlert": {
+      "message": "تنظیمات شما به صورت خودکار بین دیگر دستگاه های خود همگام سازی میشوند ."
+   },
+   "options_syncSyncHelp": {
+      "message": "لطفا توجه داشته باشید که برای کارکردن همگام سازی باید در مرورگرهای کروم خود وارد شده باشید (همین دستگاه راهم شامل میشود ).\u003Cbr>میتوانید این قسمت را در دیگر دستگاه ها بررسی کنید تا مطمئن شوید که کار میکند ."
+   },
+   "options_syncUnsupportedHelp": {
+      "message": "همگام سازی تنظیمات بر روی پلتفورم یا مرورگر پشتیبانی نمیشود . تا کنون  ،تنها مرورگر کروم خانگی پشتیبانی میشود."
+   },
+   "options_tab_general": {
+      "message": "عمومی"
+   },
+   "options_tab_importExport": {
+      "message": "واردکردن/خروجی گرفتن"
+   },
+   "options_tab_ui": {
+      "message": "رابط"
+   },
+   "options_title": {
+      "message": "تنظیمات SwitchyOmega"
+   },
+   "options_virtualProfileReplace": {
+      "message": "پروفایل هدف را جایگزین کنید"
+   },
+   "options_virtualProfileReplaceHelp": {
+      "message": "شما میتوانید با مهاجرت دادن تنظیمات موجود از پروفایل مجازی  بجای $PROFILE$ استفاده کنید . این عمل تمامی قوانین موجود در $PROFILE$ را بروزرسانی میکند و آن ها را ارجاع به پروفایل مجازی میدهد ، که این کارباعث میشود نتایج پروفایل را بتوان در این جا کنترل کرد.",
+      "placeholders": {
+         "PROFILE": {
+            "content": "$2"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_virtualProfileTarget": {
+      "message": "هدف"
+   },
+   "options_virtualProfileTargetHelp": {
+      "message": "در هنگام اعمال این پروفایل ، دقیقا همانند پروفایل انتخاب شده ی پایینی عمل میکند ."
+   },
+   "options_weekDayShort_0": {
+      "message": "Su"
+   },
+   "options_weekDayShort_1": {
+      "message": "Mo"
+   },
+   "options_weekDayShort_2": {
+      "message": "Tu"
+   },
+   "options_weekDayShort_3": {
+      "message": "We"
+   },
+   "options_weekDayShort_4": {
+      "message": "Th"
+   },
+   "options_weekDayShort_5": {
+      "message": "Fr"
+   },
+   "options_weekDayShort_6": {
+      "message": "Sa"
+   },
+   "options_welcomeNormal": {
+      "message": "شما با موفقیت SwitchyOmega را نصب نموده اید ، برترین تغییر دهنده ی پروکسی."
+   },
+   "options_welcomeNormalGuide": {
+      "message": "لطفا به SwitchyOmega از طریق صفجه ی تنظیمات ، پروکسی های خود را معرفی کنید ."
+   },
+   "options_welcomeUpgrade": {
+      "message": "شما با موفقیت به SwitchyOmega ارتقا پیدا کرده اید ، نگران نباشید ، تمامی تنظیمات شما به طور کامل حفظ شده اند ."
+   },
+   "options_welcomeUpgradeGuide": {
+      "message": "خب بریم سراغ آموزش کوچیکی از صفحه ی تنظیمات جدید."
+   },
+   "popup_addCondition": {
+      "message": "افزودن شرط"
+   },
+   "popup_addConditionTo": {
+      "message": "افزودن شرط به"
+   },
+   "popup_configureMonitorWebRequests": {
+      "message": "تنظیم مانیتور شبکه"
+   },
+   "popup_errorLog": {
+      "message": "ذخیره لاگ خطا"
+   },
+   "popup_externalProfile": {
+      "message": "(پروفایل خارجی)"
+   },
+   "popup_externalProfileName": {
+      "message": "نام پروفایل"
+   },
+   "popup_issueTemplate": {
+      "message": "\n\n\n\u003C!-- لطفا توضیحات خود را در بالای این خط بنویسید. -->\nSwitchyOmega $projectVersion$↵\n$userAgent$",
+      "placeholders": {
+         "_unused_0": {
+            "content": "$0"
+         },
+         "projectVersion": {
+            "content": "$1"
+         },
+         "userAgent": {
+            "content": "$2"
+         }
+      }
+   },
+   "popup_proxyNotControllableDetails": {
+      "message": "شما نمیتوانید پروفایل ها را توسط SwitchyOmega عوض نمایید ، مگر اینکه مشکلات بالا را حل نمایید ."
+   },
+   "popup_proxyNotControllableDetails_upgrade": {
+      "message": "شما نمیتوانید از دو (یا چند) ورژن SwitchyOmega به طور همزمان استفاده کنید . لطفا یکی از آن ها را غیرفعال کنید ."
+   },
+   "popup_proxyNotControllableManage": {
+      "message": "میدیریت افزونه"
+   },
+   "popup_proxyNotControllable_app": {
+      "message": "تنظیمات پروکسی توسط دیگر برنامه (ها) یا افزونه (ها) میدیریت میشوند . لطفا یا آن ها را غیرفعال کرده یا برنامه یا افزونه ی مشکل ساز را حذف نمایید ."
+   },
+   "popup_proxyNotControllable_disabled": {
+      "message": "تنظیمات پروکسی بخاطر درخواست مستقیم دیگر برنامه (ها) یا افزونه (ها) غیرفعال شده است ."
+   },
+   "popup_proxyNotControllable_policy": {
+      "message": "تنظیمات پروکسی توسط policy ها سیستم کنترل میشوند . لطفا با آدمین تماس بگیرید ."
+   },
+   "popup_proxyNotControllable_unknown": {
+      "message": "تنظیمات پروکسی قابل کنترل نیست . لطفا تنظیمات سیستم یا مرورگر را بررسی کنید."
+   },
+   "popup_proxyNotControllable_upgrade": {
+      "message": "تنظیمات پروکسی توسط ورژن جدیدی از SwitchyOmega کنترل میشود ."
+   },
+   "popup_reportIssues": {
+      "message": "گزارش مشکلات"
+   },
+   "popup_requestErrorAddCondition": {
+      "message": "شما میتوانید دامین های زیر را بررسی کنید و در صورت نیاز از پروکسی برای آن ها استفاده نمایید ."
+   },
+   "popup_requestErrorCannotAddCondition": {
+      "message": "شما در صورتی میتوانید شرط متغییر ( سوییچ) برای آن ها تعیین کنید که از پروفایل متغییر استفاده کرده باشید ."
+   },
+   "popup_requestErrorCount": {
+      "message": "$COUNT$ خطای منبع",
+      "placeholders": {
+         "COUNT": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "popup_requestErrorHeading": {
+      "message": "عدم موفقیت در بارگزاری منابع"
+   },
+   "popup_requestErrorWarning": {
+      "message": "بارگزاری تعدا کمی از منابع بخاطر مشکلات شبکه ، سرور پروکسی یا صفحه ی وب به مشکل برخورد ."
+   },
+   "popup_requestErrorWarningHelp": {
+      "message": "SwitchyOmega تنها گزارش دهنده این خطاها میباشد ، نه ایجاد کننده ی آن ها ."
+   },
+   "popup_showOptions": {
+      "message": "تنظیمات"
+   },
+   "popup_title": {
+      "message": "بالاپر SwitchyOmega"
+   },
+   "profile_direct": {
+      "message": "[مستقیم]"
+   },
+   "profile_system": {
+      "message": "[پروکسی سیستم]"
+   },
+   "ruleListFormat_AutoProxy": {
+      "message": "پروکسی خودکار"
+   },
+   "ruleListFormat_Switchy": {
+      "message": "Switchy"
+   },
+   "ruleList_error_invalidRule": {
+      "message": "قانون نامعتبر در خط $LNO$: $SOURCE$",
+      "placeholders": {
+         "LNO": {
+            "content": "$1"
+         },
+         "SOURCE": {
+            "content": "$2"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "ruleList_error_missingResultProfile": {
+      "message": "نام نتیجه ی پروفایل در خط $LNO$: $SOURCE$ غایب است",
+      "placeholders": {
+         "LNO": {
+            "content": "$1"
+         },
+         "SOURCE": {
+            "content": "$2"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "ruleList_error_noDefaultRule": {
+      "message": "قانون پیش فرض با شرط انتخاب همه '*' غایب است !"
+   },
+   "ruleList_error_resultNotEnabled": {
+      "message": "دستور '@with result' غایب است!"
+   },
+   "ruleList_error_unknownProfile": {
+      "message": "پروفایل ناشناس : $PROFILE$",
+      "placeholders": {
+         "PROFILE": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "ruleList_usageUrl": {
+      "message": "https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage"
+   },
+   "upgrade_profile_auto": {
+      "message": "سوییچ خودکار"
+   }
+}

@@ -1,0 +1,134 @@
+/*表单元素*/
+.jlzs-cpn-checkbox input,
+.jlzs-cpn-radio input {
+    display: none;
+    outline: medium none !important;
+}
+.jlzs-cpn-radio,
+.jlzs-cpn-checkbox {
+  cursor: pointer !important;
+  font-size: 14px !important;
+  text-align: left !important;
+  display: inline-block !important;
+}
+.jlzs-cpn-checkbox .jlzs-cpn-icons,
+.jlzs-cpn-radio .jlzs-cpn-icons {
+  border: 1px solid #DDD !important;
+  vertical-align: -3px !important;
+    width: 16px !important;
+    height: 16px !important;
+    background: #FFF !important;
+    display: inline-block !important;
+    margin-right: 3px !important;
+    border-radius: 2px !important;
+    line-height: normal !important;
+    position: relative !important;
+}
+.jlzs-cpn-radio .jlzs-cpn-icons {
+  border-radius: 50% !important;
+}
+.jlzs-cpn-checkbox:hover,
+.jlzs-cpn-radio:hover,
+.jlzs-cpn-radio.jlzs-cpn-checked,
+.jlzs-cpn-checkbox.jlzs-cpn-checked {
+  color: #7BCAD6 !important;
+}
+.jlzs-cpn-checkbox:hover .jlzs-cpn-icons,
+.jlzs-cpn-radio:hover .jlzs-cpn-icons {
+  border-color: #7BCAD6 !important;
+}
+.jlzs-cpn-radio.jlzs-cpn-checked .jlzs-cpn-icons {
+  border-color: #7BCAD6 !important;
+}
+.jlzs-cpn-checkbox .jlzs-cpn-icons {
+  background: #FFF !important;
+  color: #FFF !important;
+  text-align: left !important;
+}
+.jlzs-cpn-checkbox .jlzs-cpn-icons:before {
+    font-size: 12px !important;
+    position: absolute !important;
+}
+.jlzs-cpn-checkbox.jlzs-cpn-checked .jlzs-cpn-icons {
+  border-color: #FFF !important;
+}
+.jlzs-cpn-radio.jlzs-cpn-checked .jlzs-cpn-icons:before {
+  border-radius: 50% !important;
+  background: #7BCAD6 !important;
+  width: 8px !important;
+  height: 8px !important;
+  display: inline-block;
+  vertical-align: middle !important;
+  content: "" !important;
+  position: absolute !important;
+  left: 3px !important;
+  top: 3px !important;
+}
+.jlzs-cpn-checkbox.jlzs-cpn-checked .jlzs-cpn-icons:before {
+  content: "\e034" !important;
+  color: #7BCAD6 !important;
+  font-size: 16px !important;
+  margin-top: -1px !important;
+  margin-left: -1px !important;
+}
+.jlzs-cpn-checkbox.jlzs-cpn-disabled .jlzs-cpn-icons,
+.jlzs-cpn-radio.jlzs-cpn-disabled .jlzs-cpn-icons {
+  border-color: #f0f0f0 !important;
+  background: #f0f0f0 !important;
+  color: #f0f0f0 !important;
+}
+.jlzs-cpn-checkbox.jlzs-cpn-disabled:hover,
+.jlzs-cpn-radio.jlzs-cpn-disabled:hover,
+.jlzs-cpn-checkbox.jlzs-cpn-disabled,
+.jlzs-cpn-radio.jlzs-cpn-disabled {
+  color: #ccc !important;
+  cursor: no-drop !important;
+}
+/*大*/
+.jlzs-cpn-label-lg {
+  font-size: 16px !important;
+}
+.jlzs-cpn-checkbox.jlzs-cpn-label-lg .jlzs-cpn-icons,
+.radio.label-lg .icons {
+  width: 16px !important;
+  height: 16px !important;
+}
+.jlzs-cpn-checkbox.jlzs-cpn-label-lg .jlzs-cpn-icons:before {
+  font-size: 18px !important;
+}
+.jlzs-cpn-label-lg.jlzs-cpn-checked .jlzs-cpn-icons:before {
+  width: 10px !important;
+  height: 10px !important;
+}
+/*小*/
+.jlzs-cpn-label-sm {
+  font-size: 12px !important;
+}
+.jlzs-cpn-checkbox.jlzs-cpn-label-sm .jlzs-cpn-icons,
+.radio.label-sm .icons {
+  width: 12px !important;
+  height: 12px !important;
+}
+.jlzs-cpn-checkbox.jlzs-cpn-label-sm .jlzs-cpn-icons:before {
+  font-size: 12px !important;
+}
+.jlzs-cpn-label-sm.jlzs-cpn-checked .jlzs-cpn-icons:before {
+  width: 6px !important;
+  height: 6px !important;
+}
+.jlzs-cpn-checked .icon-nchrome-right {
+    background: #7BCAD6 !important;
+    border-radius: 5px !important;
+    margin-right: 3px !important;
+    font-size: 12px !important;
+    width: 16px !important;
+    height: 16px !important;
+    color: #fff !important;
+    display: inline-flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 3px !important;
+}
+.jlzs-correct-checkbox {
+  height: 21px;
+}

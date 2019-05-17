@@ -1,0 +1,37 @@
+{
+   "background": {
+      "page": "bg.html"
+   },
+   "browser_action": {
+      "default_icon": "icons/abp-128.png",
+      "default_popup": "popup.html",
+      "default_title": "__MSG_name__"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "include.preload.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "include.postload.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "zh_CN",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "icons/abp-128.png",
+      "48": "icons/abp-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCXs/FQ1PY7qJHKDuedHYFvrzRe8mjAmefJMaSKeC2zp3NXqn8BfQOrFBCmib8EzMYBIBdgQLOkeY721rGFvkZp91b1TJvBiOXv0HdtpJ+ULoz+6Av/VbM2hmOi1XSWrkUN0MGRHv7crBS57nXg9VBxWAK9D/hpvFN7sx02Sl6HuwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "18.0",
+   "name": "__MSG_name__",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "http://*/*", "https://*/*", "contextMenus", "webRequest", "webRequestBlocking", "webNavigation", "unlimitedStorage", "notifications" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.2.9",
+   "web_accessible_resources": [ "block.html" ]
+}

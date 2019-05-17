@@ -1,0 +1,140 @@
+{
+   "add_site_to_list": {
+      "message": "将网站添加到列表"
+   },
+   "brightness": {
+      "message": "亮度"
+   },
+   "change_browser_theme": {
+      "message": "更改浏览器主题"
+   },
+   "contrast": {
+      "message": "对比度"
+   },
+   "custom_browser_theme_off": {
+      "message": "默认"
+   },
+   "custom_browser_theme_on": {
+      "message": "自定义"
+   },
+   "dark": {
+      "message": "黑暗"
+   },
+   "donate": {
+      "message": "捐赠"
+   },
+   "engine_dynamic": {
+      "message": "动态"
+   },
+   "engine_filter": {
+      "message": "过滤"
+   },
+   "engine_filter_plus": {
+      "message": "过滤+"
+   },
+   "engine_static": {
+      "message": "静态"
+   },
+   "extension_description": {
+      "message": "黑色主题，适用于任何网站。关爱眼睛，就使用Dark Reader进行夜间和日间浏览。"
+   },
+   "filter": {
+      "message": "滤镜"
+   },
+   "grayscale": {
+      "message": "灰度"
+   },
+   "help": {
+      "message": "帮助"
+   },
+   "invert_listed_only": {
+      "message": "反色列表"
+   },
+   "light": {
+      "message": "明亮"
+   },
+   "loading_please_wait": {
+      "message": "加载中，请稍候"
+   },
+   "mode": {
+      "message": "模式"
+   },
+   "more": {
+      "message": "更多"
+   },
+   "news": {
+      "message": "新闻"
+   },
+   "not_invert_listed": {
+      "message": "不反色列表"
+   },
+   "off": {
+      "message": "关闭"
+   },
+   "on": {
+      "message": "打开"
+   },
+   "only_for": {
+      "message": "仅适用于"
+   },
+   "only_for_description": {
+      "message": "仅将设置应用于当前网站"
+   },
+   "open_dev_tools": {
+      "message": "开发者工具"
+   },
+   "page_in_dark_list": {
+      "message": "此网站位于全球\n黑暗列表中"
+   },
+   "page_protected": {
+      "message": "此页面受\n浏览器保护"
+   },
+   "privacy": {
+      "message": "隐私政策"
+   },
+   "read_more": {
+      "message": "阅读更多"
+   },
+   "select_font": {
+      "message": "选择字体"
+   },
+   "sepia": {
+      "message": "棕褐色滤镜"
+   },
+   "set_active_hours": {
+      "message": "设置使用时段"
+   },
+   "setup_add_site_hotkey": {
+      "message": "设置添加网站的快捷键"
+   },
+   "setup_hotkey_toggle_extension": {
+      "message": "设置扩展的\n开关快捷键"
+   },
+   "setup_hotkey_toggle_site": {
+      "message": "设置当前网站的\n切换快捷键"
+   },
+   "site_list": {
+      "message": "网站列表"
+   },
+   "store_listing": {
+      "message": "这是一个护眼扩展程序，通过实时生成黑色主题，为每一个网站启用夜间模式。 Dark Reader反转明亮的颜色，使其网页内容具有高对比度并且在易于夜间阅读。\n\n您可以调整亮度，对比度，应用棕褐色滤镜，黑暗模式，设置字体和忽略的网站列表。\n\nDark Reader无广告，也不会在任何地方发送用户的数据。它完全开源 https://github.com/darkreader/darkreader\n\n安装前请禁用类似的扩展。冲浪愉快！"
+   },
+   "text_stroke": {
+      "message": "文字描边"
+   },
+   "theme_generation_mode": {
+      "message": "主题生成模式"
+   },
+   "time_settings": {
+      "message": "时间设置"
+   },
+   "toggle_current_site": {
+      "message": "切换当前网站"
+   },
+   "toggle_extension": {
+      "message": "开关扩展"
+   },
+   "try_experimental_theme_engines": {
+      "message": "试用**实验**主题引擎：\n**滤镜+**保留颜色饱和度，使用GPU\n**静态主题**生成一个简单的快速主题\n**动态主题**分析颜色和图像"
+   }
+}

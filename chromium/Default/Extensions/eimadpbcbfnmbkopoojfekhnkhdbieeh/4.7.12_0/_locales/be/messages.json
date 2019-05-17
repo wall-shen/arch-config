@@ -1,0 +1,140 @@
+{
+   "add_site_to_list": {
+      "message": "Дадаць сайт у спіс"
+   },
+   "brightness": {
+      "message": "Яркасць"
+   },
+   "change_browser_theme": {
+      "message": "Змяніць тэму браўзэра"
+   },
+   "contrast": {
+      "message": "Кантраснасць"
+   },
+   "custom_browser_theme_off": {
+      "message": "Агаданая"
+   },
+   "custom_browser_theme_on": {
+      "message": "Асаблiвая"
+   },
+   "dark": {
+      "message": "Цёмны"
+   },
+   "donate": {
+      "message": "Падтрымка"
+   },
+   "engine_dynamic": {
+      "message": "Дынам."
+   },
+   "engine_filter": {
+      "message": "Фільтр"
+   },
+   "engine_filter_plus": {
+      "message": "Фільтр+"
+   },
+   "engine_static": {
+      "message": "Стат."
+   },
+   "extension_description": {
+      "message": "Цёмная Тэма для кожнага сайта. Беражыце свае вочы, карыстайцеся Дарк Рыдарам для начнога ці штодзённага прагляду вэб-старонак."
+   },
+   "filter": {
+      "message": "Фільтр"
+   },
+   "grayscale": {
+      "message": "Адценні шэрага"
+   },
+   "help": {
+      "message": "Даведка"
+   },
+   "invert_listed_only": {
+      "message": "Інверт. толькі гэтыя"
+   },
+   "light": {
+      "message": "Светлы"
+   },
+   "loading_please_wait": {
+      "message": "Ідзе загрузка, пачакайце"
+   },
+   "mode": {
+      "message": "Рэжым"
+   },
+   "more": {
+      "message": "Яшчэ"
+   },
+   "news": {
+      "message": "Навіны"
+   },
+   "not_invert_listed": {
+      "message": "Ня інвертаваць"
+   },
+   "off": {
+      "message": "Выкл."
+   },
+   "on": {
+      "message": "Укл."
+   },
+   "only_for": {
+      "message": "Толькі для"
+   },
+   "only_for_description": {
+      "message": "Прымяніць налады толькі да гэтага сайта"
+   },
+   "open_dev_tools": {
+      "message": "Прылады"
+   },
+   "page_in_dark_list": {
+      "message": "Гэтая старонка ў глаб.\nспісе Цёмных Сайтаў"
+   },
+   "page_protected": {
+      "message": "Гэтая старонка ахоўваецца\nбраўзэрам"
+   },
+   "privacy": {
+      "message": "Пагад."
+   },
+   "read_more": {
+      "message": "Чытаць яшчэ"
+   },
+   "select_font": {
+      "message": "Выберыце шрыфт"
+   },
+   "sepia": {
+      "message": "Сэпія"
+   },
+   "set_active_hours": {
+      "message": "Усталюйце перыяд актыўнасці"
+   },
+   "setup_add_site_hotkey": {
+      "message": "Уст. спалуч. клавіш для даб. сайта ў спіс"
+   },
+   "setup_hotkey_toggle_extension": {
+      "message": "Уст. спалучэнне\nклавіш"
+   },
+   "setup_hotkey_toggle_site": {
+      "message": "Усталюйце спалучэнне\nклавіш"
+   },
+   "site_list": {
+      "message": "Спіс"
+   },
+   "store_listing": {
+      "message": "Гэта пашырэнне пераводзіць браўзэр у начны рэжым. Дарк Рыдар замяняе светлы фон цёмным, што зніжае стомленасць вачэй пры доўгай працы за кампутарам альбо пры праглядзе вэб-старонак ноччу.\n\nМаецца магчымасць наладжваць яркасць, кантраснасць, шрыфт, рэжым інверсіі, рэжым накладання жоўтага фільтра (сэпія).\n\nDark Reader ня ўбудоўвае рэкламу і не збірае дадзеныя карыстальніка, увесь зыходны код адкрыты https://github.com/darkreader/darkreader\n\nПерад усталёўкай адключыце падобныя пашырэнні. Прыемнага прагляду!"
+   },
+   "text_stroke": {
+      "message": "Абводка тэксту"
+   },
+   "theme_generation_mode": {
+      "message": "Рэжым генерацыi тэмы"
+   },
+   "time_settings": {
+      "message": "Налады часу"
+   },
+   "toggle_current_site": {
+      "message": "Пераключыць гэты сайт"
+   },
+   "toggle_extension": {
+      "message": "Укл/выкл Дарк Рыдар"
+   },
+   "try_experimental_theme_engines": {
+      "message": "Апрабуйце **эксперыментальныя** рэжымы:\n**Фільтр+** зах. яркасць колераў, выкарыстоўвае GPU\n**Статычны рэжым** стварае простую тэму\n**Дынамічны** аналізуе колеры і карцінкі"
+   }
+}

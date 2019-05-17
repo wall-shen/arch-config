@@ -1,0 +1,33 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "/start/external/jquery-2.1.1.min.js", "/start/search/search-engines.js", "/start/chrome/settings.js", "/start/common/prefs-sys.js", "/start/chrome/utils.js", "/start/chrome/common.js", "/start/chrome/setup.js", "/start/chrome/analytics.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "start/skin/icons/128.png",
+         "16": "start/skin/icons/16.png",
+         "48": "start/skin/icons/48.png"
+      }
+   },
+   "chrome_url_overrides": {
+      "newtab": "/start/index.html"
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.google-analytics.com https://www.google.com; object-src https://www.google-analytics.com https://www.google.com 'self'",
+   "default_locale": "en",
+   "description": "__MSG_extDesc__",
+   "icons": {
+      "128": "start/skin/icons/128.png",
+      "16": "start/skin/icons/16.png",
+      "48": "start/skin/icons/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkzmTeOvo145JhQyHr6ojAYjLUe9PAL/71zurZBP+7S5l0TlXCi5qThCrMSlU1OlCXLbK1Eu8VccJctDJYeUjDF56LbjSaovlz3c2CQfYCTfhR6HMlzWQddIHLPRNs86+ESkDFS2ZJ4YDAz9OSfO6rQ0p2+MydmUuyIc0/WTFcr7tsLMkczCIFiJKJUoJ0iHmiDzts8Pv60Uct+QWN7Bn2j19fMW33ppdjpH2KrTKk33AHEM+2TDWM7HhWZEkMrhSXKBXjQCxulZ80850Ju7j/wq5ZR8mmIZHXGd2QLwzZd2qbZ5bww50TObeKQE1XQA8dxcatLMObG1wNJstBJ7IqQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "offline_enabled": true,
+   "optional_permissions": [ "bookmarks" ],
+   "permissions": [ "http://*.freeaddon.com/*", "https://*.freeaddon.com/*", "http://*.sportifytab.com/*", "https://*.sportifytab.com/*", "http://*.yaytab.com/*", "https://*.yaytab.com/*", "http://*.live-tab.com/*", "https://*.live-tab.com/*", "http://*.freeaddon-wall.com/*", "https://*.freeaddon-wall.com/*", "https://*.google.com/*", "tabs", "storage", "unlimitedStorage", "topSites", "cookies", "contextMenus", "notifications", "management" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.8.7",
+   "web_accessible_resources": [ "*" ]
+}

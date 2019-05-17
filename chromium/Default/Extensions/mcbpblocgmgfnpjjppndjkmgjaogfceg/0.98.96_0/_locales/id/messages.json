@@ -1,0 +1,272 @@
+{
+   "action_about": {
+      "message": "Tentang..."
+   },
+   "action_api": {
+      "message": "FireShot API"
+   },
+   "action_capture_browser": {
+      "message": "Tangkap jendela browser dan"
+   },
+   "action_capture_entire": {
+      "message": "Tangkap seluruh halam dan"
+   },
+   "action_capture_entire_lite": {
+      "message": "Tangkap seluruh halaman"
+   },
+   "action_capture_selection": {
+      "message": "Tangkap pilihan/elemen dan"
+   },
+   "action_capture_selection_lite": {
+      "message": "Tangkap yang dipilih"
+   },
+   "action_capture_tabs": {
+      "message": "Tangkap semua tab dan"
+   },
+   "action_capture_visible": {
+      "message": "Tangkap bagian yang terlihat dan"
+   },
+   "action_capture_visible_lite": {
+      "message": "Tangkap bagian yang terlihat"
+   },
+   "action_copy": {
+      "message": "Salin ke clipboard"
+   },
+   "action_edit": {
+      "message": "Ubah"
+   },
+   "action_email": {
+      "message": "Surel"
+   },
+   "action_enter_license": {
+      "message": "Masukkan informasi lisensi"
+   },
+   "action_external": {
+      "message": "Buka di pengubah pihak lain"
+   },
+   "action_install_native": {
+      "message": "Coba fitur termutakhir"
+   },
+   "action_license_info": {
+      "message": "Informasi Lisensi..."
+   },
+   "action_micsellaneous": {
+      "message": "Serba-serbi"
+   },
+   "action_onenote": {
+      "message": "Kirim ke OneNote"
+   },
+   "action_open_clipboard": {
+      "message": "Buka dari clipboard"
+   },
+   "action_open_file": {
+      "message": "Buka berkas"
+   },
+   "action_options": {
+      "message": "Pilihan"
+   },
+   "action_print": {
+      "message": "Cetak"
+   },
+   "action_register": {
+      "message": "Daftar"
+   },
+   "action_resume": {
+      "message": "Kembali mengubah"
+   },
+   "action_save": {
+      "message": "Simpan"
+   },
+   "action_save_pdf": {
+      "message": "Simpan sebagai PDF"
+   },
+   "action_save_pdf_single": {
+      "message": "Simpan sebagai PDF tunggal"
+   },
+   "action_support": {
+      "message": "Dukungan"
+   },
+   "action_switch_pro": {
+      "message": "Ganti ke Pro"
+   },
+   "action_switch_pro_tabs": {
+      "message": "Aktifkan fitur-fitur Pro untuk melanjutkan..."
+   },
+   "action_upload": {
+      "message": "Unggah"
+   },
+   "action_view_demo": {
+      "message": "Lihat demo"
+   },
+   "application_description": {
+      "message": "Ambil SEMUA tangkap layar halaman web. Tangkap, ubah, dan simpan ini ke PDF/JPEG/GIF/PNG, unggah, cetak, kirim ke OneNote, clipboard, atau surel."
+   },
+   "application_title": {
+      "message": "Ambil Tangkap Layar Halaman Web Secara Seluruh - FireShot"
+   },
+   "captured_buy_pro_button": {
+      "message": "Beli Pro"
+   },
+   "captured_copy_clipboard": {
+      "message": "Salin ke clipboard"
+   },
+   "captured_copy_clipboard_learn_button": {
+      "message": "Pelajari bagaimana..."
+   },
+   "captured_get_free_button": {
+      "message": "Coba ini Gratis"
+   },
+   "captured_print": {
+      "message": "Cetak"
+   },
+   "captured_print_button": {
+      "message": "Cetak"
+   },
+   "captured_recommend_us": {
+      "message": "FireShot Rekomendasi"
+   },
+   "captured_save_as_image": {
+      "message": "Simpan sebagai Gambar"
+   },
+   "captured_save_as_image_button": {
+      "message": "Simpan sebagai Gambar"
+   },
+   "captured_save_as_pdf": {
+      "message": "Simpan ke PDF"
+   },
+   "captured_save_panel_title": {
+      "message": "Simpan Tangkap Layar"
+   },
+   "captured_saving_options": {
+      "message": "Sesuaikan ini"
+   },
+   "captured_setup_hotkeys": {
+      "message": "Siapkan tombol cepat dan pengaturan berkas..."
+   },
+   "captured_upgrade_link_1": {
+      "message": "Tangkap, Bubuhi, Cetak dan Simpan lebih baik, Ubah, Unggah, kirim ke Surel/OneNote, atau Ekspor ke program lain."
+   },
+   "captured_upgrade_link_2": {
+      "message": "Tingkatkan ke FireShot Pro"
+   },
+   "captured_upgrade_link_3": {
+      "message": "Saya telah menggunakan versi lain dari FireShot"
+   },
+   "captured_upgrade_link_4": {
+      "message": "Dapatkah saya kembali?"
+   },
+   "enable_checkbox": {
+      "message": "Memungkinkan"
+   },
+   "options_button_apply": {
+      "message": "Menerapkan"
+   },
+   "options_button_save_close": {
+      "message": "Simpan dan Tutup"
+   },
+   "options_button_setup": {
+      "message": "Klik untuk menyiapkan"
+   },
+   "options_label_and": {
+      "message": "dan"
+   },
+   "options_label_capturing": {
+      "message": "Menangkap"
+   },
+   "options_label_close_tab_after_saving": {
+      "message": "Tutup tab setelah menyimpan"
+   },
+   "options_label_customize_saving": {
+      "message": "Menyesuaikan proses penyimpanan"
+   },
+   "options_label_default_filename_template": {
+      "message": "Templat berkas nama standar:"
+   },
+   "options_label_default_folder": {
+      "message": "Folder keluaran standar"
+   },
+   "options_label_default_folder_hint": {
+      "message": "Jalur berkas relatif ke direktori Unduhan untuk berisi berkas yang disimpan, mungkin berisi subdirektori. Jalur absolut, jalur kosong, dan jalur yang berisi referensi balik «..» akan menyebabkan kesalahan."
+   },
+   "options_label_editor_options": {
+      "message": "Pilihan-pilihan Pengubah"
+   },
+   "options_label_enable_context_menu": {
+      "message": "Integrasikan FireShot ke dalam menu konteks"
+   },
+   "options_label_file_settings": {
+      "message": "Pengaturan berkas"
+   },
+   "options_label_fireshot_options": {
+      "message": "Pilihan-pilihan FireShot"
+   },
+   "options_label_hotkey": {
+      "message": "Tombol cepat"
+   },
+   "options_label_last_action_hotkey": {
+      "message": "Aksi yang digunakan terkhir"
+   },
+   "options_label_no_saveas_dialog": {
+      "message": "Jangan tunjukkan dialog 'Simpan sebagai'"
+   },
+   "options_label_open_folder_after_saving": {
+      "message": "Tampilkan berkas yang diunduh di foldernya setelah disimpan"
+   },
+   "options_label_save_image_as": {
+      "message": "Simpan Gambar Sebagai:"
+   },
+   "options_label_specify_editor_options": {
+      "message": "Tentukan pilihan pengubah dan penyimpanan, referensi penamaan berkas, gaya, dll."
+   },
+   "options_label_specify_hotkey": {
+      "message": "Tentukan kombinasi tombol untuk meluncurkan FireShot:"
+   },
+   "options_label_specify_resizing_options": {
+      "message": "Tentukan pilihan ukuran dan suara"
+   },
+   "options_label_template_day": {
+      "message": "Hari"
+   },
+   "options_label_template_hour": {
+      "message": "Jam"
+   },
+   "options_label_template_limit_1": {
+      "message": "Batas panjang berkas nama sampai"
+   },
+   "options_label_template_limit_2": {
+      "message": "karakter"
+   },
+   "options_label_template_minutes": {
+      "message": "Menit"
+   },
+   "options_label_template_month": {
+      "message": "Bulan"
+   },
+   "options_label_template_pad_1": {
+      "message": "Bantalan nomor dengan"
+   },
+   "options_label_template_pad_2": {
+      "message": "nol"
+   },
+   "options_label_template_seconds": {
+      "message": "Detik"
+   },
+   "options_label_template_title": {
+      "message": "Judul Halaman"
+   },
+   "options_label_template_url": {
+      "message": "Halaman URL"
+   },
+   "options_label_template_website": {
+      "message": "Nama domain"
+   },
+   "options_label_template_year": {
+      "message": "Tahun"
+   },
+   "options_link_filename_template_settings": {
+      "message": "Tunjukkan pengaturan templat berkas nama..."
+   },
+   "options_link_filename_template_settings_hide": {
+      "message": "Sembunyikan pengaturan templat berkas nama..."
+   }
+}

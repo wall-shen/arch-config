@@ -1,0 +1,191 @@
+/* angular */
+.ng-hide {
+  display: none !important;
+}
+/* helpers */
+.clear-padding {
+  padding: 0 !important;
+}
+/* basic */
+a[role="button"] {
+  cursor: pointer;
+}
+.form-control.ng-invalid {
+  border-color: #a94442;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.form-control.ng-invalid:hover {
+  border-color: #843534;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+}
+.disabled .btn {
+  background-color: #ddd !important;
+  border-color: #ccc !important;
+  cursor: not-allowed !important;
+  pointer-events: none !important;
+  opacity: .65 !important;
+  box-shadow: none !important;
+}
+/* profile */
+.virtual-profile-icon {
+  border: dotted 1px;
+  margin: -1px;
+}
+.profile-inline {
+  background-color: #eee;
+  color: #333;
+  padding: 0 5px;
+}
+/* omega-profile-select */
+.omega-profile-select {
+  width: 100%;
+}
+.omega-profile-select .dropdown-menu > li > a {
+  max-width: none !important;
+}
+.omega-profile-select .btn {
+  width: 100%;
+  display: block;
+  text-align: left;
+  text-align: initial;
+  position: relative;
+  padding-right: 25px;
+}
+.omega-profile-select .btn .caret {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  margin-top: -2px;
+  vertical-align: middle;
+}
+.omega-profile-select .dropdown-menu {
+  width: 100%;
+  cursor: pointer;
+}
+.monospace {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace !important;
+}
+/* popup */
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 180px;
+}
+.condition-form {
+  min-width: 360px;
+}
+.nav {
+  margin-bottom: 0;
+}
+li > a {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 20em;
+}
+.shortcut-help {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace !important;
+  border: solid 1px #000;
+  border-radius: 2px;
+  display: inline-block;
+  color: #000;
+  box-shadow: 1px 1px;
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+  text-align: center;
+  margin-top: -3px;
+}
+.nav-pills.nav-stacked > li > a {
+  padding: 5px 25px 5px 8px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.nav-pills.nav-stacked > li > a .glyphicon {
+  margin-right: 6px;
+}
+.nav-pills.nav-stacked > li > a.profile-with-default-edit {
+  padding-right: 32px;
+  position: relative;
+}
+.nav-pills.nav-stacked > li > a.profile-with-default-edit .dropdown-toggle {
+  margin: -5px 0;
+  color: inherit;
+  padding: 5px 8px 3px;
+  min-width: 20px;
+  position: absolute;
+  right: 0;
+}
+.nav-pills.nav-stacked > li > a.profile-with-default-edit .dropdown-toggle .glyphicon {
+  margin-right: 0;
+}
+.nav-pills.nav-stacked > li.active .dropdown-toggle {
+  border-color: transparent !important;
+  border-left: solid 1px !important;
+  background: none !important;
+  border-radius: 0 !important;
+}
+.divider {
+  height: 1px;
+  overflow: hidden;
+  background-color: #E5E5E5;
+}
+.temp-rule a {
+  padding-left: 8px !important;
+  box-shadow: none !important;
+}
+li .dropdown-menu {
+  position: static;
+  top: initial;
+  top: -moz-initial;
+  margin: 0 5px !important;
+  float: none;
+}
+li .dropdown-menu a {
+  cursor: pointer;
+}
+.current-domain {
+  color: #08C;
+}
+select,
+textarea,
+input {
+  margin-bottom: 0px !important;
+}
+form {
+  margin: 10px;
+}
+legend,
+.well {
+  margin-bottom: 10px;
+}
+.well {
+  padding: 10px;
+}
+.condition-controls .btn-primary,
+.proxy-not-controllable-controls .btn-primary {
+  float: right;
+}
+.external-profile a {
+  padding-right: 10px !important;
+}
+.external-profile form {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.external-profile .form-control {
+  display: inline-block;
+  padding: 0;
+  height: 2em;
+  width: calc(100% - 1em - 8px);
+}
+.proxy-not-controllable {
+  min-width: 400px;
+  padding: 10px 10px;
+}
+.proxy-not-controllable .proxy-not-controllable-controls {
+  margin-bottom: 0;
+}
+.request-info-details {
+  min-width: 360px;
+}

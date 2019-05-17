@@ -1,0 +1,147 @@
+/*输入框*/
+.jlzs-container textarea,
+.jlzs-container input[type="text"],
+.jlzs-container input[type="password"],
+.jlzs-container input[type="email"],
+.jlzs-cpn-uneditable-input {
+  border: 1px solid #d4d4d4 !important;
+  color: #34495e !important;
+  font-family: "Lato", sans-serif !important;
+  font-size: 14px !important;
+  padding: 8px 5px 7px !important;
+  width: 248px !important;
+  height: 22px !important;
+  border-radius: 3px !important;
+  outline: none !important;
+}
+.jlzs-cpn-control-group.jlzs-cpn-focus textarea,
+.jlzs-cpn-control-group.jlzs-cpn-focus input[type="text"],
+.jlzs-cpn-control-group.jlzs-cpn-focus input[type="password"],
+.jlzs-cpn-control-group.jlzs-cpn-focus input[type="email"],
+.jlzs-cpn-control-group.jlzs-cpn-focus .jlzs-cpn-uneditable-input,
+.jlzs-container textarea:focus,
+.jlzs-container input[type="text"]:focus,
+.jlzs-container input[type="password"]:focus,
+.jlzs-container input[type="email"]:focus,
+.jlzs-cpn-uneditable-input:focus {
+  border-color: #909090 !important;
+}
+.jlzs-container input[type="text"].jlzs-cpn-error-tips,
+.jlzs-container textarea.error-tips,
+.jlzs-cpn-control-group.jlzs-cpn-error textarea,
+.jlzs-cpn-control-group.jlzs-cpn-error input[type="text"],
+.jlzs-cpn-control-group.jlzs-cpn-error input[type="password"],
+.jlzs-cpn-control-group.jlzs-cpn-error input[type="email"],
+.jlzs-cpn-control-group.jlzs-cpn-error .jlzs-cpn-uneditable-input {
+  border-color: #e74c3c !important;
+  color: #e74c3c !important;
+}
+.jlzs-cpn-control-group.jlzs-cpn-success textarea,
+.jlzs-cpn-control-group.jlzs-cpn-success input[type="text"],
+.jlzs-cpn-control-group.jlzs-cpn-success input[type="password"],
+.jlzs-cpn-control-group.jlzs-cpn-success input[type="email"],
+.jlzs-cpn-control-group.jlzs-cpn-success .jlzs-cpn-uneditable-input {
+  border-color: #2ecc71 !important;
+  color: #2ecc71 !important;
+}
+.jlzs-container input[disabled],
+.jlzs-container textarea[disabled] {
+  background-color: #e3e3e3 !important;
+  border-color: #e3e3e3 !important;
+  color: #999999 !important;
+  cursor: default !important;
+}
+.jlzs-container input[readonly],
+.jlzs-container textarea[readonly] {
+  /*background-color: #fff;*/
+  border-color: #e3e3e3 !important;
+  /*color: #999999;*/
+  cursor: default !important;
+}
+/*输入框组*/
+.jlzs-cpn-form-group {
+    margin-bottom: 20px !important;
+}
+.jlzs-cpn-form-group:after,
+.jlzs-cpn-form-group:before {
+    clear: both !important;
+    content: "." !important;
+    display: block !important;
+    height: 0 !important;
+    visibility: hidden;
+}
+.jlzs-cpn-form-group .jlzs-cpn-control-group {
+  float: left !important;
+}
+.jlzs-cpn-form-group .jlzs-cpn-btn-group {
+  width: 260px !important;
+  margin-bottom: 20px !important;
+}
+/*label*/
+.jlzs-cpn-control-label {
+    padding: 0 15px !important;
+    font-size: 14px !important;
+    float: left !important;
+    width: 80px !important;
+    line-height: 42px !important;
+    height: 42px !important;
+    text-align: right !important;
+    margin-bottom: 0 !important;
+}
+/*隐藏label*/
+.jlzs-cpn-hide-label .jlzs-cpn-control-label {
+  display: none;
+}
+.jlzs-cpn-control-group {
+  position: relative !important;
+  width: 260px !important;
+}
+.jlzs-cpn-control-group > .jlzs-cpn-input-icon {
+    position: absolute !important;
+    top: 9px !important;
+    right: 10px !important;
+    vertical-align: middle !important;
+    font-size: 20px !important;
+    background: #FFF !important;
+    -webkit-border-radius: 6px !important;
+    -moz-border-radius: 6px !important;
+    border-radius: 6px !important;
+    line-height: 20px !important;
+    display: none;
+}
+/* 错误提示icon */
+.jlzs-cpn-input-icon.jlzs-cpn-fui-cross {
+    background: #ff5400 !important;
+    color: #FFF !important;
+    font-size: 12px !important;
+    border-radius: 20px !important;
+    width: 20px !important;
+    height: 20px !important;
+    line-height: 20px !important;
+    text-align: center !important;
+}
+/* 成功提示icon */
+.jlzs-cpn-input-icon.jlzs-cpn-fui-check-inverted {
+  color: #25bb9b !important;
+  display: none;
+}
+/* 提示icon及提示文案显示 */
+.jlzs-cpn-error .jlzs-cpn-fui-cross,
+.jlzs-cpn-success .jlzs-cpn-fui-check-inverted,
+.jlzs-cpn-error .jlzs-cpn-input-tip,
+.jlzs-cpn-focus .jlzs-cpn-input-tip {
+  display: block;
+}
+/* 提示文案默认隐藏 */
+.jlzs-cpn-input-tip {
+  position: absolute !important;
+  left: 0 !important;
+  bottom: -16px !important;
+    display: none;
+    font-size: 14px !important;
+    line-height: 14px !important;
+}
+/* 错误提示文案 */
+.jlzs-cpn-error .jlzs-cpn-input-tip {
+    color: #ff5400 !important;
+}

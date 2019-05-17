@@ -1,0 +1,86 @@
+@import url(./base/position.css);
+
+.nk-container {
+    font: 14px/1.5 arial,STHeiti,'Microsoft YaHei',\5b8b\4f53;
+}
+.nk-container a {
+    text-decoration: none;
+}
+.nk-close::before, .nk-close::before {
+    content: "\00D7";
+}
+.nk-close {
+    color: #A8A8A8;
+    font-size: 16px;
+}
+.nk-btn {
+    display: inline-block;
+    text-align: center;
+    width: 135px;
+    height: 30px;
+    line-height: 30px;
+    color: #FFF;
+    border-radius: 3px;
+    border: none 0;
+    cursor: pointer;
+    outline: none;
+    white-space: nowrap;
+}
+.nk-btn-blue {
+    background: #7BCAD6;
+}
+.nk-btn-blue:hover {
+    background: #99CCCC;
+}
+
+.nk-notice-box {
+    position: fixed;
+    border-radius: 4px;
+    background: #FFF;
+    z-index: 9999;
+}
+.nk-pop-box {
+    border-radius: 4px;
+    background: #FFF;
+    z-index: 9999;
+}
+.nk-notice-title, .nk-pop-title {
+    height: 20px;
+    line-height: 20px;
+    text-align: right;
+    padding: 0 5px;
+}
+.nk-pop-title {
+    display: flex;
+    justify-content: flex-end;
+    height: 35px;
+    line-height: 35px;
+    background: #f0f0f0;
+}
+.nk-pop-title h1 {
+    font-size: 14px;
+    flex: auto;
+    text-align: left;
+}
+.nk-pop-title h1::before {
+    background: #FF6547;
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    margin-right: 5px;
+    margin-bottom: 2px;
+    vertical-align: middle;
+}
+.nk-notice-content, .nk-pop-content {
+    padding: 0 10px 10px;
+    color: #4D4D4D;
+}
+.nk-pop-content {
+    padding-top: 10px;
+}
+.nk-notice-footer, .nk-pop-footer {
+    display: flex;
+    justify-content: center;
+    padding: 0 10px 15px;
+}

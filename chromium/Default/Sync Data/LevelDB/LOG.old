@@ -1,0 +1,6 @@
+2019/05/17-09:25:56.513 289 Reusing MANIFEST /home/wall/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2019/05/17-09:25:56.515 289 Recovering log #112
+2019/05/17-09:25:56.518 289 Reusing old log /home/wall/.config/chromium/Default/Sync Data/LevelDB/000112.log 
+2019/05/17-09:27:04.972 976 Level-0 table #117: started
+2019/05/17-09:27:04.981 976 Level-0 table #117: 112025 bytes OK
+2019/05/17-09:27:04.988 976 Delete type=0 #112

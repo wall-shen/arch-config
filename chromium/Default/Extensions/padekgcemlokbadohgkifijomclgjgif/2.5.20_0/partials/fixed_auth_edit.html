@@ -1,0 +1,29 @@
+
+<form ng-submit="authForm.$valid &amp;&amp; $close(auth)" name="authForm">
+  <div class="modal-header">
+    <button type="button" ng-click="$dismiss()" class="close"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+    <h4 class="modal-title">{{'options_modalHeader_proxyAuth' | tr}}</h4>
+  </div>
+  <div style="padding-bottom: 0;" class="modal-body">
+    <div ng-show="!authSupported" class="form-group">
+      <div class="alert alert-danger"><span class="glyphicon glyphicon-warning-sign"></span> {{"options_proxy_authNotSupported" | tr:[protocolDisp]}}
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="sr-only">{{'options_proxyAuthUsername' | tr}}</label>
+      <div input-group-clear="input-group-clear" type="text" model="auth.username" autofocus="autofocus" placeholder="{{&quot;options_proxyAuthUsername&quot; | tr}}"></div>
+    </div>
+    <div ng-class="{&quot;has-error&quot;: !authForm.password.$valid}" class="form-group">
+      <label class="sr-only">{{'options_proxyAuthPassword' | tr}}</label>
+      <div class="input-group">
+        <input type="text" name="password" ng-model="auth.password" ng-attr-type="{{showPassword ? &quot;text&quot; : &quot;password&quot;}}" placeholder="{{&quot;options_proxyAuthPassword&quot; | tr}}" ng-show="!!auth.username" class="form-control"/>
+        <input type="text" value="" placeholder="{{&quot;options_proxyAuthNone&quot; | tr}}" disabled="disabled" ng-show="!auth.username" class="form-control"/><span class="input-group-btn">
+          <button type="button" ng-click="showPassword = !showPassword" title="{{(showPassword ? 'options_proxyAuthHidePassword' : 'options_proxyAuthShowPassword') | tr}}" ng-disabled="!auth.username" class="btn btn-default"><span ng-class="{&quot;glyphicon-eye-close&quot;: !showPassword, &quot;glyphicon-eye-open&quot;: !!showPassword}" class="glyphicon"></span></button></span>
+      </div>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button type="button" ng-click="$dismiss()" class="btn btn-default">{{'dialog_cancel' | tr}}</button>
+    <button type="submit" ng-disabled="!authForm.$valid" class="btn btn-primary">{{'dialog_save' | tr}}</button>
+  </div>
+</form>

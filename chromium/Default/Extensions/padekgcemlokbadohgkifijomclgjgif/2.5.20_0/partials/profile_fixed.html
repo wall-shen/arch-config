@@ -1,0 +1,55 @@
+
+<div ng-controller="FixedProfileCtrl">
+  <section class="settings-group settings-group-fixed-servers">
+    <h3>{{'options_group_proxyServers' | tr}}</h3>
+    <div class="table-responsive">
+      <table class="fixed-servers table table-bordered table-striped width-limit-lg">
+        <thead>
+          <tr>
+            <th>{{'options_proxy_scheme' | tr}}</th>
+            <th>{{'options_proxy_protocol' | tr}}</th>
+            <th>{{'options_proxy_server' | tr}}</th>
+            <th>{{'options_proxy_port' | tr}}</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="scheme in urlSchemes" ng-show="scheme == &quot;&quot; || showAdvanced">
+            <td>{{schemeDisp[scheme] || ('options_scheme_default' | tr)}}</td>
+            <td>
+              <select ng-model="proxyEditors[scheme].scheme" ng-options="opt.value as opt.label for opt in optionsForScheme[scheme]" class="form-control"></select>
+            </td>
+            <td ng-if="proxyEditors[scheme].scheme">
+              <input type="text" ng-model="proxyEditors[scheme].host" required="required" class="form-control"/>
+            </td>
+            <td ng-if="!proxyEditors[scheme].scheme">
+              <input type="text" value="" placeholder="{{proxyEditors[&quot;&quot;].host}}" disabled="disabled" class="form-control"/>
+            </td>
+            <td ng-if="proxyEditors[scheme].scheme">
+              <input type="number" min="1" ng-model="proxyEditors[scheme].port" required="required" class="form-control"/>
+            </td>
+            <td ng-if="!proxyEditors[scheme].scheme">
+              <input type="number" value="" placeholder="{{proxyEditors[&quot;&quot;].port}}" disabled="disabled" class="form-control"/>
+            </td>
+            <td class="proxy-actions">
+              <button ng-class="isProxyAuthActive(scheme) ? &quot;btn-success&quot; : &quot;btn-default&quot;" type="button" role="button" ng-click="editProxyAuth(scheme)" title="{{&quot;options_proxy_auth&quot; | tr}}" class="btn btn-xs proxy-auth-toggle"><span class="glyphicon glyphicon-lock"></span></button>
+            </td>
+          </tr>
+        </tbody>
+        <tbody ng-show="!showAdvanced">
+          <tr class="fixed-show-advanced">
+            <td colspan="7">
+              <button ng-click="showAdvanced = true" class="btn btn-link"><span class="glyphicon glyphicon-chevron-down"></span> {{'options_proxy_expand' | tr}}</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="settings-group">
+    <h3>{{'options_group_bypassList' | tr}}</h3>
+    <p class="help-block">{{'options_bypassListHelp' | tr}}</p>
+    <p class="help-block"><a href="https://developer.chrome.com/extensions/proxy#bypass_list" target="_blank">{{'options_bypassListHelpLinkText' | tr}}</a></p>
+    <textarea rows="10" ng-model="bypassList" ng-model-options="{updateOn:'blur'}" class="monospace form-control width-limit"></textarea>
+  </section>
+</div>

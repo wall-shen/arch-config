@@ -1,0 +1,272 @@
+{
+   "action_about": {
+      "message": "Acerca de..."
+   },
+   "action_api": {
+      "message": "FireShot Aplicación"
+   },
+   "action_capture_browser": {
+      "message": "Capture a xanela do explorador e"
+   },
+   "action_capture_entire": {
+      "message": "Capture a páxina enteira e"
+   },
+   "action_capture_entire_lite": {
+      "message": "Capture a páxina enteira"
+   },
+   "action_capture_selection": {
+      "message": "Capture a selección / un elemento e"
+   },
+   "action_capture_selection_lite": {
+      "message": "Capture a selección"
+   },
+   "action_capture_tabs": {
+      "message": "Capture todas as pestanas e"
+   },
+   "action_capture_visible": {
+      "message": "Capture a parte visible e"
+   },
+   "action_capture_visible_lite": {
+      "message": "Capture a parte visible"
+   },
+   "action_copy": {
+      "message": "Copie no portapapeis"
+   },
+   "action_edit": {
+      "message": "Edite"
+   },
+   "action_email": {
+      "message": "Correo electrónico"
+   },
+   "action_enter_license": {
+      "message": "Insira a información da licencia"
+   },
+   "action_external": {
+      "message": "Ábrir nun editor externo"
+   },
+   "action_install_native": {
+      "message": "Probe as funcións avanzadas"
+   },
+   "action_license_info": {
+      "message": "Información de licencia"
+   },
+   "action_micsellaneous": {
+      "message": "Miscelánea"
+   },
+   "action_onenote": {
+      "message": "Enviar a OneNote"
+   },
+   "action_open_clipboard": {
+      "message": "Abrir dende o portapapeis"
+   },
+   "action_open_file": {
+      "message": "Abrir arquivo"
+   },
+   "action_options": {
+      "message": "Opcións"
+   },
+   "action_print": {
+      "message": "Imprimir"
+   },
+   "action_register": {
+      "message": "Rexistrarse"
+   },
+   "action_resume": {
+      "message": "Proseguir a edición"
+   },
+   "action_save": {
+      "message": "Garde"
+   },
+   "action_save_pdf": {
+      "message": "Garde como PDF"
+   },
+   "action_save_pdf_single": {
+      "message": "Garde como un único PDF"
+   },
+   "action_support": {
+      "message": "Soporte"
+   },
+   "action_switch_pro": {
+      "message": "Cambie a Pro"
+   },
+   "action_switch_pro_tabs": {
+      "message": "Active as funcións de Pro para continuar..."
+   },
+   "action_upload": {
+      "message": "Cargar"
+   },
+   "action_view_demo": {
+      "message": "Vexa unha demo"
+   },
+   "application_description": {
+      "message": "Tome imaxes de TODA a páxina web. Captúreas, edíteas e gárdeas como PDF/JPEP/GIF/PNG, cárgueas, imprímaas, mándeas a OneNote, o portapapeis ou correo electrónico."
+   },
+   "application_title": {
+      "message": "Toma imaxes da páxina web enteira - FireShot"
+   },
+   "captured_buy_pro_button": {
+      "message": "Compre Pro"
+   },
+   "captured_copy_clipboard": {
+      "message": "Copiar no portapapeis"
+   },
+   "captured_copy_clipboard_learn_button": {
+      "message": "Aprenda como..."
+   },
+   "captured_get_free_button": {
+      "message": "Próbeo gratis"
+   },
+   "captured_print": {
+      "message": "Imprimir"
+   },
+   "captured_print_button": {
+      "message": "Imprimir"
+   },
+   "captured_recommend_us": {
+      "message": "Recomende FireShot"
+   },
+   "captured_save_as_image": {
+      "message": "Gardar como imaxe"
+   },
+   "captured_save_as_image_button": {
+      "message": "Gardar como imaxe"
+   },
+   "captured_save_as_pdf": {
+      "message": "Gardar como PDF"
+   },
+   "captured_save_panel_title": {
+      "message": "Garde captura de pantalla"
+   },
+   "captured_saving_options": {
+      "message": "personalíceo"
+   },
+   "captured_setup_hotkeys": {
+      "message": "Instalación de atallos de teclado e axustes de arquivo..."
+   },
+   "captured_upgrade_link_1": {
+      "message": "Capture, anote, imprima e garde mellor, edite, cargue, mande por correo electrónico/ OneNote, ou exporte a outro programa."
+   },
+   "captured_upgrade_link_2": {
+      "message": "Actualice a FireShot Pro"
+   },
+   "captured_upgrade_link_3": {
+      "message": "Eu estaba a usar outra versión de FireShot"
+   },
+   "captured_upgrade_link_4": {
+      "message": "Podo recuperala?"
+   },
+   "enable_checkbox": {
+      "message": "Activar"
+   },
+   "options_button_apply": {
+      "message": "Aplicar"
+   },
+   "options_button_save_close": {
+      "message": "Gardar e pechar"
+   },
+   "options_button_setup": {
+      "message": "Faga clic para instalar"
+   },
+   "options_label_and": {
+      "message": "e"
+   },
+   "options_label_capturing": {
+      "message": "Capturando"
+   },
+   "options_label_close_tab_after_saving": {
+      "message": "Pechar a pestana despois de gardar"
+   },
+   "options_label_customize_saving": {
+      "message": "Personalizar o proceso de gardar"
+   },
+   "options_label_default_filename_template": {
+      "message": "Formato de nome de arquivo por defecto:"
+   },
+   "options_label_default_folder": {
+      "message": "Cartafol de saída por defecto"
+   },
+   "options_label_default_folder_hint": {
+      "message": "Unha ruta de arquivo relativa ao directorio de descargas contén o arquivo almacenado, posiblemente conteña subdirectorios.\nAs rutas de acceso desde a raíz, as rutas baleiras e as rutas que conteñan referencias inversas «..» provocarán un erro."
+   },
+   "options_label_editor_options": {
+      "message": "Opcións do editor"
+   },
+   "options_label_enable_context_menu": {
+      "message": "Integrar FireShot no menú contextual"
+   },
+   "options_label_file_settings": {
+      "message": "Axustes de arquivo"
+   },
+   "options_label_fireshot_options": {
+      "message": "Opcións de FireShot"
+   },
+   "options_label_hotkey": {
+      "message": "Atallos de teclado"
+   },
+   "options_label_last_action_hotkey": {
+      "message": "Última acción realizada"
+   },
+   "options_label_no_saveas_dialog": {
+      "message": "Non mostrar \"Gardar como\""
+   },
+   "options_label_open_folder_after_saving": {
+      "message": "Mostrar o arquivo descargado no seu cartafol despois de gardado"
+   },
+   "options_label_save_image_as": {
+      "message": "Gardar imaxe como:"
+   },
+   "options_label_specify_editor_options": {
+      "message": "Especificar editor e opcións de gardar, preferencias de nomeamento de arquivos, estilos, etc."
+   },
+   "options_label_specify_hotkey": {
+      "message": "Especifique a combinación de teclas para lanzar FireShot"
+   },
+   "options_label_specify_resizing_options": {
+      "message": "Especificar opcións de cambios de tamaño e sons."
+   },
+   "options_label_template_day": {
+      "message": "Día"
+   },
+   "options_label_template_hour": {
+      "message": "Hora"
+   },
+   "options_label_template_limit_1": {
+      "message": "Límite de extensión de nome de arquivo"
+   },
+   "options_label_template_limit_2": {
+      "message": "caracteres"
+   },
+   "options_label_template_minutes": {
+      "message": "Minutos"
+   },
+   "options_label_template_month": {
+      "message": "Mes"
+   },
+   "options_label_template_pad_1": {
+      "message": "Número de pad con"
+   },
+   "options_label_template_pad_2": {
+      "message": "ceros"
+   },
+   "options_label_template_seconds": {
+      "message": "Segundos"
+   },
+   "options_label_template_title": {
+      "message": "Título de páxina"
+   },
+   "options_label_template_url": {
+      "message": "Páxina URL"
+   },
+   "options_label_template_website": {
+      "message": "Nome do dominio"
+   },
+   "options_label_template_year": {
+      "message": "Ano"
+   },
+   "options_link_filename_template_settings": {
+      "message": "Mostrar os axustes de formatos de nome de arquivo"
+   },
+   "options_link_filename_template_settings_hide": {
+      "message": "Ocultar os axustes de formatos de nome de arquivo"
+   }
+}

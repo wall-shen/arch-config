@@ -1,0 +1,272 @@
+{
+   "action_about": {
+      "message": "Informazioni..."
+   },
+   "action_api": {
+      "message": "FireShot API"
+   },
+   "action_capture_browser": {
+      "message": "Cattura finestra browser e"
+   },
+   "action_capture_entire": {
+      "message": "Cattura intera pagina e"
+   },
+   "action_capture_entire_lite": {
+      "message": "Cattura intera pagina"
+   },
+   "action_capture_selection": {
+      "message": "Cattura seleziona / elemento e"
+   },
+   "action_capture_selection_lite": {
+      "message": "Cattura selezione"
+   },
+   "action_capture_tabs": {
+      "message": "Cattura tutte le schede e"
+   },
+   "action_capture_visible": {
+      "message": "Cattura parte visibile e"
+   },
+   "action_capture_visible_lite": {
+      "message": "Cattura parte visibile"
+   },
+   "action_copy": {
+      "message": "Copia negli appunti"
+   },
+   "action_edit": {
+      "message": "Modifica"
+   },
+   "action_email": {
+      "message": "Email"
+   },
+   "action_enter_license": {
+      "message": "Inserisci info licenza"
+   },
+   "action_external": {
+      "message": "Apri in editor esterno"
+   },
+   "action_install_native": {
+      "message": "Prova funzionalità avanzate"
+   },
+   "action_license_info": {
+      "message": "Informazioni licenza..."
+   },
+   "action_micsellaneous": {
+      "message": "Varie"
+   },
+   "action_onenote": {
+      "message": "Invia a OneNote"
+   },
+   "action_open_clipboard": {
+      "message": "Apri da appunti"
+   },
+   "action_open_file": {
+      "message": "Apri file"
+   },
+   "action_options": {
+      "message": "Opzioni"
+   },
+   "action_print": {
+      "message": "Stampa"
+   },
+   "action_register": {
+      "message": "Registra"
+   },
+   "action_resume": {
+      "message": "Riprendi a modificare"
+   },
+   "action_save": {
+      "message": "Salva"
+   },
+   "action_save_pdf": {
+      "message": "Salva come PDF"
+   },
+   "action_save_pdf_single": {
+      "message": "Salva come singolo PDF"
+   },
+   "action_support": {
+      "message": "Supporto"
+   },
+   "action_switch_pro": {
+      "message": "Passa alla versione Pro"
+   },
+   "action_switch_pro_tabs": {
+      "message": "Attiva le funzionalità Pro per procedere..."
+   },
+   "action_upload": {
+      "message": "Carica"
+   },
+   "action_view_demo": {
+      "message": "Vedi demo"
+   },
+   "application_description": {
+      "message": "Cattura INTERE schermate di pagine web. Cattura, modifica e salva in PDF/JPEG/GIF/PNG, carica, stampa, invia a OneNote, appunti o email."
+   },
+   "application_title": {
+      "message": "Cattura intere schermate di pagine web - FireShot"
+   },
+   "captured_buy_pro_button": {
+      "message": "Acquista Pro"
+   },
+   "captured_copy_clipboard": {
+      "message": "Copia negli appunti"
+   },
+   "captured_copy_clipboard_learn_button": {
+      "message": "Impara come..."
+   },
+   "captured_get_free_button": {
+      "message": "Prova gratis"
+   },
+   "captured_print": {
+      "message": "Stampa"
+   },
+   "captured_print_button": {
+      "message": "Stampa"
+   },
+   "captured_recommend_us": {
+      "message": "Consiglia FireShot"
+   },
+   "captured_save_as_image": {
+      "message": "Salva come immagine"
+   },
+   "captured_save_as_image_button": {
+      "message": "Salva"
+   },
+   "captured_save_as_pdf": {
+      "message": "Salva come PDF"
+   },
+   "captured_save_panel_title": {
+      "message": "Salva schermata"
+   },
+   "captured_saving_options": {
+      "message": "personalizza"
+   },
+   "captured_setup_hotkeys": {
+      "message": "Imposta tasti di scelta rapida e impostazioni file..."
+   },
+   "captured_upgrade_link_1": {
+      "message": "Cattura, Annota, Stampa e Salva meglio, Modifica, Carica, Invia a email/OneNote, o Esporta in un altro programma"
+   },
+   "captured_upgrade_link_2": {
+      "message": "Aggiorna alla versione Pro di FireShot"
+   },
+   "captured_upgrade_link_3": {
+      "message": "Sto usando un'altra versione di FireShot"
+   },
+   "captured_upgrade_link_4": {
+      "message": "Posso ripensarci?"
+   },
+   "enable_checkbox": {
+      "message": "Abilita"
+   },
+   "options_button_apply": {
+      "message": "Applica"
+   },
+   "options_button_save_close": {
+      "message": "Salva e chiudi"
+   },
+   "options_button_setup": {
+      "message": "Clicca per impostazioni"
+   },
+   "options_label_and": {
+      "message": "e"
+   },
+   "options_label_capturing": {
+      "message": "Cattura in corso"
+   },
+   "options_label_close_tab_after_saving": {
+      "message": "Chiudi scheda sopo il salvataggio"
+   },
+   "options_label_customize_saving": {
+      "message": "Personalizza processo salvataggio"
+   },
+   "options_label_default_filename_template": {
+      "message": "Nome modello file predefinito:"
+   },
+   "options_label_default_folder": {
+      "message": "Cartella predefinita"
+   },
+   "options_label_default_folder_hint": {
+      "message": "Un percorso file relativo alla directory Download per contenere il file memorizzato, contenente eventualmente sottodirectory.\nPercorsi assoluti, percorsi vuoti e percorsi contenenti riferimenti di ritorno «..» causeranno un errore."
+   },
+   "options_label_editor_options": {
+      "message": "Opzioni editor"
+   },
+   "options_label_enable_context_menu": {
+      "message": "Integra FireShot nel menu contestuale"
+   },
+   "options_label_file_settings": {
+      "message": "Impostazioni file"
+   },
+   "options_label_fireshot_options": {
+      "message": "Opzioni FireShot"
+   },
+   "options_label_hotkey": {
+      "message": "Tasti scelta rapida"
+   },
+   "options_label_last_action_hotkey": {
+      "message": "Ultima azione usata"
+   },
+   "options_label_no_saveas_dialog": {
+      "message": "Non mostrare finestra di dialogo 'Salva come'"
+   },
+   "options_label_open_folder_after_saving": {
+      "message": "Mostra file scaricati nella loro cartella dopo averli salvati"
+   },
+   "options_label_save_image_as": {
+      "message": "Salva immagine come:"
+   },
+   "options_label_specify_editor_options": {
+      "message": "Specifica opzioni di modifica e salvataggio, preferenze nomi file, stili, ecc."
+   },
+   "options_label_specify_hotkey": {
+      "message": "Specifica combinazioni di tasti a scelta rapida per avviare FireShot:"
+   },
+   "options_label_specify_resizing_options": {
+      "message": "Specifica opzioni di ridimensionamento e suoni."
+   },
+   "options_label_template_day": {
+      "message": "Giorno"
+   },
+   "options_label_template_hour": {
+      "message": "Ora"
+   },
+   "options_label_template_limit_1": {
+      "message": "Limita lunghezza nome file a"
+   },
+   "options_label_template_limit_2": {
+      "message": "caratteri"
+   },
+   "options_label_template_minutes": {
+      "message": "Minuti"
+   },
+   "options_label_template_month": {
+      "message": "Mese"
+   },
+   "options_label_template_pad_1": {
+      "message": "Numero con"
+   },
+   "options_label_template_pad_2": {
+      "message": "zero"
+   },
+   "options_label_template_seconds": {
+      "message": "Secondi"
+   },
+   "options_label_template_title": {
+      "message": "Titolo pagina"
+   },
+   "options_label_template_url": {
+      "message": "URL pagina"
+   },
+   "options_label_template_website": {
+      "message": "Nome del dominio"
+   },
+   "options_label_template_year": {
+      "message": "Anno"
+   },
+   "options_link_filename_template_settings": {
+      "message": "Mostra impostazioni modello nome file... "
+   },
+   "options_link_filename_template_settings_hide": {
+      "message": "Nascondi impostazioni modello nome file..."
+   }
+}
